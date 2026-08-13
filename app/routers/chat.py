@@ -66,7 +66,7 @@ async def ask(req: ChatRequest, db: Database = Depends(get_db)):
                         {"role": "user", "content": f"Relevant Legal Context:\n{context}\n\nUser Question: {req.query}"}
                     ],
                     temperature=0.05,  # Low temperature for deterministic, factual precision
-                    max_tokens=450,    # Focused output for fast completion
+                    max_tokens=2048,   # High limit for complete, untruncated legal answers
                 )
                 return response.choices[0].message.content
                 
