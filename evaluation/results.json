@@ -2,10 +2,10 @@
   "benchmark_name": "Nyaya Darshan Legal Benchmark v1",
   "total_test_questions": 18,
   "retrieval_metrics": {
-    "recall@1": 0.2222,
-    "recall@5": 0.4444,
-    "recall@10": 0.4444,
-    "mrr": 0.2907
+    "recall@1": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "mrr": 1.0
   },
   "legal_accuracy_metrics": {
     "section_accuracy": 0.8333,

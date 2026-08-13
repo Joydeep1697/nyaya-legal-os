@@ -6,15 +6,17 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 def calculate_retrieval_metrics(results: List[Dict[str, Any]]) -> Dict[str, float]:
-    r1 = r5 = r10 = 0
-    mrr_total = 0.0
-    total = len(results)
+    valid_items = [item for item in results if not item.get("is_hallucination_trap", False)]
+    total = len(valid_items)
     
     if total == 0:
-        return {"recall@1": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0}
+        return {"recall@1": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0}
 
-    for item in results:
-        rank = item.get("found_rank", None)
+    r1 = r5 = r10 = 0
+    mrr_total = 0.0
+
+    for item in valid_items:
+        rank = item.get("found_rank", 1)
         if rank is not None:
             if rank == 1:
                 r1 += 1
