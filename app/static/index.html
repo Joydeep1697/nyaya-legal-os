@@ -20,26 +20,58 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
 .command{animation:pop .16s ease}@keyframes pop{from{opacity:0;transform:translateY(10px) scale(.985)}to{opacity:1;transform:none}}.toast{animation:slideup .2s ease}@keyframes slideup{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .animate-spin-slow { animation: spinSlow 22s linear infinite; }
 @keyframes spinSlow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-.ppt-emblem-anim { animation: pptEmblemSequence 2.3s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
-@keyframes pptEmblemSequence {
-  0% { opacity: 0; transform: scale(0.82); filter: brightness(0) drop-shadow(0 0 0px #000); }
-  45% { opacity: 1; transform: scale(1.04); filter: brightness(1.1) drop-shadow(0 0 50px rgba(54,211,153,0.8)); }
-  65% { opacity: 1; transform: scale(1); filter: brightness(1) drop-shadow(0 0 35px rgba(54,211,153,0.6)); }
-  100% { opacity: 0; transform: scale(0.8) translateY(-25px); filter: blur(10px); visibility: hidden; }
+.ppt-phase1-anim {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: pptPhase1Seq 1.7s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
-.ppt-content-anim { opacity: 0; animation: pptContentFadeIn 0.1s linear 1.8s forwards; }
-@keyframes pptContentFadeIn { to { opacity: 1; } }
-.ppt-wheel-anim { opacity: 0; animation: pptWheelGlideDown 1.0s cubic-bezier(0.16, 1, 0.3, 1) 1.8s forwards; }
+@keyframes pptPhase1Seq {
+  0% { opacity: 0; transform: scale(0.8); filter: brightness(0) drop-shadow(0 0 0px #000); }
+  40% { opacity: 1; transform: scale(1.04); filter: brightness(1.1) drop-shadow(0 0 50px rgba(54,211,153,0.85)); }
+  70% { opacity: 1; transform: scale(1); filter: brightness(1) drop-shadow(0 0 35px rgba(54,211,153,0.6)); }
+  100% { opacity: 0; transform: scale(0.75); filter: blur(12px); pointer-events: none; }
+}
+
+.ppt-phase2-anim {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: pptPhase2Seq 0.1s linear 1.6s forwards;
+}
+@keyframes pptPhase2Seq { to { opacity: 1; } }
+
+.ppt-wheel-anim {
+  opacity: 0;
+  animation: pptWheelGlideDown 1.0s cubic-bezier(0.16, 1, 0.3, 1) 1.6s forwards;
+}
 @keyframes pptWheelGlideDown {
-  0% { opacity: 0; transform: translateY(-50px) scale(1.8); filter: drop-shadow(0 0 45px #36d399); }
+  0% { opacity: 0; transform: translateY(-55px) scale(1.7); filter: drop-shadow(0 0 45px #36d399); }
   100% { opacity: 1; transform: translateY(0) scale(1); filter: drop-shadow(0 0 18px rgba(54,211,153,0.7)); }
 }
-.ppt-title-anim { opacity: 0; animation: pptTitleWipeIn 1.1s cubic-bezier(0.16, 1, 0.3, 1) 2.4s forwards; }
+
+.ppt-title-anim {
+  opacity: 0;
+  animation: pptTitleWipeIn 1.1s cubic-bezier(0.16, 1, 0.3, 1) 2.2s forwards;
+}
 @keyframes pptTitleWipeIn {
   0% { opacity: 0; transform: translateY(22px); letter-spacing: -0.04em; }
   100% { opacity: 1; transform: translateY(0); letter-spacing: 0.16em; }
 }
-.ppt-sub-anim { opacity: 0; animation: pptSubFadeIn 0.8s ease-out 2.8s forwards; }
+
+.ppt-sub-anim {
+  opacity: 0;
+  animation: pptSubFadeIn 0.8s ease-out 2.6s forwards;
+}
 @keyframes pptSubFadeIn {
   0% { opacity: 0; transform: translateY(12px); }
   100% { opacity: 1; transform: translateY(0); }
@@ -50,18 +82,18 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
 </style></head>
 <body class="shell">
 <div id="splash" class="fixed inset-0 z-[999] bg-[#08090d] flex items-center justify-center transition-opacity duration-700">
-  <div class="relative text-center flex flex-col items-center justify-center min-h-[360px] w-full max-w-md px-4">
-    <!-- Phase 1: Futuristic Judicial Emblem Reveal (0s-1.5s reveal, then dissolve into wheel) -->
-    <div id="splashEmblemWrap" class="ppt-emblem-anim absolute inset-x-0 top-6 flex flex-col items-center justify-center">
-      <div class="orbit w-36 h-36 rounded-[34px] gradient p-[1px] shadow-2xl">
-        <div class="w-full h-full rounded-[33px] bg-[#0d0f15] grid place-items-center overflow-hidden">
+  <div class="relative w-full max-w-md h-[380px] flex items-center justify-center">
+    <!-- Phase 1: Futuristic Judicial Emblem Reveal (0s to 1.6s) -->
+    <div id="splashPhase1" class="ppt-phase1-anim">
+      <div class="orbit w-40 h-40 rounded-[38px] gradient p-[1px] shadow-2xl">
+        <div class="w-full h-full rounded-[37px] bg-[#0d0f15] grid place-items-center overflow-hidden">
           <img src="logo.png" class="w-full h-full object-cover">
         </div>
       </div>
     </div>
 
-    <!-- Phase 2 & 3: 24-Spoke Wheel Glides Down + Title & Subtitle Wipe In (Starts at 1.8s) -->
-    <div id="splashContentWrap" class="ppt-content-anim flex flex-col items-center mt-6">
+    <!-- Phase 2 & 3: 24-Spoke Wheel Glides Down + Title & Subtitle Wipe In (1.6s to 3.8s) -->
+    <div id="splashPhase2" class="ppt-phase2-anim">
       <div class="w-16 h-16 rounded-2xl gradient p-[1px] shadow-2xl mb-5 ppt-wheel-anim">
         <div class="w-full h-full rounded-[15px] bg-[#0d0f15] grid place-items-center">
           <svg class="w-10 h-10 text-[#36d399] animate-spin-slow" viewBox="0 0 100 100" fill="none" stroke="currentColor">
