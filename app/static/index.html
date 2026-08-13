@@ -5,6 +5,7 @@
 <meta name="theme-color" content="#08090d"><title>Nyaya Legal OS · Intelligence Operating System for Indian Law</title>
 <link rel="icon" href="1.png"><script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <style>
 :root{--bg:#0b0d10;--panel:#12151a;--panel2:#171b21;--line:#2a3038;--text:#f4f5f7;--muted:#929aa6;--accent:#8fa3b8;--accent2:#c2cbd4;--good:#55c59a;--warn:#d8aa62;--danger:#d97777}
 *{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);overflow:hidden}
@@ -750,6 +751,35 @@ function closePricingModal(){
 }
 function selectTier(tierName){
  closePricingModal();
+ if (typeof Razorpay !== 'undefined' && (tierName === 'Professional' || tierName === 'Enterprise')) {
+     const amountInPaise = tierName === 'Professional' ? 399900 : 4999900;
+     const options = {
+         key: "rzp_test_NyayaLegalOSKey", // Razorpay Key ID
+         amount: amountInPaise,
+         currency: "INR",
+         name: "Nyaya Legal OS",
+         description: `${tierName} Subscription Plan`,
+         image: "1.png",
+         handler: function (response) {
+             showToast(`🎉 Payment Successful! ${tierName} Tier Activated! Ref: ${response.razorpay_payment_id}`);
+         },
+         prefill: {
+             name: "Joydeep Das",
+             email: "joydeep.das.1611@gmail.com",
+             contact: "+919591799319"
+         },
+         theme: {
+             color: "#36d399"
+         }
+     };
+     try {
+         const rzp = new Razorpay(options);
+         rzp.open();
+         return;
+     } catch (e) {
+         console.warn("Razorpay popup launch:", e);
+     }
+ }
  showToast(`Nyaya Platform Tier set to: ${tierName}`);
 }
 
