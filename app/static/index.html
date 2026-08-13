@@ -233,14 +233,14 @@ const pages = {
  mission: {title: 'Mission Control', sub: 'Live overview of your legal intelligence system'},
  matters: {title: 'Legal Matters', sub: 'Every active matter, strategy and next action'},
  vault: {title: 'Knowledge Vault', sub: 'Your indexed legal memory'},
- nova: {title: 'Nova Intelligence', sub: 'Command the system, not just a chatbot'},
+ nova: {title: 'Nyaya Intelligence', sub: 'Command the system, not just a chatbot'},
  research: {title: 'Research Engine', sub: 'Multi-jurisdiction legal intelligence'},
- radar: {title: 'Regulatory Radar', sub: 'Changes Nova is monitoring for you'},
+ radar: {title: 'Regulatory Radar', sub: 'Changes Nyaya is monitoring for you'},
  timeline: {title: 'Deadline Matrix', sub: 'Critical filings, hearings and renewals'},
  workflows: {title: 'Workflow Studio', sub: 'Automate repeatable legal operations'},
  analytics: {title: 'Intelligence Map', sub: 'Risk, workload and system performance'}
 };
-const commands=[['Ask Nova','Open the intelligence workspace','nova'],['Analyze a contract','Upload and identify legal risks','nova'],['Create legal matter','Start a new structured workspace','matters'],['Search Knowledge Vault','Find clauses, files and evidence','vault'],['Run jurisdiction comparison','Compare legal positions across regions','research'],['Review regulatory changes','See material updates detected by Nova','radar'],['Open deadline matrix','View urgent legal obligations','timeline'],['Build workflow','Automate a recurring legal process','workflows']];
+const commands=[['Ask Nyaya','Open the intelligence workspace','nova'],['Analyze a contract','Upload and identify legal risks','nova'],['Create legal matter','Start a new structured workspace','matters'],['Search Knowledge Vault','Find clauses, files and evidence','vault'],['Run jurisdiction comparison','Compare legal positions across regions','research'],['Review regulatory changes','See material updates detected by Nyaya','radar'],['Open deadline matrix','View urgent legal obligations','timeline'],['Build workflow','Automate a recurring legal process','workflows']];
 let current = 'mission', collapsed = false;
 let vaultDocs = [];
 let searchDebounceTimeout = null;
@@ -395,7 +395,7 @@ async function renderVault() {
         <div class="card p-3 border-l-2 border-l-[#ec4899]"><div class="font-semibold text-sm">6</div><div class="text-[#7f8798] mt-0.5">SC Precedents</div></div>
     </div></div>
 
-    <div onclick="openVaultUpload()" ondragover="event.preventDefault();this.classList.add('border-[#8fa3b8]')" ondragleave="this.classList.remove('border-[#8fa3b8]')" ondrop="event.preventDefault();this.classList.remove('border-[#8fa3b8]');handleVaultFiles(event.dataTransfer.files)" class="panel rounded-2xl p-5 border-dashed cursor-pointer hover:border-[#8fa3b8] transition mb-4"><div class="flex flex-wrap items-center gap-4"><div class="iconbox"><i class="fa-solid fa-arrow-up-from-bracket"></i></div><div class="flex-1"><div class="font-medium">Drop legal documents into Nova</div><div class="text-xs text-[#7f8798] mt-1">PDF, DOCX, TXT, HTML or XLSX · API upload</div></div><span class="pill">Select files</span></div></div><div class="panel rounded-2xl p-3 flex flex-wrap gap-3"><div class="flex-1 min-w-[240px] flex items-center gap-2"><i class="fa-solid fa-magnifying-glass text-[#697185]"></i><input id="vaultSearch" oninput="debounceVaultSearch(this.value)" class="flex-1 bg-transparent outline-none px-2 text-sm" placeholder="Search document, matter, clause or status..."></div><select id="vaultFilter" onchange="debounceVaultSearch(document.getElementById('vaultSearch').value)" class="bg-[#151821] border border-[#2a2e3a] rounded-xl px-3 text-xs outline-none"><option>All statuses</option><option>Indexed</option><option>Processing</option><option>Review needed</option><option>Failed</option></select><span class="pill" id="vaultTotalBadge">${vaultDocs.length} total</span></div><div class="panel rounded-2xl mt-4 overflow-hidden"><div class="hidden md:grid grid-cols-[1.4fr_.8fr_.7fr_.55fr_.35fr] gap-3 p-4 text-[10px] tracking-[.14em] text-[#697185] border-b border-[#252936]"><span>DOCUMENT</span><span>MATTER</span><span>PIPELINE</span><span>KNOWLEDGE</span><span></span></div><div id="vaultRows"></div></div></div>`;
+    <div onclick="openVaultUpload()" ondragover="event.preventDefault();this.classList.add('border-[#8fa3b8]')" ondragleave="this.classList.remove('border-[#8fa3b8]')" ondrop="event.preventDefault();this.classList.remove('border-[#8fa3b8]');handleVaultFiles(event.dataTransfer.files)" class="panel rounded-2xl p-5 border-dashed cursor-pointer hover:border-[#8fa3b8] transition mb-4"><div class="flex flex-wrap items-center gap-4"><div class="iconbox"><i class="fa-solid fa-arrow-up-from-bracket"></i></div><div class="flex-1"><div class="font-medium">Drop legal documents into Nyaya</div><div class="text-xs text-[#7f8798] mt-1">PDF, DOCX, TXT, HTML or XLSX · API upload</div></div><span class="pill">Select files</span></div></div><div class="panel rounded-2xl p-3 flex flex-wrap gap-3"><div class="flex-1 min-w-[240px] flex items-center gap-2"><i class="fa-solid fa-magnifying-glass text-[#697185]"></i><input id="vaultSearch" oninput="debounceVaultSearch(this.value)" class="flex-1 bg-transparent outline-none px-2 text-sm" placeholder="Search document, matter, clause or status..."></div><select id="vaultFilter" onchange="debounceVaultSearch(document.getElementById('vaultSearch').value)" class="bg-[#151821] border border-[#2a2e3a] rounded-xl px-3 text-xs outline-none"><option>All statuses</option><option>Indexed</option><option>Processing</option><option>Review needed</option><option>Failed</option></select><span class="pill" id="vaultTotalBadge">${vaultDocs.length} total</span></div><div class="panel rounded-2xl mt-4 overflow-hidden"><div class="hidden md:grid grid-cols-[1.4fr_.8fr_.7fr_.55fr_.35fr] gap-3 p-4 text-[10px] tracking-[.14em] text-[#697185] border-b border-[#252936]"><span>DOCUMENT</span><span>MATTER</span><span>PIPELINE</span><span>KNOWLEDGE</span><span></span></div><div id="vaultRows"></div></div></div>`;
     ws.innerHTML = html;
     renderVaultRowsLocal('');
 }
@@ -604,7 +604,7 @@ function appendThinkingBubble() {
     let chat = document.getElementById('chat');
     currentChatThinkingId++;
     let id = 'think_' + currentChatThinkingId;
-    chat.insertAdjacentHTML('beforeend',`<div id="${id}" class="max-w-2xl"><div class="text-[10px] text-[#737b8e] mb-2">NOVA · THINKING</div><div class="card p-4 text-sm"><span class="think"><span></span><span></span><span></span></span> Reading workspace memory, checking legal context and preparing an answer...</div></div>`);
+    chat.insertAdjacentHTML('beforeend',`<div id="${id}" class="max-w-2xl"><div class="text-[10px] text-[#36d399] font-medium mb-2">NYAYA · THINKING</div><div class="card p-4 text-sm"><span class="think"><span></span><span></span><span></span></span> Reading workspace memory, checking legal context and preparing an answer...</div></div>`);
     chat.scrollTop = chat.scrollHeight;
     return id;
 }
@@ -646,7 +646,7 @@ function replaceThinking(id, answer, sources, follow_ups) {
     const encoded = encodeURIComponent(answer);
     const copyBtn = `<button onclick="copyChatAnswer(this, '${encoded}')" class="pill text-[11px] hover:bg-white/10 transition flex items-center gap-1.5 py-1 px-2.5 bg-[#1a1d26] border border-[#2a2e3a] text-[#8fa3b8] hover:text-white cursor-pointer"><i class="fa-regular fa-copy text-xs"></i> Copy Answer</button>`;
     
-    let html = `<div class="flex justify-between items-center mb-2"><div class="text-[10px] text-[#737b8e] font-semibold tracking-wider">NOVA</div>${copyBtn}</div><div class="card p-4 text-sm leading-relaxed select-text">${renderMarkdown(answer)}</div>`;
+    let html = `<div class="flex justify-between items-center mb-2"><div class="text-[10px] text-[#36d399] font-medium tracking-wider">NYAYA</div>${copyBtn}</div><div class="card p-4 text-sm leading-relaxed select-text">${renderMarkdown(answer)}</div>`;
     
     if (sources && sources.length > 0) {
         html += `<div class="mt-2 flex flex-wrap gap-2">`;
@@ -669,7 +669,7 @@ function replaceThinking(id, answer, sources, follow_ups) {
 function replaceThinkingWithError(id, msg) {
     let el = document.getElementById(id);
     if(!el) return;
-    el.innerHTML = `<div class="text-[10px] text-[#d97777] mb-2">NOVA ERROR</div><div class="card border-[#d97777] p-4 text-sm leading-relaxed text-[#d97777]">${renderMarkdown(msg)}</div>`;
+    el.innerHTML = `<div class="text-[10px] text-[#d97777] mb-2">NYAYA ERROR</div><div class="card border-[#d97777] p-4 text-sm leading-relaxed text-[#d97777]">${renderMarkdown(msg)}</div>`;
 }
 
 function updateReasoningTrail(steps) {
