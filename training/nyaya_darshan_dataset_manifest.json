@@ -1,0 +1,49 @@
+{
+  "dataset_name": "Nyaya Darshan Authoritative Legal Corpus v1",
+  "version": "1.0.0",
+  "release_date": "2026-08-14",
+  "statutory_foundation": {
+    "BNS": {
+      "act_name": "Bharatiya Nyaya Sanhita, 2023",
+      "act_number": "Act No. 45 of 2023",
+      "total_sections": 358,
+      "repealed_act": "Indian Penal Code, 1860 (IPC - 511 sections)",
+      "bare_act_weight": 1.0,
+      "mapping_weight": 0.3,
+      "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20062"
+    },
+    "BNSS": {
+      "act_name": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "act_number": "Act No. 46 of 2023",
+      "total_sections": 531,
+      "repealed_act": "Code of Criminal Procedure, 1973 (CrPC - 484 sections)",
+      "bare_act_weight": 1.0,
+      "mapping_weight": 0.3,
+      "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20063"
+    },
+    "BSA": {
+      "act_name": "Bharatiya Sakshya Adhiniyam, 2023",
+      "act_number": "Act No. 47 of 2023",
+      "total_sections": 170,
+      "repealed_act": "Indian Evidence Act, 1872 (IEA - 167 sections)",
+      "bare_act_weight": 1.0,
+      "mapping_weight": 0.3,
+      "official_source_url": "https://www.indiacode.nic.in/handle/123456789/20064"
+    }
+  },
+  "corpus_inventory": {
+    "total_raw_pdfs": 252,
+    "unique_statutes_and_judgments": 214,
+    "total_faiss_vector_chunks": 3468,
+    "categories_count": 36,
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2"
+  },
+  "confidence_hierarchy": [
+    {"level": 1, "source": "Explicit Official Bare Act Metadata", "confidence": 100},
+    {"level": 2, "source": "Structured Metadata JSON", "confidence": 90},
+    {"level": 3, "source": "Corpus Category Registration", "confidence": 80},
+    {"level": 4, "source": "Regex Pattern Detection", "confidence": 70},
+    {"level": 5, "source": "Text Match Candidate", "confidence": 40},
+    {"level": 6, "source": "Unclassified Candidate", "confidence": 0}
+  ]
+}
