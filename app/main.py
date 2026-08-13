@@ -90,8 +90,8 @@ async def lifespan(application: FastAPI) -> AsyncGenerator[None, None]:
 # ── Create FastAPI app ────────────────────────────────────────────
 
 app = FastAPI(
-    title="Nova Legal OS",
-    description="AI-powered Legal Intelligence Operating System for Indian Law — powered by NoveLaw, a fine-tuned Indian Legal LLM",
+    title="Nyaya Darshan",
+    description="AI-powered Indian Legal Intelligence Operating System — powered by NoveLaw, a fine-tuned Indian Legal LLM",
     version="1.0.0",
     lifespan=lifespan,
 )
