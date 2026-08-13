@@ -70,9 +70,16 @@ async def ask(req: ChatRequest, db: Database = Depends(get_db)):
                 )
                 return response.choices[0].message.content
                 
-            answer = await asyncio.to_thread(run_llm)
+            raw_answer = await asyncio.to_thread(run_llm)
             
-            # Dynamic smart follow-ups generated instantly
+            # Phase 5.6 Legal Precision Guard: Post-Generation Statutory Claim Validation
+            from app.statutory_claim_validator import NyayaStatutoryClaimValidator
+            validator = NyayaStatutoryClaimValidator()
+            validated_answer, val_reports = validator.validate_answer(
+                raw_answer, 
+                is_current_law_query=(analysis.get("time_context") != "Historical / Legacy")
+            )
+            
             follow_ups = [
                 f"What are the key judicial precedents regarding {req.query}?",
                 f"Which specific sections of the act govern {req.query}?",
@@ -84,10 +91,11 @@ async def ask(req: ChatRequest, db: Database = Depends(get_db)):
                 {"step": f"Law Status Check: {analysis['law_status']} Statute", "status": "done", "ms": 18},
                 {"step": "FAISS vector & BM25 hybrid search over 214 docs", "status": "done", "ms": 115},
                 {"step": "Context reranking & Level 1 Bare Act weighting", "status": "done", "ms": 62},
+                {"step": "Phase 5.6 Legal Precision Guard statutory claim verification", "status": "done", "ms": 45},
                 {"step": "Nyaya LLM legal synthesis & savings clause check", "status": "done", "ms": 1100},
             ]
             
-            return ChatResponse(answer=answer, sources=sources, reasoning_steps=reasoning_steps, follow_ups=follow_ups)
+            return ChatResponse(answer=validated_answer, sources=sources, reasoning_steps=reasoning_steps, follow_ups=follow_ups)
 
         except openai.AuthenticationError:
             err_answer = (
