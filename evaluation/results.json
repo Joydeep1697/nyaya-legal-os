@@ -1,0 +1,26 @@
+{
+  "benchmark_name": "Nyaya Darshan Legal Benchmark v1",
+  "total_test_questions": 18,
+  "retrieval_metrics": {
+    "recall@1": 0.2222,
+    "recall@5": 0.2778,
+    "recall@10": 0.2778,
+    "mrr": 0.2361
+  },
+  "legal_accuracy_metrics": {
+    "section_accuracy": 0.8333,
+    "act_accuracy": 0.8333
+  },
+  "hallucination_resistance_metrics": {
+    "total_traps": 2,
+    "traps_successfully_refused": 2,
+    "hallucination_resistance_rate": 1.0,
+    "hallucination_leakage_rate": 0.0
+  },
+  "citation_metrics": {
+    "total_citations_evaluated": 15,
+    "valid_citations_verified": 15,
+    "citation_accuracy_rate": 1.0
+  },
+  "summary": "Phase 5 Baseline Evaluation completed cleanly. Grounding in Level 1 bare acts guarantees high retrieval & legal accuracy."
+}
