@@ -97,27 +97,28 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> 500 Knowledge Vault Uploads</li>
       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Citation Knowledge Graph</li>
       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Contract Clause Risk Scoring</li>
-     </ul>
+     <button onclick="openProfessionalDetailModal()" class="w-full mt-3 text-xs text-[#60a5fa] hover:underline font-medium text-center">View Full Specs & Deliverables →</button>
+     <button onclick="selectTier('Professional')" class="w-full mt-3 py-2.5 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] text-white text-xs font-semibold">Upgrade to Pro (₹3,999/mo)</button>
     </div>
-    <button onclick="selectTier('Professional')" class="w-full mt-6 py-2.5 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] text-white text-xs font-semibold">Upgrade to Pro</button>
-   </div>
-   <!-- Enterprise Tier -->
-   <div class="card p-5 flex flex-col justify-between border-[#36d399]/40 bg-gradient-to-b from-[#141d1a] to-[#0f1513] relative overflow-hidden">
-    <div class="absolute top-3 right-3"><span class="pill bg-[#36d399]/20 text-[#36d399] border-none">Active Plan</span></div>
-    <div>
-     <div class="text-xs uppercase tracking-wider text-[#36d399] font-semibold">Enterprise OS</div>
-     <div class="text-2xl font-bold mt-2">₹49,999<span class="text-xs font-normal text-[#7f8798]"> / mo</span></div>
-     <div class="text-xs text-[#36d399] mt-1">₹14,999 / seat · Billed Annually</div>
-     <div class="border-t border-white/10 my-4"></div>
-     <ul class="space-y-2 text-xs text-[#b0b8c8]">
-      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Dedicated NoveLaw Fine-Tuned LLM</li>
-      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Multi-Agent Autonomous Orchestration</li>
-      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Unlimited Knowledge Vault</li>
-      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Proactive Compliance Matrix</li>
-      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Custom Domain (`nyayalegalos.com`) & SLA</li>
-     </ul>
+    <!-- Enterprise Tier -->
+    <div class="card p-5 flex flex-col justify-between border-[#36d399]/40 bg-gradient-to-b from-[#141d1a] to-[#0f1513] relative overflow-hidden">
+     <div class="absolute top-3 right-3"><span class="pill bg-[#36d399]/20 text-[#36d399] border-none">Active Plan</span></div>
+     <div>
+      <div class="text-xs uppercase tracking-wider text-[#36d399] font-semibold">Enterprise OS</div>
+      <div class="text-2xl font-bold mt-2">₹49,999<span class="text-xs font-normal text-[#7f8798]"> / mo</span></div>
+      <div class="text-xs text-[#36d399] mt-1">₹14,999 / seat · Billed Annually</div>
+      <div class="border-t border-white/10 my-4"></div>
+      <ul class="space-y-2 text-xs text-[#b0b8c8]">
+       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Dedicated NoveLaw Fine-Tuned LLM</li>
+       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Multi-Agent Autonomous Orchestration</li>
+       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Unlimited Knowledge Vault</li>
+       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Proactive Compliance Matrix</li>
+       <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Custom Domain (`nyayalegalos.com`) & SLA</li>
+      </ul>
+     </div>
+     <button onclick="openEnterpriseDetailModal()" class="w-full mt-3 text-xs text-[#36d399] hover:underline font-medium text-center">View Full Specs & Deliverables →</button>
+     <button onclick="selectTier('Enterprise')" class="w-full mt-3 py-2.5 rounded-xl bg-[#36d399] text-[#08090d] font-semibold text-xs hover:brightness-110">Manage Enterprise (₹49,999/mo)</button>
     </div>
-    <button onclick="selectTier('Enterprise')" class="w-full mt-6 py-2.5 rounded-xl bg-[#36d399] text-[#08090d] font-semibold text-xs hover:brightness-110">Manage Enterprise</button>
    </div>
   </div>
  </div>
@@ -964,6 +965,98 @@ function savePreferences() {
     let reasoning = document.getElementById('prefReasoning')?.value;
     document.getElementById('preferencesModal')?.remove();
     showToast(`Preferences updated: ${reasoning} mode active!`);
+}
+
+function openProfessionalDetailModal(){
+    let old = document.getElementById('proDetailModal');
+    if(old) old.remove();
+    let el = document.createElement('div');
+    el.id = 'proDetailModal';
+    el.className = 'fixed inset-0 z-[550] bg-black/80 backdrop-blur-md flex items-center justify-center p-4';
+    el.onclick = e => { if(e.target === el) el.remove(); };
+    el.innerHTML = `
+        <div class="command w-full max-w-2xl panel rounded-[26px] p-7 max-h-[90vh] overflow-auto">
+            <div class="flex justify-between items-start mb-5">
+                <div>
+                    <span class="pill bg-[#60a5fa]/15 text-[#60a5fa] border-none font-semibold">Professional Tier Specification</span>
+                    <h2 class="text-2xl font-bold mt-2">Professional Advocate & Consultant Plan</h2>
+                    <p class="text-xs text-[#7f8798] mt-1">₹3,999 / month · Billed monthly or annually</p>
+                </div>
+                <button onclick="document.getElementById('proDetailModal').remove()" class="w-9 h-9 rounded-xl hover:bg-white/5 text-lg">×</button>
+            </div>
+            
+            <div class="space-y-4 text-xs">
+                <div class="card p-4">
+                    <h4 class="font-semibold text-sm text-[#60a5fa] flex items-center gap-2"><i class="fa-solid fa-bolt"></i> 1. Sub-Second RAG Grounded Intelligence</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Unlimited RAG queries grounded in 214 Indian Central Acts, 35 Rules, and Supreme Court/High Court precedents. Sub-second response latency with top-4 statutory citations.</p>
+                </div>
+                <div class="card p-4">
+                    <h4 class="font-semibold text-sm text-[#60a5fa] flex items-center gap-2"><i class="fa-solid fa-magnifying-glass"></i> 2. FAISS Vector + BM25 Hybrid Search</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Dual-engine semantic vector retrieval combined with exact BM25 keyword matching for section numbers, act names, and party titles.</p>
+                </div>
+                <div class="card p-4">
+                    <h4 class="font-semibold text-sm text-[#60a5fa] flex items-center gap-2"><i class="fa-solid fa-cube"></i> 3. 500 Knowledge Vault Document Uploads</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Upload up to 500 PDF/DOCX contracts and case files per month with Tesseract OCR scanning, entity extraction, and automated clause risk scoring.</p>
+                </div>
+                <div class="card p-4">
+                    <h4 class="font-semibold text-sm text-[#60a5fa] flex items-center gap-2"><i class="fa-solid fa-diagram-project"></i> 4. Citation Knowledge Graph Network</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Visual network graph connecting statutory provisions, amending acts, and precedent citations across your workspace.</p>
+                </div>
+            </div>
+
+            <div class="mt-7 flex gap-3">
+                <button onclick="document.getElementById('proDetailModal').remove()" class="flex-1 py-3 rounded-xl border border-[#2a2e3a] hover:bg-white/5 font-semibold text-xs">Close Overview</button>
+                <button onclick="document.getElementById('proDetailModal').remove(); selectTier('Professional');" class="flex-1 py-3 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-semibold text-xs">Buy Professional Plan (₹3,999/mo) →</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(el);
+}
+
+function openEnterpriseDetailModal(){
+    let old = document.getElementById('entDetailModal');
+    if(old) old.remove();
+    let el = document.createElement('div');
+    el.id = 'entDetailModal';
+    el.className = 'fixed inset-0 z-[550] bg-black/80 backdrop-blur-md flex items-center justify-center p-4';
+    el.onclick = e => { if(e.target === el) el.remove(); };
+    el.innerHTML = `
+        <div class="command w-full max-w-2xl panel rounded-[26px] p-7 max-h-[90vh] overflow-auto">
+            <div class="flex justify-between items-start mb-5">
+                <div>
+                    <span class="pill bg-[#36d399]/20 text-[#36d399] border-none font-semibold">Enterprise OS Specification</span>
+                    <h2 class="text-2xl font-bold mt-2">Enterprise Operating System Plan</h2>
+                    <p class="text-xs text-[#36d399] mt-1 font-mono">₹49,999 / month · ₹14,999 / seat · Billed Annually</p>
+                </div>
+                <button onclick="document.getElementById('entDetailModal').remove()" class="w-9 h-9 rounded-xl hover:bg-white/5 text-lg">×</button>
+            </div>
+            
+            <div class="space-y-4 text-xs">
+                <div class="card p-4 border-l-2 border-l-[#36d399]">
+                    <h4 class="font-semibold text-sm text-[#36d399] flex items-center gap-2"><i class="fa-solid fa-brain"></i> 1. Dedicated NoveLaw Fine-Tuned LLM Model</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Access your custom fine-tuned NoveLaw model compiled from 7,651 legal instruction QA pairs for specialized drafting, opinion generation, and statutory interpretation.</p>
+                </div>
+                <div class="card p-4 border-l-2 border-l-[#36d399]">
+                    <h4 class="font-semibold text-sm text-[#36d399] flex items-center gap-2"><i class="fa-solid fa-robot"></i> 2. Multi-Agent Autonomous Orchestration Pipeline</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Deploy background research subagents, automated compliance checkers, and contract auditing workers that run autonomously in separate conversation threads.</p>
+                </div>
+                <div class="card p-4 border-l-2 border-l-[#36d399]">
+                    <h4 class="font-semibold text-sm text-[#36d399] flex items-center gap-2"><i class="fa-solid fa-globe"></i> 3. Custom Domain & Dedicated SSL Setup</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Full custom domain integration (<code class="text-[#36d399]">nyayalegalos.com</code>) connected directly to your dedicated cloud container with custom SSL certificates and Squarespace/Cloudflare DNS routing.</p>
+                </div>
+                <div class="card p-4 border-l-2 border-l-[#36d399]">
+                    <h4 class="font-semibold text-sm text-[#36d399] flex items-center gap-2"><i class="fa-solid fa-shield-halved"></i> 4. Unlimited Vault Storage & 24/7 Priority SLA</h4>
+                    <p class="text-[#a0aab8] mt-1.5 leading-relaxed">Unlimited document vault uploads, proactive statutory limitation warnings, 24/7 priority technical SLA, and dedicated onboarding support.</p>
+                </div>
+            </div>
+
+            <div class="mt-7 flex gap-3">
+                <button onclick="document.getElementById('entDetailModal').remove()" class="flex-1 py-3 rounded-xl border border-[#2a2e3a] hover:bg-white/5 font-semibold text-xs">Close Overview</button>
+                <button onclick="document.getElementById('entDetailModal').remove(); selectTier('Enterprise');" class="flex-1 py-3 rounded-xl bg-[#36d399] text-[#08090d] font-semibold text-xs hover:brightness-110">Buy Enterprise OS (₹49,999/mo) →</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(el);
 }
 
 function openSignOutModal() {
