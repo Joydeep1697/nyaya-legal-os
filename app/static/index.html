@@ -841,7 +841,7 @@ async function renderAnalytics(){
     }
 }
 
-function empty(title,text,cta,icon,actionFn){let fnCall=actionFn?actionFn:`showToast('${cta}')`;return header(title,pages[current].sub)+`<div class="max-w-[950px] mx-auto panel rounded-[24px] min-h-[480px] grid place-items-center grid-dots"><div class="text-center max-w-md p-8"><div class="orbit w-20 h-20 rounded-[22px] gradient p-[1px] mx-auto"><div class="w-full h-full rounded-[21px] bg-[#11131a] grid place-items-center"><img src="1.png" class="w-12 h-12 object-contain" onerror="this.outerHTML='<i class=\'fa-solid ${icon} text-2xl\'></i>'"></div></div><div class="text-2xl font-semibold mt-6">${title}</div><div class="text-sm text-[#7f8798] leading-relaxed mt-2">${text}</div><button onclick="${fnCall}" class="mt-6 rounded-xl gradient px-5 py-3 text-sm font-semibold">${cta}</button></div></div>`}
+function empty(title,text,cta,icon,actionFn){let fnCall=actionFn?actionFn:`showToast('${cta}')`;return `<div class="max-w-[1450px] mx-auto panel rounded-[24px] min-h-[440px] grid place-items-center grid-dots my-2"><div class="text-center max-w-md p-8"><div class="w-20 h-20 rounded-[22px] bg-[#141822] border border-[#2a2e3a] grid place-items-center mx-auto shadow-2xl mb-4"><i class="fa-solid ${icon} text-3xl text-[#36d399]"></i></div><h3 class="text-2xl font-semibold">${title}</h3><p class="text-sm text-[#7f8798] leading-relaxed mt-2">${text}</p><button onclick="${fnCall}" class="mt-6 rounded-xl bg-[#36d399] text-[#08090d] hover:brightness-110 px-6 py-3 text-sm font-semibold cursor-pointer shadow-lg">${cta}</button></div></div>`}
 
 async function navigate(page){
     current=page;
