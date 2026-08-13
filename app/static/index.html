@@ -82,9 +82,8 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
 </style></head>
 <body class="shell">
 <div id="splash" class="fixed inset-0 z-[999] bg-[#08090d] flex items-center justify-center transition-opacity duration-700">
-  <!-- Phase 1: Full-Screen Logo Image Reveal without any boundaries (0s to 1.9s) -->
-  <div id="splashPhase1" class="ppt-phase1-anim">
-    <img src="/static/logo.png" onerror="this.src='logo.png'" class="w-full h-full object-cover">
+  <div id="splashPhase1" class="ppt-phase1-anim bg-[#08090d] flex items-center justify-center">
+    <img src="/static/logo.png" onerror="this.src='logo.png'" class="w-full h-full object-contain p-4 md:p-8">
   </div>
 
   <div class="relative w-full max-w-lg h-[420px] flex items-center justify-center">
