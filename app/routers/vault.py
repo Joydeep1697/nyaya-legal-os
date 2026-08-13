@@ -132,7 +132,7 @@ async def upload_document(background_tasks: BackgroundTasks, file: UploadFile = 
 @router.get("/documents")
 async def list_documents(status: Optional[str] = None, category: Optional[str] = None, domain: Optional[str] = None, limit: int = 10, offset: int = 0, db: Database = Depends(get_db)):
     """List documents with optional filters and pagination."""
-    docs = db.get_documents(status=status, category=category, domain=domain, limit=limit, offset=offset)
+    docs = db.list_documents(status=status, category=category, domain=domain, limit=limit, offset=offset)
     return {"documents": docs}
 
 @router.get("/documents/{doc_id}")
