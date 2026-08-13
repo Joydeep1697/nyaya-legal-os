@@ -24,7 +24,7 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
 </style></head>
 <body class="shell">
 <div id="splash" class="fixed inset-0 z-[999] bg-[#08090d] flex items-center justify-center transition-opacity duration-500">
- <div class="text-center"><div class="orbit w-24 h-24 rounded-[24px] gradient p-[1px] mx-auto"><div class="w-full h-full rounded-[23px] bg-[#0d0f15] grid place-items-center"><img src="1.png" class="w-16 h-16 object-contain" onerror="this.outerHTML='<b style=\'font-size:36px\'>N</b>'"></div></div><div class="text-2xl font-semibold mt-6">Nova Legal OS</div><div id="bootText" class="text-xs text-[#7f8798] tracking-[.16em] uppercase mt-2">Loading memory</div><div class="think mt-5"><span></span><span></span><span></span></div></div>
+ <div class="text-center"><div class="orbit w-24 h-24 rounded-[24px] gradient p-[1px] mx-auto"><div class="w-full h-full rounded-[23px] bg-[#0d0f15] grid place-items-center"><img src="1.png" class="w-16 h-16 object-contain" onerror="this.outerHTML='<b style=\'font-size:36px\'>N</b>'"></div></div><div class="text-2xl font-semibold mt-6">Nyaya Legal OS</div><div id="bootText" class="text-xs text-[#7f8798] tracking-[.16em] uppercase mt-2">Loading memory</div><div class="think mt-5"><span></span><span></span><span></span></div></div>
 </div>
 <div class="h-screen flex flex-col">
 <header class="h-14 glass flex items-center justify-between px-3 md:px-4 z-50">
@@ -54,8 +54,8 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
  <div class="panel rounded-2xl p-4 mt-3"><div class="flex justify-between items-center"><div class="font-medium text-sm">Nyaya Memory</div><span class="pill">Synced</span></div><div class="grid grid-cols-2 gap-2 mt-4"><div class="card p-3"><div class="text-xl font-semibold" id="memMatters">0</div><div class="text-[10px] text-[#7f8798]">Matters watched</div></div><div class="card p-3"><div class="text-xl font-semibold" id="memRules">0</div><div class="text-[10px] text-[#7f8798]">Rules tracked</div></div><div class="card p-3"><div class="text-xl font-semibold" id="memDeadlines">0</div><div class="text-[10px] text-[#7f8798]">Deadlines active</div></div><div class="card p-3"><div class="text-xl font-semibold" id="memFiles">0</div><div class="text-[10px] text-[#7f8798]">Files indexed</div></div></div></div>
  <button onclick="openCommand()" class="w-full mt-3 rounded-2xl border border-[#39434e] bg-[#e7eaee] text-[#15181c] hover:bg-white px-4 py-3 text-sm font-semibold transition"><i class="fa-solid fa-bolt mr-2"></i>Open Nyaya Command</button>
 </aside></div></div>
-<div id="commandModal" class="hidden fixed inset-0 z-[200] bg-black/60 backdrop-blur-sm items-start justify-center pt-[10vh] px-4" onclick="if(event.target===this)closeCommand()"><div class="command w-full max-w-2xl panel rounded-[22px] overflow-hidden"><div class="flex items-center gap-3 px-5 py-4 border-b border-[#292d39]"><div class="w-9 h-9 rounded-xl gradient p-[1px]"><div class="w-full h-full rounded-[11px] bg-[#11131a] grid place-items-center"><img src="1.png" class="w-7 h-7 object-contain" onerror="this.outerHTML='<b>N</b>'"></div></div><input id="commandInput" class="flex-1 bg-transparent outline-none text-lg" placeholder="Tell Nova what to do..." oninput="filterCommands(this.value)"><kbd class="pill">Esc</kbd></div><div id="commandList" class="p-2 max-h-[430px] overflow-auto"></div><div class="px-4 py-3 border-t border-[#292d39] text-[10px] text-[#737b8e] flex justify-between"><span>↑↓ Navigate · Enter Select</span><span>Nova system command</span></div></div></div>
-<div id="drawer" class="hidden fixed inset-0 z-[180] bg-black/50" onclick="if(event.target===this)closeDrawer()"><div class="absolute right-0 top-0 h-full w-full max-w-sm panel p-5 overflow-auto"><div class="flex justify-between"><div><div class="text-xl font-semibold">System Notifications</div><div class="text-xs text-[#7f8798]">Nova activity and alerts</div></div><button onclick="closeDrawer()" class="w-9 h-9 rounded-xl hover:bg-white/5">×</button></div><div class="space-y-3 mt-6" id="notifications"></div></div></div>
+<div id="commandModal" class="hidden fixed inset-0 z-[200] bg-black/60 backdrop-blur-sm items-start justify-center pt-[10vh] px-4" onclick="if(event.target===this)closeCommand()"><div class="command w-full max-w-2xl panel rounded-[22px] overflow-hidden"><div class="flex items-center gap-3 px-5 py-4 border-b border-[#292d39]"><div class="w-9 h-9 rounded-xl gradient p-[1px]"><div class="w-full h-full rounded-[11px] bg-[#11131a] grid place-items-center"><img src="1.png" class="w-7 h-7 object-contain" onerror="this.outerHTML='<b>N</b>'"></div></div><input id="commandInput" class="flex-1 bg-transparent outline-none text-lg" placeholder="Tell Nyaya what to do..." oninput="filterCommands(this.value)"><kbd class="pill">Esc</kbd></div><div id="commandList" class="p-2 max-h-[430px] overflow-auto"></div><div class="px-4 py-3 border-t border-[#292d39] text-[10px] text-[#737b8e] flex justify-between"><span>↑↓ Navigate · Enter Select</span><span>Nyaya system command</span></div></div></div>
+<div id="drawer" class="hidden fixed inset-0 z-[180] bg-black/50" onclick="if(event.target===this)closeDrawer()"><div class="absolute right-0 top-0 h-full w-full max-w-sm panel p-5 overflow-auto"><div class="flex justify-between"><div><div class="text-xl font-semibold">System Notifications</div><div class="text-xs text-[#7f8798]">Nyaya activity and alerts</div></div><button onclick="closeDrawer()" class="w-9 h-9 rounded-xl hover:bg-white/5">×</button></div><div class="space-y-3 mt-6" id="notifications"></div></div></div>
 <div id="pricingModal" class="hidden fixed inset-0 z-[220] bg-black/75 backdrop-blur-md items-center justify-center p-4" onclick="if(event.target===this)closePricingModal()">
  <div class="command w-full max-w-4xl panel rounded-[24px] p-6 max-h-[90vh] overflow-auto">
   <div class="flex justify-between items-start mb-6">
@@ -761,7 +761,7 @@ async function boot(){
     const el = document.getElementById('bootText');
     const setText = t => { if(el) el.textContent = t; };
     
-    setText('Connecting to Nova...');
+    setText('Connecting to Nyaya...');
     try {
         const health = await fetch('/health').then(r=>r.json());
         setText(`${health.documents || 0} documents indexed`);
@@ -773,9 +773,9 @@ async function boot(){
         document.getElementById('memDeadlines').innerText = health.deadlines || 0;
         document.getElementById('memFiles').innerText = health.documents || 0;
         
-        setTimeout(() => setText('Nova ready'), 300);
+        setTimeout(() => setText('Nyaya ready'), 300);
     } catch (e) {
-        setText('Backend offline — start server with: python run.py');
+        setText('Nyaya offline — start server with: python run.py');
     }
     
     setTimeout(() => {
@@ -791,7 +791,7 @@ async function boot(){
 }
 
 function showNotifications(){
-    let items=[['Urgent deadline','Singapore filing is due in 2 days'],['Nova analysis complete','Axis Cloud MSA risk map is ready']];
+    let items=[['Urgent deadline','Singapore filing is due in 2 days'],['Nyaya analysis complete','Axis Cloud MSA risk map is ready']];
     document.getElementById('notifications').innerHTML=items.map(x=>`<div class="card p-4"><div class="text-sm font-medium">${x[0]}</div><div class="text-xs text-[#737b8e] mt-1">${x[1]}</div></div>`).join('');
     document.getElementById('drawer').classList.remove('hidden');
 }
