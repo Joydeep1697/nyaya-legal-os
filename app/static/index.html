@@ -31,8 +31,9 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
  <button onclick="openCommand()" class="hidden md:flex w-[min(44vw,570px)] items-center gap-3 rounded-xl border border-[#2a2e3a] bg-[#12141b] px-4 py-2 text-sm text-[#737b8e] hover:border-[#454b5d]"><i class="fa-solid fa-magnifying-glass"></i><span class="flex-1 text-left">Search or command Nyaya...</span><kbd class="pill py-1">Ctrl Space</kbd></button>
  <div class="flex items-center gap-2"><div class="hidden lg:flex items-center gap-2 pill"><span class="live-dot"></span> Nyaya active</div><button onclick="showNotifications()" class="w-9 h-9 rounded-xl hover:bg-white/5 relative"><i class="fa-regular fa-bell"></i><span class="absolute top-2 right-2 w-1.5 h-1.5 rounded-full bg-[#ff6b7d]"></span></button><div class="relative" id="profileWrap"><button id="profileButton" onclick="toggleProfile(event)" aria-haspopup="menu" aria-expanded="false" class="h-9 pl-2 pr-2.5 rounded-xl border border-[#2a3038] bg-[#171b21] hover:bg-[#1d2229] flex items-center gap-2 text-xs font-semibold"><span class="w-6 h-6 rounded-lg bg-[#e8ebef] text-[#171a1f] grid place-items-center">JD</span><i class="fa-solid fa-chevron-down text-[9px] text-[#858e9b]"></i></button>
 <div id="profileMenu" role="menu" class="hidden absolute right-0 top-11 z-[300] w-64 panel rounded-2xl p-2 shadow-2xl command">
- <div class="px-3 py-3 border-b border-[#2a3038] mb-1"><div class="text-sm font-semibold">Joydeep Das</div><div class="text-xs text-[#858e9b] mt-1">Nyaya OS Consulting</div></div>
+ <div class="px-3 py-3 border-b border-[#2a3038] mb-1"><div class="text-sm font-semibold">Joydeep Das</div><div class="text-xs text-[#858e9b] mt-1">Nyaya OS Consulting</div><div class="inline-block px-2 py-0.5 mt-1.5 rounded-full text-[10px] font-medium bg-[#36d399]/15 text-[#36d399] border border-[#36d399]/30">Enterprise Active</div></div>
  <button onclick="profileAction('profile')" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-left hover:bg-white/5"><i class="fa-regular fa-user w-4 text-[#98a3af]"></i><span>Profile</span></button>
+ <button onclick="openPricingModal()" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-left hover:bg-white/5"><i class="fa-solid fa-gem w-4 text-[#36d399]"></i><span>Subscription & Tiers</span></button>
  <button onclick="profileAction('workspace')" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-left hover:bg-white/5"><i class="fa-regular fa-building w-4 text-[#98a3af]"></i><span>Workspace settings</span></button>
  <button onclick="profileAction('preferences')" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-left hover:bg-white/5"><i class="fa-solid fa-sliders w-4 text-[#98a3af]"></i><span>Preferences</span></button>
  <div class="border-t border-[#2a3038] my-1"></div>
@@ -55,8 +56,72 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
 </aside></div></div>
 <div id="commandModal" class="hidden fixed inset-0 z-[200] bg-black/60 backdrop-blur-sm items-start justify-center pt-[10vh] px-4" onclick="if(event.target===this)closeCommand()"><div class="command w-full max-w-2xl panel rounded-[22px] overflow-hidden"><div class="flex items-center gap-3 px-5 py-4 border-b border-[#292d39]"><div class="w-9 h-9 rounded-xl gradient p-[1px]"><div class="w-full h-full rounded-[11px] bg-[#11131a] grid place-items-center"><img src="1.png" class="w-7 h-7 object-contain" onerror="this.outerHTML='<b>N</b>'"></div></div><input id="commandInput" class="flex-1 bg-transparent outline-none text-lg" placeholder="Tell Nova what to do..." oninput="filterCommands(this.value)"><kbd class="pill">Esc</kbd></div><div id="commandList" class="p-2 max-h-[430px] overflow-auto"></div><div class="px-4 py-3 border-t border-[#292d39] text-[10px] text-[#737b8e] flex justify-between"><span>↑↓ Navigate · Enter Select</span><span>Nova system command</span></div></div></div>
 <div id="drawer" class="hidden fixed inset-0 z-[180] bg-black/50" onclick="if(event.target===this)closeDrawer()"><div class="absolute right-0 top-0 h-full w-full max-w-sm panel p-5 overflow-auto"><div class="flex justify-between"><div><div class="text-xl font-semibold">System Notifications</div><div class="text-xs text-[#7f8798]">Nova activity and alerts</div></div><button onclick="closeDrawer()" class="w-9 h-9 rounded-xl hover:bg-white/5">×</button></div><div class="space-y-3 mt-6" id="notifications"></div></div></div>
-<div id="dropOverlay" class="hidden fixed inset-0 z-[300] bg-[#08090d]/94 backdrop-blur flex items-center justify-center"><div class="text-center"><div class="orbit w-24 h-24 rounded-[26px] gradient p-[1px] mx-auto"><div class="w-full h-full rounded-[25px] bg-[#11131a] grid place-items-center"><img src="1.png" class="w-16 h-16 object-contain" onerror="this.outerHTML='<b style=\'font-size:34px\'>N</b>'"></div></div><div class="text-2xl font-semibold mt-6">Drop onto Nova</div><div class="text-sm text-[#7f8798] mt-2">Index, classify and analyze legal documents</div></div></div>
-<div id="contextMenu" class="hidden fixed z-[250] panel rounded-xl p-1 w-48 text-sm"><button onclick="contextAction('Ask Nova about this')" class="w-full text-left px-3 py-2 rounded-lg hover:bg-white/5"><i class="fa-solid fa-wave-square mr-2 text-[#9c94ff]"></i>Ask Nova</button><button onclick="contextAction('Summarize selection')" class="w-full text-left px-3 py-2 rounded-lg hover:bg-white/5"><i class="fa-regular fa-file-lines mr-2"></i>Summarize</button><button onclick="contextAction('Add to matter')" class="w-full text-left px-3 py-2 rounded-lg hover:bg-white/5"><i class="fa-solid fa-plus mr-2"></i>Add to matter</button></div>
+<div id="pricingModal" class="hidden fixed inset-0 z-[220] bg-black/75 backdrop-blur-md items-center justify-center p-4" onclick="if(event.target===this)closePricingModal()">
+ <div class="command w-full max-w-4xl panel rounded-[24px] p-6 max-h-[90vh] overflow-auto">
+  <div class="flex justify-between items-start mb-6">
+   <div>
+    <div class="text-[10px] uppercase tracking-[.18em] text-[#36d399] font-medium">Subscription & Access Control</div>
+    <h2 class="text-2xl font-semibold mt-1">Nyaya Legal OS Platform Tiers</h2>
+    <p class="text-sm text-[#7f8798] mt-1">Choose the AI intelligence capacity suited for your practice or enterprise firm</p>
+   </div>
+   <button onclick="closePricingModal()" class="w-9 h-9 rounded-xl hover:bg-white/5 text-lg">×</button>
+  </div>
+  <div class="grid md:grid-cols-3 gap-4">
+   <!-- Starter Tier -->
+   <div class="card p-5 flex flex-col justify-between border-white/10 hover:border-white/20">
+    <div>
+     <div class="text-xs uppercase tracking-wider text-[#8f97aa]">Starter</div>
+     <div class="text-2xl font-bold mt-2">Free</div>
+     <div class="text-xs text-[#7f8798] mt-1">Basic Legal Search</div>
+     <div class="border-t border-white/10 my-4"></div>
+     <ul class="space-y-2 text-xs text-[#b0b8c8]">
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> 5 daily Nyaya RAG queries</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Basic statute & act lookup</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> 10 Knowledge Vault files</li>
+      <li class="flex items-center gap-2 text-[#656d7e]"><i class="fa-solid fa-xmark"></i> Citation Knowledge Graph</li>
+      <li class="flex items-center gap-2 text-[#656d7e]"><i class="fa-solid fa-xmark"></i> Custom NoveLaw Model</li>
+     </ul>
+    </div>
+    <button onclick="selectTier('Starter')" class="w-full mt-6 py-2.5 rounded-xl border border-[#2a2e3a] hover:bg-white/5 text-xs font-semibold">Switch to Starter</button>
+   </div>
+   <!-- Professional Tier -->
+   <div class="card p-5 flex flex-col justify-between border-[#8fa3b8]/30 bg-gradient-to-b from-[#161a22] to-[#111319]">
+    <div>
+     <div class="flex justify-between items-center"><span class="text-xs uppercase tracking-wider text-[#60a5fa] font-semibold">Professional</span><span class="pill bg-[#60a5fa]/15 text-[#60a5fa] border-none">Popular</span></div>
+     <div class="text-2xl font-bold mt-2">₹3,999<span class="text-xs font-normal text-[#7f8798]"> / mo</span></div>
+     <div class="text-xs text-[#7f8798] mt-1">Advocates & Legal Consultants</div>
+     <div class="border-t border-white/10 my-4"></div>
+     <ul class="space-y-2 text-xs text-[#b0b8c8]">
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Unlimited Nyaya RAG queries</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> FAISS + BM25 Hybrid Search</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> 500 Knowledge Vault Uploads</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Citation Knowledge Graph</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Contract Clause Risk Scoring</li>
+     </ul>
+    </div>
+    <button onclick="selectTier('Professional')" class="w-full mt-6 py-2.5 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] text-white text-xs font-semibold">Upgrade to Pro</button>
+   </div>
+   <!-- Enterprise Tier -->
+   <div class="card p-5 flex flex-col justify-between border-[#36d399]/40 bg-gradient-to-b from-[#141d1a] to-[#0f1513] relative overflow-hidden">
+    <div class="absolute top-3 right-3"><span class="pill bg-[#36d399]/20 text-[#36d399] border-none">Active Plan</span></div>
+    <div>
+     <div class="text-xs uppercase tracking-wider text-[#36d399] font-semibold">Enterprise OS</div>
+     <div class="text-2xl font-bold mt-2">Custom</div>
+     <div class="text-xs text-[#7f8798] mt-1">Law Firms & Corporate Legal</div>
+     <div class="border-t border-white/10 my-4"></div>
+     <ul class="space-y-2 text-xs text-[#b0b8c8]">
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Dedicated NoveLaw Fine-Tuned LLM</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Multi-Agent Autonomous Orchestration</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Unlimited Knowledge Vault</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Proactive Compliance Matrix</li>
+      <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#36d399]"></i> Custom Domain & Dedicated SLA</li>
+     </ul>
+    </div>
+    <button onclick="selectTier('Enterprise')" class="w-full mt-6 py-2.5 rounded-xl bg-[#36d399] text-[#08090d] font-semibold text-xs hover:brightness-110">Manage Enterprise</button>
+   </div>
+  </div>
+ </div>
+</div>
 <script>
 const pages = {
  mission: {title: 'Mission Control', sub: 'Live overview of your legal intelligence system'},
@@ -674,6 +739,20 @@ function showToast(msg, isError=false){
     document.body.appendChild(t);
     setTimeout(()=>t.remove(),3000);
 }
+function openPricingModal(){
+ const modal=document.getElementById('pricingModal');
+ if(modal){modal.classList.remove('hidden');modal.classList.add('flex');}
+ closeProfile();
+}
+function closePricingModal(){
+ const modal=document.getElementById('pricingModal');
+ if(modal){modal.classList.add('hidden');modal.classList.remove('flex');}
+}
+function selectTier(tierName){
+ closePricingModal();
+ showToast(`Nyaya Platform Tier set to: ${tierName}`);
+}
+
 function contextAction(a){document.getElementById('contextMenu').classList.add('hidden');openCommand();document.getElementById('commandInput').value=a;filterCommands(a)}
 
 document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.code==='Space'){e.preventDefault();openCommand()}if(e.key==='Escape'){closeCommand();closeDrawer();closeProfile();document.getElementById('contextMenu').classList.add('hidden')}});
