@@ -911,16 +911,50 @@ function openPreferencesModal(){
                 </div>
                 <button onclick="document.getElementById('preferencesModal').remove()" class="w-8 h-8 rounded-xl hover:bg-white/5 text-lg">×</button>
             </div>
-            <div class="space-y-3 text-xs">
-                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Reasoning Depth</span><span class="pill bg-[#36d399]/20 text-[#36d399] border-none font-semibold">Deep Grounding</span></div>
-                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">RAG Context Chunks</span><span class="font-medium">Top 4 Relevant Chunks</span></div>
-                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Theme</span><span class="font-medium">Dark Mode (Default)</span></div>
-                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Statutory Limitation Alerts</span><span class="text-[#36d399] font-semibold">Active</span></div>
+            <div class="space-y-4 text-xs">
+                <div>
+                    <label class="text-[#7f8798] block mb-1 font-medium">Reasoning Depth</label>
+                    <select id="prefReasoning" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-3 py-2.5 text-xs text-white outline-none focus:border-[#36d399]">
+                        <option value="deep" selected>Deep Multi-Agent Legal Grounding (Recommended)</option>
+                        <option value="fast">Sub-Second Fast RAG Retrieval</option>
+                        <option value="statutory">Strict Statutory Limitation & Penalty Analysis</option>
+                        <option value="exhaustive">Exhaustive Precedent & Citation Audit</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="text-[#7f8798] block mb-1 font-medium">RAG Context Window</label>
+                    <select id="prefChunks" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-3 py-2.5 text-xs text-white outline-none focus:border-[#36d399]">
+                        <option value="4" selected>Top 4 Chunks (Fast & High Precision)</option>
+                        <option value="8">Top 8 Chunks (Extended Legal Context)</option>
+                        <option value="16">Top 16 Chunks (Full Document Deep Scan)</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="text-[#7f8798] block mb-1 font-medium">UI Theme & Contrast</label>
+                    <select id="prefTheme" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-3 py-2.5 text-xs text-white outline-none focus:border-[#36d399]">
+                        <option value="dark" selected>Dark Glassmorphism (Default)</option>
+                        <option value="midnight">Midnight High Contrast</option>
+                        <option value="oled">OLED Pure Black</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="text-[#7f8798] block mb-1 font-medium">Statutory Limitation Alerts</label>
+                    <select id="prefAlerts" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-3 py-2.5 text-xs text-white outline-none focus:border-[#36d399]">
+                        <option value="active" selected>Active (Automated Limitation Alerts)</option>
+                        <option value="disabled">Disabled</option>
+                    </select>
+                </div>
             </div>
-            <button onclick="showToast('Preferences updated!'); document.getElementById('preferencesModal').remove();" class="w-full mt-5 py-3 rounded-xl gradient font-semibold text-xs">Save System Preferences</button>
+            <button onclick="savePreferences()" class="w-full mt-6 py-3 rounded-xl gradient font-semibold text-xs">Save System Preferences</button>
         </div>
     `;
     document.body.appendChild(el);
+}
+
+function savePreferences() {
+    let reasoning = document.getElementById('prefReasoning')?.value;
+    document.getElementById('preferencesModal')?.remove();
+    showToast(`Preferences updated: ${reasoning} mode active!`);
 }
 
 function openSignOutModal() {
