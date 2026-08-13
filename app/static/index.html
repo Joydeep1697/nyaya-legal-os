@@ -812,12 +812,97 @@ function closeProfile(){
 }
 function profileAction(action){
  closeProfile();
- if (action === 'signout') {
-     openSignOutModal();
-     return;
- }
- const actions={profile:'Profile panel opened',workspace:'Workspace settings opened',preferences:'Preferences opened'};
- showToast(actions[action]||'Profile action opened');
+ if (action === 'profile') { openProfileModal(); return; }
+ if (action === 'workspace') { openWorkspaceSettingsModal(); return; }
+ if (action === 'preferences') { openPreferencesModal(); return; }
+ if (action === 'signout') { openSignOutModal(); return; }
+}
+
+function openProfileModal(){
+    let old = document.getElementById('userProfileModal');
+    if(old) old.remove();
+    let el = document.createElement('div');
+    el.id = 'userProfileModal';
+    el.className = 'fixed inset-0 z-[500] bg-black/75 backdrop-blur-md flex items-center justify-center p-4';
+    el.onclick = e => { if(e.target === el) el.remove(); };
+    el.innerHTML = `
+        <div class="command w-full max-w-lg panel rounded-[24px] p-6">
+            <div class="flex justify-between items-start mb-5">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-2xl bg-[#e8ebef] text-[#171a1f] grid place-items-center font-bold text-lg">JD</div>
+                    <div>
+                        <h3 class="text-lg font-semibold">Joydeep Das</h3>
+                        <div class="text-xs text-[#36d399] font-mono">joydeep@novaosconsulting.com</div>
+                    </div>
+                </div>
+                <button onclick="document.getElementById('userProfileModal').remove()" class="w-8 h-8 rounded-xl hover:bg-white/5 text-lg">×</button>
+            </div>
+            <div class="space-y-3 text-xs">
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Role</span><span class="font-medium">Enterprise AI Architect & Systems Engineer</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Subscription Tier</span><span class="pill bg-[#36d399]/20 text-[#36d399] border-none font-semibold">Enterprise OS Active</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">LLM Engine</span><span class="font-medium">NVIDIA NIM (Llama 3.3 Nemotron 49B)</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Payment Gateway</span><span class="font-medium text-[#36d399]">Razorpay Live (rzp_live_TMeJGUjOwwJi11)</span></div>
+            </div>
+            <button onclick="showToast('Profile updated!'); document.getElementById('userProfileModal').remove();" class="w-full mt-5 py-3 rounded-xl gradient font-semibold text-xs">Save Profile Changes</button>
+        </div>
+    `;
+    document.body.appendChild(el);
+}
+
+function openWorkspaceSettingsModal(){
+    let old = document.getElementById('workspaceSettingsModal');
+    if(old) old.remove();
+    let el = document.createElement('div');
+    el.id = 'workspaceSettingsModal';
+    el.className = 'fixed inset-0 z-[500] bg-black/75 backdrop-blur-md flex items-center justify-center p-4';
+    el.onclick = e => { if(e.target === el) el.remove(); };
+    el.innerHTML = `
+        <div class="command w-full max-w-lg panel rounded-[24px] p-6">
+            <div class="flex justify-between items-start mb-5">
+                <div>
+                    <div class="text-[10px] uppercase tracking-[.18em] text-[#36d399]">Workspace Configuration</div>
+                    <h3 class="text-lg font-semibold mt-1">Nyaya OS Consulting Settings</h3>
+                </div>
+                <button onclick="document.getElementById('workspaceSettingsModal').remove()" class="w-8 h-8 rounded-xl hover:bg-white/5 text-lg">×</button>
+            </div>
+            <div class="space-y-3 text-xs">
+                <div class="card p-3"><div class="text-[#7f8798]">Custom Domain</div><div class="font-medium text-sm mt-1 text-[#36d399]">nyayalegalos.com</div></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Legal Corpus Size</span><span class="font-medium">214 Acts & Precedents (5,720 Pages)</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Vector Index</span><span class="font-medium">3,153 FAISS Embeddings</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Enterprise Seats</span><span class="font-medium">10 Advocate Fee-Earners</span></div>
+            </div>
+            <button onclick="showToast('Workspace settings saved!'); document.getElementById('workspaceSettingsModal').remove();" class="w-full mt-5 py-3 rounded-xl gradient font-semibold text-xs">Save Workspace Settings</button>
+        </div>
+    `;
+    document.body.appendChild(el);
+}
+
+function openPreferencesModal(){
+    let old = document.getElementById('preferencesModal');
+    if(old) old.remove();
+    let el = document.createElement('div');
+    el.id = 'preferencesModal';
+    el.className = 'fixed inset-0 z-[500] bg-black/75 backdrop-blur-md flex items-center justify-center p-4';
+    el.onclick = e => { if(e.target === el) el.remove(); };
+    el.innerHTML = `
+        <div class="command w-full max-w-lg panel rounded-[24px] p-6">
+            <div class="flex justify-between items-start mb-5">
+                <div>
+                    <div class="text-[10px] uppercase tracking-[.18em] text-[#36d399]">System Preferences</div>
+                    <h3 class="text-lg font-semibold mt-1">Nyaya Intelligence Preferences</h3>
+                </div>
+                <button onclick="document.getElementById('preferencesModal').remove()" class="w-8 h-8 rounded-xl hover:bg-white/5 text-lg">×</button>
+            </div>
+            <div class="space-y-3 text-xs">
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Reasoning Depth</span><span class="pill bg-[#36d399]/20 text-[#36d399] border-none font-semibold">Deep Grounding</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">RAG Context Chunks</span><span class="font-medium">Top 4 Relevant Chunks</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Theme</span><span class="font-medium">Dark Mode (Default)</span></div>
+                <div class="card p-3 flex justify-between items-center"><span class="text-[#7f8798]">Statutory Limitation Alerts</span><span class="text-[#36d399] font-semibold">Active</span></div>
+            </div>
+            <button onclick="showToast('Preferences updated!'); document.getElementById('preferencesModal').remove();" class="w-full mt-5 py-3 rounded-xl gradient font-semibold text-xs">Save System Preferences</button>
+        </div>
+    `;
+    document.body.appendChild(el);
 }
 
 function openSignOutModal() {
