@@ -82,12 +82,12 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
 </style></head>
 <body class="shell">
 <div id="splash" class="fixed inset-0 z-[999] bg-[#08090d] flex items-center justify-center transition-opacity duration-700">
-  <div class="relative w-full max-w-md h-[400px] flex items-center justify-center">
-    <!-- Phase 1: Full Generated Logo Image (Scales of Justice AI Quantum Network) Reveal -->
+  <div class="relative w-full max-w-lg h-[420px] flex items-center justify-center">
+    <!-- Phase 1: Generated Scales of Justice AI Quantum Node Network Logo Image Reveal (0s to 1.8s) -->
     <div id="splashPhase1" class="ppt-phase1-anim">
-      <div class="orbit w-48 h-48 rounded-[42px] gradient p-[1.5px] shadow-2xl">
-        <div class="w-full h-full rounded-[40px] bg-[#0d0f15] grid place-items-center overflow-hidden">
-          <img src="logo.png" class="w-full h-full object-cover">
+      <div class="orbit w-56 h-56 md:w-64 md:h-64 rounded-[48px] gradient p-[2px] shadow-2xl">
+        <div class="w-full h-full rounded-[46px] bg-[#0d0f15] grid place-items-center overflow-hidden">
+          <img src="/static/logo.png" onerror="this.src='logo.png'" class="w-full h-full object-cover">
         </div>
       </div>
     </div>
@@ -300,7 +300,7 @@ let userMatters = [];
 function renderMatters() {
     let html = header(pages.matters.title, pages.matters.sub, btn('New Matter Workspace', "openCreateMatterModal()", 'fa-plus'));
     if (userMatters.length === 0) {
-        html += empty('Legal Matter Workspaces', 'Organize active litigation, commercial contract reviews, and statutory compliance matters.', 'Create New Matter Workspace', 'fa-folder-open');
+        html += empty('Legal Matter Workspaces', 'Organize active litigation, commercial contract reviews, and statutory compliance matters.', 'Create New Matter Workspace', 'fa-folder-open', 'openCreateMatterModal()');
     } else {
         html += `<div class="max-w-[1450px] mx-auto space-y-4">
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -779,7 +779,7 @@ async function renderTimeline(){
         let items = [...dbDeadlines, ...userDeadlines];
         let html = header(pages.timeline.title,pages.timeline.sub, btn('Add Deadline', "openAddDeadlineModal()", 'fa-plus'));
         if (items.length === 0) {
-            html += empty('Deadline Matrix', 'Track court filing deadlines, limitation periods under Limitation Act 1963, and compliance windows.', 'Add New Deadline', 'fa-calendar');
+            html += empty('Deadline Matrix', 'Track court filing deadlines, limitation periods under Limitation Act 1963, and compliance windows.', 'Add New Deadline', 'fa-calendar', 'openAddDeadlineModal()');
         } else {
             html += `<div class="max-w-[1450px] mx-auto space-y-3">`;
             html += items.map(d => `<div class="card p-4 flex justify-between items-center"><div class="flex gap-4 items-center"><div class="iconbox"><i class="fa-regular fa-calendar text-[#ffb454]"></i></div><div><div class="font-medium">${escapeHtml(d.title || d.description)}</div><div class="text-xs text-[#737b8e] mt-1">${escapeHtml(d.matter || 'Global Workspace')}</div></div></div><div class="text-right"><div class="text-sm font-semibold">${escapeHtml(d.due_date || d.deadline_date || 'Scheduled')}</div><div class="text-xs text-[#ffb454] mt-1">${escapeHtml(d.status || 'Active')}</div></div></div>`).join('');
@@ -841,7 +841,7 @@ async function renderAnalytics(){
     }
 }
 
-function empty(title,text,cta,icon){return header(title,pages[current].sub)+`<div class="max-w-[950px] mx-auto panel rounded-[24px] min-h-[480px] grid place-items-center grid-dots"><div class="text-center max-w-md p-8"><div class="orbit w-20 h-20 rounded-[22px] gradient p-[1px] mx-auto"><div class="w-full h-full rounded-[21px] bg-[#11131a] grid place-items-center"><img src="1.png" class="w-12 h-12 object-contain" onerror="this.outerHTML='<i class=\'fa-solid ${icon} text-2xl\'></i>'"></div></div><div class="text-2xl font-semibold mt-6">${title}</div><div class="text-sm text-[#7f8798] leading-relaxed mt-2">${text}</div><button onclick="showToast('${cta}')" class="mt-6 rounded-xl gradient px-5 py-3 text-sm font-semibold">${cta}</button></div></div>`}
+function empty(title,text,cta,icon,actionFn){let fnCall=actionFn?actionFn:`showToast('${cta}')`;return header(title,pages[current].sub)+`<div class="max-w-[950px] mx-auto panel rounded-[24px] min-h-[480px] grid place-items-center grid-dots"><div class="text-center max-w-md p-8"><div class="orbit w-20 h-20 rounded-[22px] gradient p-[1px] mx-auto"><div class="w-full h-full rounded-[21px] bg-[#11131a] grid place-items-center"><img src="1.png" class="w-12 h-12 object-contain" onerror="this.outerHTML='<i class=\'fa-solid ${icon} text-2xl\'></i>'"></div></div><div class="text-2xl font-semibold mt-6">${title}</div><div class="text-sm text-[#7f8798] leading-relaxed mt-2">${text}</div><button onclick="${fnCall}" class="mt-6 rounded-xl gradient px-5 py-3 text-sm font-semibold">${cta}</button></div></div>`}
 
 async function navigate(page){
     current=page;
