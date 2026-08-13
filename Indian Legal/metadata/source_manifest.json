@@ -1,0 +1,65 @@
+{
+  "platform": "Nyaya Darshan",
+  "corpus_version": "2.0.0-Phase2",
+  "source_authority_hierarchy": {
+    "level_1_official_legislation": {
+      "weight": 1.0,
+      "description": "Bare Acts, BNS, BNSS, BSA, Constitution of India, Central Acts",
+      "authority": "Maximum / Binding Statutory Law"
+    },
+    "level_2_supreme_court_judgments": {
+      "weight": 0.9,
+      "description": "Supreme Court of India binding precedents under Article 141",
+      "authority": "Binding Precedent across India"
+    },
+    "level_3_high_court_judgments": {
+      "weight": 0.8,
+      "description": "High Court rulings across state jurisdictions",
+      "authority": "Persuasive / Jurisdictional Precedent"
+    },
+    "level_4_rules_and_notifications": {
+      "weight": 0.7,
+      "description": "Subordinate legislation, gazette notifications, statutory rules",
+      "authority": "Operative Procedural Rules"
+    },
+    "level_5_trusted_legal_datasets": {
+      "weight": 0.6,
+      "description": "Law Commission reports, parliamentary committee briefs",
+      "authority": "Informative / Advisory"
+    },
+    "level_6_secondary_legal_sources": {
+      "weight": 0.4,
+      "description": "Legal commentaries, treatises, law journal articles",
+      "authority": "Academic / Secondary"
+    },
+    "level_7_generated_training_data": {
+      "weight": 0.2,
+      "description": "Synthetic Q&A, instruction pairs, generated examples",
+      "authority": "Non-Authoritative / Training Only"
+    }
+  },
+  "high_value_central_acts": [
+    "Constitution of India",
+    "Bharatiya Nyaya Sanhita, 2023 (BNS)",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)",
+    "Bharatiya Sakshya Adhiniyam, 2023 (BSA)",
+    "Information Technology Act, 2000",
+    "Companies Act, 2013",
+    "Indian Contract Act, 1872",
+    "Specific Relief Act, 1963",
+    "Transfer of Property Act, 1882",
+    "Limitation Act, 1963",
+    "Negotiable Instruments Act, 1881",
+    "Consumer Protection Act, 2019",
+    "Insolvency and Bankruptcy Code, 2016",
+    "Arbitration and Conciliation Act, 1996",
+    "POCSO Act, 2012",
+    "Juvenile Justice Act, 2015",
+    "NDPS Act, 1985",
+    "UAPA Act, 1967",
+    "Prevention of Corruption Act, 1988",
+    "Prevention of Money Laundering Act, 2002 (PMLA)",
+    "Protection of Women from Domestic Violence Act, 2005",
+    "POSH Act, 2013"
+  ]
+}
