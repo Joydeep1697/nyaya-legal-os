@@ -20,10 +20,15 @@ REPEALED_STATUTE_MAPPING = {
     "iea 62": {"current_act": "BSA", "current_section": "57", "current_title": "Bharatiya Sakshya Adhiniyam, 2023", "savings_clause": "BSA Section 170 (Savings Clause)"}
 }
 
+from app.legal_conduct_mapper import NyayaLegalConductMapper
+
 class NyayaLegalDecisionEngine:
     @staticmethod
     def analyze_query(query: str) -> Dict[str, Any]:
         query_lower = query.lower()
+        
+        # Check Conduct Mapping first
+        conduct_res = NyayaLegalConductMapper.map_conduct(query_lower)
         
         # Step 1: Legal Provision & Time Context Extraction
         provision = None
@@ -33,6 +38,11 @@ class NyayaLegalDecisionEngine:
             if legacy_key in query_lower or legacy_key.replace(" ", "") in query_lower.replace(" ", ""):
                 provision = legacy_key.upper()
                 time_context = "Historical / Legacy"
+                
+                guidance_str = f"The query references {provision} ({time_context}). This statute is REPEALED. Applicable current law: {data['current_act']} Section {data['current_section']}. Apply Savings Clause ({data['savings_clause']}) for pre-July 1, 2024 acts."
+                if conduct_res.get("conduct_found"):
+                    guidance_str += f"\nCONDUCT ANALYSIS: {conduct_res['qualified_response_guidance']}"
+
                 return {
                     "has_legacy_provision": True,
                     "provision": provision,
@@ -42,10 +52,22 @@ class NyayaLegalDecisionEngine:
                     "mapped_current_section": data["current_section"],
                     "mapped_current_title": data["current_title"],
                     "savings_clause": data["savings_clause"],
-                    "guidance": f"The query references {provision} ({time_context}). This statute is REPEALED. Applicable current law: {data['current_act']} Section {data['current_section']}. Apply Savings Clause ({data['savings_clause']}) for pre-July 1, 2024 acts."
+                    "conduct_details": conduct_res,
+                    "guidance": guidance_str
                 }
                 
-        # Step 2: Check for Current Act Direct Referencing (BNS/BNSS/BSA)
+        # Step 2: Check for Conduct Mapping without explicit IPC section
+        if conduct_res.get("conduct_found"):
+            return {
+                "has_legacy_provision": False,
+                "provision": conduct_res.get("historical_ipc"),
+                "time_context": "Current / Historical Transition",
+                "law_status": "Mapped Conduct",
+                "conduct_details": conduct_res,
+                "guidance": f"CONDUCT-TO-LAW MAPPING ANALYSIS:\n{conduct_res['qualified_response_guidance']}"
+            }
+
+        # Step 3: Check for Current Act Direct Referencing (BNS/BNSS/BSA)
         sec_match = re.search(r'\b(?:bns|bnss|bsa)\s+(?:section\s+)?(\d+)\b', query_lower)
         if sec_match:
             return {
