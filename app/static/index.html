@@ -198,34 +198,34 @@ async function renderMission() {
     ws.innerHTML = html;
 }
 
+let userMatters = [];
+
 function renderMatters() {
-    let matters = [
-        {id: 'm1', name: 'Axis Cloud MSA Risk Audit', client: 'Axis Technologies', status: 'In Review', risk: 'High', docs: 14, deadlines: '2 Days left', icon: 'fa-file-contract'},
-        {id: 'm2', name: 'Singapore Arbitration Filing', client: 'Oceanic Logistics', status: 'Active', risk: 'Medium', docs: 28, deadlines: '5 Days left', icon: 'fa-scale-unbalanced'},
-        {id: 'm3', name: 'DPDP Act 2023 Compliance Review', client: 'Nyaya OS Enterprise', status: 'Discovery', risk: 'Low', docs: 9, deadlines: '12 Days left', icon: 'fa-shield-halved'},
-        {id: 'm4', name: 'High Court Special Leave Petition', client: 'Apex Infra Corp', status: 'Drafting', risk: 'High', docs: 42, deadlines: 'Tomorrow', icon: 'fa-gavel'}
-    ];
     let html = header(pages.matters.title, pages.matters.sub, btn('New Matter Workspace', "openCreateMatterModal()", 'fa-plus'));
-    html += `<div class="max-w-[1450px] mx-auto space-y-4">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        ${matters.map(m => `
-            <div class="panel rounded-2xl p-5 flex flex-col justify-between border-white/10 hover:border-white/20 transition cursor-pointer" onclick="openMatterDetails('${m.name}')">
-                <div>
-                    <div class="flex justify-between items-center mb-3">
-                        <div class="iconbox"><i class="fa-solid ${m.icon} text-[#36d399]"></i></div>
-                        <span class="pill ${m.risk==='High'?'bg-[#ff6b7d]/15 text-[#ff6b7d] border-none':m.risk==='Medium'?'bg-[#ffb454]/15 text-[#ffb454] border-none':'bg-[#36d399]/15 text-[#36d399] border-none'}">${m.risk} Risk</span>
+    if (userMatters.length === 0) {
+        html += empty('Legal Matter Workspaces', 'Organize active litigation, commercial contract reviews, and statutory compliance matters.', 'Create New Matter Workspace', 'fa-folder-open');
+    } else {
+        html += `<div class="max-w-[1450px] mx-auto space-y-4">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            ${userMatters.map(m => `
+                <div class="panel rounded-2xl p-5 flex flex-col justify-between border-white/10 hover:border-white/20 transition cursor-pointer" onclick="openMatterDetails('${escapeHtml(m.name)}')">
+                    <div>
+                        <div class="flex justify-between items-center mb-3">
+                            <div class="iconbox"><i class="fa-solid ${m.icon || 'fa-folder'} text-[#36d399]"></i></div>
+                            <span class="pill ${m.risk==='High'?'bg-[#ff6b7d]/15 text-[#ff6b7d] border-none':m.risk==='Medium'?'bg-[#ffb454]/15 text-[#ffb454] border-none':'bg-[#36d399]/15 text-[#36d399] border-none'}">${m.risk} Risk</span>
+                        </div>
+                        <h3 class="font-semibold text-base leading-snug">${escapeHtml(m.name)}</h3>
+                        <div class="text-xs text-[#7f8798] mt-1">${escapeHtml(m.client)}</div>
                     </div>
-                    <h3 class="font-semibold text-base leading-snug">${escapeHtml(m.name)}</h3>
-                    <div class="text-xs text-[#7f8798] mt-1">${escapeHtml(m.client)}</div>
+                    <div class="mt-6 border-t border-white/10 pt-4 flex justify-between items-center text-xs text-[#9aa2b4]">
+                        <span><i class="fa-regular fa-file mr-1"></i>${m.docs || 0} docs</span>
+                        <span class="text-[#36d399] font-medium"><i class="fa-solid fa-circle-check mr-1"></i>Active</span>
+                    </div>
                 </div>
-                <div class="mt-6 border-t border-white/10 pt-4 flex justify-between items-center text-xs text-[#9aa2b4]">
-                    <span><i class="fa-regular fa-file mr-1"></i>${m.docs} docs</span>
-                    <span class="text-[#ffb454] font-medium"><i class="fa-regular fa-clock mr-1"></i>${m.deadlines}</span>
-                </div>
-            </div>
-        `).join('')}
-    </div>
-    </div>`;
+            `).join('')}
+        </div>
+        </div>`;
+    }
     document.getElementById('workspace').innerHTML = html;
 }
 
@@ -236,15 +236,19 @@ function openCreateMatterModal(){
     el.id='matterModal';
     el.className='fixed inset-0 z-[400] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4';
     el.onclick=e=>{if(e.target===el)el.remove()};
-    el.innerHTML=`<div class="command w-full max-w-lg panel rounded-[22px] p-6"><div class="flex justify-between items-center mb-4"><h3 class="text-lg font-semibold">Create New Matter Workspace</h3><button onclick="this.closest('#matterModal').remove()" class="w-8 h-8 rounded-lg hover:bg-white/5">×</button></div><div class="space-y-4 text-xs"><input id="newMatterName" placeholder="Matter Title (e.g. Contract Audit)" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-4 py-3 text-sm outline-none"><input id="newMatterClient" placeholder="Client Name" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-4 py-3 text-sm outline-none"><select id="newMatterRisk" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-4 py-3 text-sm outline-none"><option value="Low">Low Risk</option><option value="Medium">Medium Risk</option><option value="High">High Risk</option></select><button onclick="saveNewMatter()" class="w-full py-3 rounded-xl gradient font-semibold text-sm">Launch Matter Workspace</button></div></div>`;
+    el.innerHTML=`<div class="command w-full max-w-lg panel rounded-[22px] p-6"><div class="flex justify-between items-center mb-4"><h3 class="text-lg font-semibold">Create New Matter Workspace</h3><button onclick="this.closest('#matterModal').remove()" class="w-8 h-8 rounded-lg hover:bg-white/5">×</button></div><div class="space-y-4 text-xs"><input id="newMatterName" placeholder="Matter Title (e.g. DPDP Compliance Audit)" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-4 py-3 text-sm outline-none"><input id="newMatterClient" placeholder="Client or Department Name" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-4 py-3 text-sm outline-none"><select id="newMatterRisk" class="w-full bg-[#12141b] border border-[#292d39] rounded-xl px-4 py-3 text-sm outline-none"><option value="Low">Low Risk</option><option value="Medium">Medium Risk</option><option value="High">High Risk</option></select><button onclick="saveNewMatter()" class="w-full py-3 rounded-xl gradient font-semibold text-sm">Launch Matter Workspace</button>
+</div></div>`;
     document.body.appendChild(el);
 }
 
 function saveNewMatter(){
     let name=document.getElementById('newMatterName')?.value;
+    let client=document.getElementById('newMatterClient')?.value || 'General Legal';
+    let risk=document.getElementById('newMatterRisk')?.value || 'Low';
     if(!name){showToast('Please enter a matter title', true);return;}
+    userMatters.push({id: 'm_' + Date.now(), name: name, client: client, risk: risk, docs: 0, icon: 'fa-folder-open'});
     document.getElementById('matterModal')?.remove();
-    showToast(`Workspace '${name}' launched successfully!`);
+    showToast(`Workspace '${name}' launched!`);
     renderMatters();
 }
 
@@ -638,13 +642,11 @@ async function renderRadar(){
     try {
         const r = await fetch('/api/proactive/compliance-gaps');
         const resData = r.ok ? await r.json() : {};
-        let defaultGaps = [
-            {regulation: 'DPDP Act 2023 Enforcement', description: 'Data Principal Notice Requirements under Section 6 & Cross-Border Transfer Rules', impact_level: 'Critical Relevance', severity: 'High'},
-            {regulation: 'Companies Act 2013 Disclosure', description: 'Annual Filing & DIR-3 KYC Compliance Matrix Update for Enterprise Boards', impact_level: 'High Relevance', severity: 'Medium'},
-            {regulation: 'Arbitration & Conciliation Act', description: 'Section 29A Time Limit Enforcement for Award Delivery by Arbitral Tribunal', impact_level: 'Advisory Notice', severity: 'Low'},
-            {regulation: 'SEBI (LODR) Regulations 2026', description: 'Material Event & Litigation Disclosure Timeline Strict Enforcement', impact_level: 'High Relevance', severity: 'High'}
-        ];
-        let gaps = (resData.gaps && resData.gaps.length > 0) ? resData.gaps : defaultGaps;
+        let gaps = resData.gaps || [];
+        if (gaps.length === 0) {
+            document.getElementById('workspace').innerHTML = empty('Regulatory Radar Active', 'No statutory compliance gaps detected across your indexed legal corpus.', 'Run Intelligence Scan', 'fa-satellite-dish');
+            return;
+        }
         let html = header(pages.radar.title,pages.radar.sub)+`<div class="max-w-[1450px] mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-4">`;
         html += gaps.map(g => `
             <div class="card p-5 flex flex-col justify-between border-white/10 hover:border-white/20 transition">
@@ -669,20 +671,23 @@ async function renderRadar(){
     }
 }
 
+let userDeadlines = [];
+
 async function renderTimeline(){
     document.getElementById('workspace').innerHTML = header(pages.timeline.title,pages.timeline.sub, btn('Add Deadline', "openAddDeadlineModal()", 'fa-plus')) + loader();
     try {
         const r = await fetch('/api/proactive/deadlines');
-        const deadlines = r.ok ? await r.json() : [];
-        let defaultDeadlines = [
-            {title: 'Section 34 Arbitration Appeal Limitation', matter: 'Singapore Arbitration Filing', due_date: 'In 3 Days', status: 'High Priority'},
-            {title: 'DPDP Act Data Principal Audit Filing', matter: 'DPDP Act Compliance Review', due_date: 'In 12 Days', status: 'Scheduled'},
-            {title: 'Written Statement Submission under Order VIII Rule 1', matter: 'High Court SLP', due_date: 'Tomorrow', status: 'Critical'}
-        ];
-        let items = deadlines.length > 0 ? deadlines : defaultDeadlines;
-        let html = header(pages.timeline.title,pages.timeline.sub, btn('Add Deadline', "openAddDeadlineModal()", 'fa-plus'))+`<div class="max-w-[1450px] mx-auto space-y-3">`;
-        html += items.map(d => `<div class="card p-4 flex justify-between items-center"><div class="flex gap-4 items-center"><div class="iconbox"><i class="fa-regular fa-calendar text-[#ffb454]"></i></div><div><div class="font-medium">${escapeHtml(d.title || d.description)}</div><div class="text-xs text-[#737b8e] mt-1">${escapeHtml(d.matter || 'Global')}</div></div></div><div class="text-right"><div class="text-sm font-semibold">${escapeHtml(d.due_date || d.date)}</div><div class="text-xs text-[#ffb454] mt-1">${escapeHtml(d.status || 'Pending')}</div></div></div>`).join('');
-        html += `</div>`;
+        const resData = r.ok ? await r.json() : {};
+        let dbDeadlines = resData.deadlines || [];
+        let items = [...dbDeadlines, ...userDeadlines];
+        let html = header(pages.timeline.title,pages.timeline.sub, btn('Add Deadline', "openAddDeadlineModal()", 'fa-plus'));
+        if (items.length === 0) {
+            html += empty('Deadline Matrix', 'Track court filing deadlines, limitation periods under Limitation Act 1963, and compliance windows.', 'Add New Deadline', 'fa-calendar');
+        } else {
+            html += `<div class="max-w-[1450px] mx-auto space-y-3">`;
+            html += items.map(d => `<div class="card p-4 flex justify-between items-center"><div class="flex gap-4 items-center"><div class="iconbox"><i class="fa-regular fa-calendar text-[#ffb454]"></i></div><div><div class="font-medium">${escapeHtml(d.title || d.description)}</div><div class="text-xs text-[#737b8e] mt-1">${escapeHtml(d.matter || 'Global Workspace')}</div></div></div><div class="text-right"><div class="text-sm font-semibold">${escapeHtml(d.due_date || d.deadline_date || 'Scheduled')}</div><div class="text-xs text-[#ffb454] mt-1">${escapeHtml(d.status || 'Active')}</div></div></div>`).join('');
+            html += `</div>`;
+        }
         document.getElementById('workspace').innerHTML = html;
     } catch (e) {
         document.getElementById('workspace').innerHTML = header(pages.timeline.title,pages.timeline.sub) + `<div class="p-10 text-center text-[#d97777]">Failed to load deadlines.</div>`;
@@ -690,8 +695,12 @@ async function renderTimeline(){
 }
 
 function openAddDeadlineModal(){
-    let title = prompt('Enter Deadline Title:');
-    if(title) showToast(`Deadline '${title}' added to Matrix!`);
+    let title = prompt('Enter Statutory Deadline Title:');
+    if(title) {
+        userDeadlines.push({title: title, matter: 'Active Matter', due_date: 'Scheduled', status: 'Pending'});
+        showToast(`Deadline '${title}' added to Matrix!`);
+        renderTimeline();
+    }
 }
 
 function renderWorkflows(){
