@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:ddc04ec0d07a26a9d8c3a519",
+    "sha256": "ddc04ec0d07a26a9d8c3a51994ca0bf7fd35c1f45c018d1dbc329528dee7d61f",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\60805082026CRLMM19792026_174148.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\60805082026CRLMM19792026_174148_ddc04ec0d07a.pdf",
+    "file_size": 896076,
+    "page_count": 3,
+    "document_type": "judgments",
+    "classification_score": 17,
+    "title": "* IN THE HIGH COURT OF DELHI AT NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi At New Delhi",
+    "case_number": null,
+    "decision_date": "05.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 4639,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 17,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "$~10\n\n* IN THE HIGH COURT OF DELHI AT NEW DELHI\n\n% Date of Decision: 05.08.2026\n\n# CNR No. DLHC010101652026\n\n+ CRL.M.C. 1979/2026\n\nBUDHU @ MURAI LAL AND ORS .....Petitioners\n\nThrough: Mr. Jatin Rajput, Mr. Rajesh Jha and\nMs. Iqra Malik, Advocates.\n\nversus\n\nSTATE NCT OF DELHI AND ANR .....Respondents\n\nThrough: Mr. Amit Ahlawat, APP for State\nwith SI Sanjay Bansal.\n\nCORAM: JUSTICE GIRISH KATHPALIA\n\nJ U D G M E N T (ORAL)\n\n1. Petitioners seek quashing of case FIR No. 274/2010 of PS Daryaganj\n\nfor offence under Section 325/326/34 IPC on the ground that complainant de\n\nfacto (respondent no.2) has compromised the disputes with the petitioners.\n\n2. At the outset, learned prosecutor submits that the proceedings before\n\nthe learned trial court already stand culminated and now the matter is fixed\n\nfor final decision. It is further submitted by learned prosecutor that learned\n\ncounsel for the present petitioners also participated in the final arguments, so\n\nnow this petition has become infructuous.\n\nCRL.M.C.1979/2026 Page 1 of 3 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\nGIRISH 2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca, ou=HIGH COURT OF DELHI,CID -\n7047638, postalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d KATHPALIA 15570996b40f80cbd2eee60402c487965ff801e26fa, cn=GIRISH KATHPALIASignature Not Verified Date: 2026.08.05 17:15:41 +05'30'\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1490,
+      "final_characters": 1442
+    },
+    {
+      "page_number": 2,
+      "text": "3. On the other hand, learned counsel for petitioners submits that the FIR\n\nis of the year 2010, so this inordinate delay in trial in itself is a ground to\n\naccept settlement between the parties.\n\n4. This petition came up for the first hearing on 18.03.2026 and\n\nfollowing order was passed:\n\n“2. Petitioners seek quashing of case FIR No. 274/2010 of PS\nDaryaganj for offence under Section 325/34 IPC on the ground\nthat complainant de facto (respondent no.2) has compromised\nthe disputes with the petitioners.\n3. Learned APP accepts notice and strongly objects to this\npetition on the ground that the offence under Section 326 IPC\nwith which the petitioners were charged is punishable with life\nimprisonment and trial has concluded and is now listed for final\narguments.\n4. As requested, status report be filed within four weeks.\n5. In the meanwhile, it is made clear that there is no stay on the\nproceedings before the trial court.\n6. Relist on 05.08.2026 in Advance List.”\n\n5. It was made clear on 18.03.2026 itself that there shall be no stay on\n\nproceedings before the trial court as trial stood culminated. It is in view of\n\nthe said observation that counsel for petitioners also participated in the final\n\narguments and now the matter is posted for judgment.\n\n6. As pointed out by learned prosecutor, it also is a significant factor that\n\nthe petitioners were charged with offence under Section 326 IPC, which is\n\npunishable with life imprisonment. That in itself is a ground to reject the\n\nsettlement arrived at between the parties, that too at the fag end of the trial.\n\nCRL.M.C.1979/2026 Page 2 of 3 pages\n\nby signedo=HIGH COURTGIRISH OF KATHPALIADELHI,\n\nou=HIGH GIRISH OF DELHI,CID st=Delhi,- 7047638,\n\nKATHPALIA KATHPALIA DigitallyDN:2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca,COURTpostalCode=110003,serialNumber=d3e86796451ec45c07b5d15570996b40f80cbd2eee60402c487965ff801e26fa,cn=GIRISHDate:c=IN,2026.08.05 17:15:31 +05'30'Signature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 2052,
+      "final_characters": 2004
+    },
+    {
+      "page_number": 3,
+      "text": "7. In the case of Narender Singh and Others vs State of Punjab and\n\nAnother, (2014) 6 SCC 466, the Supreme Court analyzed the scope of\n\nSection 482 CrPC and took a view that where prosecution evidence is\n\nalmost complete or the matter is at the stage of arguments, the High Court\n\nshould refrain from exercising its powers under Section 482 of the Code to\n\nquash the proceedings on the ground of compromise between the parties.\n\nFor, in such cases the trial court would be in a better position to decide the\n\ncase finally and come to a conclusion as to whether the alleged offence was\n\ncommitted or not.\n\n8. The present petition is not just devoid of merits, but completely\n\nfrivolous, so it is dismissed.\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec45\n569af3962c6fb4835d435f97626cacca, GIRISH ou=HIGH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d1557\n0996b40f80cbd2eee60402c487965ff801e26fa, KATHPALIA cn=GIRISH KATHPALIA\nDate: 2026.08.05 17:15:18 +05'30'\n\nGIRISH KATHPALIA\n(JUDGE)\nAUGUST 05, 2026/ry\n\nCRL.M.C.1979/2026 Page 3 of 3 pages\n\nSignature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1241,
+      "final_characters": 1193
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:00.528599+00:00"
+}

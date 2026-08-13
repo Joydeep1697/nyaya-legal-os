@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joydeep Das - Resume</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.4in;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.35;
+            background: #ffffff;
+            font-size: 9.5pt;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 10px 15px;
+        }
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        .name {
+            font-size: 20pt;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #000000;
+            margin-bottom: 4px;
+        }
+        .subtitle {
+            font-size: 10pt;
+            font-weight: 600;
+            color: #222222;
+            padding: 3px 0;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            margin-bottom: 6px;
+        }
+        .contact {
+            font-size: 8.5pt;
+            color: #333333;
+        }
+        .contact a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+        
+        /* Summary */
+        .summary {
+            font-size: 9pt;
+            color: #222222;
+            text-align: justify;
+            margin-bottom: 12px;
+        }
+
+        /* Section Headings */
+        .section-title {
+            font-size: 9.5pt;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            color: #000000;
+            border-bottom: 1.5px solid #000000;
+            padding-bottom: 2px;
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+
+        /* Grid layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .skill-group {
+            margin-bottom: 6px;
+        }
+        .skill-group-title {
+            font-size: 9pt;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 2px;
+        }
+        .skill-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skill-list li {
+            font-size: 8.5pt;
+            color: #222222;
+            padding-left: 10px;
+            position: relative;
+        }
+        .skill-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #000;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 10px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+        .job-title {
+            font-size: 9.5pt;
+            font-weight: 700;
+            color: #000000;
+        }
+        .job-date {
+            font-size: 9pt;
+            font-weight: 700;
+            color: #000000;
+        }
+        .bullets {
+            padding-left: 14px;
+            margin: 0;
+        }
+        .bullets li {
+            font-size: 8.5pt;
+            color: #222222;
+            margin-bottom: 2.5px;
+        }
+
+        /* Featured Product */
+        .product-title {
+            font-size: 9.5pt;
+            font-weight: 700;
+            color: #000000;
+        }
+        .product-sub {
+            font-size: 8.5pt;
+            font-style: italic;
+            color: #444444;
+            margin-bottom: 3px;
+        }
+
+        /* Action buttons for previewing */
+        .no-print {
+            text-align: center;
+            padding: 10px;
+            background: #f1f5f9;
+            border-bottom: 1px solid #cbd5e1;
+            margin-bottom: 15px;
+        }
+        .no-print button {
+            background: #0f172a;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        @media print {
+            .no-print { display: none !important; }
+            body { padding: 0; background: #fff; }
+            .container { padding: 0; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print">
+        <button onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="name">JOYDEEP DAS</div>
+            <div class="subtitle">Enterprise AI Architecture | Agentic AI & Systems Engineer | Generative AI Engineer</div>
+            <div class="contact">
+                +91-9591799319 | <a href="mailto:joydeep.das.1611@gmail.com">joydeep.das.1611@gmail.com</a> | <a href="https://linkedin.com/in/joydeep1611">linkedin.com/in/joydeep1611</a> | <a href="https://github.com/Joydeep1697">github.com/Joydeep1697</a><br>
+                <a href="https://novaosconsulting.com">novaosconsulting.com</a>
+            </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="summary">
+            AI Solutions Architect with 5+ years of experience designing and delivering AI-powered software solutions across Agentic AI, Generative AI, intelligent automation, and enterprise applications. Architect of Nova AI and Nova Legal OS, featuring multi-agent orchestration, proprietary fine-tuned LLM integration (NoveLaw), hybrid vector RAG retrieval, and proactive compliance automation. Experienced in translating business requirements into production-ready AI solutions through solution architecture, AI-assisted software development, technical documentation, testing, deployment, and cross-functional collaboration.
+        </div>
+
+        <!-- Technical Expertise -->
+        <div class="section-title">TECHNICAL EXPERTISE</div>
+        <div class="grid-2">
+            <div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Artificial Intelligence & Agentic Systems</div>
+                    <ul class="skill-list">
+                        <li>Agentic AI Systems & Multi-Agent Orchestration</li>
+                        <li>Autonomous AI Agents & Tool-Calling Protocols</li>
+                        <li>Large Language Models (LLMs) & Fine-Tuning</li>
+                        <li>Agentic RAG, Corrective RAG & Knowledge Graphs</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Architecture & Product</div>
+                    <ul class="skill-list">
+                        <li>AI Solution Architecture & Workflow Design</li>
+                        <li>Product Strategy & System Design</li>
+                        <li>Technical Documentation & Standards</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Software Engineering</div>
+                    <ul class="skill-list">
+                        <li>Python & FastAPI Framework</li>
+                        <li>SQLite, RESTful APIs & WebSockets</li>
+                        <li>Git & GitHub Version Control</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Tools & Platforms</div>
+                    <ul class="skill-list">
+                        <li>Azure AI & OpenAI Platform</li>
+                        <li>Claude (Anthropic Platform)</li>
+                        <li>LangChain, LlamaIndex & Power BI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">AI Solutions Architect | Nova OS Consulting</div>
+                <div class="job-date">2025 - Present</div>
+            </div>
+            <ul class="bullets">
+                <li>Architected and developed Nova AI and Nova Legal OS, enterprise Agentic AI platforms designed to streamline complex desktop and legal workflows using natural language interaction and autonomous multi-agent orchestration.</li>
+                <li>Designed a modular architecture supporting agentic tool-calling protocols, multi-provider LLM routing (NVIDIA NIM, OpenAI, Claude, Gemini), document intelligence, authentication, licensing, and intelligent automation.</li>
+                <li>Led the end-to-end product lifecycle including solution architecture, feature planning, AI-assisted software development, testing, documentation, branding, website development, and production deployment.</li>
+                <li>Established architectural standards, technical documentation, and multi-agent engineering workflows to ensure product quality, safety, and maintainability.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Technical Expert | Infocom Books (India) Pvt Ltd</div>
+                <div class="job-date">Jun 2023 - Present</div>
+            </div>
+            <ul class="bullets">
+                <li>Designed and documented Generative AI solutions using GPT-4o, including Agentic RAG-based question-answering systems for educational and enterprise applications.</li>
+                <li>Developed Corrective RAG, Agentic RAG, and Knowledge-Graph-assisted RAG architectures with autonomous self-correction loops, reducing hallucinations and improving entity-level reasoning and contextual precision.</li>
+                <li>Built Python-based analytics pipelines and Power BI dashboards, delivering automated insights and production-grade technical documentation for AI and ML workflows.</li>
+                <li>Authored production-grade technical documentation covering AI architectures, multi-agent design patterns, ML workflows, and deployment guidelines.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Intern - Machine Learning & Data Analytics | Pantech Solutions Pvt Ltd</div>
+                <div class="job-date">Jan 2023 - Mar 2023</div>
+            </div>
+            <ul class="bullets">
+                <li>Created Python scripts for data preprocessing, feature engineering, and visual analytics to support ML workflows.</li>
+                <li>Assisted in training, testing, and integrating machine learning models for classification and prediction tasks.</li>
+                <li>Performed exploratory data analysis (EDA) to identify patterns, anomalies, and insights across structured datasets.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Drone Design Engineer | Jetwings Technologies</div>
+                <div class="job-date">Jul 2019 - Oct 2021</div>
+            </div>
+            <ul class="bullets">
+                <li>Designed an agricultural drone equipped with spectral imaging technology to detect pest infestations and classify crops vs. weeds.</li>
+                <li>Performed ground and flight testing to validate design performance and imaging accuracy for agricultural use cases.</li>
+                <li>Documented engineering specifications, testing results, and system workflows for drone development projects.</li>
+            </ul>
+        </div>
+
+        <!-- Featured Products -->
+        <div class="section-title">FEATURED PRODUCTS</div>
+        
+        <div class="job" style="margin-bottom: 6px;">
+            <div class="product-title">NOVA LEGAL OS</div>
+            <div class="product-sub">AI-Powered Legal Intelligence Operating System</div>
+            <div style="font-size: 8.5pt; color: #222; margin-bottom: 4px;">
+                Nova Legal OS is an enterprise AI operating system built for Indian law, combining NoveLaw (fine-tuned LLM) with a hybrid RAG engine (FAISS dense vector search + SQLite FTS5 lexical search) over a 252+ document, 5,720-page corpus.
+            </div>
+            <div class="grid-2">
+                <ul class="skill-list">
+                    <li>Hybrid RAG pipeline (3,150+ vector embeddings)</li>
+                    <li>36-Category classification & entity extraction</li>
+                </ul>
+                <ul class="skill-list">
+                    <li>Clause risk scoring (indemnity, liability, termination)</li>
+                    <li>Citation knowledge graph & proactive gap analysis</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="product-title">NOVA AI</div>
+            <div class="product-sub">AI Productivity Platform</div>
+            <div style="font-size: 8.5pt; color: #222; margin-bottom: 4px;">
+                Nova AI is a modular AI productivity platform that streamlines desktop workflows through natural language interaction, intelligent automation, document intelligence, and multi-LLM integration.
+            </div>
+            <div class="grid-2">
+                <ul class="skill-list">
+                    <li>Autonomous Multi-Agent Task Orchestration</li>
+                    <li>Agentic Document Intelligence & RAG Synthesis</li>
+                </ul>
+                <ul class="skill-list">
+                    <li>Multi-LLM Integration (OpenAI, Gemini, Claude)</li>
+                    <li>Agentic Tool-Calling & Plugin Architecture</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education & Certifications -->
+        <div class="section-title">EDUCATION & CERTIFICATIONS</div>
+        <div class="grid-2">
+            <div>
+                <div class="skill-group-title">EDUCATION</div>
+                <div style="font-size: 8.5pt;">Bachelor of Engineering (Aeronautical Engineering)<br><span style="color: #555;">Acharya Institute of Technology (2019)</span></div>
+            </div>
+            <div>
+                <div class="skill-group-title">CERTIFICATIONS</div>
+                <ul class="skill-list">
+                    <li>IBM Project Management Professional Certificate</li>
+                    <li>Microsoft Certified: Azure AI Fundamentals (AI-900)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

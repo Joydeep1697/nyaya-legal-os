@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:24cde960372781d3a8ec8525",
+    "sha256": "24cde960372781d3a8ec85251cad03a0d6b12e238559ac3cfaf6f7653a00632f",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\Notification_061020205B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\notifications\\Notification_061020205B15D_24cde9603727.pdf",
+    "file_size": 1101055,
+    "page_count": 1,
+    "document_type": "notifications",
+    "classification_score": 4,
+    "title": "रजिस्ट्री सं. डी.एल.- 33004/99 REGD. No. D. L.-33004/99",
+    "year": 2020,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 1456,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 3,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 4,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "रजिस्ट्री सं. डी.एल.- 33004/99 REGD. No. D. L.-33004/99\n\nसी.जी.-डी.एल.-अ.-30092020-222146xxxGIDExxxxxxGIDHxxx\nCG-DL-E-30092020-222146\n\nअसाधारण\nEXTRAORDINARY\nभाग II—खण् ड 3—उप-खण् ड (ii)\nPART II—Section 3—Sub-section (ii)\nप्राजधकार से प्रकाजित\nPUBLISHED BY AUTHORITY\n\nसं. 3043] नई दिल्ली, बुधिार, जसतम् बर 30, 2020/आजश् िन 8, 1942\nNo. 3043] NEW DELHI, WEDNESDAY, SEPTEMBER 30, 2020/ASVINA 8, 1942\n\nगृह मंत्रालय\nअजधसूचना\n\nनई दिल् ली, 30 जसतम्बर, 2020\n\nका.आ. 3422(अ).—केंद्रीय सरकार, राष्‍टरीय र ा जिश् िजि्ालय अजधजनयम (2020 का 31) की धारा 1 की\nउपधारा (2) द्वारा प्रित्त िजततयक का प्रय ग करते एए तारीख 1 अत तूबर 2020 क ऐसी तारीख के रूप में जनयत करती है\nजिसक उतत अजधजनयम के उपबंध प्रिृत्त हकगे\n\n[फा. सं. 23011/07/2020-बी पी आर एण्ड डी]\nपुण् य सजलला ्ीिास्ट् ति, संयुतत सजचि\nMINISTRY OF HOME AFFAIRS\n\nNOTIFICATION\n\nNew Delhi , the 30th September, 2020\n\nS.O. 3422(E).—In exercise of the powers conferred by sub-section (2) of section 1 of the Rashtriya Raksha\nUniversity Act, 2020 (31 of 2020), the Central Government hereby appoints the 1st day of October, 2020 as the date\non which the provisions of the said Act shall come into force.\n\n[F. No. 23011/07/2020- BPR&D]\nPUNYA SALILA SRIVASTAVA, Jt. Secy.\n4643 GI/2020\nUploaded by Dte. of Printing at Government of India Press, Ring Road, Mayapuri, New Delhi-110064\nMAHADASAMDate: 2020.09.30signed by16:30:12SURENDER+05'30' and Published by the Controller of Publications, Delhi-110054. SURENDERMAHADASAM Digitally",
+      "extraction_method": "native",
+      "native_characters": 1456,
+      "final_characters": 1456
+    }
+  ],
+  "processed_at": "2026-08-06T07:22:35.864332+00:00"
+}

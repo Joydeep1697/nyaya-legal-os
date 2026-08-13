@@ -1,0 +1,86 @@
+{
+  "document": {
+    "document_id": "legal:16062c62d2f96498d112b609",
+    "sha256": "16062c62d2f96498d112b60990f56e7897d7e9743d2ea51e36295c9d450ee93b",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\combinbed_pro_05.08.2026.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\combinbed_pro_05.08.2026_16062c62d2f9.pdf",
+    "file_size": 539279,
+    "page_count": 7,
+    "document_type": "judgments",
+    "classification_score": 51,
+    "title": "05.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "05.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 7,
+    "extracted_characters": 6252,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 51,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "05.08.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO. 42\nDIVISION BENCH- V\nHON'BLE MR. JUSTICE VIVEK CHAUDHARY\nHON’BLE MS. JUSTICE RENU BHATNAGAR\n\nCLIK HERE TO JOIN VC:\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc10\nAT 10:30 A.M.\n1.FAO (COMM) 82/2026\nNITIN KUMAR SHARMA .....Appellant\nThrough: Mr. Bipin Kumar Prabhat, Mr.Kislaya\nPrabhat, Mr. Ashok Kumar Verma & Ms. Rinku\nKumari, Advs.(Through vc )\nVersus\nNETAJI SUBHAS UNIVERSITY OF TECHNOLOGY (NSIT) .....Respondent\nThrough: Ms. Jyoti Dutt Sharma & Mr. Mani Kant,\nAdvs. with Mr. Garg (SSA) NSUT.\n\nCOURT NO. 34\nDIVISION BENCH-VII\nHON'BLE MR.JUSTICE NAVIN CHAWLA\nHON'BLE MR.JUSTICE RAVINDER DUDEJA\n\nClick below to join the VC:\nhttps://delhihighcourt.webex.com/join/dhcecourtvc5\n\nAT 10:30 A.M\n\n1+ CRL.A. 609/2002\nFIROZ @ SAGAR .....Appellant\nThrough: Mr. Devraj Singh, Mr. Rameezuddin\nRaja, Ms.Tanya Sharma and Ms.Aditi\nSharma, Advs.\nversus\n\nSTATE .....Respondent\nThrough: Mr.Aman Usman, APP with\nMr.Manvendra Yadav, Adv. with SI\nRamanuj and SI Rajender, P.S. Nangloi.",
+      "extraction_method": "native",
+      "native_characters": 1022,
+      "final_characters": 1022
+    },
+    {
+      "page_number": 2,
+      "text": "2+ CRL.A. 662/2002\nSHEHZAD .....Appellant\nThrough: Ms.Shilpa Ohri (Amicus Curiae),\nMr.Kunal Sharma, Mr.Yash Punjabi,\nMr.Himanshu Sharma and Mr.Himanshu\nMaru, Advs.\nversus\n\nSTATE (NCT OF DELHI) .....Respondent\nThrough: Mr.Aman Usman, APP with\nMr.Manvendra Yadav, Adv. with SI\nRamanuj and SI Rajender, P.S. Nangloi.\n3+ CRL.A. 814/2002\nSANJAY KUMAR .....Appellant\nThrough: Mr.M. L. Yadav, Mr.Prashant, Mr.Piyush\nSaini and Mr.Hardeep Godara, Advs.\nversus\n\nSTATE (NCT OF DELHI) .....Respondent\nThrough: Mr.Aman Usman, APP with\nMr.Manvendra Yadav, Adv. with SI\nRamanuj and SI Rajender, P.S. Nangloi.\n4+ CRL.A. 949/2002\nRAJESH KUMAR .....Appellant\nThrough: Mr.Dinesh Malik (DHCLSC) and\nMr.Puneet Jain, Advs.\nversus\n\nSTATE .....Respondent\nThrough: Mr.Aman Usman, APP with\nMr.Manvendra Yadav, Adv. with SI\nRamanuj and SI Rajender, P.S. Nangloi.\n5+ CRL.A. 127/2003\nNASIM AHMED @ SAGAR .....Appellant\nThrough: Mr.Rohan J. Alva (DHCLSC) (Amicus\nCuriae) and Mr.Anant Sanghi, Advs.\nversus\n\nSTATE .....Respondent\nThrough: Mr.Aman Usman, APP with\nMr.Manvendra Yadav, Adv. with SI\nRamanuj and SI Rajender, P.S. Nangloi.\n\n6+ CRL.A. 451/2004 & CRL.M.A. 5261/2004\nRAHISH KHAN .....Appellant\nThrough: Mr.Ragib Gayyur, Adv.\nversus\n\nSTATE (NCT OF DELHI) .....Respondent\nThrough: Mr.Aman Usman, APP with\nMr.Manvendra Yadav, Adv. with SI\nRamanuj and SI Rajender, P.S. Nangloi.",
+      "extraction_method": "native",
+      "native_characters": 1351,
+      "final_characters": 1351
+    },
+    {
+      "page_number": 3,
+      "text": "COURT NO. 06\nDIVISION BENCH-IX\nHON'BLE MR.JUSTICE ANIL KSHETARPAL\nHON’BLE MS.JUSTICE SHAIL JAIN_\n\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc7\nAT 10:30 A.M.\n\n1.W.P.(C) 6948/2023\n\nOGULJEREN DERCHIYEVA .....Petitioner\n\nThrough: Dr. Ashutosh, Mr. S.S. Arora,\nMr. Abhijeet Sagar, Ms.\nFatima, Advs.\n\nversus\n\nUNION OF INDIA .....Respondent\n\nThrough: Mr. Devvrat Yadav, SPC with\nMr. Kartik Sharma, GP for\nUOI. Ms. Anushree Narain, Mr.\nMaman Chola, Mr. Apurv\nYadav, Advs.\n\n2. FAO(COMM)203/2026 and CM APPL. 47883/2026\n\nVANTAGE INTEGRATED SECURITIES SOLUTION PVT\n\nLTD .....Appellant\n\nThrough: Mr. Dhruv Tamta, Adv.\n\nversus\n\nSPARK TECHNOLOGIES PVT LTD\n\nThrough:None.",
+      "extraction_method": "native",
+      "native_characters": 662,
+      "final_characters": 662
+    },
+    {
+      "page_number": 4,
+      "text": "COURT NO. 29\nHON'BLE MR. JUSTICE PURUSHAINDRA KUMAR KAURAV\n\nCLICK HERE TO JOIN VC:https://virtualcourtdhc.webex.com/meet/virtualcourtdhc11\n\nAT 10:30 A.M.\n1.CRL.M.C. 2900/2021 and CRL.M.A. 18263/2021\nDR. POONAM MISRA .....Petitioner\nThrough: Mr. Faraz Maqbool, Ms. A Sahitya Veena and\nMs. Deepshikha Advocates.\nversus\nSTATE AND ANR. , .....Respondents\nThrough:, Ms. Shubhi Gupta, APP for State with SI\nRahul Lamba, PS Saket.\n\nCOURT NO. 36\nHON'BLE MS.JUSTICE CHANDRASEKHARAN SUDHA\n\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc2\n\nAT 10:30 AM.\n\n1. CRL.A. 124/2016\n\nVIKRAM @ TANNU .....Appellant\n\nThrough: Ms. Sunita Arora, Advocate(DHCLSC)\n\nVersus\n\nSTATE .....Respondent\n\nThrough: Mr. Ukarsh, APP for State with SISanjay Bansal",
+      "extraction_method": "native",
+      "native_characters": 728,
+      "final_characters": 728
+    },
+    {
+      "page_number": 5,
+      "text": "2. CRL.A. 844/2017\n\nMAHENDER RATHORE .....Appellant\n\nThrough: Mr. Siddharth Yadav, Advocate with Mr.\nAnmol K. Pandey and Ms. Jyoti Yadav,\nAdvocates.\nversus\n\nSTATE GOVT OF NCT OF DELHI .....Respondent\n\nThrough: Mr. Utkarsh, APP for State with SI SonalRaj, P.S. Bharat\nNagar.Mr. Arunav Patnaik, Ms. Bhabna Das andMs. Pragya,\nAdvocates (Amicus Curiae)\n\n3.CRL.A. 1081/2024\n\nM NARSHIMA @ ROHAN . ....Appellant\n\nThrough: Ms. Supriya Juneja, Ms. Shreya Lamba and\nMr. Dhananjay Gautam, Advocates.\n\nversus\n\nSTATE (NCT OF DELHI) ANR. . ....Respondents\n\nThrough: Mr. Utkarsh, APP for the State with SIPooja, PS Rani Bagh.Ms.\nSunita Arora for Ms. Gayatri Nandwani,Advocate for victim.\n\nCOURT NO.2\nHON’BLE MS.JUSTICE SHAIL JAIN_\n\nCLICK HERE TO JOIN VC\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt7\n\nAT 02:30 P.M.\n\n1.W.P.(C) 16509/2004 & CM APPL. 45940/2025\n\nSYNDICATE BANK .....Petitioner\n\nThrough: Mr.Puneet Taneja, Sr. Adv. with Mr.\nManmohan Singh Narula, Mr. Amit\nYadav, Mr. Anil Kumar, Advs.\nversus\n\nB.K.ARORA .....Respondent\n\nThrough: Respondent in person with Mr. Deepak, Adv.",
+      "extraction_method": "native",
+      "native_characters": 1079,
+      "final_characters": 1079
+    },
+    {
+      "page_number": 6,
+      "text": "05.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\nCOURT NO. 46\nHON'BLE MR.JUSTICE SUBRAMONIUM PRASAD\n\nNOTE: IN CASE LEARNED COUNSELS FOR THE PARTIES WISH TO RELY UPON SOME\nPLEADINGS/DOCUMENTS/SUBMISSIONS/JUDGMENTS, THEY ARE DIRECTED TO FILE THE SAME DURING\nTHE COURT WORKING HOURS ATLEAST A DAY PRIOR TO THE DATE OF LISTING OF SUCH MATTERS. ANY\nPLEADINGS/DOCUMENTS/SUBMISSIONS/JUDGEMENTS FILED BEYOND THE AFORESAID PRESCRIBED\nPERIOD SHALL NEITHER BE FORWARDED TO THE COURT NOR BE ENTERTAINED.\n\nNOTE: COUNSEL APPEARING THROUGH VIDEO CONFERENCING ARE REQUESTED TO GIVE THEIR\nAPPERANCES IN THE CHAT BOX ALONGWITH THEIR MOBILE NUMBERS.\n\nTO JOIN VC:\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc13\nNOTE: FOR MOVING ADJOURNMENT SLIP PLEASE MAIL TO\npankaj.shukla@dhc.nic.in\n\nFOR PRONOUNCEMENT OF JUDGEMENT AT 10.30 A.M.\n\n1. I.A. 18795/2023\n\nIN\n\nCS(OS) 703/2022 & I.A. 18684/2022\n\nPRIYANKA KALRA .....Plaintiff\n\nThrough: Arun Vohra,\n\nversus\n\nBHAVNA JAIN .....Defendant\nThrough: Samiksha Sakshi , Govind Rishi",
+      "extraction_method": "native",
+      "native_characters": 1020,
+      "final_characters": 1020
+    },
+    {
+      "page_number": 7,
+      "text": "05.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\n2. O.M.P. (COMM) 379/2021 & I.A. 19661/2023, I.A. 3262/2024\n\nDLF HOME DEVELOPERS LIMITED .....Petitioner\n\nThrough: Kanika Agnihotri, Ambika, Unnimaya\n\nversus\n\nKLASSIK LAMITEX PVT. LTD. .....Respondent\nThrough: Manik Dogra, Anurag Ahluwalia, Abhigyan Siddhant,\nDhruv Pande, Imon Bhattacharya\n*****\nBY ORDER\nREGISTRAR ORIGINAL",
+      "extraction_method": "native",
+      "native_characters": 390,
+      "final_characters": 390
+    }
+  ],
+  "processed_at": "2026-08-06T07:13:27.465457+00:00"
+}

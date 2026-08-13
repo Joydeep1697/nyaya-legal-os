@@ -1,0 +1,11 @@
+{
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "indexed_chunks": 3153,
+  "dimension": 768,
+  "excluded": {
+    "short": 1,
+    "administrative": 11,
+    "low_quality": 1
+  },
+  "chunks_sha256": "ad8ec82ff42621cd5305ce41ea8cb06c5e6645fda261d5af27454f2b2c87dfc4"
+}

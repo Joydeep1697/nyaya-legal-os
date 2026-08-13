@@ -1,0 +1,86 @@
+{
+  "document": {
+    "document_id": "legal:2e85e42b1d7507332c4c01db",
+    "sha256": "2e85e42b1d7507332c4c01db7a23e631e347fc48dab8418c2851c392ad391139",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\combined_pro_31.07.2026.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\combined_pro_31.07.2026_2e85e42b1d75.pdf",
+    "file_size": 665822,
+    "page_count": 7,
+    "document_type": "judgments",
+    "classification_score": 38,
+    "title": "31.07.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": "W.P.(C) No. 8118/2026",
+    "decision_date": "31.07.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 7,
+    "extracted_characters": 5833,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 1,
+    "judgments": 38,
+    "orders": 2,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "31.07.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO. 06\nHON'BLE MR.JUSTICE ANIL KSHETARPAL\nHON'BLE MR.JUSTICE AMIT MAHAJAN\n\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc7\n\nAT 02:30 P.M.\n\n1 W.P.(C) No. 8118/2026, CM APPL. 44608/2026 & CM APPL. 45925/2026\n\nM/S MANSAN BUILDERS PRIVATE LIMITED ......Petitioner\nThrough: Mr. Mohit Choudhary, Mr. Kunal\nSachdeva, Ms. Aarushi Suri Lakshay\nYadav, Mr. Puluk, Advs.\n\nVersus\n\nUNION OF INDIA & ANR. .....Respondents\nThrough: Mr. Chetan Sharma, ASG with Mr.\nSidhant Goel, Mr. Mohit Goel, Mr.\nSuman Doval, Ms. Aishna Jain, Ms.\nKratvi Kawdia, Mr. Naman, Mr.\nShubham Sharma, Mr. Amit Gupta,\nAdvs. for R-1 & 2.\nMr. Ashish K Dixit, CGSC with Mr.\nUmar Hashmi, Mr. Ayush Kumar, Ms.\nIqra Shiekh, Advs. for UOI.\nMr. Sushil Tekriwal, Dr. Mamta\nTekriwal, Advs. for the\nIntervenor.",
+      "extraction_method": "native",
+      "native_characters": 806,
+      "final_characters": 806
+    },
+    {
+      "page_number": 2,
+      "text": "COURT NO. 06\nHON'BLE MR.JUSTICE ANIL KSHETARPAL\nHON’BLE MR. JUSTICE HARISH VAIDYANATHAN SHANKAR\n\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc7\n\nAT 02:30 P.M\n\n1 RFA(OS) 48/2025\nPRAKASH CHANDER\n.....Appellant\nThrough: Ms. Kaadambari Singh, Sr. Adv.\nalong with Mr. Atul Kumar, Mr.\nJayant Malik, Ms. Shraddha Sharma\nand Ms. Samkiti Jain, Advs.\nversus\nVINOD KUMARI BHALLA & ORS. & ORS. .....Respondents\nThrough: Mr. Amit Singh Chadha, Sr. Adv.\nalong with Mr. Naveen Sharma, Adv.\nfor R-1.\n\n2 RFA(OS) 58/2025\nNISHA VATS .....Appellant\nThrough: None.\nversus\nVINOD KUMARI BHALLA & ORS. .....Respondents\nThrough: Mr. Amit Singh Chadha, Sr. Adv.\nalong with Mr. Naveen Sharma, Adv.\nfor R-1.\n\n3 RFA(OS) 7/2026, CM APPLs. 10753/2026, 10755/2026, 10756/2026\nPRAKASH CHANDER\n.....Appellant\nThrough: Ms. Kaadambari, Sr. Adv. with Ms.\nShraddha Sharma, Ms. Naimisha\nPradhan and Ms. Samkiti Jain, Advs.\nversus\nVINOD KUMARI BHALLA & ORS .....Respondents\nThrough: Mr. Amit Singh Chadha, Sr. Adv. with\nMr. Naveen Sharma and Mr. Aman\nRaghav, Advs. for R-1.",
+      "extraction_method": "native",
+      "native_characters": 1037,
+      "final_characters": 1037
+    },
+    {
+      "page_number": 3,
+      "text": "4 RFA(OS) 9/2026, CM APPLs. 13174-13175/2026\nNISHA VATS .....Appellant\nThrough: None.\nversus\nVINOD KUMARI BHALLA & ORS .....Respondents\nThrough: Mr. Amit Singh Chadha, Sr. Adv.\nalong with Mr. Naveen Sharma, Adv.\nfor R-1.\nMr. Shivam Ujjainwal, Adv. for R-\n2(a) to (c) and R-3(a) to (c).\n\nCOURT NO. 06\nDIVISION BENCH-IX\nHON'BLE MR.JUSTICE ANIL KSHETARPAL\nHON’BLE MS.JUSTICE SHAIL JAIN_\n\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc7\nAT 10:30 A.M.\n\n1 W.P.(C) 8414/2026, CM APPL. 39420/2026, CM APPL. 39421/2026, CM\nAPPL. 43404/2026, CM APPL. 43716/2026\nGAURAV JAIN & ANR. .....Petitioners\nThrough: Mr. Ramchandra Madan, Mr. Vivek\nAnand Singh, Mr. Tushar Nigam and\nMr. Himanshu Yadav, Advs.\nversus\nJOINT COMMISSIONER (APPEALS-II) CGST DELHI ZONE & ANR.\n.....Respondents\nThrough: Ms. Samiksha Godiyal, SSC-CBIC\nwith Mr. Tenzing Namgyal Bhutia and\nMr. Ritiwik Narayanan, Advs.",
+      "extraction_method": "native",
+      "native_characters": 875,
+      "final_characters": 875
+    },
+    {
+      "page_number": 4,
+      "text": "COURT NO.08\nHON'BLE MR.JUSTICE MANOJ KUMAR OHRI\n\nCLICK TO JOIN VC\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt14\n\nAT 10:30 A.M\n\n1.FAO 78/2022\n\nKAMAL KISHORE & ANR. PRASANT KUMAR SHISODIA\nVS\nUNION OF INDIA\n\n2.FAO 175/2025\n\nTEK CHAND & ANR. RAJAN SOOD\nVS\nUNION OF INDIA\n\nCOURT NO. 13\nHON’BLE MR. JUSTICE AMIT BANSAL\n\nCLICK HERE TO JOIN VC:https://delhihighcourt.webex.com/meet/dhcecourtvc12\nAT 10:30 A.M\n\n1.RFA908/2017, CM APPL. 54504/2023 & CM APPL. 69017/2025\n\nRAJINDER KUMAR .....Appellant\n\nThrough: Mr. Raman Kapur, Sr. Advocate with\nMr. Siddhant Nath, Mr. Amaan Khan,\nMr. Bhavishya Makhija and Mr.Divyansh,\nAdvocates.\nversus\n\nSEWA RAM (SINCE DECEASED)THR HIS LRS &ANR .....Respondents\n\nThrough:Mr. Atul Shankar Mathur and Mr.Shubhankar,\nAdvocates for R-1.",
+      "extraction_method": "native",
+      "native_characters": 768,
+      "final_characters": 768
+    },
+    {
+      "page_number": 5,
+      "text": "COURT NO. 25\nHON'BLE DR.JUSTICE SWARANA KANTA SHARMA\n\nCLICK HERE TO JOIN VC\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc\nAT 04:00 P.M\n(1)W.P.(C) 9755/2026, CM APPL. 45497/2026 & CM APPL.\n48219/2026\nKIRAN RAMAKANT TEMKAR & ANR. .....Petitioners\nThrough: Mr. Mohit Khanna, Advocate\n(through VC)\nversus\n\nHONBLE LT GOVERNOR NCT OF DELHI & ORS.\n\n.....Respondents\nThrough: Mr. Ripudaman Bhardwaj,\nCGSC for UOI/R-2, Mr.\nKushagra Kumar and Mr. Amit\nKumar Rana, Advocates.\nMr. Santosh Paul, Senior\nAdvocae with Mr. Vedant\nMishra and Ms. Aditi Raj,\nAdvocates/intervenor in CM\nAPPL. 48219/2026\nMr. Salim Inamdar, Mr. Aditya\nPanda and Mr. Srinjoy Roy C,\nAdvocates for R-3.",
+      "extraction_method": "native",
+      "native_characters": 665,
+      "final_characters": 665
+    },
+    {
+      "page_number": 6,
+      "text": "COURT NO.26\nHON’BLE MR.JUSTICE VIMAL KUMAR YADAV\n\nMeeting link :https://delhihighcourt.webex.com/meet/dhcecourtvc10\n\nAT 10:30 A.M.\n\n1.CRL.A. 548/1999\n\nASGAR @ PAKORI .....Appellant\n\nThrough: Mr. Ram Bhadauria, Advocate.\n\nversus\n\nSTATE (GOVT.OF NCD DELHI) .....Respondent\n\nThrough: Mr. Satinder Singh Bawa, APP for State.",
+      "extraction_method": "native",
+      "native_characters": 320,
+      "final_characters": 320
+    },
+    {
+      "page_number": 7,
+      "text": "31.07.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\nCOURT NO.47\nHON'BLE MR.JUSTICE TUSHAR RAO GEDELA\n\nNOTE : 1. MENTIONING OF MATTERS IN VIRTUAL MODE WILL BE TAKEN UP AFTER THE PHYSICAL\nMENTIONING.\n\nNOTE : 2. ALL THOSE MATTERS WHERE APPLICATION UNDER ORDER 23 RULE 3 OF CIVIL PROCEDURE\nCODE HAVE BEEN FILED OR SETTLEMENT IN MEDIATION CENTER OR OUT OF THE COURT HAS TAKEN\nPLACE OR AN AWAITING MEDIATION/SETTLEMENT PROCESS, SHALL BE TAKEN UP IMMEDIATELY AFTER\nTHE SUPPLEMENTARY LIST IS OVER.\n\nNOTE: 3. THE PARTIES ARE DIRECTED TO INSPECT THE E FILE, TAKE NOTE OF THE VOLUME NOS.AND PDF\nPAGE NUMBERS OF THE E-FILE WHILE MAKING REFERENCE TO THE DOCUMENTS DURING ARGUMENTS.\n\nNOTE: 4. ALL PART HEARD MATTERS OF IPD ROSTER BENCH SHALL BE TAKEN UP AT 4.00 P.M. ON THE\nDATE FIXED.\nCLICK HERE TO JOIN VC\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc4\nNOTE: FOR MOVING ADJOURNMENT SLIP PLEASE MAIL TO:\ncourtmaster253@gmail.com\nMeeting no. 25186431980\n\nITEM\nCASE NUMBER PARTY NAME ADVOCATE NAMENUMBER\nFOR PRONOUNCEMENT OF JUDGMENT AT 2:30 P.M.\n1. CS(OS)-44/2025 SANSKAR PROJECTS YASHMEET KAUR, BHARTI KOCHHAR,\nI.A. 1542/2025 AND HOUSING LLITESH WADHWA, AVISHKAR SINGHVI,\nI.A. 1543/2025 LIMITED AND BHARAT GARG, NAVED AHMED\nI.A. 1544/2025 OTHERS\nI.A. 1545/2025 V/s REALPRO\nREALTY SOLUTIONS\nPRIVATE LIMITED\nAND OTHERS\n\n*****\n\nBY ORDER\nREGISTRAR ORIGINAL",
+      "extraction_method": "native",
+      "native_characters": 1362,
+      "final_characters": 1362
+    }
+  ],
+  "processed_at": "2026-08-06T07:13:27.574447+00:00"
+}

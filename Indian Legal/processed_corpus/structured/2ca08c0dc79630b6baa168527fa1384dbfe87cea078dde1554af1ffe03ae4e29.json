@@ -1,0 +1,60 @@
+{
+  "document": {
+    "document_id": "legal:2ca08c0dc79630b6baa16852",
+    "sha256": "2ca08c0dc79630b6baa168527fa1384dbfe87cea078dde1554af1ffe03ae4e29",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\DM_Athority_rules20065B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\DM_Athority_rules20065B15D_2ca08c0dc796.pdf",
+    "file_size": 112455,
+    "page_count": 3,
+    "document_type": "acts",
+    "classification_score": 6,
+    "title": "% ______TREGAZETTEOFINDIA: EXTRAORDINARY ___(Parr T—S50:3009",
+    "year": 2006,
+    "court": null,
+    "case_number": null,
+    "decision_date": "30/8/2006",
+    "used_ocr": true,
+    "ocr_page_count": 3,
+    "native_page_count": 0,
+    "extracted_characters": 3422,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 6,
+    "rules": 4,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 4,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "% ______TREGAZETTEOFINDIA: EXTRAORDINARY ___(Parr T—S50:3009\neau eeeeeeeeeeTewTwews Oo oaouauarreaeser eo\nagent\n\nag feestt, 30 stax, 2006 .\nauaerPt 682(3)._ Gala UE sarge wder aera, 2005 (2005 Ht 53) St at\n75 Bt Baars (1) H wer usa saat soar (2) S Gs (@) ae wea wfeaal wr war\n4. fara ara silk urea - (4) sa Prat on dere aa amar weet (rte feet\nal afta furé) faa, 2006 2 |\n(2) & worms F gad were st aks wh aga Sh\n2. aRuredg - (1) g4 Rant a, wa ae fo dat 8 auen ated a a,,-\n(s) “sfefran” @ ager wéea afaPrert, 2005 (2005 aT 53) aiftita e ;\n(@) “afte. Rae?.a arr 70 a soars (4) S aes usta wf at\nafte Rote atta = ;\n(7) “fata af” & mele af ot 1 ater Borer a Ten ai arrat_ a ST 31 A wT\nware et aren fara af afta es -\n(@) “ar a afta at are akita & ;\n(2) wt wet sik vel or, ot gaa wgad é sik sa Peat A ufeafta ado fq\n3. afte Raé- 4) wete mew ant afte Raré dae erm sik we Sata\naeer of fetta af & ware ay 8 at are & aay aafta Sea at tag F was\nGet & Ure wal are | , oe\n(2) afte Rot 4 we wien o wat & dk & farwanl a ye Aerie\nann sik wsdta mire afte Ratt at afta data wer ot sifia Ge ae a\n\" FROR wt afeal a Wag wale war HS waa waar |\n(3) affe Ri a Prafeted fated ern, yo\n(#) Uta wifey & cel sik steal ger saat stat wr alk ;\n. (@) Wa mre at yfrar sie Gad Her ; .\n@) va at & ck forad waa F afte Rad area & ate az Ariz\n(@) a farta af S cher atta eer & firmer ; aie ,\noe ; “[% &. 30/8/2006-WAStUA-III (Z)] ;",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1389
+    },
+    {
+      "page_number": 2,
+      "text": "(AMT — Ars 3(i)] Peo Ses IR: TTT a\n. NOTIFICATION\nNew Delhi, the 30th October, 2006\n_ . G.S.R. 682(E).—In exercise of the powers conferred by clause (h) of sub-section (2)\n‘read with sub-section (1) of section 75 of the Lusaster Management Act, 2005\n( 53 of 2005), the Central Government hereby makes the following rules, namely:-\n1. Short title and commencement.- (1) These rules may be called the Disaster\nManagement (Annual Report of National Authority) Rules, 2006.\n; (2) They shall come into force on th: date of their publication in the Official\nGazette.\n2. Definitions.- (1) In these rules, unless the context otherwise requires,-\n(a) “Act” means the Disaster Manarement Act, 2005 (53 of 2005);\n. (b) “annual report” means the annual report of the National Authority under\nsub-section (1) of section 70;\n(c) “financial year” means the fina: cial year commencing from 1* April each\nyear and ending on 31 March 0» the following year; ,\n(d) “section” means a section of the Act.\n3. Annual report.- (1) The National Avihority shall prepare its annual report and\n_ forward it to the Central Government within rine months of the end of the financial year\nfor being laid before each House of Parliament.\n\n’ (2) The annual report shall contain a full account of the activities of the National\nAuthority during the previous year and the National Authority shall forward copies of the\nannual report to the Central Government and that Government shall cause the same to be\nlaid before each House of Parliament.”\n\n(3) The annual report shall include - .\n(a) a statement of aims and objectives and vision of the National Authority;\n‘ (b) the role and functions of the National Authority; : .",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1685
+    },
+    {
+      "page_number": 3,
+      "text": "~ (c). annual targets and achievements, ‘im physical and ‘financial terms, ‘during\n: the year to which the annual. report pertains;\n: (a). the activities of the National Av-thority during the previous financial year;\n(ey any other information as the Nalional Authori ty deems fit. . ,\nee [F. No. 30/8/2006-NDM-II(A)]\n, PRABHANSHU KAMAL, It. Secy. .",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 348
+    }
+  ],
+  "processed_at": "2026-08-06T07:13:49.047732+00:00"
+}

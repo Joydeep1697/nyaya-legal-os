@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:ef869e3ade8792822fbc57fc",
+    "sha256": "ef869e3ade8792822fbc57fcbe4f72b0d4811ec234743988f900b7e9fe5af773",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\ExplosiveSubstancesAct19085B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\ExplosiveSubstancesAct19085B15D_ef869e3ade87.pdf",
+    "file_size": 13192,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 20,
+    "title": "Act Name : THE EXPLOSIVE SUBSTANCES ACT, 1908",
+    "year": 1908,
+    "court": null,
+    "case_number": null,
+    "decision_date": "1-10-1963",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 4750,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 20,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 1,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Act Name : THE EXPLOSIVE SUBSTANCES ACT, 1908\nAct title : ACT NO. 6 OF 1908 1*\nEnactment date : [8th June, 1908.]\n\n1. Short title, extent and application.- (1) This Act may be called the Explosive\nSubstances Act, 1908.\n\n2*[(2) It extends to the whole of India 3*, and applies also to citizens of India\n4*[outside India].]\n\n2. Definition of \"explosive substance\".- In this Act the expression \"explosive\nsubstance\" shall be deemed to include any materials for making any explosive substance;\nalso any apparatus, machine, implement or material used, or intended to be used, or\nadapted for causing, or aiding in causing, any explosion in or with any explosive\nsubstance; also any part of any such apparatus, machine or implement.\n\n3. Punishment for causing explosion likely to endanger life or property.- Any person\nwho unlawfully and maliciously causes by any explosive substance and explosion of a\nnature likely to endanger life or to cause serious injury to property shall, whether any\ninjury to person or property has been actually caused or not, be punished with\ntransportation for life or any shorter term, to which fine may be added, or with\nimprisonment for a term which may extend to ten years, to which fine may be added.\n\n------------------------------------- ----------------------------------------------------------------------\n1. This Act has been extended to-- Goa, Daman and Diu with modifications by Reg. 12 of\n1962, s. 3 and Sch., and comes into force in Pondicherry vide Reg. 7 of 1963, s. 3 and\nSch. 1. (w.e.f. 1-10-1963); and brought into force in Dadra and Nagar Haveli by Reg. 6 of\n1963, s. 2 and Sch. I (w.e.f. 1-7-1965); the whole of Union territory of Lakshadweep vide\nReg. 8 of 1965, s. 3 and Sch., (w.e.f. 1-10-1967); the State of Sikkim vide Notification\nNo. G.S.R. 201, dated 30-1- 1976 (w.e.f. 1-2-1976). 2. Subs. by the A. O. 1950, for the\nformer sub-section. 3. The words \"except Part B States\" rep. by Act 3 of 1951, s. 3 and\nSch. 4. Subs. ibid., for \"wherever they may be\". 28\n\n4. Punishment for attempt to cause explosion, or for making or keeping explosive\nwith intent to endanger life or property.- Any person who unlawfully and maliciously—\n\n(a) does any act with intent to cause by an explosive substance, or conspires\nto cause by an explosive substance, an explosion in 1*[India] of a nature\nlikely to endanger life or to cause serious injury to property; or\n(b) makes or has in his possession or under his control any explosive\nsubstance with intent by means thereof to endanger life, or cause serious\ninjury to property in 1*[India], or to enable any other person by means\nthereof to endanger life or cause serious injury to property in 1*[India];\n\nshall, whether any explosion does or does not take place and whether any injury to person\nor property has been actually caused or not, be punished with transportation for a term",
+      "extraction_method": "native",
+      "native_characters": 2866,
+      "final_characters": 2866
+    },
+    {
+      "page_number": 2,
+      "text": "which may extend to twenty years, to which fine may be added, or with imprisonment for\na term which may extend to seven years, to which fine may be added.\n\n5. Punishment for making or possessing explosives under suspicious circumstances.-\nAny person who makes or knowingly has in his possession or under his control any\nexplosive substance, under such circumstances as to give rise to a reasonable suspicion\nthat he is not making it or does not have it in his possession or under his control for a\nlawful object, shall, unless he can show that he made it or had it in his possession or\nunder his control for a lawful object, be punishable with transportation for a term which\nmay extend to fourteen years, to which fine may be added, or with imprisonment for a\nterm which may extend to five years, to which fine may be added. 2*\n\n6. Punishment of abettors.- Any person who by the supply of or solicitation for\nmoney, the providing of premises, the supply of materials, or in any manner whatsoever,\nprocures, counsels, aids, abets, or is accessory to, the commission of any offence under\nthis Act shall be punished with the punishment provided for the offence.\n\n7. Restriction on trial of offences.- No Court shall proceed to the trial of any person\nfor an offence against this Act except with the consent of 3* the Central Government.\n\n----------------------------------------------------------------------------------------------------------\n1. Subs. by Act 3 of 1951, s. 3 and Sch. for \"a Part A States or a Part C States\". 2. For ss.\n5A and 5B applicable to West Bengal only, see the Bengal Criminal Law (Arms and\nExplosives) Act, 1932 (Ben. 21 of 1932), s. 5, and the Bengal Criminal Law Amendment\nAct, 1934 (Ben. 7 of 1934), s. 5 respectively. These two sections provide for enhanced\npunishment in certain cases. 3. The words \"the L. G. or\" rep. by the A. O. 1937.\n\n*************",
+      "extraction_method": "native",
+      "native_characters": 1884,
+      "final_characters": 1884
+    }
+  ],
+  "processed_at": "2026-08-06T07:15:28.871907+00:00"
+}

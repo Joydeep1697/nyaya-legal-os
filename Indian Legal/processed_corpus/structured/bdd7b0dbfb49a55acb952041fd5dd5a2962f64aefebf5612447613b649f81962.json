@@ -1,0 +1,121 @@
+{
+  "document": {
+    "document_id": "legal:bdd7b0dbfb49a55acb952041",
+    "sha256": "bdd7b0dbfb49a55acb952041fd5dd5a2962f64aefebf5612447613b649f81962",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\33.dhc.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\33.dhc_bdd7b0dbfb49.pdf",
+    "file_size": 9314143,
+    "page_count": 12,
+    "document_type": "acts",
+    "classification_score": 8,
+    "title": "HIGH COURT OF DELHI: NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi",
+    "case_number": null,
+    "decision_date": "04.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 12,
+    "extracted_characters": 13564,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 8,
+    "rules": 0,
+    "judgments": 2,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "HIGH COURT OF DELHI: NEW DELHI\n\nNo.33/DHC/Gaz-IIB/G-7NI.E.2(a)/2026\nDated: I st August, 2026\n\nORDER\n\nHon'ble the Chief Justice and Hon'ble Judges of this Court have been pleased to make\n04.08.2026:the following postings/transfers in the Delhi Judicial Service w.e.f.I\n\nS.No. Name of the Officer From To District to Remarks\nwhich\nallocated\n\n1. Abhinav Pandey Additional CJM, South- South-East Vice\nSecretary, East, Saket Ms.Tapasya\nDSLSA, Agarwal\nRACC\n(on\ndeputation)\n2. Mayank Goel ACJM-02- SCJ-cum-RC, New Delhi Vice\ncurn-ACJ, New Delhi, Ms.Shruti\nRACC PHC Chaudhary\n\n3. Pranav Joshi ACJM-01, SCJ-cum-RC, South Vice\nNew Delhi, South, Saket Mr.Animesh\nPHC Bhaskar Mani\nTripathi\n\n4. Shruti Chaudhary SCJ-cum-RC, ACJM, West, West In a vacant\nNew Delhi, THC Court\nPHC\n\n5. Amardeep Kaur ACJM, ACJM-02- RACC Vice\nNorth, Rohini eum-ACJ, Mr.Mayank\nRACC Goel",
+      "extraction_method": "native",
+      "native_characters": 855,
+      "final_characters": 850
+    },
+    {
+      "page_number": 2,
+      "text": "6. Tapasya Agarwal CJM, South- ACJM, North Vice\nEast, Saket North, Rohini Ms.Amardeep\nKaur\n\n7. Medha Arya ACJM, JSCC-curn- New Delhi Vice\nSouth, Saket AS CJ-cum- Mr.Robinjeet\nGuardian Singh\nJudge, New\nDelhi, PI-IC\n\n8. Naina Gupta On retmn ACJM, South-West Vice\nfrom CCL South-West, Ms.Deepali\nDwarka Srivastava\n\n9. Deepali Srivastava ACJM, Additional -- Vice\nSouth-West, Secretary, Mr.Abhinav\nDwarka DSLSA, Pandey\nRACC\n(on\ndeputation)\n\n10. Arjinder Kaur JS CC-cum- ACJM-02, Central Vice\nAS CJ-cum- Central, THC Ms.Mansi\nGuardian Malik\nJudge,\nShahdara,\nKKD\n\n11. Gaurav Sharma JS CC-cum- JS CC-cum- Shahdara Vice\nASCJ-cum- AS CJ-cum- Ms.A1jinder\nGuardian Guardian Kaur\nJudge, North- Judge,\nWest, Rohini Shahdara,\nKKD\n\n12. Bharat Aggarwal ACJ-cum- JS CC-cum- North Vice\nCCJ-cum- ASCJ-cum- Mr.Nitish\nARC, Guardian Kumar\nCentral, \"l'I-IC Judge, North, Sharma\nRohini",
+      "extraction_method": "native",
+      "native_characters": 865,
+      "final_characters": 860
+    },
+    {
+      "page_number": 3,
+      "text": "13. Mansi Malik ACJM-02, JSCC-cum- North-West Vice\nCentral, THC ASCJ-cum- Mr.Gaurav\nGuardian Sharma\nJudge, North-\nWest, Rohini\n\n14. Robinjeet Singh JS CC-cum- ACJM-06, RACC In a vacant\nASCJ-cum- RACC court\nGuardian\nJudge, New\nDelhi, PHC\n\n15. Animesh Bhaskar SCJ-cum-RC, ACJM-01, New Delhi . Vice\nMani Tripathi South, Saket New Delhi, Mr.Pranav\nPl-IC Joshi\n\n16. Tarunpreet Kaur ACJ-cum- AC.TM, South Vice\nCCJ-cum- South, Saket Ms.Medha\nARC, South- Arya\nEast, Saket\n\n17. Ajay Singh Parihar ACJ-cum- JS CC-cum- Central Vice\nCCJ-cum- ASCJ-cum- Mr.Umesh\nARC, North, Guardian Kumar\nRohini Judge-02,\nCentral, THC\n\n18. Vinik Jain ACJ-cum- JSCC-eum- South Vice\nCCJ-cum- ASCJ-cum- Mr.Vipul\nARC, East, Guardian Sandwar\nKKD Judge, South,\nSaket\n\n19. Vipul Sandwar JS CC-cum- ACJ-cum- North Vice Mr.Ajay\nASCJ-cum- CCJ-cum- Singh Parihar\nGuardian ARC, North,\nJudge, South, Rohini\nSaket\n20. Nitish Kumar Sharma JSCC-cum- ACJ-cum- East Vice\nASCJ-cum- CCJ-eum- Mr.Vinik Jain\nGuardian ARC, East,\nJudge, North, KKD\nRohini",
+      "extraction_method": "native",
+      "native_characters": 1006,
+      "final_characters": 1001
+    },
+    {
+      "page_number": 4,
+      "text": "21. Swayam Siddha JMFC-02, ACJ-cum- South-East Vice Ms.\nTripathi South-West, CCJ-cum- Tarunpreet\nDwarka ARC, South- Kaur\nEast, Saket\n\n22. Umesh Kumar JS CC-cum- ACJ-cum- Central Vice\nAS CJ-cum- CCJ-cum- Mr.Bharat\nGuardian ARC, Aggarwal\nJudge-02, Central, THC\nCentral, THC\n\n23. Apoorva Rana On return JMFC South-West In a vacant\nfrom CCL (Mahila Court\nComt)-04,\nSouth-West,\nDwarka\n\n24. Ankit Mittal Civil Judge- JMFC-08, New Delhi Vice\n01 , South, New Delhi, Mr.Ankit\nSaket PI-IC Garg\n\n25. Shikha Chahal JMFC JMFC-05, South-East Vice\n(Mahila South-East, Ms.Aneeza\nCourt)-01, Saket Dishnoi\nSouth, Sak.et\n\n26. Abhilasha Singh Addl. Civil Judge- South-East Vice\nCoordinator, 02, South- Mr.Udbhav\nDIAC, DHC East, Saket Kumar Jain\n(On\nDeputation)\n27. Richika Tyagi On return JMFC-04, North Vice Ms.\nfrom CCL North, Rohini Divyashree\nRaina\n\n28. Helly Fur Kaur On return Civil Judge- West Vice Mr.Dev\nfrom CCL 04, West, Saroha\nTI-IC\n\n29. Sukhjeet Singh JMFC-06, Municipal East Vice\nSouth, Saket Magistrate, Mr.Harshal\nEast, KKD Negi",
+      "extraction_method": "native",
+      "native_characters": 1029,
+      "final_characters": 1024
+    },
+    {
+      "page_number": 5,
+      "text": "30. Udbhav Kumar Jain Civil Judge- Full Time North-East Vice\n02, South- Secretary, Mr.Aman\nEast, Saket DLSA, Kumar\nNorth-East, Sharma\nKKD (since\n(On expired)\ndeputation)\n\n31. Aneeza Bishnoi JMFC-05, JMFC South Vice\nSouth-East, (Mahila Ms.Shikha\nSaket Court)-01 , Chahal\nSouth, Saket\n\n32. Harshal Negi Municipal Civil Judge- South Vice\nMagistrate, 02, South, Mr.Yashdeep\nEast, KKD Saket Chahal\n\n33. Sunil Khatri Civil Judge- JMFC (NI North Vice\n06, Central, Act), North, Mr.Gaurav\nTHC Rohini Dahiya\n\n34. Gaurav Dahiya JMFC (NI Civil Judge- Central Vice\nAct), North, 06, Central, Mr.Sunil\nRohini THC Khatri\n\n35. Dev Saroha Civil Judge- Special Central Vice\n04, West, Railway Mr.Apoorv\nTHC Magistrate, Gupta\nCentral,\nOld Delhi\nRailway\nStation\n\n36. Deepakshi Rana JMFC-03, JMFC-09, South-East In a vacant\nShahdara, South-East, Court\nKKD Saket\n\n37. Ayush Sharma Civil Judge, Civil Judge- Central Vice Ms.Sana\nEast, KKD 05, Central, Khan\nTHC",
+      "extraction_method": "native",
+      "native_characters": 940,
+      "final_characters": 935
+    },
+    {
+      "page_number": 6,
+      "text": "38. Divyashree Raina JMFC-04, JMFC-06, North-West Vice\nNorth, Rohini North-West, Ms.Shagun\nRohini\n\n39. Sana Khan Civil Judge- JMFC South Vice\n05, Central, (Mahila Ms.Chakita\nTHC Court)-04, Srivastava\nSouth, Saket\n\n40. Apoorv Gupta Special JMFC-07, South-West In a vacant\nRailway South-West, Court\nMagistrate, Dwarka\nCentral,\nOld Delhi\nRailway\nStation\n\n41. Chakita Srivastava JMFC Civil Judge, East Vice\n(Mahila East, KKD Mr.Ayush\nCourt)-04, Sharma\nSouth, Sak.et\n\n42. Gaurav Katariya JMFC-07, Civil Judge- Shahdara Vice\nNorth-West, 01, Shahdara, Mr.Ji tender\nRohini KKD\n\n43. Sanghmitra JMFC-01, JMFC (NI South Vice\nShahdara, Act)-10, Ms.Pooja\nKKD South, Sak.ct Kumari\n\n44. Bhavaya Karhail JMFC-08, JMFC-07, New Delhi Vice Mr.Ravi\nSouth-East, New Delhi,\nSaket PI-IC\n\n45. Jitender Civil Judge- JMFC-07, North-West Vice\n01, Shahdara, North-West, Mr.Gaurav\nKKD Rohini Katariya\n\n46. Y ash deep Chahal Civil Judge- JMFC-06, South Vice\n02, South, South, Saket Mr.Sukhjeet\nSak.ct Singh",
+      "extraction_method": "native",
+      "native_characters": 981,
+      "final_characters": 976
+    },
+    {
+      "page_number": 7,
+      "text": "47. Deeksha Madaan On return JMFC West Vice\nfrom CCL (Mahila Ms.Disha\nCourt)-05, Langan\nWest, THC\n48. Anldt Garg JMFC-08, Civil Judge- South Vice Mr.Ankit\nNew Delhi, 01, South, Mittal\nPHC Saket\n49. Swati Malik On return Addi. -- Vice\nfrom CCL Coordin~tor, Ms.Abhilasha\nDIAC, DI-IC Singh\n(On\nDeputation)\n\n50. Shazadi Halima Sadiya JMFC JMFC-01, West Vice\n(Digital West, THC Mr.Koma!\nTraffic\nCourt),\nShahdara,\nKKD\n51. Shagun JMFC-6, Full Time -- Vice\nNorth-West, Secretary-II, Ms.Himanshi\nRohini DLSA, Tyagi\nCentral, (Since\nRACC proceeded on\n(in diverted ML)\ncapacity)\n\n52. Ravi JMFC-07, JMFC-08, South-East Vice\nNew Delhi, South-East, Ms.Bhavaya\nPHC Saket Karhail\n\n53. Meena Chauhan On return JMFC (NI South-West In a vacant\nfrom CCL Act)-08, Court\nSouth-West,\nDwarka\n54. Kamal JMFC-01, JMFC Shahdara Vice\nWest, THC (Digital Ms.Shazadi\nTraffic Halima\nCourt), Sadiya\nShahdara,\nKKD",
+      "extraction_method": "native",
+      "native_characters": 883,
+      "final_characters": 878
+    },
+    {
+      "page_number": 8,
+      "text": "55. Sukriti Jha JMFC JMFC-01, Shahadara Vice Ms.\n(Mahila Shahdara, Sanghmitra\nCourt)-06, KKD\nSouth-West,\nDwarka\n\n56. Kashish Bajaj JMFC Civil Judge- South-East Vice\n(Digital 01, South- Mr.Yashu\nTraffic East, Saket Khurana\nCourt),\nNorth-West,\nRohini\n\n57. Anldt Solanki Relieving JMFC-04, Central Vice\nJMFC/Civil Central, TI-IC Mr.Rangat\nJudge, North, Ghirra\nRohini\n\n58. Y ashu Khurana Civil Judge- JMFC North-West Vice\n01, South- (Digital Ms.Kashish\nEast, Saket Traffic Bajaj\nCourt),\nNorth-West,\nRohini\n\n59. Vidushi Garg JMFC Civil Judge- South-East Vice Ms.lsha\n(Digital 03, South- Thakur\nTraffic East, Saket\nCourt)-01,\nNew Delhi,\nPI-IC\n\n60. Isha Rana Relieving JMFC (NI South-West Vice\nJMFC/Civil Act)-07, Ms.Lydia\nJudge, North- South-West, Francisca\nWest, Rohini Dwarka Kerketta\n\n61. Isha Thakur Civil Judge- JMFC New Delhi Vice\n03, South- (Digital Ms.Vidushi\nEast, Saket Traffic Garg\nCourt)-01,\nNew Delhi,\nPI-IC",
+      "extraction_method": "native",
+      "native_characters": 919,
+      "final_characters": 914
+    },
+    {
+      "page_number": 9,
+      "text": "62. Norma Jain Relieving JMFC-03, North-East Vice\nJMFC/Civil North-East, Ms.Shruti\nJudge, East, KKD Saraswat\nKKD\n63. Nandini Sharma Relieving JMFC-06, West Vice\nJMFC/Civil West, THC Mr.Gaurav\nJudge, Singal\nShahdara,\nKKD\n\n64. Deepika Y adav Relieving JMFC-02, South-West Vice\nJMFC/Civil South-West, Ms.Swayam\nJudge, South- Dwarka Siddha\nWest, Tripathi\nDwarka\n\n65. Shivam Gupta Relieving JMFC-05, South Vice\nJMFC/Civil South, Sakct Ms.Nirmala\nJudge, New Singh\nDelhi, PHC\n\n66. Shruti Saraswat JMFC-03, JMFC-03, West In a vacant\nNorth-East, West, TIIC Court\nKKD\n\n67. Disha Langan JMFC JMFC South-West Vice\n(Mahila (Mahila Ms.Sukriti\nCourt)-05, Court)-06, Jha\nWest, THC South-West,\nDwarka\n\n68. Rangat Ghirra JMFC-04, JMFC-03, Shahdara Vice\nCentral, THC Shahdara, Ms.Deepakshi\nKKD Rana\n\n69. Gaurav Singal JMFC-06, JMFC (NI West In a vacant\nWest, THC Act)-04, Court\nWest, THC\n70. Nirmala Singh JMFC-05, Relieving North-East --\nSouth, Sakct JMFC/Civil\nJudge, North-\nEast, KKD",
+      "extraction_method": "native",
+      "native_characters": 972,
+      "final_characters": 967
+    },
+    {
+      "page_number": 10,
+      "text": "71. Lydia Francisca JMFC (NI Relieving South-West --\nKerketta Act)-07, JMFC/Civil\nSouth-West, Judge, South-\nDwarka West,\nDwarka\n\n72. Pooja Kumari JMFC (NI Relieving West --\nAct)-10, JMFC/Civil\nSouth, Saket Judge, West,\nTHC\n\n73. Priyanka Devi On return Relieving South-West from DJA JMFC/Civil\n(in diverted Judge, Southcapacity) West,\nDwarka\n74. Anubhuti Goel Training Relieving Central -dispensed JMFC/Civil\nwith Judge,\nCentral, THC\n\n75. Rachit Taparia Training Relieving North -dispensed JMFC/Civil\nwith Judge, North,\nRohini\n\n76. Asmita Chauhan Training Relieving North-West -dispensed JMFC/Civil\nwith Judge, North-\nWest, Rohini\n\n77. Shikha Mukesh Meena Training Relieving South-West -dispensed JMFC/Civil\nwith Judge,\nSouth-West,\nDwarka\n\n78. Prakhar Marmat Training Relieving West -dispensed JMFC/Civil\nwith Judge, West,\nTHC",
+      "extraction_method": "native",
+      "native_characters": 845,
+      "final_characters": 825
+    },
+    {
+      "page_number": 11,
+      "text": "Note(s):\n\n(i) The judicial officers shall be under the control of the Principal District & Sessions Judge\nof the district to which they have been allocated.\n\n(ii) The judicial officer(s) under transfer shall notify the cases in which they had reserved\njudgments/orders before relinquishing the charge of the comt in terms of the\nposting/transfer order. The judicial officers shall pronounce judgments/orders in all such\nmatters on the date fixed or maximum within a period of 2-3 weeks thereof,\nnotwithstanding the posting/transfer. Date of pronouncement shall be notified in the\ncause list of the court to which the matter pertains as also of the court to which the\njudicial officer has been transferred and on the website.\n\n(iii) All Relieving JMFCs/Civil Judges shall perform all judicial works except deciding the\ncases finally. However, if they are deputed in Evening/Weekend Court or in a Comt,\nwhere the officer is on long leave, i.e., beyond one month, in such cases, the Relieving\nJMFC/Civil Judge arc empowered to decide the cases finally. All Principal District and\nSessions Judges shall keep record of the work done by the Relieving JMFCs/Civil Judges\nposted in their respective districts and shall forward the same to the High Court on\nquarterly basis or till they get regular posting, whichever is earlier.\n\nBY ORDER OF THE COURT\n\nSd/-\n(ARUN BHARDWAJ)\nREGISTRAR GENERAL\n\nEndst. Nos. 4466-4500/DHC/Gaz-IIB/G-7NI.E.2( a)/2026 Dated: 1st August, 2026\n\nCopy forwarded for information and necessary action to:-\n1. All the Principal District & Sessions Judges, Delhi.\n2. The Principal District & Sessions Judge-cum-Special Judge (PC Act) (CBI), Rouse\nAvenue Courts Complex, Deen Dayal Upadhyay Marg, New Delhi.\n3. The Principal Judge, Family Courts (HQ), Dwarka Courts Complex, Dwarka, New\nDelhi.\n4. The Secretary, Ministry of Finance, Government of India, North Block, New Delhi.\n5. The Member Secretary, Delhi State Legal Services Authority, Rouse Avenue Court\nComplex, New Delhi.\n6. The Director (Administration), Delhi Judicial Academy, Dwarka, New Delhi.",
+      "extraction_method": "native",
+      "native_characters": 2073,
+      "final_characters": 2067
+    },
+    {
+      "page_number": 12,
+      "text": "7. The Principal Secretary (Law, Justice & Legislative Affairs), Govt. ofNCT of Delhi,\nNew Delhi-110002.\n8. The Principal Secretary (Home), Govt. ofNCT of Delhi, New Dclhi-110002.\n9. The Principal Secretary (Power), Govt. ofNCT of Delhi, New Delhi-110002.\n10. The Secretary (Labour), Govt. ofNCT of Delhi, Shamnath Marg, Delhi-110054.\n11. The Director of Prosecution, CBI, Block No.3, II Floor, CGO Complex, Lodhi Road,\nNew Delhi-110003.\n12. The Director, Directorate of Prosecution, Tis Hazari, Delhi.\n13. The Director General, Narcotics Control Bureau, West Block-I, Wing-5, Sector-07,\nR.K.Puram, New Dclhi-110066.\n14. The Commissioner of Police, Police Headquarters, New Delhi.\n15. The Commissioner, Municipal Corporation of Delhi, Civic Centre, Minto Road, New\nDelhi.\n16. The Chairperson, New Delhi Municipal Committee, Palika Kendra, New Delhi.\n17. The Registrar-cum-Secretary to Hon' ble the Chief Justice, Delhi High Court, New\nDelh~.\n18. PS to all Hon'ble Judges, Delhi High Court, for information of the I-Ion'ble Judges.\n19. All Registrars, Delhi High Court, New Delhi.\n20. The JR-cum-P.A. to Registrar General, Delhi High Court, New Delhi.\n21. The Joint Registrar (Vigilance-I), Delhi High Court, New Delhi.\n·22. The Joint Registrar (Vigilance-II), Delhi High Court, New Delhi.\n23. The Joint Registrar (Gazette-HA), Delhi High Court, New Delhi.\n24. The Pay & Accounts Officer, Tis Hazari, Delhi.\n~ The Joint Registrar (IT), Delhi High Court with the request to upload this order on\nthe website of Delhi High Court. ·\n26. The Hony. Secretary, Bar Council of Delhi, 2/6, Siri Fort Institutional Area, Khel\nGaon Marg, New Delhi.\n27. The Hony. Secretary, Delhi High Court Bar Association, Delhi High Court, New\nDelhi.\n28. The Bony. Secretary, Delhi Bar Association, Tis Hazari Courts, Delhi.\n29. The Bony. Secretary, New Delhi Bar Association, Patiala House, New Delhi.\n30. The Bony. Secretary, Shahdara Bar Association, Karkardooma Courts, Delhi.\n31. The Hony. Secretary, Rohini Courts Bar Association, Rohini, New Delhi.\n32. The Bony. Secretary, Dwarka Courts Bar Association, Dwarka, New Delhi.\n33. The Bony. Secretary, Saket Courts Bar Association, Saket, New Delhi.\n34. Personal file of the officer(s) concerned.\n35. Guard File.\nRegistrar~w';f-(Vigilance)",
+      "extraction_method": "native",
+      "native_characters": 2273,
+      "final_characters": 2267
+    }
+  ],
+  "processed_at": "2026-08-06T07:07:58.457133+00:00"
+}

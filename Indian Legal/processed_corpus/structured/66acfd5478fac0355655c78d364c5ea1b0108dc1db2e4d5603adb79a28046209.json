@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:66acfd5478fac0355655c78d",
+    "sha256": "66acfd5478fac0355655c78d364c5ea1b0108dc1db2e4d5603adb79a28046209",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\Section220oftheFinanceAct_2018_091020205B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\Section220oftheFinanceAct_2018_091020205B15D_66acfd5478fa.pdf",
+    "file_size": 7144209,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 9,
+    "title": "ta He Se eie—(w7)04/0007/2003—18 REGISTERED NO. DL—(N)04/0007/2003—18",
+    "year": 2003,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 2466,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 9,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 1,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ta He Se eie—(w7)04/0007/2003—18 REGISTERED NO. DL—(N)04/0007/2003—18\nee\ninn\nwaRNa ITsTtGsa\nSTATA\nEXTRAORDINARY\nwt W— Ws 1\nPART II — Section 1\nTiere @ wera\nPUBLISHED BY AUTHORITY\neS SS ed Ae pie yee\n:\nPe 17] ag facet, qecafran, ard 29, 2018/45 8, 1940 (aH)\nNo. 17] | NEW DELHI, THURSDAY, MARCH 29, 2018/CHAITRA 8, 1940 (SAKA)\na a rn ge\n:\nFa 4 Rr oss den St sic ¢ fae fe ae sem dae S BT A wa Tae\nSeparate paging is given to this Part in order that it may be filed as a separate compilation.\ni os ee des Come\nOoo ee SS:«&«€&_o™\nMINISTRY OF LAW AND JUSTICE\n(Legislative Department)\nNew Delhi, the 29th March, 2018/Chaitra 8, 1940 (Saka)\nThe following Act of Parliament received the assent of the President on the\n29th March, 2018, and is hereby published for general information: —\n[28th March, 2018.]\nAnActto give effect to the financial proposals of the Central Government for\nthe financial year 2018-2019.\nBg it enacted by Parliament in the Sixty-ninth Year of the Republic of India as follows:—\nCHAPTER I\nPRELIMINARY\n1. (1) This Act may be called the Finance Act, 2018. Short title\nd\n(2) Save as otherwise provided in this Act, sections 2 to 55 shall come into force on vehicles\nthe Ist day of April, 2018.\nCHAPTER II\nRates OF INCOME-TAX\n2. (J) Subject to the provisions of sub-sections (2) and (3), for the assessment year _Income-tax.\ncommencing on the Ist day of April, 2018, income-tax shall be charged at the rates specified",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1430
+    },
+    {
+      "page_number": 2,
+      "text": "66 THE GAZETTE OF INDIA EXTRAORDINARY [Part II—\nel |\neSemmmmeeeeeeeeeeeeeo |\n(ii) in clause (4), after the words “Deputy Commissioner”, the words “or |\nAssistant Director or Deputy Director” shall be inserted; j\n|\nAmendment (d) in section 55,—\nof section 55. |\n(i) for the marginal heading, the following marginal heading shall be |\nsubstituted, namely:— |\n“Prosecution to be at instance of Principal Chief Commissioner or\nPrincipal Director General or Chief Commissioner or Director General or\nPrincipal Commissioner or Commissioner.”; |\n|\n(ii) in sub-section (2), after the words “the Chief Commissioner”, the |\nwords “or the Principal Director General or the Director General” shall be inserted. |\nPART XX\nAMENDMENT TO THE CENTRAL Goops AND SERVICES TAX Act, 2017 ]\n\nAmendment 221. In the Central Goods and Services Tax Act, 2017, in section 2, in clause (/6), for\nof section 2 the words “Central Board of Excise and Customs”, the words “Central Board of Indirect |\nof Ape 12 of Taxes and Customs” shall be substituted, |\n|\ni\n|\n|\ni\n|",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1036
+    }
+  ],
+  "processed_at": "2026-08-06T07:24:23.215776+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:0f2ec3d678cfd410ca28d289",
+    "sha256": "0f2ec3d678cfd410ca28d289edb233d3693bb4bdffaad688c652cb1b75308bd7",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\01-original.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\01-original_0f2ec3d678cf.pdf",
+    "file_size": 6839579,
+    "page_count": 2,
+    "document_type": "judgments",
+    "classification_score": 4,
+    "title": "HIGH COURT OF DELHI:NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi",
+    "case_number": null,
+    "decision_date": "13.07.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 4798,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 3,
+    "rules": 0,
+    "judgments": 4,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 1,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "HIGH COURT OF DELHI:NEW DELHI\nPRACTICE DIRECTIONS\n\nNo. 01/Original/DHC/2026 Dated: 13.07.2026\n\nHon’bIc the Chief Justice has been pleased to direct that in every execution\npetition under Section 36 of the Arbitration & Conciliation Act. 1996. the\nPetitioner/Decree Holder shall make a declaration in bold capital letters on the top of the\nindex that he has paid the stamp duty on the award.\n\nAs regards. pending execution petition under Section 36 of the Arbitration &\nConciliation Act. 1996. the Petitioner/Decree Holder shall pay the stamp duty on the\naward (where not paid) within a period of four weeks from the date of issue of this\npractice direction.\nBy Order\nJd/ -\n(H.K. ARIORA)\nRegistrar (Original. IPD & JJ C:)\n\n_/ Original/DHC/2026 Dated: 13.07.2026En(lst. No. \\+8IG-i\n\nCopy forwarded for information and compliance to:-\n1. The Principal District & Sessions Judge (HQ), Tis Hazari Courts, Delhi.\n2. The Principal District & Sessions Judge. North-West District, Rohini Courts. Delhi.\n3. The Principal District & Sessions Judge, East District, Karkardooma Courts, Delhi.\n4. The Principal District & Sessions Judge, North-East District, Karkardooma Courts, Delhi\n5. The Principal District & Sessions Judge, North District. Rohini Courts, Delhi\n6. The Principal District & Sessions Judge-cum-Special Judge, CBI (PC Act), Rouse Avenue District\nCourt Complex, New Delhi\n7. The Principal District & Sessions Judge, New Delhi District, Patiala House Courts, New Delhi.\n8. The Principal District & Sessions Judge, Shahdara District. Karkardooma Courts. Delhi.\n9. The Principal District & Sessions Judge. South-West District, Dwarka Courts, New Delhi.\n10. The Principal District & Sessions Judge, South District. Saket Courts, New Delhi\n11 .The Principal District & Sessions Judge, West District, Tis Hazari Courts. Delhi.\n12. The Principal District & Sessions Judge, South-East District, Saket Courts, New Delhi.\n13. The Principal Judge, Family Courts (HQ), Dwarka Courts Complex, Dwarka, New Delhi.\n14. The Principal Secretary (Law, Justice & LA), Govt. of N.C. T. of Delhi, Delhi Secretariat. I.P. Estate,\nNew Delhi.\n15. The Divisional Commissioner, Office of the Collector of Stamps (Headquarters) 5 Sham Nath Marg.\nCivil Lines. Delhi-110054\n16. The Secretary, Bar Council of Indi& 21, Rouse Avenue Institutional Area, New Delhi – 1 10002.\nP. tO",
+      "extraction_method": "native",
+      "native_characters": 2350,
+      "final_characters": 2350
+    },
+    {
+      "page_number": 2,
+      "text": "17. The Secretary, Bar Council of India, 2/6, Siri Fort Institutional Area, Khel Gaon Marg. New Delhi –\n110049\n18. The President/Secretary, Delhi High Court Bar Association, Delhi High Court, New Delhi with the\nrequest to circulate the Practice Directions among all members of the Bar Association for\ninformation and strict compliance.\n19. The President/Secretary, Bar Association, Tis Hazari Courts/Patiala House Courts/ Karkardooma\nCourts/ Rohini Courts/Dwarka Courts/Saket Court Complex/Rouse Avenue Court Complex with the\nrequest to circulate the Practice Directions among all members of the Bar Associations of District\nCourts for information and strict compliance.\n20. The Member Secretary, Delhi State Legal Service Authority, Rouse Avenue Courts Complex, New\nDelhi with the request to forward a copy of the Practice Directions to the Secretaries of all the eleven\nDistrict Legal Services Authorities.\n21. The Secretary, Delhi High Court Legal Services Committee.\n22. The Chairman, District Court Website Committee, Tis Hazari. Delhi for uploading the Practice\nDirections on the website of Delhi District Court\n23. Registrar-cum-Secretary to Hon’ble the Chief Justice.\n24. All Registrars/OSDs/ Joint Registrars (Judicial), High Court of Delhi with the request to circular the\nsame in their respective branches/office.\n25. Joint Registrar-cum-P. A. to Registrar General, Delhi High Court.\n26. The Joint Director (IT) with the request to upload the Practice Directions under the heading\nA “UPDATES” on the Official Website of Delhi High Court and Intranet of this Court.\n27.The President/Secretary, Delhi High Court Bar Association, Delhi High Court, New Delhi with the\nrequest to circulate the Practice Directions among all members of the Bar Association for information\nand strict compliance.\n28. The Presidents/Secretaries, All Bar Associations (Delhi District Courts), New Delhi with the request to\ncirculate the Practice Directions among all members of all the Bar Associations of District Courts for\ninformation and strict compliance.\n29. The Private Secretaries and Court Masters of Hon’ble Judges of Delhi High Court.\n30. Librarian. Delhi High Court.\n31 . The AO(J) (Filing and Listing Branches of Original Side), Delhi High Court with the request to\npublish the Practice Directions in daily cause list of Original Side for next 15 days.\n32. Notice Board.\n\\\\\nM&“]xub\nUPRF--*'“)=F\"’=£:\"'’ PJ. AlIAt -,dzJW.\n\n#iP\nhitIlt i,a/\nIMd\n6%,# t\")",
+      "extraction_method": "native",
+      "native_characters": 2448,
+      "final_characters": 2448
+    }
+  ],
+  "processed_at": "2026-08-06T07:07:21.590530+00:00"
+}

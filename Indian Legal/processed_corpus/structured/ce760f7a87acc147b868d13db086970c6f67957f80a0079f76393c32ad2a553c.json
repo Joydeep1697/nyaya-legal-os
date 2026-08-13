@@ -1,0 +1,100 @@
+{
+  "document": {
+    "document_id": "legal:ce760f7a87acc147b868d13d",
+    "sha256": "ce760f7a87acc147b868d13db086970c6f67957f80a0079f76393c32ad2a553c",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\census_rules_1990_05B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\census_rules_1990_05B15D_ce760f7a87ac.pdf",
+    "file_size": 74086,
+    "page_count": 9,
+    "document_type": "acts",
+    "classification_score": 20,
+    "title": "MINISTRY OF HOME AFFAIRS",
+    "year": 1990,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 9,
+    "extracted_characters": 16347,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 20,
+    "rules": 6,
+    "judgments": 0,
+    "orders": 10,
+    "notifications": 19,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 1
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "MINISTRY OF HOME AFFAIRS\n(Office of the Registrar General, India)\nNOTIFICATION\nNew Delhi, the 31st December, 1990.\n(As amended on 19.7.94)\n\nS.O. 967(E). – In exercise of the powers conferred by sub – section (1) of\nsection 18 of the Census Act, 1948 (37 of 1948), the Central Government\nhereby makes the following rules, namely: -\n\n1. (1) Short title and commencement. - These rules may be called the\nCensus Rules, 1990.\n\n(2) They shall come into force from the date of their publication in the\nOfficial Gazette.\n\n2. Definitions. - In these rules unless the context otherwise requires :-\n\n(a) “ Act” means the Census Act, 1948 (37 of 1948);\n\n(b) “Census Commissioner” means the Census Commissioner\nappointed under sub-section (1) of section 4 of the Act;\n\n(c) “Census Schedule” means the schedule containing questions\nreferred to in sub-section (1) of section 8 of the Act;\n\n(d) “Charge Officer” “Additional Charge Officer” and “Sub Charge\nOfficer” mean the census officers appointed as such under subsection (2) of section 4 of the Act and includes Tehsildar,\nMamlatdar, Block Development Officer, Chief Administrative\nOfficer of a town, executive officer and other officers;\n\n(e) “Director of Census Operations” means the Director of Census\nOperations appointed under sub- section (1) of section 4 of the\nAct to supervise the taking of census within a State or Union\nTerritory;\n\n(f) “District Census Officer”, “Sub- divisional Census Officer” and\n“Additional District Census Officer” mean the census officers\nappointed under sub-section (4) of section 4 of the Act;\n\n(g) “Enumerator” means an officer appointed under sub-section (4)\nof section 4 of the Act;\n\n(h) “Joint Director of Census Operations”, “Deputy Director of Census\nOperations” and “Assistant Director of Census Operations” mean\nofficers assisting Director of Census Operations;",
+      "extraction_method": "native",
+      "native_characters": 1845,
+      "final_characters": 1843
+    },
+    {
+      "page_number": 2,
+      "text": "(i) “Principal Census Officer” means a census officer designated as\nsuch under sub-section (2) of section 4 of the Act;\n\n(j) “Supervisor” means an officer appointed under sub- section (4) of\nsection 4 of the Act;\n\n[(k) All other words and expressions used herein and not defined but\ndefined in the Act, shall have the meanings respectively assigned\nto them in Act.]1\n\n3. Appointment of Census Officers :- The State Governments and the\nUnion territory Administrations in order to aid the taking of the census within\ntheir States or Union territories, may appoint officers from against the category\nmentioned in column 2 as census officers within their jurisdictions with such\ndesignation mentioned in column 1 of the Table below.\n\nT A B L E\nDesignation Officers to be appointed\n1 2\n1. Principal Census Officer District Collectors/ Magistrates/\nCommissioners of administrative heads of\nCorporations or any nominated Officer.\n2. District/Additional district/ District Collectors/ Magistrates/ Officer\nDeputy district/Sub-divisional assisting District Collectors/ Magistrates/\ndistrict/City/Additional City Commissioner/ District Sub-divisional\nCensus, Officer. Officers or Revenue Divisional Officers.\n3. Charge Officer/ Assistant Tehsildars/ Additional Tehsildars/\nCharge Officer/ Additional Mamlatdars/ Block Development Officer/\nCharge Officer and Sub- Chief Administrative Officer of towns/\nCharge Officer. Executive Officers and other Officers.\n4. Supervisor Officers generally of a rank higher than\nenumerators or any person.\n5. Enumerator Teachers, Clerks or any official or any\nperson.\n\n4. Designating of Officers .- The [State Governments and Union ]2 may\ndesignate the Director of Census Operations, the Joint Director of Census\nOperations, the Deputy Director of Census Operations and Assistant Director of\nCensus Operations as the Chief Principal Census Officer, Joint Chief Principal\nCensus Officer, Deputy Chief Principal Census Officer and Assistant Chief\nPrincipal Census Officer [of the States and the Union Territory concerned]3.\n\n1:- Inserted by notification dated 19.7.94.\n2:- Replaced the earlier words “State Govts. & the Union Territory Administration”. By notification dated:- 19.7.94.\n3:- Replaced the earlier words “within the jurisdiction of the State & Union Territory concerned”. By notification dated\n19.7.94.",
+      "extraction_method": "native",
+      "native_characters": 2339,
+      "final_characters": 2336
+    },
+    {
+      "page_number": 3,
+      "text": "5. Functions of the Census Officers. -\n\n(1) The Census Commissioner shall,-\n\n(a) take, aid in and supervise the taking of the census within the\ncountry;\n\n(b) cause the Directors of Census Operations to be appointed for\neach State or Union territory, as the case may be;\n\n(c) devise the census schedules or questionnaires and provide to the\nState Governments or Union territory Administrations for\npublication in their respective Gazette in order to canvass in the\ncensus;\n\n(d) compile and provide guidance to the Directors of Census\nOperations of States and Union territories in taking the census\nand computation of results; and\n\n(e) publish the census statistics through publications or magnetic\nmedia.\n\n(2) The Director of Census Operations shall, -\n\n(a) take, aid in and supervise the taking of the census within the limit\nof his State or Union territory.\n\n(b) prepare village or hamlet lists, classify places as towns according\nto demographic criteria, group places to form urban\nagglomeration, standard urban areas, etc. according to\ninstructions from the Census Commissioner and coordinate the\nfield work of house numbering and houselisting as per\ninstructions from the Census Commissioner.\n\n(c) provide provisional population figures to the Census\nCommissioner, India through the District Census Officers within\nsuch time as is specified;\n\n(d) compile and provide assistance to Census Commissioner in\ncompilation of the statistical data as per procedures laid down by\nthe Census Commissioner.\n\n(e) publish statistics collected and computed during the census\nrelating to the State or Union territory, as the case may be with\nthe approval of the Census Commissioner;",
+      "extraction_method": "native",
+      "native_characters": 1674,
+      "final_characters": 1671
+    },
+    {
+      "page_number": 4,
+      "text": "(f) provide the census material required in taking the census to\ncensus-officers in accordance with the guidelines provided by the\nCensus Commissioner in this regard.\n\n(g) arrange to provide necessary publicity to census at the\nappropriate time; and\n\n(h) coordinate the work of appointment of census – officers and\narrangements for their training.\n\n(3) The Principal Census Officer shall, -\n\n(a) cause the required number of District or Sub-Divisional Census\nOfficers or Charge officers to be appointed for taking census in\nthe district or municipal corporation or panchayat area, etc.;\n\n(b) take, aid in and supervise the houselisting and taking of the\ncensus within the limit of the district or municipal corporation or\npanchayat areas, town area committee/notified areas and the like\nand forward the result alongwith the filled in schedules and blank\nforms to the Director of Census Operations within the period\nspecified by him;\n\n(c) arrange for the training to Enumerators, Supervisors and Charge\nOfficers so as to enable them to perform their duties efficiently\nand within the time specified by the Director of census\nOperations; and\n\n(d) take action and prosecute any defaulting person with the\nprevious sanction of the State Government or of an authority\nauthorised in this behalf by the State Government.\n\n(4) The District/Additional District or Sub-Divisional Census Officer\nshall, -\n\n(a)(i) cause the required number of Charge Officers and other census\nofficers in a district or sub-division to be appointed;\n\n(ii) cause the entire area of a district to be divided into well\ndemarcated census divisions, namely, charges, supervisor’s circles\nand enumerator’s blocks as per instruction issued in this behalf by\nthe Director of Census Operations;\n\n(iii) cause the upto date list of villages and towns to be compiled and\ntheir jurisdictional maps prepared;\n\n(iv) assist the Director of Census Operations in compiling the related\nstatistical data as per his requirement.",
+      "extraction_method": "native",
+      "native_characters": 1980,
+      "final_characters": 1977
+    },
+    {
+      "page_number": 5,
+      "text": "(v) give proper publicity to census programmes from time to time so\nas to get proper responses from the public;\n\n(b) impart training to Charge Officers and cause proper training to be\nimparted to Supervisors and Enumerators through Charge\nOfficers so as to enable them to perform their duties efficiently\nand to assist the Principal Census Officers to take, aid in and\nsupervise the houselisting and taking of census within the limits\nof the districts, municipal corporations, panchayats etc.;\n\n(c) collect the filled in and blank forms of the various schedules\nalongwith abstracts or any other statement that may be required\nto be Panchayat area etc.;\n\n(d) consolidate the summary of enumerator’s abstract or statement\nfor the entire district;\n\n(e) forward the filled in or blank forms of each schedule alongwith\nthe consolidated summary of enumerator’s abstract or statement\nfor district and similar collected abstracts for each Charge Officer\nor census-officer, through the Principal Census Officer to the\nDirector of Census Operations for the State or Union territory\nAdministration; and\n\n(f) carry out such other jobs necessary for the successful taking of\nthe census;\n\n(5) The Charge Officer shall, -\n\n(a) cause the required number of Supervisors and Enumerators to be\nappointed within the jurisdiction of his charge;\n\n(b) prepare basic documents like general village registers and charge\nregisters as per instructions from the Director of Census\nOperations within the time schedule;\n\n(c) familiarise himself with the enumeration instructions and cause\nthe Supervisors and Enumerators to be trained so as to enable\nthem to perform their duties efficiently;\n\n(d) ensure that the work goes on according to the time schedule;\n\n(e) ensure full coverage, accuracy and timeliness in taking census;\n\n(f) collect the filled in and blank forms of the various schedules from\nall the Supervisors in the charge;",
+      "extraction_method": "native",
+      "native_characters": 1908,
+      "final_characters": 1905
+    },
+    {
+      "page_number": 6,
+      "text": "(g) provide provisional population figures to the Census\nCommissioner, through the Director of Census Operations within\na week on completion of census operations.\n\n(h) consolidate the summary of enumerator’s abstract of various\nenumeration blocks and statements and forward these to the\nDistrict Census Officers or Sub-divisional Officers alongwith the\nfilled in and blank schedules; and\n\n(i) carry out such other tasks as may be necessary for the successful\ntaking of the census;\n\n(6) The Supervisor shall, -\n\n(a) help the Enumerators under his jurisdiction and ensure that work\nis done as per schedule and the coverage is complete; and\n\n(b) collect the filled in and blank forms and statements from each\nEnumerator and forward the documents alongwith such\nstatements he may be required to prepare, duly signed to the\nCharge Officer within two days of completion of census\noperations.\n\n(7) The Enumerator shall, -\n\n(a) prepare Notional Map and layout sketch of the allotted\nenumeration block;\n\n(b) update the housenumbering;\n\n(c) fill up the various schedules according to instructions issued to\nhim;\n\n(d) undertake revisional round and updating of records;\n\n(e) prepare enumerator’s abstract which shall consist of the location\nparticulars of the enumeration block alongwith the total\npopulation by various characteristics asked for in the schedules\nand such other statements he may be required to compile; and\n\n(f) hand over all documents, filled in and blank to the Supervisors.\n\n6. Census schedules and questionnaires,- The census schedules or\nquestionnaires shall be notified by the [State]1 Government through Official\nGazette under sub-section (1) of section 8 of the Act.",
+      "extraction_method": "native",
+      "native_characters": 1683,
+      "final_characters": 1680
+    },
+    {
+      "page_number": 7,
+      "text": "[6A. Declaration of the date and duration of Census.- The Central\nGovernment may by a notification published in the Official Gazette declare the\ndate for the commencement of the census and the period during which the\nhouselisting operations and population census shall take place.\n\n6B. Manner of serving the order of requisition of premises and vehicles. - An\norder of requisition under section 7A, shall be served -\n\n(a) where the person to whom such order is addressed is a\ncorporation or firm -\n\nin the manner provided for the service of summons in rule 2 of\norder XXIX or rule 3 of order XXX, as the case may be, in the first\nSchedule to the Code of Civil Procedure, 1908 (Act V of 1908);\nand\n\n(b) where the person to whom such order is addressed is an\nindividual -\n\n(j) personally by delivering or tendering the order, or\n\n(ii) by registered post, or\n\n(iii) if the person cannot be found, by leaving an authentic copy of\nthe order with any adult member of his family or by affixing such\ncopy to some conspicuous part of the premises in which he is\nknown to have last resided or carried on business or personally\nworked for gain.\n\n6C. Time for application for reference to arbitration under section 7B. - The\ntime within which any interested person, who is aggrieved by the amount of\ncompensation determined under section 7B may make an application for\nreferring the matter to arbitration shall be fourteen days from the date of\ndetermination of the amount of such compensation or where the amount of\nsuch compensation has been determined in the absence of the person\ninterested or, as the case may be, the owner, fourteen days from the date on\nwhich the intimation of such determination is sent to that person or owner.]\n\n1: - Replaced the earlier “State” by notification 19.7.94.\n2: - Inserted by notification dated. 19.7.94.",
+      "extraction_method": "native",
+      "native_characters": 1834,
+      "final_characters": 1831
+    },
+    {
+      "page_number": 8,
+      "text": "7. Census data. - The Census Commissioner shall decide the items on\nwhich data may be released.\n\n8. Notifications, Orders and Instructions to be issued by State Government\n- The State Governments and the Union territory Administrations shall, -\n\n(i) republish the intention of taking a census notified by the Central\nGovernment in their State or Union territory Gazettes;\n\n[(ia) republish the census schedules and questionnaires notified by the\nCentral Government in their States or Union Territory Gazettes.]1\n\n(ii) publish a notification directing the public to cooperate in\nfurnishing accurate and unambigous information in respect of\nthe questions that may be put to them through census alongwith\nan extract of penalties prescribed under section 11 of the Act;\n\n(iii) [publish]2 in the gazette the reference date for the census and\nthe period during which houselisting operations and population\ncensus will take place under section 3 of the Act;\n\n(iv) freeze the administrative boundaries of districts, tehsils, towns,\netc. from the date to be intimated by the Census Commissioner\nwhich shall not be earlier than one year from the census\nreference date and till the completion of the census;\n\n(v) nominate a senior officer of the State Government at State Head\nQuarters as Nodal officer to liaise between Director of Census\nOperations and other Officers in Census work;\n\n(vi) impose restrictions on the Head of Department/ Officer on the\ntransfer of officers/ officials once appointed as Supervisor/\nEnumerator, without the proper consent of Principal/District\nCensus Officer; and\n\n(vii) give wide publicity of the census through radio, audiovisuals,\nposters etc.\n\n9. Custody of census schedules and connected papers, - After the\ncompletion of the taking of the census the canvassed census schedules shall be\nkept in the office of the Director of Census Operations or at such other place\nthe Director of Census Operations may direct for processing the data collected.\n\n1:- Inserted by notification dated. 19.7.94.\n2:- Replaced the earlier word “Publish” by notification dated.19.7.94.",
+      "extraction_method": "native",
+      "native_characters": 2091,
+      "final_characters": 2088
+    },
+    {
+      "page_number": 9,
+      "text": "10. Canvassed schedules. - The canvassed schedules shall after processing\nis over be preserved at the office of the Director of Census Operations or at\nsuch other place the Director of Census Operations may direct.\n\n11. Disposal of census schedules and other connected papers. - The\nschedules and other connected papers shall be disposed of totally or in part by\nthe Director of Census Operations a year before the next census in accordance\nwith the general or special directions as may be given by the Census\nCommissioner in this behalf.\n\n12. General or special instructions. - The Census Commissioner and the\nDirector of Census Operations may issue from time to time general or special\ninstructions or such directions, to the Principal Census Officers and other\ncensus officers appointed under the Act, as may be necessary for the efficient\nconduct and timely completion of the census operations.\n\n[No. A 27021/1/88 – Ad. I]\n\nA.R. NANDA,\nRegistrar General &\nCensus Commissioner, India.\n\nIncorpo ra ted on 6 .10 .00",
+      "extraction_method": "native",
+      "native_characters": 1019,
+      "final_characters": 1016
+    }
+  ],
+  "processed_at": "2026-08-06T07:13:18.604145+00:00"
+}

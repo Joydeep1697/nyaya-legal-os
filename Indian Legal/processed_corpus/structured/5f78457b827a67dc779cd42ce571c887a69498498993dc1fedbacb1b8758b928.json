@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:5f78457b827a67dc779cd42c",
+    "sha256": "5f78457b827a67dc779cd42ce571c887a69498498993dc1fedbacb1b8758b928",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\The2520Procedure2520for2520Admission2520and2520Disposal2520of2520Application2520Rules2C252020045B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\notifications\\The2520Procedure2520for2520Admission2520and2520Disposal2520of2520Application2520Rules2C252020045B15D_5f78457b827a.pdf",
+    "file_size": 43465,
+    "page_count": 2,
+    "document_type": "notifications",
+    "classification_score": 5,
+    "title": "Bt R-!129b",
+    "year": 2004,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 3026,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 4,
+    "rules": 2,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 5,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Bt R-!129b\na tak Lufiel\n. _- —— ufieles\n’ 3 fei[os\narr\nsTArEMAT pee > Lisre\nEXTRAORDINARY kKmM- ge\nUT TUE 3—3y-aNg (i) DOPE 28-7\nPART Ik-Seetion 3—Sub-section (i) Cp 3. 2 P<\nwire @ vane\nPUBLISHED BY AUTHORITY aan\nan ~ , SS ee +\n453] *G fecett, qeeufirar, araqat 14, 2004/anfear 22, 1926 _— fray le\nNo. 453] NEW DELFI, THURSDAY, OCTOBER 14, 2004/ASVINA 22, 1926 «\n; Fe wares soaray |\namet te fo we |\n78 feet, 14 STRISR, 2004 |\nFBLA. 676(3)).— 319 aca fafy freg feareere (fran) eafufer, 1967 (1967 = 37) at apa 52 at ,\nCRIT TE CBR eT al an en a, reff fem art, cant |\ni. SPR ite ta — (1) ee Fe a er am ontario Fem, 2004 #1 |\n(2) asa # wanes at orita at age ett | ,\n2 aor fort sera ait ca ae act:\n“TT oft RETA SU Se fara smern ae eiaestpe at afin eee era we er ae\n2} armen H afer we ne a rere a wy ara fe aM)\n3. Sa ar Pers :—\n(1) Satra ee SRI srfafrrr at un 36 ¥t sqHAT (1) Sard fray ster a afte a4 ata G 4s fest a\nota Ftp Sra sit fame fen arm\n(2) ae ay weer re TE aren Fp ee 36 wt SER (1) A ope ge fame A arpa fact\nTeo Te 2, era aran, i hea av face FOO, aenftaa wears tinea on cafes at -qemet alir 30 faz atin\necu atti a ara aa pty ah aie ae tar atm @ a ender we fren Bren aren |\nOWL FL 17014,52/2004 2m VI\nra cr (1)",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1213
+    },
+    {
+      "page_number": 2,
+      "text": "‘ : oo THE GAZETTE OF INDIA: EXTRAORDINARY | [Par TE —Ser. 30) :\nMINISTRY OF HOME AFFAIRS\nNOTIFICATION\nNew Delhi, the 14th October, 2004\nG.S.R, 076(E).—iIn exercise of the powers conferred by clause (d) of Sub-section (2) of Section 52 of the Unlawful\nActivmes (Prevention) Act, 1967 (37 of 1967), the Central Government hereby makes thc following mules, namely ——\n1. Short title and commencement.—{1) These rules may be called the Procedure for Admission and Disposal of\nApphicadon Rules, 2004.\n(2) They shall come into force on the dale of their publication in the Official Gazette.\n2. Making and admission of application :\n(1) An upplication under Sub-section (1) of Section 36 shall be addressed to the Secretary to the Government of\nHndia an the Ministry of Home Affairs, North Block, New Delhi and presented personally or forwarded to him by registered\nsost with acknowledgement due.\n(2) The application shall set forth concisely the grounds for removal of the organization. ro\n3. Dispasal of application :—\n11) The application made under Snb-section (1) of Section 36 of the Act shall be considered and disposed of by tlic\nContn Government within a period of forty-five days from the date of reccipt of application. /\n(2) Ifthe Central Government is satisfied that the application filed under Sub-section (1) of Section 36 1s defectise\nsn any farm, the Central Goverament shall, before rejecting such application, call upon the concemed organization or lhe\npetson, as the case may be, to remove the defect within a period of thirty days and if he or it docs so. the application shall\nDe considered.\n[F. No. 1-17014/72/2004-48-V1]\not : L.C. GOYAL, Jt. Sees.\nPimnted by the Monayer. Gavt. of India Press, Ring Road, Mayapuri, New Tielbi-s19u64 —\nand Published by tke Controller of Publications, Dethi-] 1udS4",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1813
+    }
+  ],
+  "processed_at": "2026-08-06T07:25:43.394331+00:00"
+}

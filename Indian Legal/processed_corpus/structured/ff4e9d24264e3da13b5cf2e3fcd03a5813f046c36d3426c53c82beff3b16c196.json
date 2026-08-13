@@ -1,0 +1,54 @@
+{
+  "document": {
+    "document_id": "legal:ff4e9d24264e3da13b5cf2e3",
+    "sha256": "ff4e9d24264e3da13b5cf2e3fcd03a5813f046c36d3426c53c82beff3b16c196",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\StateEmblemRules-2010_05B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\unknown\\StateEmblemRules-2010_05B15D_ff4e9d24264e.pdf",
+    "file_size": 278126,
+    "page_count": 2,
+    "document_type": "unknown",
+    "classification_score": 0,
+    "title": "ara z WAT",
+    "year": null,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 1,
+    "native_page_count": 0,
+    "extracted_characters": 30,
+    "status": "processed",
+    "warnings": [
+      "Low-confidence document classification",
+      "Very little text extracted"
+    ]
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ara z WAT\nThe Gaxette of India",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 30
+    },
+    {
+      "page_number": 2,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    }
+  ],
+  "processed_at": "2026-08-06T07:25:35.077470+00:00"
+}

@@ -1,0 +1,243 @@
+{
+  "document": {
+    "document_id": "legal:9a1537c27f9839a1043ae244",
+    "sha256": "9a1537c27f9839a1043ae244e3e715a60b266b5409cf38c7c18e3a2d43c88574",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\2011amendmentinDMCAct1957_290420175B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\2011amendmentinDMCAct1957_290420175B15D_9a1537c27f98.pdf",
+    "file_size": 20295864,
+    "page_count": 29,
+    "document_type": "acts",
+    "classification_score": 1,
+    "title": "Act na fies) Soll",
+    "year": null,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 49,
+    "status": "processed",
+    "warnings": [
+      "Low-confidence document classification",
+      "Very little text extracted"
+    ]
+  },
+  "classification_scores": {
+    "acts": 1,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 2,
+      "text": "Act na fies) Soll\nknwo? 260",
+      "extraction_method": "ocr",
+      "native_characters": 2,
+      "final_characters": 27
+    },
+    {
+      "page_number": 3,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 4,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 5,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 6,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 7,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 8,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 9,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 2,
+      "final_characters": 0
+    },
+    {
+      "page_number": 10,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 11,
+      "text": "\\",
+      "extraction_method": "native_low_text",
+      "native_characters": 1,
+      "final_characters": 1
+    },
+    {
+      "page_number": 12,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 13,
+      "text": "——— .\nA gt |\n’ ey ell",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 21
+    },
+    {
+      "page_number": 14,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 15,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 16,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 17,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 18,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 19,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 20,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 21,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 22,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 23,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 24,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 25,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 26,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 27,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 28,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    },
+    {
+      "page_number": 29,
+      "text": "",
+      "extraction_method": "native_low_text",
+      "native_characters": 0,
+      "final_characters": 0
+    }
+  ],
+  "processed_at": "2026-08-06T07:07:40.231054+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:315f45517b2227e65e8635ea",
+    "sha256": "315f45517b2227e65e8635eacc489276a9c7299395b7f0f3d51210b2c224e953",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud-03082026_odtt.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud-03082026_odtt_315f45517b22.pdf",
+    "file_size": 11834,
+    "page_count": 1,
+    "document_type": "judgments",
+    "classification_score": 5,
+    "title": "03.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "03.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 369,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 5,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "03.08.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO.08\nHON'BLE MR.JUSTICE MANOJ KUMAR OHRI\n\nCLICK TO JOIN VC\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt14\n\nAT 02:30 P.M\n\n1.FAO 223/2023\n\nSMT.ARCHANA PANDEY MUNISH KUMAR\nVS\nUNION OF INDIA\n\n2. FAO 17/2024\nSANJEET MISHRA & ANR. RAJAN SOOD\nVS\nUNION OF INDIA\n\n3.FAO 61/2023\n\nRAVIKANT & ORS. RAJAN SOOD\nVS\nUNION OF INDIA",
+      "extraction_method": "native",
+      "native_characters": 369,
+      "final_characters": 369
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.641595+00:00"
+}

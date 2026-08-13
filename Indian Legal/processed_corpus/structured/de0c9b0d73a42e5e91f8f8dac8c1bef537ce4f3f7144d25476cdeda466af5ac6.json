@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:de0c9b0d73a42e5e91f8f8da",
+    "sha256": "de0c9b0d73a42e5e91f8f8dac8c1bef537ce4f3f7144d25476cdeda466af5ac6",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\odishaAlterationAct20115B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\odishaAlterationAct20115B15D_de0c9b0d73a4.pdf",
+    "file_size": 371141,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 9,
+    "title": "Uae He Se Ter—(Y7)04/0007/2003—11 REGISTERED NO. DL—(N)04/0007/2003—11",
+    "year": 2003,
+    "court": null,
+    "case_number": null,
+    "decision_date": "19-10-2014",
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 4249,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 9,
+    "rules": 3,
+    "judgments": 0,
+    "orders": 3,
+    "notifications": 6,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Uae He Se Ter—(Y7)04/0007/2003—11 REGISTERED NO. DL—(N)04/0007/2003—11\nFMA\nEXTRAORDINARY\nwT Ii— avs }\nPART If — Section 1\nwire 8 varied\nPUBLISHED BY AUTHORITY\n\n20] 48 fered, gran, fear 23, 2011/ afear 1, 1933 (2)\nNo. 20] NEW DELHI, FRIDAY, SEPTEMBER 23, 2011/ASVINA I, 1933 (SAKA)\n\na a A A Ps Ger St et & free fe ae em Gee SF STF tal aa |\n\nSeparate paging is given to this Part in order that it may be filed as a separate compilation.\nMINISTRY OF LAW AND JUSTICE\n(Legislative Department)\nNew Delhi, the 23rd September, 2011/Asvina 1, 1933 (Saka) :\n\nThe following Act of Parliament received the assent of the President on the\n\n23rd September, 2011, and is hereby published for general information.\nTHE ORISSA (ALTERATION OF NAME) ACT, 2011 (\nNo. 15 oF 2011\n[23rd September, 2011.]\nAn Act to alter the name of the State of Orissa.\nBE it enacted by Parliament in the Sixty-second Year of the Republic of India as\n\nfollows:—\n\n1. (/) This Act may be called the Orissa (Alteration of Name) Act, 2011. Short title\n\nd\n\n(2) It shall come into force on such date as the Central Government may, by a\nnotification in the Official Gazette, appoint.\n\n2. In this Act, unless the context otherwise requires,— Definitions.\n\n(a) “appointed day” means the date appointed under sub-section (2) of\nsection | for the coming into force of this Act;\n\n(5) “appropriate Government” means, as respects a law relating to a matter\nenumerated in List I in the Seventh Schedule to the Constitution, the Central\nGovernment, and as respects any other law, the State Government;\n\n(c) “law” includes any enactment, Ordinance, regulation, order, bye-law, rule,\nscheme, notification or other instrument having the force of law in the whole or any\npart of the State of Orissa.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1738
+    },
+    {
+      "page_number": 2,
+      "text": "2 THE GAZETTE OF INDIA EXTRAORDINARY [Part II— Sec. 1]\nAlteration of 3. As from the appointed day, the State of Orissa shall be known as the State of\nname of State Qdisha.\nof Orissa\nAmendment 4. In article 164 of the Constitution, in clause (1), in the proviso, for the word “Orissa”,\nof articte 164. the word “‘Odisha” shall be substituted.\nAmendment 5. In article 273, in clause (1), for the word “‘Orissa’’, the word ““Odisha” shall be\nof article 273. substituted.\nAmendment of 6. In the First Schedule to the Constitution, under the heading “I. THE STATES”, in\naprsapvaner entry 10, under the column “Name”, for the word “Orissa”, the word “Odisha” shall be\nution: substituted.\nAmendment 7. In the Fourth Schedule to the Constitution, under the heading “TABLE”, in entry 14,\nof Fourth in the second column, for the word “Orissa”, the word “Odisha” shall be substituted.\nSchedule to\nthe Constitution.\nPower to S. (/) For the purpose of giving effect to the alteration of the name of the State of\nadapt laws. Orissa by section 3, the appropriate Government may, before the expiration of one year from\nthe appointed day, by order, make such adaptations and modifications of any law made\n: before the appointed day, whether by way of repeal or amendment, as may be necessary or\nexpedient, and thereupon every such law shall have effect subject to the adaptations and\nmodifications so made.\n\n(2) Nothing in sub-section (/) shall be deemed to prevent a competent Legislature or\nother competent authority from repealing or amending any law adapted or modified by the\nappropriate Government under the said sub-section.\n\nPower to 9. Notwithstanding that no provision or insufficient provision has been made under\nconstrue laws. section 8 for the adaptation of a law made before the appointed day, any court, tribunal or\nauthority, required or empowered to enforce such law, may construe the law in such manner,\nwithout affecting the substance, as may be necessary or proper in regard to the matter before\n\nthe court, tribunal or authority. -\nLegal 10. Where immediately before the appointed day any legal proceedings are pending to\nproceedings which the State of Orissa is a party, the State of Odisha shall be deemed to have been\n\nsubstituted for the State of Orissa in those proceedings.\n\nV.K. BHASIN,\nSecy. to the Govt. of India.\n\nPRINTED BY DIRECTORATE OF PRINTING AT GOVERNMENT OF INDIA PRESS, MINTO ROAD,\n\nNEW DELHI AND PUBLISHED BY THE CONTROLLER OF PUBLICATIONS, DELHI—2011.\nGMGIPMRND—-2194HA(S3)—19-10-2014.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 2511
+    }
+  ],
+  "processed_at": "2026-08-06T07:22:46.903212+00:00"
+}

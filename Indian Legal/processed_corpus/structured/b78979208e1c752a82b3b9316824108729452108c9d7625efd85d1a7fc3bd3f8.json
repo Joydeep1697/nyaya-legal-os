@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:b78979208e1c752a82b3b931",
+    "sha256": "b78979208e1c752a82b3b9316824108729452108c9d7625efd85d1a7fc3bd3f8",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\60805082026CRLMM10872026_174424.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\60805082026CRLMM10872026_174424_b78979208e1c.pdf",
+    "file_size": 782250,
+    "page_count": 2,
+    "document_type": "judgments",
+    "classification_score": 19,
+    "title": "* IN THE HIGH COURT OF DELHI AT NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi At New Delhi",
+    "case_number": null,
+    "decision_date": "05.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 2796,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 19,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "$~30\n\n* IN THE HIGH COURT OF DELHI AT NEW DELHI\n\n% Date of Decision: 05.08.2026\n\n# CNR No. DLHC010046242026\n\n+ CRL.M.C. 1087/2026\n\nRAJPUT & ORS. .....Petitioners\n\nThrough: Mr. Govind Sharma, Advocate with\npetitioners in person\n\nversus\n\nSTATE & ANR. .....Respondents\n\nThrough: Mr. Hemant Mehla, APP for State\nMr. Sahil Pathania, Advocate for R2\nwith R2 in person\n\nCORAM: JUSTICE GIRISH KATHPALIA\n\nJ U D G M E N T (ORAL)\n\n1. Petitioners seek quashing of case FIR No. 600/2015 of Police Station\n\nJaitpur for the offence under Section 498A/406/34 IPC on the ground that\n\nthe complainant de facto (respondent no. 2) has compromised the disputes\n\nwith the petitioners.\n\n2. State has no objection to this petition. Statements of parties have\n\nalready been recorded by the concerned Joint Registrar.\n\nCRL.M.C. 1087/2026 Page 1 of 2 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\nGIRISH 2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca, ou=HIGH COURT OF DELHI,CID -\n7047638, postalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d KATHPALIA 15570996b40f80cbd2eee60402c487965ff801e26fa, cn=GIRISH KATHPALIASignature Not Verified Date: 2026.08.05 17:18:12 +05'30'\nDigitally Signed\nBy:RAHUL YADAV\nSigning Date:05.08.2026\n17:37:56",
+      "extraction_method": "native",
+      "native_characters": 1280,
+      "final_characters": 1280
+    },
+    {
+      "page_number": 2,
+      "text": "3. The respondent no.2 is present in court today and is identified by her\n\ncounsel named above. I have spoken with respondent no.2 in Hindi and it is\n\nstated by her that she has compromised all disputes with the petitioners.\n\nMarriage between petitioner no.1 and respondent no.2 stands already\n\ndissolved by way of decree of divorce. No child was born from wedlock of\n\npetitioner no.1 and respondent no.2. The respondent no.2 submits that she\n\nhas received complete full and final settlement amount in lieu of her entire\n\nstridhan and maintenance. Respondent no.2 submits that she does not wish\n\nto continue prosecution of petitioners.\n\n4. Having spoken with respondent no.2, I am satisfied that it would be in\n\nthe interest of justice not to push the parties through full dress trial.\n\n5. Therefore, the petition is allowed and FIR No. 600/2015 of Police\n\nStation Jaitpur for the offence under Section 498A/406/34 IPC as well as\n\nproceedings arising out of the same are quashed.\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4af\nec45569af3962c6fb4835d435f97626cacc GIRISH a, ou=HIGH COURT OF DELHI,CID -\n7047638, postalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d KATHPALIA 15570996b40f80cbd2eee60402c487965ff801e26fa, cn=GIRISH KATHPALIA\nDate: 2026.08.05 17:17:59 +05'30'\nGIRISH KATHPALIA\n(JUDGE)\nAUGUST 05, 2026/as\n\nCRL.M.C. 1087/2026 Page 2 of 2 pages\n\nSignature Not Verified\nDigitally Signed\nBy:RAHUL YADAV\nSigning Date:05.08.2026\n17:37:56",
+      "extraction_method": "native",
+      "native_characters": 1516,
+      "final_characters": 1516
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:00.419948+00:00"
+}

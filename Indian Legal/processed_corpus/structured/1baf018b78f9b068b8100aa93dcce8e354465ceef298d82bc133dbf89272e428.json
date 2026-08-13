@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:1baf018b78f9b068b8100aa9",
+    "sha256": "1baf018b78f9b068b8100aa93dcce8e354465ceef298d82bc133dbf89272e428",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\16it.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\rules\\16it_1baf018b78f9.pdf",
+    "file_size": 286476,
+    "page_count": 1,
+    "document_type": "rules",
+    "classification_score": 4,
+    "title": "lIIGII COUR'1- OF DEI,Ill: NEW DEI,III",
+    "year": 2026,
+    "court": "Supreme Court Of India",
+    "case_number": null,
+    "decision_date": "06.02.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 2541,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 4,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 1,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "lIIGII COUR'1- OF DEI,Ill: NEW DEI,III\n\nNo. 16/1T Cell/DIIC\nDated: 06.02.2026\n\nP U B LIC N O T I C E\n\nIt is hereby informed to all concerned that vidc Notification No. 6/Rules/DHC, dated\n24.01.2026, issued by the Rules Branch of Delhi High Court, (available on the website of Delhi\nI-ligh Court), the existing Rule 3.4 of the “e-l\"iling Rules of the High Court of Delhi 202 1 ” has been\namended, and for the moment the maximum size of the c-file has been fixed at 300 M13 for the\nDelhi High Court Online e-Filing System.\nAccordingly, with effect from 11:00 a.m. on 71l1 February, 2026, the maximum size of the efile that can be uploaded/filed through 'Online e-Filing System of Delhi High Court’ will be 300\nMB\n\nIn case ol- any technical quell' or help the Advocate & Party-in-person may visit c-Filing\nCentre, Room No. 4, 1'awyers’ Chambers Block-1, Delhi lligh Court or call our Helpline Number\n14611.\nSd/-\n(Rajeev Kumar Chauhan)\nRegistrar (IT)\nfor Registrar General\nEndst. No. 2482-2496 /1T Cell/Dll(: Dated: 06-02-2026\nCopy forwarded for information to:\n(i.) 'I’he Registrar-cum-Secretary to IIon’bIc the Chief Justice\n(ii.) All the Registrars/OSDs/Joint Registrars (Judicial).\n(iii.) ’l'hc Joint Registrar-cum-PA to worthy Registrar Gcncral.\n(iv.) All the Private Secretaries and Court Mastcrs a/w the Flon’bIc Judges\n(v.) 'I-hc Secretary, Bar Council of India, 21, Rousc Avenue Institutional Area, New Delhi\n11 0002\n(vi.) 'I-he Secretary, Bar Council of Delhi, 2/6, Siri Fort Institutional Area, Khcl Gaon Marg,\nNew Delhi - 1 10049\n(vii.) The Holly. Secretary, Supreme Court Bar Association. Supreme Court of India, New\nDelhi\n(viii.) 'I-he llc)ny. Secretary, Delhi IIigh Court 13ar Association, Delhi I{igh Court, New Delhi.\n(ix.) The l-lony. Secretaries, Bar Associations, Tis IIazari Courts Complex/ Patiala Ilouse\nCourts Complex/ Karkardooma Courts Complex/ Rohini Courts Complex/ Dwarka Courts\nComplex/ Sakct Courts Complex/ Rouse Avenue Courts Complex\n(X.) PA to Registrar (1'1-) with a requcst to upload this Public Notice on thc website and Intranet\nof this Court\n(xi.) PA to Registrar (I.isting) with a request to send this Public Notice via email to the\nAdvocates and also publish the same in the Cause I.ist for one week.\n(xii.) Director (1’1’), Delhi IIigh Court.\n(xiii.) ’l-echnical Director, NIC, Delhi lligh Court\n(xiv.) AO(J) (Filing-Original) & AO(J) (Filing-Appellate) with the request to inform in this\nregard to all the Scrutiny Assistants.\n(XV.) Guard l''ilc\nR,,MC>b””q>\\,,„ (Shakeel Ahmed) - '\nJoint Registrar (IT)",
+      "extraction_method": "native",
+      "native_characters": 2541,
+      "final_characters": 2541
+    }
+  ],
+  "processed_at": "2026-08-06T07:07:24.087894+00:00"
+}

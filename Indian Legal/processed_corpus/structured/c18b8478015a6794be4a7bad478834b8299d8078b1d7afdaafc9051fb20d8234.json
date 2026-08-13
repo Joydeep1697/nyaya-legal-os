@@ -1,0 +1,47 @@
+{
+  "document": {
+    "document_id": "legal:c18b8478015a6794be4a7bad",
+    "sha256": "c18b8478015a6794be4a7bad478834b8299d8078b1d7afdaafc9051fb20d8234",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\apply_link_for_dhjs_2026.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\examinations\\apply_link_for_dhjs_2026_c18b8478015a.pdf",
+    "file_size": 4469,
+    "page_count": 1,
+    "document_type": "examinations",
+    "classification_score": 1,
+    "title": "Apply Online for Delhi Higher Judicial Service Examination-2026",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 181,
+    "status": "processed",
+    "warnings": [
+      "Low-confidence document classification",
+      "Very little text extracted"
+    ]
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 1,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Apply Online for Delhi Higher Judicial Service Examination-2026\n\nClick on the following link\n\nOr\n\nEnter the URL in the web browser\n\nhttps://applycareer.co.in/DHC/HighCourt2026DHJSE/",
+      "extraction_method": "native",
+      "native_characters": 181,
+      "final_characters": 181
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:37.920515+00:00"
+}

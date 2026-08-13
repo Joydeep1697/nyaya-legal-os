@@ -1,0 +1,65 @@
+{
+  "document": {
+    "document_id": "legal:d37a30412dcfbc70824bb48c",
+    "sha256": "d37a30412dcfbc70824bb48c4c884b2ff435b6c06b7b66aa31ae660a12d53b0e",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\Young_Persons_Harmful2520Publication_2520Act19565B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\Young_Persons_Harmful2520Publication_2520Act19565B15D_d37a30412dcf.pdf",
+    "file_size": 13654,
+    "page_count": 4,
+    "document_type": "acts",
+    "classification_score": 15,
+    "title": "THE YOUNG PERSONS (HARMFUL PUBLICATIONS) ACT,",
+    "year": 1956,
+    "court": null,
+    "case_number": null,
+    "decision_date": "28.2.1984",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 4,
+    "extracted_characters": 5503,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 15,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 10,
+    "notifications": 7,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "THE YOUNG PERSONS (HARMFUL PUBLICATIONS) ACT,\n\nACT NO. 93 OF 1956\n\n[28th December, 1956.]\n\nAn Act to prevent the dissemination of certain publications harmful to\nyoung persons.\n\nBE it enacted by Parliament in the Seventh Year of the Republic\nof India as follows:-\n\n1.\n\nShort title, extent and commencement.\n\n1. (1)Short title, extent and commencement. This Act may be\ncalled the Young Persons (Harmful Publications) Act, 1956.\n\n(2) It extends to the whole of India except the State of Jammu\nand Kashmir.\n\n(3) It shall come into force on such date*1 as the Central\nGovernment may, by notification in the Official Gazette, appoint.\n\n2.\n\nDefinitions.\n\n2.Definitions. In this Act,-\n\n(a) \"harmful publication \"means any book, magazine, pamphlet, leaflet, newspaper or other like publication which\nconsists of stories told with the aid of pictures or without\nthe aid of pictures or wholly in pictures, being stories\nportraying wholly or mainly-\n\n(i) the commission of offences; or\n\n(ii) acts of violence or cruelty ; or\n\n(iii) incidents of a repulsive or horrible nature;\n\nin such a way that the publication as a whole would tend to\ncorrupt a young person into whose hands it might fall,\nwhether by inciting or encouraging him to commit offences or\nacts of violence or cruelty or in any other manner\nwhatsoever;",
+      "extraction_method": "native",
+      "native_characters": 1312,
+      "final_characters": 1305
+    },
+    {
+      "page_number": 2,
+      "text": "(b) \" State Government \" in relation to a Union territory,\nmeans the administrator thereof;\n\n(c) \" young person \" means a person under the age of twenty\nyears.\n\n---------------------------------------------------------------------\n1st February, 1957, see Gazette of India, 1957, Extraordinary, Pt. 11,\nSec. 3, p. 331.\n\n703A\n\nExtended to the State of Sikkim vide S.O. 136 (E) dated\n28.2.1984.\n\n703B\nExtended to and brought into force in Dadra and Nagar Haveli\n(w.e.f. 1.7.65) by Reg. 6 of 1963, s. 2 & sch. I.\n\n703C\nExtended to the Union territory of Pondicherry by Act 26 of 1968,\nS.3 and Schedule.\n\n3.\n\nPenalty for sale, etc., of harmful publications.\n\n3. Penalty for sale, etc., of harmful publications. (1) If a\nperson-\n\n(a) sells, lets to hire, distributes, publicly exhibits or\nin any manner puts into circulation, any harmful publication,\nor\n\n(b) for purposes of sale, hire, distribution, public\nexhibition or circulation, prints, makes or produces or has\nin his possession any harmful publication, or\n\n(c) advertises or makes known by any means whatsoever that\nany harmful publication can be procured from or through any\nperson,\n\nhe shall be punishable with imprisonment which may extend to six\nmonths, or with fine, or with both.",
+      "extraction_method": "native",
+      "native_characters": 1242,
+      "final_characters": 1237
+    },
+    {
+      "page_number": 3,
+      "text": "(2) On a conviction under this section, the Court may order the\ndestruction of all the copies of the harmful publication in respect of\nwhich the conviction was had and which are in the custody of the Court\nor remain in the possession or power of the person convicted.\n\n4.\n\nPower of Government to declare harmful publications forfeited.\n\n4. Power of Government to declare harmful publications forfeited. (1) The State Government may, if it is of opinion after consultation with the principal law officer of the State, whether called the\nAdvocate-General or by any other name, that any publication is, a\nharmful publication, declare, by order notified in the Official\nGazette, that every copy of such publication shall be forfeited to the\nGovernment and every such notification shall state the ground for the\norder.\n\n(2) Without prejudice to the provisions contained in sub-section\n(1) of section 6, where there is an order of forfeiture under subsection (1) in respect of any publication it shall be lawful for any\npolice officer to seize the same wherever found in the territories to\nwhich this Act extends.\n\n5.\n\nAppeal to High Court against order of forfeiture.\n\n5.Appeal to High Court against order of forfeiture. Any person\naggrieved by an order of forfeiture passed by the State Government\nunder section 4 may, within sixty days of the date of such order,\napply to the High Court to set aside such order, and upon such\napplication the High Court may pass such order as it deems fit.\n\n6.\n\nPower to seize and destroy harmful publications.\n\n6. Power to seize and destroy harmful publications. (1) Any\npolice officer or any other officer empowered in this behalf by the\nState Government may seize any harmful publication.\n\n(2)Any Magistrate of the first class may, by warrant, authorize\nany police officer not below the rank of sub-inspector to enter and\nsearch any place where any stock of harmful publications may be or may\nbe reasonably suspected to be, and such police officer may seize any\npublication found in such place if in his opinion it is a harmful\npublication.",
+      "extraction_method": "native",
+      "native_characters": 2073,
+      "final_characters": 2073
+    },
+    {
+      "page_number": 4,
+      "text": "(3) Any publication seized under sub-section (1) shall be produced, as soon as may be, before a Magistrate of the first class, and\nany publication seized under sub-section (2) shall be produced, as\nsoon as may be, before the Court which issued the warrant.\n\n(4) If in the opinion of the Magistrate or Court such\npublication is a harmful publication, the Magistrate or Court may\ncause it to be destroyed, but if in the opinion of the Magistrate or\nCourt, such publication is not a harmful publication, the Magistrate\nor Court shall dispose of it in the manner provided in sections 523,\n524 and 525 of the Code of Criminal Procedure, 1898 (5 of 1898).\n\n7.\n\nOffences under this Act to be cognizable.\n\n7. Offences under this Act to be cognizable. Notwithstanding\nanything contained in the Code of Criminal Procedure,1898 (5 of 1898).\nany offence punishable under this Act shall be cognizable.",
+      "extraction_method": "native",
+      "native_characters": 893,
+      "final_characters": 888
+    }
+  ],
+  "processed_at": "2026-08-06T07:36:34.507291+00:00"
+}

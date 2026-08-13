@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_id": "legal:1f4d15cc75f62d333de47add",
+    "sha256": "1f4d15cc75f62d333de47add9c5ffc45161eb20048b30348dc098b3811b806d9",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\PublicProDamgeAct_200515_05B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\PublicProDamgeAct_200515_05B15D_1f4d15cc75f6.pdf",
+    "file_size": 1086086,
+    "page_count": 6,
+    "document_type": "acts",
+    "classification_score": 50,
+    "title": "F No. 24013/12/C.C./2013-CSR.III",
+    "year": 2013,
+    "court": null,
+    "case_number": null,
+    "decision_date": "18-06-2007",
+    "used_ocr": true,
+    "ocr_page_count": 6,
+    "native_page_count": 0,
+    "extracted_characters": 11041,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 50,
+    "rules": 7,
+    "judgments": 2,
+    "orders": 2,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "F No. 24013/12/C.C./2013-CSR.III\nGovernment of India\nMinistry of Home Affairs\n(CS Division)\nRRKK\nNDCC-II Building, Jai Singh Road, New Delhi\nDated 20\" May 2015\nSUBJECT:-Suggestions regarding Amendment to the Prevention of\nDamage to Public Property Act 1984 by the Prevention of\nDamage to Public Property Act (Amendment) Bill, 2015\nThe Supreme Court vide an order dated 18-06-2007 (in the matter of Writ\nPetition (Crl.) No. 77/2007), had set up a Committee under the Chairmanship of\nMr. Justice K T Thomas, former Judge of the Supreme Court, to examine\nmodalities to be adopted to make the Prevention of Damage to Public Property\nAct, 1984 (PDPP Act, 1984) more effective and also suggest suitable changes,\nwhich could make the Statute more meaningful.\n\n2. The Committee concluded that the present law was inadequate and\nineffective to deal with the increasing number of instances of public property\ndamages and made some recommendations for amendment in the Prevention of\nDamage to Public Properties Act, 1984. Accepting the recommendations of the\nJustice K T Thomas Committee, the Ministry of Home Affairs has proposed\namendments in the PDPP ACT, 1984. Proposed amendments seek to deter the\nprospective violators from vandalizing and destroying public/private property during\nagitations and other forms of protests. Importantly, the proposed amendments will\n\nalso deter the office-bearers of these organizations.\n\n; 3. The present provision of the Prevention of Damage to Public Property Act,\n1984 is at Annexure-| and the proposed draft Prevention of Damage to Public\nProperty Act (Amendment) Bill, 2015 is at Annexure-l|\n4. The suggestions/comments on the proposed draft PDPP Act\n(Amendment) Bill, 2015 from the Public and other stakeholders are solicited on or\nbefore 20\" July 2015 and the same may be sent to the Ministry of Home Affairs,\nCS Division, 5\" Floor, NDCC Building, Jai Singh Road, New Delhi-1100@1. The\nsuggestion could also be sent on e-mail: dircs1-mha@mha.gov.in. (dw\n\nKamar AG\n(Kumar ATo\nJoint Secretary",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 2024
+    },
+    {
+      "page_number": 2,
+      "text": "Annexure-I\nPREVENTION OF DAMAGE TO PUBLIC PROPERTY ACT, 1984 (3 OF 1984)\nAn Act to provide for prevention of damage to public property and for matters connected therewith.\nBe it enacted by Parliament in the Thirty-fifth Year of the Republic of India as follows :-\n1. Short title, extent and commencement. —\n1. This Act may be called the Prevention of Damage to Public Property Act, 1984.\n2. It extends to the whole of India except the State of Jammu and Kashmir.\n3. It shall be deemed to have come into force on the 28th day of January, 1984.\n2. Definitions.-\nIn this Act, unless the context otherwise requires,a. \"mischief' shall have the same meaning as in section 425 of the Indian Penal Code\n(45 of 1.860);\nb. \"public property\" means any property, whether immovable or movable (including put any machinery) which is\nowned by, or in the possession of, or under the control of —\ni, the Central Government; or\nii. any State Government; or\niii. any local authority; or\niv. any corporation established by, or under, a Central, Provincial or State Act or\nv. any company as defined in section 617 of the Companies Act, 1956 (1 of 1956); or\nvi. any institution, concern or undertaking which the Central Government may, by notification in the Official\nGazette, specify in this behalf:\nProvided that the Central Government shall not specify, any institution, concern or undertaking under this\nsub-clause unless such institution, concern or undertaking is financed wholly or substantially by funds\nprovided directly or indirectly by the Central Government or by one or more State Governments, or partly\nby the Central Government and partly by one or more State Governments.\n3. Mischief causing damage to public property. —(1) Whoever commits mischief by doing any act in respect of any\npublic property, other than public property of the nature referred to in sub-section (2), shall be punished with\nimprisonment for a term which may extend to five years and with fine.\n(2) Whoever commits mischief by doing any act in respect of any public property being —\n2 The Prevention of Damage to Public Property Act, 1984\na. any building, installation or other property used in connection with the production, distribution or\nsupply of water, light, power or energy ;\nb. any oil installation;\nc. any sewage work;\nd. any mine or factory;\ne. any means of public transportation or of tele-communications, or any building, installation or other property\nused in connection therewith shall be punished with rigorous imprisonment for a term which shall not be less\nthan six months, but which may extend to five years and with fine:",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 2609
+    },
+    {
+      "page_number": 3,
+      "text": "Provided that the court may, for reasons to be recorded in its judgment, award a sentence of imprisonment for a\nterm of less than six months.\n4. Mischief causing damage to public property by fire or explosive substance.-\nWhoever commits an offence under sub-section (1) or sub-section (2) of section 3 by fire or explosive substance\nshall be punished with rigorous imprisonment for a term which shall not be less than one year, but which may\nextend to ten years and with fine:\nProvided that the court may, for special reasons to be recorded in its judgment, award a\nsentence of imprisonment for a term of less than one year.\n5. Special provisions regarding bail.-\nNo person accused or convicted of an offence punishable under section 3 or section 4 shall, if in custody,\nbe released on bail or on his own bond unless the prosecution has been given an Opportunity to oppose\nthe application for such release.\n6. Saving.-\nThe provisions of this Act shall be in addition to, and not in derogation of, the provisions of any other law\nfor the time being in force, and nothing contained in this Act shall exempt any person from any\nproceeding (whether by way of investigation or otherwise) which might apart from this Act, be instituted\nor taken against him.\n7. Repeal and saving.i, The Prevention of Damage to Public Property Ordinance, 1984 (Ord. 3 of 1984), is hereby\nrepealed.\n2, Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall\nbe deemed to have been done or taken under the corresponding provisions of this Act.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1555
+    },
+    {
+      "page_number": 4,
+      "text": "Annexure-Il\nDRAFT BILL TO AMEND THE PREVENTION OF DESTRUCTION OF PUBLIC PROPERTY ACT\n(PDPPA), 1984\nProvisions of THE PREVENTION OF DAMAGE TO PUBLIC PROPERTY\n[POPPA | AMeNDMENT) BLL 201g TO PURIG PROPERTY |\nA\nSo\nRE cenaeianinind ee oi\nBE it enacted by Parliament in the Sixty-fifth year of the Republic of India\nte ee eee |\nShort title and|1. (1) This Act may be called the Prevention of Damage to Public\noman ese rman seme |\n(2) It shall come into force on such date as the Central Government may,\n___|Prmeinccat pernME |\nAmendment 2. In the Prevention of Damage to Public Property Act, 1984 (hereinafter | 3 of 1984\nof Act 3 of referred to as the principal Act), after the words “and with fine”, wherever\n1984. they occur, the words “which shall be equivalent to the market values of\nthe public property damaged” shall be inserted.\nAmendment 3. In the principle Act, in section 2, after clause (a), the following\n=\nlel ee |\nAmendment 4. In section 3 of the principal Act, in sub-section (2), in the proviso, for\nof section 3. the words “for reasons”, the words” for special reasons” shall be\nbial Setesetiaiedaieeeiemeaaiel BA\nInsertion of 5. After section 4 of the principal Act, the following sections shall be\nnew sections inserted, namely:-\n4A, 4B, 4C\nand 4D\nPresumption “AA. Where an offence under this Act has been committed and it is\nagainst accused | shown that public property has been damaged as direct consequence of\nsuch offence and the accused participated in the commission of such\noffence, it shall be presumed unless the contrary is shown that the\naccused had committed such offence.\nAbetment _ of 4B. Where damage to public property is caused in consequence of\nmischief demonstration, hartal or bandh called by any organisation, the officebearers of such organization, shall be deemed to be guilty of the",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1822
+    },
+    {
+      "page_number": 5,
+      "text": "commission of the offence of abetment of an offence punishable under\nthis Act and shall be liable to be proceeded against and punished\naccordingly.\nProvided that nothing contained in this section shall render any\nsuch office bearer liable to any punishment provided in this Act, if\nhe proves that the offence was committed without his knowledge or\nthat he had exercised all due diligence to prevent the commission of\nsuch offence.\nPunishment 4C. Whoever abets an offence punishable under this Act shall be\nfor abetment punished with the punishment provided for that offence under this Act.\nof mischief\nProcedure for 4D Where a call for demonstration, hartal or bandh has been given by an\nVideography Organisaiton and the officer-in-charge of a police station has reasons to\nof incidents of believe that damage to the public property is likely to be caused or there\ndemonstration is imminent danger of such damage, he shall,etc\n(i) make such arrangements for the videography of the area where\nthe demonstration, hartal or bandh is proposed to be held;\n(ii) deposit the soft copies of videography in such manner, with the\nconcerned Sub-Divisional Magistrate or Executive Magistrate\nwho may entrust the same to said police officer or any other\nperson;\n(iii) get the statement of the videographer recorded before Sub-\nDivisional Magistrate or Executive Magistrate in such manner,\nas may be prescribed.:”\nAmendment 6. In Section of the principal Act:eae ee ee\n(i) after the words and figure “or section 4”, the words and figure “or\n[a\n(ii) after the words “for such release”, the words “and there are\nreasonable grounds to believe that he is not guilty of the said offence”\nshall be inserted.\nInsertion of 7. After section 6 of the principal Act, the following sections shall be\nnew sections inserted, namely:oe | ae ee\n[Power to | \"6A. (1) The Central Government may, by notification in the Official |S",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1898
+    },
+    {
+      "page_number": 6,
+      "text": "ee ee\n(2) In particular, and without prejudice to the generality of the foregoing\npower, such rules may provide for all or any of the following matters,\nnamely:-\n(a) the arrangement for videography under section 4D; and\n(b) the manner of depositing the soft copies of videography and\nrecording the statement of the videographer under Section 4D.\nRules to be 6B. Every rule made by the Central Government under this Act shall be\nlaid before laid, as soon as may be after it is made, before each House of\nParliament Parliament, while it is in session, for a total period of thirty days, which\nmay be comprised in one session or in two or more successive\nsessions, and if, before the expiry of the session immediately following\nthe session or the successive sessions aforesaid, both Houses agree in\nmaking any modification in the rule or both Houses agree that the rule\nshould not be made, the rule shall thereafter have effect only in such\nmodified form or be of no effect, as the case may be; so, however, that\nany such modification or annulment shall be without prejudice to the\nvalidity of anything previously done under that rule.”",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1133
+    }
+  ],
+  "processed_at": "2026-08-06T07:24:00.521502+00:00"
+}

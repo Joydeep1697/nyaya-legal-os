@@ -1,0 +1,21 @@
+[PAGE 1]
+HEADING: “Bank Account Details of this Court for depositing Amount pursuant to the
+Hon’ble Court’s order.”
+
+o Account Name DELHI HIGH COURT PDC ACCOUNT
+o Account Number 15530110030226
+o IFSC Code UCBAOO01553
+o Swift Code UCBAINBB242
+
++Pay order/Demand Draft/Cheques may be prepared in the name of 'Registrar
+General Delhi High Court’,
+*+Counsel/Parties post deposit of the amount to submit detaIls of deposit in the
+following format with the Registry:
+Date of Court Order:
+Case No.:
+Cause Title:
+UTR No.:
+Date of Deposit:
+Amount Deposited:
+Name of the Depositor: Plaintiff/Appellant/Petitioner/Decree Holder (DH)
+Defendant/Respondent/Judgment Debtor (JD)

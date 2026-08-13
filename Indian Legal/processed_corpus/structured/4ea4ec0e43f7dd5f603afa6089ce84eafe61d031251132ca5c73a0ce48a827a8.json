@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:4ea4ec0e43f7dd5f603afa60",
+    "sha256": "4ea4ec0e43f7dd5f603afa6089ce84eafe61d031251132ca5c73a0ce48a827a8",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud-03082026_odtt_0.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud-03082026_odtt_0_4ea4ec0e43f7.pdf",
+    "file_size": 76853,
+    "page_count": 2,
+    "document_type": "judgments",
+    "classification_score": 15,
+    "title": "03.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "03.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 1426,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 15,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "03.08.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO.9\nHON'BLE MR.JUSTICE AMIT SHARMA\n\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc13\n\nAT 02:30 P.M.\n\n1.RC.REV. 507/2015, CM APPL. 8455/2019 & CM APPL. 79139/2025\n\nM/S GAINDA LAL RAM NARAYAN & ANR . ....Petitioners\n\nThrough: Mr. S. C. Singhal and Mr. Parth Mahajan, Advs.\n\nversus\n\nNARAYAN SHAMNANI .....Respondent\n\nThrough: Mr. Pradeep Dewan, Sr. Adv. with Mr. Ashok Popli, Adv.\n\n2 RC.REV. 563/2015, CM APPL. 23785/2015, CM APPL.\n\n6966/2016, CM APPL. 14540/2016, CM APPL. 68805/2024 & CM APPL. 79140/2025\n\nM/S BELI RAM CHEMIST & ORS .....Petitioners\n\nThrough: Mr. Gurinder Pal Singh, Mr. Sidharth Borah, Ms. Jaya\nBajpai, Ms. Maryam Beg, Advs.\n\nversus\n\nNARAYAN SHAMNANI .....Respondent\n\nThrough: Mr. Pradeep Dewan, Sr. Adv. with Mr. Ashok Popli, Adv.",
+      "extraction_method": "native",
+      "native_characters": 801,
+      "final_characters": 801
+    },
+    {
+      "page_number": 2,
+      "text": "3. RC.REV. 99/2016, CM APPL. 5209/2016, CM APPL. 68804/2024 & CM APPL. 78625/2025\n\nYOGESH JAIN .....Petitioner\n\nThrough: Mr. Amit Sethi, Mr. B. Anand, Mr. Neeraj Kargeti, Advs.\n\nversus\n\nNARAYAN SHAMNANI .....Respondent\n\nThrough: Mr. Pradeep Dewan, Sr. Adv. with Mr. Ashok Popli, Adv.\n\n4. RC.REV. 367/2018\n\nNISAR AHMED .....Petitioner\n\nThrough: Mr. Rajat Aneja, Mr. Abhinav\nChauhan, Mr. Karan Deep Singh, Mr.\nAditya Sharma, Mr. Saubhagya\nChauriha, Advs. with petitioner in person.\nversus\n\nAGYA PAL SINGH .....Respondent\n\nThrough: Mr. Raman Kapur, Sr. Adv. with Mr.\nSiddharth Aggarwal, Ms. Arohi Pal & Mr. Divyansh Singh, Advs.",
+      "extraction_method": "native",
+      "native_characters": 625,
+      "final_characters": 625
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.684860+00:00"
+}

@@ -1,0 +1,28 @@
+NOVA LEGAL CORPUS REPORT
+============================================================
+
+Total Files : 904
+PDFs : 467
+TXT : 215
+JSON : 215
+JSONL : 2
+CSV : 4
+
+Categories
+----------------------------------------
+acts                102
+rules               33
+judgments           38
+orders              8
+notifications       20
+circulars           1
+recruitment         2
+examinations        7
+guides              1
+unknown             1
+
+RAG Chunks : 3166
+Duplicates : 38
+Manual Review : 66
+Errors : 0
+Total Size : 645.56 MB

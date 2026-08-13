@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:474d48745c3a3941a771b3b0",
+    "sha256": "474d48745c3a3941a771b3b082c5b4da18ed7626a13f723d8f02987a2ac8d31b",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\GovEAPAmendmentAct2014_05B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\GovEAPAmendmentAct2014_05B15D_474d48745c3a.pdf",
+    "file_size": 77551,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 16,
+    "title": "thareet Fe Ste TerP—(T71)04/0007/2003-—14 REGISTERED NO. DL—(N)04/0007/2003—14",
+    "year": 2003,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 2934,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 16,
+    "rules": 1,
+    "judgments": 0,
+    "orders": 1,
+    "notifications": 4,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "thareet Fe Ste TerP—(T71)04/0007/2003-—14 REGISTERED NO. DL—(N)04/0007/2003—14\nTET\nEXTRAORDINARY . |\naT W— wg 1\nPART Ii — Section 1\nfree & vatfira ;\nPUBLISHED BY AUTHORITY\nRe 9} ag feral, Fv, APA 5, 2014/ THETA 14, 1935 (se)\nNo. 9] NEW DELHI, WEDNESDAY, MARCH 5, 2014/PHALGUNA 14, 1935 (SAKA) |\nFa 1 8 ft as Tea at arate free fee Ge ETT Gee HBT Y UST TT AG ;\nSeparate paging is given to this Part in order that it may be filed as a separate compilation.\nMINISTRY OF LAW AND JUSTICE '\n(Legislative Department) |\ni\nNew Dethi, the 3th March, 2014/Phalguna 14, 1935 (Saka)\nThe following Act of Parliament received the assent of the President on the\n4th March, 2014, and is hereby published for general information:— |\nTHE GOVERNORS (EMOLUMENTS, ALLOWANCES AND\nPRIVILEGES) AMENDMENT ACT, 2014\n(No. 8 oF 2014)\n[4th March, 2014.]\nAn Act further to amend the Governors (Emoluments, Allowances and\nPrivileges) Act, 1982.\nBe itenacted by Parliament in the Sixty-fifth Year of the Republic of India as follows:— '\n1. (J) This Act may be called the Governors (Emoluments, Allowances and Privileges) Short title\nAmendment Act, 2014. and\ncommencement,\n(2) It shall come into force on such date as the Central Government may, by-notitication\nin the Official Gazette, appoint.\n43 of 1982, 2. In section 2 of the Governors (Emoluments, Allowances and Privileges) Act, 1982 Amendment\n(hereinafter referred to as the principal Act), for clause (a), the following clauses shall be of section 2.\nsubstituted, namely:— :\n(a) “ex-Governor” means a person who has been the Governor of a State or two\nor more States;\n(aa) “Governor” means the Governor, or any person discharging the functions\nof the Governor, of any State or of two or more States;’.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1725
+    },
+    {
+      "page_number": 2,
+      "text": "2 THE GAZETTE OF INDIA EXTRAORDINARY [Part II— Sec. 1] if\nInsertion of 3. After section 12 of the principal Act, the following section shail be inserted, namely:—\nnew section\n12A.\nEntitlement of “12A. Subject to any rules made in this behalf, the ex-Governor shall, for the\nex-Governor remainder of his life, be entitled to secretarial assistance of one Personal Assistant on\nto secretarial reimbursement basis:\nassistance.\nProvided that where such ex-Governor is re-appointed to the office of the 7\nGovernor or elected to Parliament or the State Legislature or appointed to any office of\nprofit under the Union or a State Government, he shall not be entitled for such secretarial\n, assistance for the period during which he holds such office.”\nAmendment 4, In section 13 of the principal Act, in sub-section (2), after clause (g), the following\nof section 13. ¢Jause shall be inserted, namely: —\n“(h) the manner of providing secretarial assistance and reimbursement under\nsection 12A.”.\nP.K.MALHOTRA,\nSecy. to the Govt. of India.\nPRINTED BY THE GENERAL MANAGER, GOVERNMENT OF INDIA PRESS, MINTO ROAD, NEW DELHI\nAND PUBLISHED BY THE CONTROLLER OF PUBLICATIONS, DELHI—2014, ;\nGMGIPMRND—481 3GI{S3}—05-03-201 4.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1209
+    }
+  ],
+  "processed_at": "2026-08-06T07:18:35.451875+00:00"
+}

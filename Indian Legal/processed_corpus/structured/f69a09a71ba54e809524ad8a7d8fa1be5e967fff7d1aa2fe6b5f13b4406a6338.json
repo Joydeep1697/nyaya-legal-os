@@ -1,0 +1,46 @@
+{
+  "document": {
+    "document_id": "legal:f69a09a71ba54e809524ad8a",
+    "sha256": "f69a09a71ba54e809524ad8a7d8fa1be5e967fff7d1aa2fe6b5f13b4406a6338",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\Certificate-of-MHA.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\guides\\Certificate-of-MHA_f69a09a71ba5.pdf",
+    "file_size": 604919,
+    "page_count": 1,
+    "document_type": "guides",
+    "classification_score": 2,
+    "title": "Ra co a ee ee ee eo | Sa et IB Ss Ne Ee =g",
+    "year": 2018,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 1,
+    "native_page_count": 0,
+    "extracted_characters": 938,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 1,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 2
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Ra co a ee ee ee eo | Sa et IB Ss Ne Ee =g\nSTQC Website Quality Certification Services E\nMinistry of Electronics and Information Technology\nf Electronics Niketan, 6, CGO Complex, Lodi Road, New Delhi - 110003 f\nWebsite Quality Certificate\nIt is hereby certified that the website of i\nMinistry of Home Affairs :\nNorth Block, Central Secretariat, :\nNew Delhi-110001\nURL: https://mha.gov.in\n1 Fulfills the requirements* of the i Website Quality Certification Scheme i\nQuality Level | .\nIt is verified that the website meets the requirements of the f\nGuidelines for Indian Government Websites, 2018 5\nThis also refers to their Website Quality Manual and the certification is subject to continued compliance :\n[| Approval Number : STQC/WQCS/GIGW/2023/Q1/48 :\n| | ss Date of issue: 12\" May., 2023\nThis certificate is valid up till: 11\" May., 2026 * '\n) j: A\na Ce Ke\n| \\ “Qa > (Bit— :\n(Suresh Chandra)\nChief Executive Officer & Scientist ‘G’ :\na",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 938
+    }
+  ],
+  "processed_at": "2026-08-06T07:13:20.215580+00:00"
+}

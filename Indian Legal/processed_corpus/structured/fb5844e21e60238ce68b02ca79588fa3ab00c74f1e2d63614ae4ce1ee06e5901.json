@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:fb5844e21e60238ce68b02ca",
+    "sha256": "fb5844e21e60238ce68b02ca79588fa3ab00c74f1e2d63614ae4ce1ee06e5901",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\60804082026BA31102026_174347.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\60804082026BA31102026_174347_fb5844e21e60.pdf",
+    "file_size": 812380,
+    "page_count": 3,
+    "document_type": "judgments",
+    "classification_score": 4,
+    "title": "* IN THE HIGH COURT OF DELHI AT NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi At New Delhi",
+    "case_number": null,
+    "decision_date": "04.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 3723,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 4,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "$~71\n\n* IN THE HIGH COURT OF DELHI AT NEW DELHI\n\n% Date of Decision: 04.08.2026\n\n# CNR No. DLHC010352342026\n\n+ BAIL APPLN. 3110/2026 & CRL.M.A. 23435/2026\n\nVISHAL KUMAR YADAV .....Petitioner\n\nThrough: Counsel for accused/applicant\n(appearance not given).\nversus\n\nSTATE (NCT OF DELHI) THROUGH SHO, P.S. KOTWALI\n\n.....Respondent\n\nThrough: Mr. Hemant Mehla, APP for State\n(through video conferencing) with\nIO/SI Neeraj.\n\nCORAM: JUSTICE GIRISH KATHPALIA\n\nJ U D G M E N T (ORAL)\n\n1. The accused/applicant seeks regular bail in case FIR No. 385/2025 of\n\nPS Kotwali for offence under Section 316(2)/318(4)/3(5) of BNS.\n\n2. Learned APP for State assisted by IO/SI Neeraj accepts notice and in\n\nBAIL APPLN. 3110/2026 Page 1 of 3 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec4 GIRISH 5569af3962c6fb4835d435f97626cacca,ou=HIGH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\n\n570996b40f80cbd2eee60402c487965ff801e\n26fa, cn=GIRISH KATHPALIASignature Not Verified KATHPALIA serialNumber=d3e86796451ec45c07b5d15 Date: 2026.08.04 17:40:05 +05'30'\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1178,
+      "final_characters": 1130
+    },
+    {
+      "page_number": 2,
+      "text": "all fairness does not deny that the accused/applicant deserves bail on parity\n\nwith co-accused Jai Prakash. However, the IO submits that the\n\naccused/applicant is involved in two more cases of similar nature, out of\n\nwhich, in one case he has been granted bail while status of the other case is\n\nnot known.\n\n3. Broadly speaking, the prosecution case is as follows. The complainant\n\nde facto was approached by the accused/applicant, who representing himself\n\nto be a broker, introduced him with co-accused, assuring orders for purchase\n\nof fabrics. Relying upon the recommendation of the accused/applicant,\n\nbusiness deals were entered into by the complainant de facto with certain\n\nfirms. But the complainant de facto did not receive consideration of the\n\nfabric supplied by him. Thereafter, the accused persons including the present\n\naccused/applicant issued post-dated cheques, but the same got dishonoured.\n\nAccording to the accused/applicant, it was a simple case of failed business\n\ntransaction, and not a case of cheating because admittedly the\n\naccused/applicant had been making part payments of the outstanding\n\namount.\n\n4. Considering the above circumstances, I do not find any reason to deny\n\nliberty to the accused/applicant. Therefore, the bail application is allowed\n\nand accused/applicant is directed to be released on bail subject to his\n\nfurnishing a personal bond in the sum of Rs.20,000/- with one surety in the\n\nlike amount to the satisfaction of the Trial Court. Accompanying application\n\nstands disposed of.\n\nBAIL APPLN. 3110/2026 Page 2 of 3 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4af\nec45569af3962c6fb4835d435f97626cacc GIRISH a, ou=HIGH COURT OF DELHI,CID -\n7047638, postalCode=110003, st=Delhi,\n\n15570996b40f80cbd2eee60402c487965f\nf801e26fa, cn=GIRISH KATHPALIASignature Not Verified KATHPALIA serialNumber=d3e86796451ec45c07b5d\nDate: 2026.08.04 17:39:56 +05'30'\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 2024,
+      "final_characters": 1976
+    },
+    {
+      "page_number": 3,
+      "text": "5. A copy of this order be immediately transmitted to the concerned Jail\n\nSuperintendent for informing the accused/applicant.\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec45\n569af3962c6fb4835d435f97626cacca, GIRISH ou=HIGH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d1557\n0996b40f80cbd2eee60402c487965ff801e26fa KATHPALIA , cn=GIRISH KATHPALIA\nDate: 2026.08.04 17:39:45 +05'30'\nGIRISH KATHPALIA\n(JUDGE)\nAUGUST 04, 2026/ry\n\nBAIL APPLN. 3110/2026 Page 3 of 3 pages\n\nSignature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 665,
+      "final_characters": 617
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:00.245062+00:00"
+}

@@ -1,0 +1,19 @@
+NOVA LEGAL RAG OPTIMIZATION STEPS
+
+1. Replace your old file with nova_legal_rag_nvidia_optimized.py and rename it to nova_legal_rag_nvidia.py.
+
+2. Use persistent chat mode:
+python nova_legal_rag_nvidia.py chat `
+  --index "D:\Nova Legal\Indian Legal\nova_rag_index" `
+  --use-nvidia-reranker
+
+The first question loads the model. Later questions reuse it.
+
+3. Default source diversity is now 2 chunks per document. To use only one:
+--max-chunks-per-document 1
+
+4. Statutory questions prioritize Acts, Rules, Notifications, and Circulars. Case-law questions prioritize Judgments and Orders.
+
+5. Noisy OCR is penalized. Search output shows OCR noise from 0.00 (clean) to 1.00 (very noisy).
+
+6. Normalized duplicate chunk text is removed from the final retrieved set.

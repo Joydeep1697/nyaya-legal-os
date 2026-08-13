@@ -1,0 +1,46 @@
+{
+  "document": {
+    "document_id": "legal:4252e6cc22512ed174b610d6",
+    "sha256": "4252e6cc22512ed174b610d65805b41a3499f40fb2df17b0e62090845d013a1b",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\TheConst96AndmtAct20115B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\TheConst96AndmtAct20115B15D_4252e6cc2251.pdf",
+    "file_size": 184686,
+    "page_count": 1,
+    "document_type": "acts",
+    "classification_score": 6,
+    "title": "tart Ge So Uee—(WA)04/0007/2003—-11 REGISTERED NO. DiL.—(N)04/0007/2003—11",
+    "year": 2003,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 1,
+    "native_page_count": 0,
+    "extracted_characters": 1274,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 6,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 1,
+    "notifications": 1,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "tart Ge So Uee—(WA)04/0007/2003—-11 REGISTERED NO. DiL.—(N)04/0007/2003—11\nFATA\nEXTRAORDINARY\nwt W—ars 1\nPART Il—Section I\nwife & weerfira\nPUBLISHED BY AUTHORITY\n# 21] ae feet, yore, faarat 23, 2011/ afta 1, 1933 (3)\nNo. 21} NEW DELHI, FRIDAY, SEPTEMBER 23, 2011/ASVINA 1, 1933 (SAKA)\nga am FP PSs VET St onl & frea fH ae eT Get H STF Tal as |\nSeparate paging is given to this Part in order that it may be filed as a separate compilation.\nMINISTRY OF LAW AND JUSTICE\n(Legislative Department)\nNew Delhi, the 23rd September, 2011/Asvina 1, 1933 (Saka)\nThe following Act of Parliament received the assent of the President on the\n23rd September, 2011, and is hereby published for general information.\nTHE CONSTITUTION (NINETY-SIXTH AMENDMENT) ACT, 2011\n(23rd September, 2011.]\nAnAct further to amend the Constitution of India.\nBer it enacted by Parliament in the Sixty-second Year of the Republic of India as\nfollows:—\n1. This Act may be called the Constitution (Ninety-sixth Amendment) Act, 2011. Short title.\n2. Inthe Eighth Schedule to the Constitution, in entry 15, for the word “Oriya”, the Amendment\nword “Odia” shall be substituted. of Eighth\nSchedule.\nV.K. BHASIN,\nSeey. to the Govt. of India.\nPRINTED BY DIRECTORATE OF PRINTING AT GOVERNMENT OF INDIA PRESS, MINTO ROAD,",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1274
+    }
+  ],
+  "processed_at": "2026-08-06T07:34:28.486379+00:00"
+}

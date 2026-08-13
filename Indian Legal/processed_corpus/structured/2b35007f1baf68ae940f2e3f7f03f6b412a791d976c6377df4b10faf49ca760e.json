@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:2b35007f1baf68ae940f2e3f",
+    "sha256": "2b35007f1baf68ae940f2e3f7f03f6b412a791d976c6377df4b10faf49ca760e",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\PlaceWorshipAct19915B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\PlaceWorshipAct19915B15D_2b35007f1baf.pdf",
+    "file_size": 12566,
+    "page_count": 3,
+    "document_type": "acts",
+    "classification_score": 29,
+    "title": "THE PLACES OF WORSHIP (SPECIAL PROVISIONS) ACT 1991",
+    "year": 1991,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 5937,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 29,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "THE PLACES OF WORSHIP (SPECIAL PROVISIONS) ACT 1991\nNO. 42 OF 1991\n[18th September, 1991.]\n\nAn Act to prohibit conversion of any place of worship and to provide\nfor the maintenance of the religious character of any place of worship\nas it existed on the 15th day of August, 1947, and for matters\nconnected therewith or incidental thereto.\n\nBE it enacted by Parliament in the Forty-second Year of the\nRepublic of India as follows:--\n\n1.\nShort title, extent and commencement.\n\n1. Short title, extent and commencement. (1) This Act may be\ncalled the Places of Worship (Special Provisions) Act, 1991.\n\n(2) It extends to the whole of India except the State of Jammu\nand Kashmir.\n\n(3) The provisions of sections 3, 6 and 8 shall come into force\nat once and the remaining provisions of this Act shall be deemed to\nhave come into force on the 11th day of July, 1991.\n\n2.\nDefinitions.\n\n2. Definitions. In this Act, unless the context otherwise\nrequires,--\n\n(a) \"commencement of this Act\" means the commencement of\nthis Act on the 11th day of July, 1991;\n\n(b) \"conversion\", with its grammatical variations, includes\nalteration or change of whatever nature;\n\n(c) \"place of worship\" means a temple, mosque, gurudwara,\nchurch, monastery or any other place of public religious worship\nof any religious denomination or any section thereof, by whatever\nname called.\n\n3.\nBar of conversion of places of worship.\n\n3. Bar of conversion of places of worship. No person shall\nconvert any place of worship of any religious denomination or any\nsection thereof into a place of worship of a different section of the\nsame religious denomination or of a different religious denomination\nor any section thereof.\n\n4.\nDeclaration as to the religious character of certain places of worshipand bar\nof jurisdiction of courts, etc.\n\n4. Declaration as to the religious character of certain places of\nworship and bar of jurisdiction of courts, etc. (1) It is hereby\ndeclared that the religious character of a place of worship existing\non the 15th day of August, 1947 shall continue to be the same as it",
+      "extraction_method": "native",
+      "native_characters": 2126,
+      "final_characters": 2064
+    },
+    {
+      "page_number": 2,
+      "text": "existed on that day.\n\n(2) If, on the commencement of this Act, any suit, appeal or\nother proceeding with respect to the conversion of the religious\ncharacter of any place of worship, existing on the 15th day of August,\n1947, is pending before any court, tribunal or other authority, the\nsame shall abate, and no suit, appeal or other proceeding with respect\nto any such matter shall lie on or after such commencement in any\ncourt, tribunal or other authority:\n\nProvided that if any suit, appeal or other proceeding, instituted\nor filed on the ground that conversion has taken place in the\nreligious character of any such place after the 15th day of August,\n1947, is pending on the commencement of this Act, such suit, appeal or\nother proceeding shall be disposed of in accordance with the\nprovisions of sub-section (1).\n\n(3) Nothing contained in sub-section (1) and sub-section (2)\nshall apply to,--\n\n(a) any place of worship referred to in the said subsections which is an ancient and historical monument or an\narchaeological site or remains covered by the Ancient Monuments\nand Archaeological Sites and Remains Act, 1958 (24 of 1958.) or\nany other law for the time being in force;\n\n(b) any suit, appeal or other proceeding, with respect to\nany matter referred to in sub-section (2), finally decided,\nsettled or disposed of by a court, tribunal or other authority\nbefore the commencement of this Act;\n\n(c) any dispute with respect to any such matter settled by\nthe parties amongst themselves before such commencement;\n\n(d) any conversion of any such place effected before such\ncommencement by acquiescence;\n\n(e) any conversion of any such place effected before such\ncommencement which is not liable to be challenged in any court,\ntribunal or other authority being barred by limitation under any\nlaw for the time being in force.\n\n5.\nAct not to apply to Ram Janma BhumiBabri Masjid.\n\n5. Act not to apply to Ram Janma BhumiBabri Masjid. Nothing\ncontained in this Act shall apply to the place or place of worship\ncommonly known as Ram Janma Bhumi-Babri Masjid situated in Ayodhya in\nthe State of Uttar Pradesh and to any suit, appeal or other proceeding\nrelating to the said place or place of worship.\n\n6.\nPunishment for contravention of section 3.\n\n6. (1) Punishment for contravention of section 3. Whoever\ncontravenes the provisions of section 3 shall be punishable with\nimprisonment for a term which may extend to three years and shall also\nbe liable to fine.\n\n(2) Whoever attempts to commit any offence punishable under subsection (1) or to cause such offence to be committed and in such",
+      "extraction_method": "native",
+      "native_characters": 2651,
+      "final_characters": 2588
+    },
+    {
+      "page_number": 3,
+      "text": "attempt does any act towards the commission of the offence shall be\npunishable with the punishment provided for the offence.\n\n(3) Whoever abets, or is a party to a criminal conspiracy to\ncommit, an offence punishable under sub-section (1) shall, whether\nsuch offence be or be not committed in consequence of such abetment or\nin pursuance of such criminal conspiracy, and notwithstanding anything\ncontained in section 116 of the Indian Penal Code, (45 of 1860.) be\npunishable with the punishment provided for the offence.\n\n7.\nAct to override other enactments.\n\n7. Act to override other enactments. The provisions of this Act\nshall have effect notwithstanding anything inconsistent therewith\ncontained in any other law for the time being in force or any\ninstrument having effect by virtue of any law other than this Act.\n\n8.\nAmendment of Act 43 of 1951.\n\n8. Amendment of Act 43 of 1951. In section 8 of the\nRepresentation of the People Act, 1951, in subsection (1),--\n\n(a) in clause (i), the word \"or\" shall be inserted at the\nend;\n\n(b) after clause (i), as so amended, the following clause\nshall be inserted, namely:--\n\n\"(j) section 6 (offence of conversion of a place of\nworship) of the Places of Worship (Special Provisions) Act,\n1991,\".\n\nV. S. RAMA DEVI,\nSecy. to the Govt. of India.",
+      "extraction_method": "native",
+      "native_characters": 1344,
+      "final_characters": 1285
+    }
+  ],
+  "processed_at": "2026-08-06T07:23:20.965691+00:00"
+}

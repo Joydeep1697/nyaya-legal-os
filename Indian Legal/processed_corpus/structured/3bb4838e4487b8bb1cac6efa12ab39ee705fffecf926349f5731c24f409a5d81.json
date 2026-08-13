@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:3bb4838e4487b8bb1cac6efa",
+    "sha256": "3bb4838e4487b8bb1cac6efa12ab39ee705fffecf926349f5731c24f409a5d81",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud_1_for_03.08.2026.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud_1_for_03.08.2026_3bb4838e4487.pdf",
+    "file_size": 447485,
+    "page_count": 1,
+    "document_type": "judgments",
+    "classification_score": 3,
+    "title": "03.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "03.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 860,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 3,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "03.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\nCOURT NO.45\nHON'BLE MR.JUSTICE AVNEESH JHINGAN\n\nNOTE: ANY URGENT MENTIONING FOR LISTING THE APPLICATION IN THE MAIN SUIT/PETITION WHICH IS\nPENDING BEFORE THE CONCERNED COURT, THE SAME SHALL BE MENTIONED BEFORE THE BENCH\nCONCERNED. IN CASE THE APPROPRIATE BENCH IS NOT HOLDING THE COURT, THEN IT SHOULD BE\nMENTIONED BEFORE THE JUDGE-IN-CHARGE (ORIGINAL SIDE).\n\nNOTE: COUNSEL APPEARING THROUGH VIDEO CONFERENCING ARE REQUESTED TO GIVE THEIR\nAPPERANCES IN THE CHAT BOX ALONGWITH THEIR MOBILE NUMBERS.\n\nTO JOIN VC:\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc1\n\nMeeting ID 25128221186\n\nNOTE: FOR MOVING ADJOURNMENT SLIP PLEASE MAIL TO\nakhil.saxena@dhc.nic.in\n\nNOTE: I.A. 30842/2024 SHALL BE TAKEN UP FOR PRONOUNCEMENT OF JUDGMENT IN\nOMP(COMM) 362/2018.\n\n*****\n\nBY ORDER\nREGISTRAR ORIGINAL",
+      "extraction_method": "native",
+      "native_characters": 860,
+      "final_characters": 860
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:16.028035+00:00"
+}

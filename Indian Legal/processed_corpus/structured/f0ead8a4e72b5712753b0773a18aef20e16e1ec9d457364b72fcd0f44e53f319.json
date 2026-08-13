@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:f0ead8a4e72b5712753b0773",
+    "sha256": "f0ead8a4e72b5712753b0773a18aef20e16e1ec9d457364b72fcd0f44e53f319",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud-04082026.odtttt.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud-04082026.odtttt_f0ead8a4e72b.pdf",
+    "file_size": 53910,
+    "page_count": 2,
+    "document_type": "judgments",
+    "classification_score": 11,
+    "title": "04.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "04.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 1388,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 11,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "04.08.2026 PRONOUNCEMENT OF JUDGMENT\nCOURT NO. 15\nHON'BLE MS.JUSTICE NEENA BANSAL KRISHNA\n\nCLICK TO JOIN VC:\nMEETING LINK: https://delhihighcourt.webex.com/meet/dhcecourtvc1\nAT 02:30 P.M.\n\n1..RFA 73/2025, CM APPL. 22552/2022\n\nKAILASH CHAND & ANR .....Appellants\n\nThrough: Ms. Nishu Budhiraja, Advocate.\n\nversus\n\nPREM CHAND & ORS .....Respondents\n\nThrough: Mr. Bhupesh Narula, Ms. Rinku\nNarula, Ms. poonam Nagpal, Mr.\nAnugrah Ekka, Mr. Kanishk Taneja,\nAdvocates for R1.\n\n2....RSA 185/2024, CM APPL. 62837/2024, CM APPL. 27158/2026\n\nSH BRIJ RAJ AND ANR . ....Appellants\n\nThrough: Counsel for Appellants (appearancne\nnot given) with Appellants.\n\nversus\n\nSH CHAND BABU .....Respondent\n\nThrough: Mr. Puneet Kumar, Mr. Vipul Kumar, Mr. Rakesh Kumar\nand Ms. Taniya, Advocates.",
+      "extraction_method": "native",
+      "native_characters": 769,
+      "final_characters": 769
+    },
+    {
+      "page_number": 2,
+      "text": "3....RSA 57/2018, CM APPL. 6551/2019\n\nARUN BIRLA .....Appellant\n\nThrough: Mr. Kunal Kalra, Advocate.\n\nversus\n\nNIRMAL SINGH & ANR. . ....Respondent\n\nThrough: Mr. Prashant Manchanda, Mr. Angad\nSingh, Mr. Rohan Pratap Singh and Mr. Varun,\nAdvocates for R-1.\n\n4...W.P.(C) 21619/2005, CM APPL. 16716/2022\n\nBIJENDER SINGH .....Petitioner\n\nThrough: Appearance not given.\n\nversus\n\nGOVT. OF N.C.T. OF DELHI & ANR. .....Respondents\n\nThrough: Mr. Naushad Ahmed Khan, Ms. Riya\nJain and Mr. Arpit Mishra, Advs.\nMr. Sandeep Prabhakar, Sr. Advocate\nwith Mr. Anupam Varma, Mr. Nikhil\nSharma and Ms. S. Akshata,\nAdvocates for R-2/ BSES.",
+      "extraction_method": "native",
+      "native_characters": 619,
+      "final_characters": 619
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.761104+00:00"
+}

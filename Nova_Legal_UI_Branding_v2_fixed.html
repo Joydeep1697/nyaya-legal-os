@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Legal | Enterprise Legal Intelligence Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* CHANGE 1: Arial Black */
+        body {
+            font-family: Arial,sans-serif;
+        }
+        h1,h2,h3,.font-semibold,.text-xl,.text-2xl,.text-3xl,.text-4xl{
+            font-family:"Arial Black",Arial,sans-serif;
+            letter-spacing:.3px;
+        }
+        .nova-card { background: #11161f; border: 1px solid #334155; }
+        .sidebar-item { transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1); }
+        .sidebar-item:hover { background-color: #1e2937; }
+        .sidebar-item.active { background-color: #1e40af; color: white; }
+        .workspace-tab { transition: all 0.1s ease; }
+        .workspace-tab.active { background: #1e2937; border-bottom: 2px solid #3b82f6; }
+        .status-bar { background: #0f172a; border-top: 1px solid #334155; }
+        .section-header { font-size: 10px; font-weight: 600; letter-spacing: 0.5px; color: #64748b; }
+        
+        .modal {
+            animation: fadeInScale 0.2s ease forwards;
+        }
+        @keyframes fadeInScale {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .notification-panel {
+            animation: slideInRight 0.3s ease forwards;
+        }
+        @keyframes slideInRight {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+        
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+        
+        /* Toast Styles */
+        .toast-success { background-color: #166534; border-color: #4ade80; }
+        .toast-warning { background-color: #854d0e; border-color: #facc15; }
+        .toast-error { background-color: #991b1b; border-color: #f87171; }
+        .toast-info { background-color: #1e40af; border-color: #60a5fa; }
+    
+/* === UI Refresh === */
+body{
+background:
+radial-gradient(circle at top,#ffffff 0%,#f4f4f5 55%,#ececec 100%);
+}
+.nova-card{
+background:rgba(255,255,255,.9);
+border:1px solid #e5e7eb;
+border-radius:22px;
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+backdrop-filter:blur(12px);
+transition:.25s ease;
+}
+.nova-card:hover{
+transform:translateY(-3px);
+box-shadow:0 18px 40px rgba(0,0,0,.14);
+}
+#left-sidebar{
+background:#ffffff!important;
+border-color:#e5e7eb!important;
+}
+#left-sidebar .sidebar-item{
+color:#222;
+border-radius:14px;
+margin:2px 8px;
+}
+#left-sidebar .sidebar-item:hover{
+background:#f3f4f6!important;
+}
+#left-sidebar .sidebar-item.active{
+background:#111!important;
+color:#fff!important;
+}
+.status-bar{
+background:#fff!important;
+border-color:#e5e7eb!important;
+color:#6b7280!important;
+}
+
+
+        /* Final light-theme fixes */
+        button, [role="button"] { transition: background-color .2s ease, color .2s ease, border-color .2s ease; }
+        .workspace-tab { color: #4b5563; }
+        .workspace-tab:hover { background: #f3f4f6; }
+        .workspace-tab.active { background: #f3f4f6; color: #111827; border-bottom-color: #2563eb; }
+        input, select { color: #111827; }
+        input::placeholder { color: #9ca3af; }
+        button:focus-visible, input:focus-visible, select:focus-visible, .sidebar-item:focus-visible {
+            outline: 2px solid #2563eb; outline-offset: 2px;
+        }
+
+</style>
+</head>
+<body class="bg-white text-gray-900 overflow-hidden">
+    <div class="flex flex-col h-screen">
+        
+        <!-- TOP NAV -->
+        <div class="h-14 border-b border-gray-200 bg-white flex items-center px-4 justify-between">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-3">
+                    <!-- CHANGE 3: Top Logo -->
+                    <img src="1.png" alt="Nova" class="h-11 w-auto object-contain select-none" draggable="false">
+                    <div>
+                        <div class="font-semibold text-xl tracking-tight">Nova Legal</div>
+                        <div class="text-[10px] text-gray-500 -mt-1">Enterprise Legal Intelligence Platform</div>
+                    </div>
+                </div>
+                
+                <div class="ml-8 w-96">
+                    <div class="relative">
+                        <input type="text" id="global-search" placeholder="Search everything..." 
+                               class="w-full bg-white border border-gray-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:border-blue-600">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-3">
+                <div onclick="showWorkspaceDropdown()" class="px-3 py-1.5 text-xs bg-white border border-gray-200 rounded-lg flex items-center gap-2 cursor-pointer">
+                    <span>Personal Workspace</span>
+                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                </div>
+                
+                <button type="button" aria-label="Open notifications" onclick="showNotifications()" class="p-2 hover:bg-white rounded-lg relative">
+                    <i class="fa-solid fa-bell"></i>
+                    <div class="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></div>
+                </button>
+                
+                <div onclick="showProfileMenu()" class="flex items-center gap-2 px-2 py-1 hover:bg-white rounded-lg cursor-pointer">
+                    <div class="w-7 h-7 bg-black text-white rounded-full flex items-center justify-center text-xs font-medium">U</div>
+                    <div class="text-sm">User</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex flex-1 overflow-hidden">
+            
+            <!-- LEFT SIDEBAR -->
+            <div id="left-sidebar" class="w-64 border-r border-gray-200 bg-white flex flex-col">
+                <div class="p-4 flex-1 overflow-auto">
+                    <div class="mb-4">
+                        <div class="section-header px-3 mb-2">WORKSPACE</div>
+                        <div class="space-y-1 text-sm">
+                            <div onclick="navigateTo('dashboard')" class="sidebar-item active flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-home w-4"></i><span>Dashboard</span>
+                            </div>
+                            <div onclick="navigateTo('projects')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-folder w-4"></i><span>Projects</span>
+                            </div>
+                            <div onclick="navigateTo('files')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-file w-4"></i><span>Files</span>
+                            </div>
+                            <div onclick="navigateTo('chat')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-comments w-4"></i><span>AI Chat</span>
+                            </div>
+                            <div onclick="navigateTo('research')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-search w-4"></i><span>Legal Research</span>
+                            </div>
+                            <div onclick="navigateTo('compliance')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-shield-alt w-4"></i><span>Compliance</span>
+                            </div>
+                            <div onclick="navigateTo('business')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-road w-4"></i><span>Business Navigator</span>
+                            </div>
+                            <div onclick="navigateTo('litigation')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-gavel w-4"></i><span>Litigation</span>
+                            </div>
+                            <div onclick="navigateTo('ip')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-lightbulb w-4"></i><span>Intellectual Property</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="section-header px-3 mb-2">SYSTEM</div>
+                        <div class="space-y-1 text-sm">
+                            <div onclick="navigateTo('calendar')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-calendar w-4"></i><span>Calendar</span>
+                            </div>
+                            <div onclick="navigateTo('analytics')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-chart-bar w-4"></i><span>Analytics</span>
+                            </div>
+                            <div onclick="navigateTo('settings')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-cog w-4"></i><span>Settings</span>
+                            </div>
+                            <div onclick="navigateTo('help')" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-question-circle w-4"></i><span>Help</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="p-3 border-t border-gray-200">
+                    <button type="button" onclick="toggleSidebar()" class="w-full text-xs py-2 hover:bg-gray-100 rounded-lg flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-chevron-left" id="collapse-icon"></i>
+                        <span id="collapse-text">Collapse</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- MAIN CONTENT -->
+            <div class="flex-1 flex flex-col overflow-hidden">
+                
+                <!-- Header -->
+                <div class="px-6 pt-5 pb-3 border-b border-gray-200">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-2xl font-semibold tracking-tight" id="page-title">Dashboard</div>
+                            <!-- CHANGE 4: Dynamic Date -->
+                            <div class="text-xs text-gray-500" id="page-subtitle">Workspace Overview • </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dynamic Content -->
+                <div id="main-content" class="flex-1 p-6 overflow-auto">
+                    <!-- Content loaded via JS -->
+                </div>
+                
+                <!-- Bottom Tabs -->
+                <div class="h-12 border-t border-gray-200 bg-white px-4 flex items-center gap-1 text-sm">
+                    <div onclick="switchTab('dashboard', this)" class="workspace-tab active px-4 py-1.5 rounded-t-lg flex items-center gap-2 cursor-pointer">
+                        <span>Dashboard</span>
+                    </div>
+                    <div onclick="switchTab('projects', this)" class="workspace-tab px-4 py-1.5 hover:bg-gray-100 rounded-t-lg flex items-center gap-2 cursor-pointer">
+                        <span>Projects</span>
+                    </div>
+                    <div onclick="switchTab('files', this)" class="workspace-tab px-4 py-1.5 hover:bg-gray-100 rounded-t-lg flex items-center gap-2 cursor-pointer">
+                        <span>Files</span>
+                    </div>
+                    <div onclick="switchTab('chat', this)" class="workspace-tab px-4 py-1.5 hover:bg-gray-100 rounded-t-lg flex items-center gap-2 cursor-pointer">
+                        <span>AI Chat</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- RIGHT AI SIDEBAR -->
+            <div class="w-80 border-l border-gray-200 bg-white flex flex-col">
+                <div class="p-4 border-b border-gray-200">
+                    <!-- CHANGE 2: Purple Icon Replaced -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <img src="1.png" alt="Nova" class="w-10 h-10 object-contain drop-shadow-xl">
+                        </div>
+                        <div>
+                            <div class="font-semibold">Nova</div>
+                            <div class="text-xs text-emerald-600">Online</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="p-4 flex-1 overflow-auto text-sm space-y-6">
+                    <div>
+                        <div class="text-xs font-medium text-gray-500 mb-2">TODAY</div>
+                        <div class="text-xs">3 AI conversations • 2 reports generated</div>
+                    </div>
+                    
+                    <div>
+                        <div class="text-xs font-medium text-gray-500 mb-2">SUGGESTED ACTIONS</div>
+                        <div class="space-y-2 text-xs">
+                            <div onclick="quickAction('analyze')" class="p-2 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg cursor-pointer">Analyze Contract</div>
+                            <div onclick="quickAction('compare')" class="p-2 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg cursor-pointer">Compare Jurisdictions</div>
+                            <div onclick="quickAction('compliance')" class="p-2 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg cursor-pointer">Generate Compliance Report</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- STATUS BAR -->
+        <div class="status-bar h-7 px-4 flex items-center text-xs text-gray-500 justify-between">
+            <div class="flex items-center gap-5">
+                <div class="flex items-center gap-2"><div class="w-2 h-2 bg-emerald-400 rounded-full"></div> Connected</div>
+                <div>AI Ready</div>
+                <div>Background Jobs: 3</div>
+                <!-- CHANGE 9: Dynamic Time -->
+                <div id="system-time"></div>
+            </div>
+            <div>Nova Legal OS v5.0.0 • Last synced: Just now</div>
+        </div>
+    </div>
+
+    <!-- NOTIFICATION PANEL -->
+    <div id="notification-panel" class="hidden fixed right-0 top-0 h-full w-80 bg-white border-l border-gray-200 shadow-2xl z-50">
+        <div class="p-4 border-b border-gray-200 flex justify-between items-center">
+            <div class="font-semibold">Notifications</div>
+            <div class="flex gap-2">
+                <button type="button" onclick="markAllAsRead()" class="text-xs px-3 py-1 bg-white/10 rounded">Mark all read</button>
+                <button type="button" onclick="clearNotifications()" class="text-xs px-3 py-1 bg-white/10 rounded">Clear</button>
+                <button type="button" aria-label="Close notifications" onclick="hideNotifications()" class="text-xl">×</button>
+            </div>
+        </div>
+        <div class="p-4 space-y-3 text-sm" id="notification-list">
+            <div class="p-3 bg-gray-50 border border-gray-200 rounded-lg">Research completed</div>
+            <div class="p-3 bg-gray-50 border border-gray-200 rounded-lg">Contract analysis finished</div>
+            <div class="p-3 bg-gray-50 border border-gray-200 rounded-lg">New compliance update</div>
+        </div>
+    </div>
+
+    <script>
+        let sidebarCollapsed = false;
+        let currentTab = 'dashboard';
+
+        function toggleSidebar() {
+            const sidebar=document.getElementById("left-sidebar");
+            const icon=document.getElementById("collapse-icon");
+            const text=document.getElementById("collapse-text");
+
+            sidebarCollapsed=!sidebarCollapsed;
+
+            if(sidebarCollapsed){
+                sidebar.style.width="72px";
+
+                document.querySelectorAll("#left-sidebar .sidebar-item").forEach(item=>{
+                    item.style.justifyContent="center";
+                    const span=item.querySelector("span");
+                    if(span) span.style.display="none";
+                });
+
+                document.querySelectorAll("#left-sidebar .section-header").forEach(h=>h.style.display="none");
+                text.style.display="none";
+
+                const logo=document.querySelector('#left-sidebar img');
+                if(logo){
+                    logo.style.width="36px";
+                    logo.style.height="36px";
+                    logo.parentElement.style.justifyContent="center";
+                }
+
+                icon.classList.replace("fa-chevron-left","fa-chevron-right");
+            }else{
+                sidebar.style.width="256px";
+
+                document.querySelectorAll("#left-sidebar .sidebar-item").forEach(item=>{
+                    item.style.justifyContent="";
+                    const span=item.querySelector("span");
+                    if(span) span.style.display="";
+                });
+
+                document.querySelectorAll("#left-sidebar .section-header").forEach(h=>h.style.display="");
+                text.style.display="";
+
+                const logo=document.querySelector('#left-sidebar img');
+                if(logo){
+                    logo.style.width="";
+                    logo.style.height="";
+                }
+
+                icon.classList.replace("fa-chevron-right","fa-chevron-left");
+            }
+        }
+
+        function navigateTo(page) {
+            const content = document.getElementById('main-content');
+            const title = document.getElementById('page-title');
+            const subtitle = document.getElementById('page-subtitle');
+            
+            document.querySelectorAll(".sidebar-item").forEach(el => {
+                el.classList.remove("active");
+            });
+            
+            const activeItem = document.querySelector(`[onclick*="navigateTo('${page}')"]`);
+            if (activeItem) {
+                activeItem.classList.add("active");
+            }
+            
+            currentTab = page;
+            localStorage.setItem('activeTab', page);
+            
+            switch(page) {
+                case 'dashboard':
+                    title.textContent = 'Dashboard';
+                    // CHANGE 4: Dynamic Date
+                    subtitle.textContent = 'Workspace Overview • ' + new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+                    // CHANGE 8: Expanded Dashboard
+                    content.innerHTML = `
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                            <div class="nova-card p-6 rounded-2xl">
+                                <div class="text-xs text-gray-500">Total Projects</div>
+                                <div class="text-4xl font-semibold mt-1">47</div>
+                            </div>
+                            <div class="nova-card p-6 rounded-2xl">
+                                <div class="text-xs text-gray-500">Active Matters</div>
+                                <div class="text-4xl font-semibold mt-1">23</div>
+                            </div>
+                            <div class="nova-card p-6 rounded-2xl">
+                                <div class="text-xs text-gray-500">Compliance Score</div>
+                                <div class="text-4xl font-semibold mt-1 text-emerald-600">94</div>
+                            </div>
+                            <div class="nova-card p-6 rounded-2xl">
+                                <div class="text-xs text-gray-500">AI Conversations</div>
+                                <div class="text-4xl font-semibold mt-1">128</div>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                            <div class="nova-card p-6 rounded-2xl">
+                                <div class="font-semibold mb-4">Recent Projects</div>
+                                <div class="space-y-3 text-sm">
+                                    <div class="flex justify-between"><div>Singapore Expansion</div><div class="text-xs text-emerald-600">Active</div></div>
+                                    <div class="flex justify-between"><div>Trademark Registration</div><div class="text-xs text-emerald-600">Planning</div></div>
+                                </div>
+                            </div>
+                            
+                            <div class="nova-card p-6 rounded-2xl">
+                                <div class="font-semibold mb-4">Upcoming Deadlines</div>
+                                <div class="space-y-3 text-sm">
+                                    <div class="flex justify-between"><div>MGT-7 Filing</div><div class="text-xs text-amber-600">Feb 12</div></div>
+                                    <div class="flex justify-between"><div>DPDP Report</div><div class="text-xs text-amber-600">Mar 31</div></div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'projects':
+                    title.textContent = 'Projects';
+                    subtitle.textContent = 'Manage all your legal matters';
+                    content.innerHTML = `
+                        <div class="flex justify-between mb-6">
+                            <input type="text" placeholder="Search projects..." class="flex-1 max-w-md bg-white border border-gray-200 rounded-xl px-4 py-2 text-sm">
+                            <button onclick="createProject()" class="px-5 py-2 bg-black text-white rounded-xl text-sm hover:bg-gray-800">New Project</button>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div onclick="openProject(1)" class="nova-card p-5 rounded-2xl cursor-pointer hover:border-blue-600/40">
+                                <div class="flex justify-between">
+                                    <div>
+                                        <div class="text-emerald-600 text-xs">MAT-2026-0001</div>
+                                        <div class="font-semibold">Singapore Expansion</div>
+                                    </div>
+                                    <div class="px-3 py-0.5 text-xs bg-emerald-900/30 text-emerald-600 rounded">Active</div>
+                                </div>
+                                <div class="mt-4 text-sm text-gray-500">Business Formation • Singapore</div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'files':
+                    title.textContent = 'Files';
+                    subtitle.textContent = 'Document management';
+                    content.innerHTML = `
+                        <div class="flex justify-between mb-6">
+                            <button onclick="uploadFile()" class="px-5 py-2 bg-black text-white rounded-xl text-sm hover:bg-gray-800">Upload Files</button>
+                        </div>
+                        <div class="nova-card p-8 rounded-2xl text-center">
+                            <i class="fa-solid fa-folder text-6xl text-gray-400 mb-4"></i>
+                            <div>No files uploaded yet</div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'chat':
+                    title.textContent = 'AI Chat';
+                    subtitle.textContent = 'Nova Legal Assistant';
+                    content.innerHTML = `
+                        <div class="flex flex-col h-[calc(100vh-280px)] nova-card rounded-2xl">
+                            <div class="flex-1 p-6 overflow-auto" id="chat-messages">
+                                <div class="flex justify-start mb-4">
+                                    <div class="bg-gray-100 p-4 rounded-2xl max-w-[70%]">
+                                        Hello! How can I assist you with legal matters today?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 border-t border-gray-200 flex gap-3">
+                                <input type="text" id="chat-input" placeholder="Ask about any legal topic..." 
+                                       class="flex-1 bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm"
+                                       onkeypress="if(event.key==='Enter') sendChatMessage()">
+                                <button onclick="sendChatMessage()" class="px-6 py-3 bg-black text-white rounded-xl hover:bg-gray-800">Send</button>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'research':
+                    title.textContent = 'Legal Research';
+                    subtitle.textContent = 'Multi-jurisdictional legal intelligence';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl text-center">
+                            <i class="fa-solid fa-search text-6xl text-gray-400 mb-4"></i>
+                            <div class="font-semibold mb-2">Legal Research Workspace</div>
+                            <div class="text-gray-500">Search across 198 jurisdictions</div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'compliance':
+                    title.textContent = 'Compliance';
+                    subtitle.textContent = 'Regulatory monitoring and deadlines';
+                    content.innerHTML = `
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                            <div class="nova-card p-5 rounded-2xl">
+                                <div class="text-3xl font-semibold">94</div>
+                                <div class="text-xs text-emerald-600">Compliance Score</div>
+                            </div>
+                            <div class="nova-card p-5 rounded-2xl">
+                                <div class="text-3xl font-semibold text-amber-600">3</div>
+                                <div class="text-xs text-amber-600">Pending Deadlines</div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'business':
+                    title.textContent = 'Business Navigator';
+                    subtitle.textContent = 'Lawful business pathway explorer';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl text-center">
+                            <i class="fa-solid fa-road text-6xl text-gray-400 mb-4"></i>
+                            <div class="font-semibold mb-2">Business Pathway Explorer</div>
+                            <div class="text-gray-500">Discover legal structures across jurisdictions</div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'litigation':
+                    title.textContent = 'Litigation';
+                    subtitle.textContent = 'Case management and tracking';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl text-center">
+                            <i class="fa-solid fa-gavel text-6xl text-gray-400 mb-4"></i>
+                            <div class="font-semibold mb-2">Litigation Workspace</div>
+                            <div class="text-gray-500">Manage cases, evidence, and hearings</div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'ip':
+                    title.textContent = 'Intellectual Property';
+                    subtitle.textContent = 'Trademark, Patent, and Copyright Management';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl text-center">
+                            <i class="fa-solid fa-lightbulb text-6xl text-gray-400 mb-4"></i>
+                            <div class="font-semibold mb-2">Intellectual Property Center</div>
+                            <div class="text-gray-500">Manage your IP portfolio and renewals</div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'calendar':
+                    title.textContent = 'Calendar';
+                    subtitle.textContent = 'Deadlines and hearings';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl text-center">
+                            <i class="fa-solid fa-calendar text-6xl text-gray-400 mb-4"></i>
+                            <div class="font-semibold mb-2">Calendar & Deadlines</div>
+                            <div class="text-gray-500">Track all legal deadlines and court dates</div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'analytics':
+                    title.textContent = 'Analytics';
+                    subtitle.textContent = 'Business intelligence and insights';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl text-center">
+                            <i class="fa-solid fa-chart-bar text-6xl text-gray-400 mb-4"></i>
+                            <div class="font-semibold mb-2">Analytics Dashboard</div>
+                            <div class="text-gray-500">View usage, risk, and performance metrics</div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'settings':
+                    title.textContent = 'Settings';
+                    subtitle.textContent = 'Application configuration';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl">
+                            <div class="font-semibold mb-4">Application Settings</div>
+                            <div class="space-y-4 text-sm">
+                                <div class="flex justify-between"><span>Theme</span> <span class="text-emerald-600">Light</span></div>
+                                <div class="flex justify-between"><span>Notifications</span> <span class="text-emerald-600">Enabled</span></div>
+                                <div class="flex justify-between"><span>Auto-save</span> <span class="text-emerald-600">Every 5 minutes</span></div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+                    
+                case 'help':
+                    title.textContent = 'Help';
+                    subtitle.textContent = 'Support and documentation';
+                    content.innerHTML = `
+                        <div class="nova-card p-8 rounded-2xl">
+                            <div class="font-semibold mb-4">Help Center</div>
+                            <div class="space-y-4 text-sm">
+                                <div class="p-4 bg-white rounded-xl">
+                                    <div class="font-medium">Keyboard Shortcuts</div>
+                                    <div class="text-xs text-gray-500 mt-2">Ctrl + K: Global Search</div>
+                                    <div class="text-xs text-gray-500">Ctrl + \\: Toggle Sidebar</div>
+                                </div>
+                                <div class="p-4 bg-white rounded-xl">
+                                    <div class="font-medium">Contact Support</div>
+                                    <div class="text-xs text-gray-500 mt-2">joydeep@novaosconsulting.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    break;
+            }
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chat-input');
+            const messages = document.getElementById('chat-messages');
+            
+            if (!input.value.trim()) return;
+            
+            const userDiv = document.createElement('div');
+            userDiv.className = 'flex justify-end mb-4';
+            userDiv.innerHTML = `<div class="bg-black text-white p-4 rounded-2xl max-w-[70%]"></div>`;
+            userDiv.querySelector('div').textContent = input.value;
+            messages.appendChild(userDiv);
+            
+            setTimeout(() => {
+                const aiDiv = document.createElement('div');
+                aiDiv.className = 'flex justify-start mb-4';
+                aiDiv.innerHTML = `<div class="bg-gray-100 p-4 rounded-2xl max-w-[70%]"></div>`;
+                aiDiv.querySelector('div').textContent = 'Based on Section 185 of the Companies Act, 2013, directors generally cannot receive loans from the company. This prevents conflicts of interest.';
+                messages.appendChild(aiDiv);
+                messages.scrollTop = messages.scrollHeight;
+            }, 1000);
+            
+            input.value = '';
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function createProject() {
+            showModal('Create New Project', `
+                <div class="space-y-4">
+                    <div>
+                        <label class="text-xs text-gray-500">Project Name</label>
+                        <input type="text" id="project-name" class="w-full mt-1 bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm" placeholder="Singapore Expansion">
+                    </div>
+                    <div>
+                        <label class="text-xs text-gray-500">Jurisdiction</label>
+                        <select id="project-jurisdiction" class="w-full mt-1 bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm">
+                            <option>India</option>
+                            <option>Singapore</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                    </div>
+                </div>
+            `, () => {
+                const name = document.getElementById('project-name').value;
+                if (name) {
+                    showToast(`Project "${name}" created successfully!`, 'success');
+                    navigateTo('projects');
+                }
+            });
+        }
+
+        function uploadFile() {
+            showModal('Upload Files', `
+                <label for="file-input" class="block border-2 border-dashed border-gray-300 rounded-2xl p-8 text-center cursor-pointer hover:border-blue-500 hover:bg-blue-50/40">
+                    <i class="fa-solid fa-cloud-upload-alt text-4xl text-gray-400 mb-4"></i>
+                    <div>Drop files here or click to browse</div>
+                    <input type="file" multiple class="hidden" id="file-input">
+                </label>
+            `, () => {
+                const input = document.getElementById('file-input');
+                const count = input && input.files ? input.files.length : 0;
+                if (!count) {
+                    showToast('Choose at least one file first.', 'warning');
+                    return;
+                }
+                showToast(`${count} file${count === 1 ? '' : 's'} selected successfully.`, 'success');
+            });
+        }
+
+        function quickAction(action) {
+            switch(action) {
+                case 'analyze': navigateTo('chat'); break;
+                case 'compare': showToast('Opening Jurisdiction Comparison...', 'info'); break;
+                case 'compliance': navigateTo('compliance'); break;
+            }
+        }
+
+        function showWorkspaceDropdown() {
+            const menu = document.createElement('div');
+            menu.className = 'fixed bg-white border border-gray-200 rounded-xl shadow-xl p-2 text-sm z-50';
+            menu.style.top = '56px';
+            menu.style.right = '180px';
+            menu.innerHTML = `
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer">Personal Workspace</div>
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer">Client Workspace</div>
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer">Enterprise Workspace</div>
+                <div class="border-t border-gray-200 my-1"></div>
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer text-black">Create New Workspace</div>
+            `;
+            document.body.appendChild(menu);
+            
+            setTimeout(() => {
+                document.addEventListener('click', function handler(e) {
+                    if (!menu.contains(e.target)) {
+                        menu.remove();
+                        document.removeEventListener('click', handler);
+                    }
+                }, { once: true });
+            }, 100);
+        }
+
+        function showNotifications() {
+            document.getElementById('notification-panel').classList.remove('hidden');
+            document.getElementById('notification-panel').classList.add('notification-panel');
+            
+            setTimeout(() => {
+                document.addEventListener('click', function handler(e) {
+                    if (!document.getElementById('notification-panel').contains(e.target)) {
+                        document.getElementById('notification-panel').classList.add('hidden');
+                        document.getElementById('notification-panel').classList.remove('notification-panel');
+                        document.removeEventListener('click', handler);
+                    }
+                }, { once: true });
+            }, 100);
+        }
+
+        function hideNotifications() {
+            const panel = document.getElementById('notification-panel');
+            panel.classList.add('hidden');
+            panel.classList.remove('notification-panel');
+        }
+
+        function showProfileMenu() {
+            const menu = document.createElement('div');
+            menu.className = 'fixed bg-white border border-gray-200 rounded-xl shadow-xl p-2 text-sm z-50';
+            menu.style.top = '56px';
+            menu.style.right = '20px';
+            menu.innerHTML = `
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer">Profile</div>
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer">Workspace</div>
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer">Preferences</div>
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer">Keyboard Shortcuts</div>
+                <div class="border-t border-gray-200 my-1"></div>
+                <div class="px-4 py-2 hover:bg-gray-100 rounded-lg cursor-pointer text-red-400">Sign Out</div>
+            `;
+            document.body.appendChild(menu);
+            
+            setTimeout(() => {
+                document.addEventListener('click', function handler(e) {
+                    if (!menu.contains(e.target)) {
+                        menu.remove();
+                        document.removeEventListener('click', handler);
+                    }
+                }, { once: true });
+            }, 100);
+        }
+
+        function showModal(title, body, onConfirm) {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black/60 flex items-center justify-center z-[999]';
+            modal.innerHTML = `
+                <div class="nova-card w-full max-w-md mx-4 p-7 rounded-3xl modal">
+                    <div class="font-semibold text-xl mb-4">${title}</div>
+                    <div class="mb-6">${body}</div>
+                    <div class="flex gap-3">
+                        <button onclick="this.closest('.fixed').remove()" class="flex-1 py-3 bg-white/10 rounded-2xl">Cancel</button>
+                        <button type="button" onclick="confirmModal(this)" class="flex-1 py-3 bg-black text-white rounded-2xl hover:bg-gray-800">${onConfirm ? 'Confirm' : 'Close'}</button>
+                    </div>
+                </div>
+            `;
+            
+            window.confirmModal = function(element) {
+                modal.remove();
+                if (onConfirm) onConfirm();
+            };
+            
+            document.body.appendChild(modal);
+            
+            document.addEventListener('keydown', function handler(e) {
+                if (e.key === 'Escape') {
+                    modal.remove();
+                    document.removeEventListener('keydown', handler);
+                }
+            }, { once: true });
+        }
+
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            let styleClass = 'toast-info';
+            let icon = 'fa-info-circle';
+
+            switch(type) {
+                case 'success':
+                    styleClass = 'toast-success';
+                    icon = 'fa-check-circle';
+                    break;
+                case 'warning':
+                    styleClass = 'toast-warning';
+                    icon = 'fa-exclamation-triangle';
+                    break;
+                case 'error':
+                    styleClass = 'toast-error';
+                    icon = 'fa-times-circle';
+                    break;
+                case 'info':
+                default:
+                    styleClass = 'toast-info';
+                    icon = 'fa-info-circle';
+                    break;
+            }
+
+            toast.className = `fixed bottom-6 right-6 border px-6 py-3 rounded-2xl shadow-xl z-50 flex items-center gap-3 ${styleClass}`;
+            toast.innerHTML = `
+                <i class="fa-solid ${icon}"></i>
+                <span>${message}</span>
+            `;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.style.transition = 'all 0.3s';
+                toast.style.opacity = '0';
+                setTimeout(() => toast.remove(), 300);
+            }, 4000);
+        }
+
+        function markAllAsRead() {
+            const indicator = document.querySelector('button[aria-label="Open notifications"] .bg-red-500');
+            if (indicator) indicator.remove();
+            document.querySelectorAll('#notification-list > div').forEach(item => {
+                item.classList.remove('font-semibold');
+                item.classList.add('opacity-70');
+            });
+            showToast('All notifications marked as read.', 'success');
+        }
+
+        function clearNotifications() {
+            const list = document.getElementById('notification-list');
+            list.innerHTML = '<div class="text-center text-gray-500 py-8">No notifications</div>';
+            const indicator = document.querySelector('button[aria-label="Open notifications"] .bg-red-500');
+            if (indicator) indicator.remove();
+            showToast('Notifications cleared.', 'info');
+        }
+
+        function openProject(projectId) {
+            showModal('Singapore Expansion', `
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between"><span class="text-gray-500">Matter ID</span><span>MAT-2026-0001</span></div>
+                    <div class="flex justify-between"><span class="text-gray-500">Jurisdiction</span><span>Singapore</span></div>
+                    <div class="flex justify-between"><span class="text-gray-500">Status</span><span class="text-emerald-600">Active</span></div>
+                </div>
+            `);
+        }
+
+        function setupGlobalSearch() {
+            const input = document.getElementById('global-search');
+            if (!input) return;
+            input.addEventListener('keydown', event => {
+                if (event.key !== 'Enter') return;
+                const query = input.value.trim().toLowerCase();
+                if (!query) return;
+                const pages = {
+                    dashboard: 'dashboard', projects: 'projects', files: 'files', chat: 'chat',
+                    research: 'research', compliance: 'compliance', business: 'business',
+                    litigation: 'litigation', intellectual: 'ip', calendar: 'calendar',
+                    analytics: 'analytics', settings: 'settings', help: 'help'
+                };
+                const match = Object.keys(pages).find(key => query.includes(key));
+                if (match) {
+                    navigateTo(pages[match]);
+                    input.value = '';
+                } else {
+                    showToast(`No section found for "${input.value.trim()}".`, 'warning');
+                }
+            });
+        }
+
+        function switchTab(tab, element) {
+            document.querySelectorAll('.workspace-tab').forEach(t => t.classList.remove('active'));
+            element.classList.add('active');
+            navigateTo(tab);
+            localStorage.setItem('activeTab', tab);
+        }
+
+        function init() {
+            setupGlobalSearch();
+            const savedTab = localStorage.getItem('activeTab') || 'dashboard';
+            navigateTo(savedTab);
+            
+            const subtitle = document.getElementById('page-subtitle');
+            if (subtitle) {
+                subtitle.textContent = 'Workspace Overview • ' + new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+            }
+            
+            const updateTime = () => {
+                const timeEl = document.getElementById('system-time');
+                if (timeEl) timeEl.textContent = new Date().toLocaleTimeString();
+            };
+            updateTime();
+            setInterval(() => {
+                updateTime();
+            }, 1000);
+            
+            console.log('%c[Nova Legal OS] Application initialized', 'color:#64748b');
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>

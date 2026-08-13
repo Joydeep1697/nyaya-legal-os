@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:fac5ec251a5455bd4db8b0ce",
+    "sha256": "fac5ec251a5455bd4db8b0ce16f0f3acfdce04e1c07ff44fb8e8bb537b3d9991",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\Prevention_Insults_National_Honour_Act1971.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\Prevention_Insults_National_Honour_Act1971_fac5ec251a54.pdf",
+    "file_size": 15491,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 13,
+    "title": "THE PREVENTION OF INSULTS TO NATIONAL HONOUR ACT, 1971",
+    "year": 1971,
+    "court": null,
+    "case_number": null,
+    "decision_date": "8.5.2003",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 4309,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 13,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "THE PREVENTION OF INSULTS TO NATIONAL HONOUR ACT, 1971\nNo. 69 of 1971 (23rd December, 1971)\n\n(Amended by the Prevention of Insults to National Honour (Amendment) Act, 2005)\nNo. 51 of 2005 (20th December, 2005)\n\nAn Act to Prevent Insults to National Honour\n\nBe it enacted by Parliament in the Twenty- second year of the Republic of India\nas follows: -\n\n1. SHORT TITLE AND EXTENT\n\n(1) This Act may be called the Prevention of Insults to National Honour Act,\n1971.\n\n(2) It extends to the whole of India.\n\n2. INSULT TO INDIAN NATIONAL FLAG AND CONSTITUTION OF INDIA\n\nWhoever in any public place or in any other place within public view burns,\nmutilates, defaces, defiles, disfigures, destroys, tramples upon or *otherwise\nshows disrespect to or brings into contempt (whether by words, either spoken or\nwritten, or by acts) the Indian National Flag or the Constitution of India or any\npart thereof, shall be punished with imprisonment for a term which may extend to\nthree years, or with fine, or with both.\n\nExplanation 1 – Comments expressing disapprobation or criticism of the Constitution or\nof the Indian National Flag or of any measures of the Government with a view to obtain\nan amendment of the Constitution of India or an alteration of the Indian National Flag\nby lawful means do not constitute an offence under this section.\n\nExplanation 2 – The expression, “Indian National Flag” includes any picture, painting,\ndrawing or photograph, or other visible representation of the Indian National Flag, or of\nany part or parts thereof, made of any substance or represented on any substance.\n\nExplanation 3 – The expression “public place” means any place intended for use by, or\naccessible to, the public and includes any public conveyance.\n\n*Explanation 4 - The disrespect to the Indian National flag means and includes—\n\n(a) a gross affront or indignity offered to the Indian National Flag; or\n\n(b) dipping the Indian National Flag in salute to any person or thing; or\n\n(c) flying the Indian National Flag at half-mast except on occasions on which\nthe Flag is flown at half-mast on public buildings in accordance with the\ninstructions issued by the Government; or",
+      "extraction_method": "native",
+      "native_characters": 2162,
+      "final_characters": 2162
+    },
+    {
+      "page_number": 2,
+      "text": "2\n\n(d) using the Indian National Flag as a drapery in any form whatsoever except\nin state funerals or armed forces or other para-military forces funerals; or\n\n(e) #using the Indian National Flag:-\n\n(i) as a portion of costume, uniform or accessory of any description\nwhich is worn below the waist of any person; or\n(ii) by embroidering or printing it on cushions, handkerchiefs, napkins,\nundergarments or any dress material; or\n\n(f) putting any kind of inscription upon the Indian National Flag; or\n\n(g) using the Indian National Flag as a receptacle for receiving, delivering or\ncarrying anything except flower petals before the Indian National Flag is\nunfurled as part of celebrations on special occasions including the\nRepublic Day or the Independence Day; or\n\n(h) using the Indian National Flag as covering for a statue or a monument or a\nspeaker’s desk or a speaker’s platform; or\n\n(i) allowing the Indian National Flag to touch the ground or the floor or trail\nin water intentionally; or\n\n(j) draping the Indian National Flag over the hood, top, and sides or back or\non a vehicle, train, boat or an aircraft or any other similar object; or\n\n(k) using the Indian National Flag as a covering for a building; or\n\n(l) intentionally displaying the Indian National Flag with the “saffron” down.\n\n3. PREVENTION OF SINGING OF NATIONAL ANTHEM\n\nWhoever intentionally prevents the singing of the Indian National Anthem or\ncauses disturbances to any assembly engaged in such singing shall be punished with\nimprisonment for a term, which may extend to three years, or with fine, or with both.\n\n*3A MINIMUM PENALTY ON SECOND OR SUBSEQUENT OFFENCE\n\nWhoever having already been convicted of an offence under section 2 or section 3\nis again convicted of any such offence shall be punishable for the second and for every\nsubsequent offence, with imprisonment for a term, which shall not be less than one year.\n_\nNote 1: * Inserted vide The Prevention of Insults to National Honour\n(Amendment) Act, 2003 (No. 31 of 2003 dated 8.5.2003)\nNote 2: # Inserted vide The Prevention of Insults to National Honour\n(Amendment) Act, 2005 (No. 51 of 2005 dated 20.12.2005)",
+      "extraction_method": "native",
+      "native_characters": 2147,
+      "final_characters": 2147
+    }
+  ],
+  "processed_at": "2026-08-06T07:23:49.567420+00:00"
+}

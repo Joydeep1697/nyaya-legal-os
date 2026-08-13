@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:82845f2c64a05944474407e9",
+    "sha256": "82845f2c64a05944474407e946ede535c29861a9f687cf1a8fb976f3338451d7",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\advertisement_for_senior_faculty_member.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\recruitment\\advertisement_for_senior_faculty_member_82845f2c64a0.pdf",
+    "file_size": 371529,
+    "page_count": 2,
+    "document_type": "recruitment",
+    "classification_score": 4,
+    "title": "BIHAR JUDICIAL ACADEMY, PATNA",
+    "year": 2019,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 1848,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 1,
+    "judgments": 2,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 4,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "BIHAR JUDICIAL ACADEMY, PATNA\n(Gaighat, Patna 800007)\nADVERTISEMENT FOR CONTRACTUAL APPOINTMENT FOR\n\nSENIOR FACULTY MEMBER\n\nApplications are invited for 04 (Four) posts of Senior Faculty Member on contractual\nbasis:\n01 General, 01 EBC, 01 Female, 01 SC (Reservation as per Bihar Govt. 100-point\nroster dated 26,02.2019).\n\nEligibility: Retired Judicial Officers from Superior Judicial Service with teaching\nexperience. Candidates must have at least 3 years remaining before attaining 70 years\nof age (as on last date of application) and be medically fit. Experience in Judicial Training\nAcademy and research publications desirable,\n\nPay: ?51,550 - ?63,070 (Equivalent to ?1,44,840 - ?1,94,660) plus D.A as per relevant\nrules. No other allowances or accommodation shall be paid/provided.\n\nTenure: 03 years, extendable on satisfactory performance.\n\nSelection Process: Shortlisting based on evaluation of 10 submitted judgments and\ncredentials, followed by Interaction/Interview. Only shortlisted candidates will be called\nfor interview.\n\nApplication Form: Can be download from bja.bihar.qov.in Or rnay be collected from\nBihar Judicial Academy, Gaighat, Patna office during working days between IO.OOAM &\n05.00PM (Monday closed).",
+      "extraction_method": "native",
+      "native_characters": 1225,
+      "final_characters": 1225
+    },
+    {
+      "page_number": 2,
+      "text": "n-\\\n~\\\n\nCompletely filled application with Annexure-A, self-attested documents (qualification.\nage, experience, caste/EBC. Service Records etc.) and 10 judgments be submitted\nphysically or through post/courier etc. to:\n\nThe Director, Bihar Judicial Academy, Gaighat, Patna - 800007\n(Envelope superscribed: \" Application for Senior Faculty Member’)\n\nLast Date: 30th day (within office hours) from date of publication in newspaper.\n\nNote: No TA/DA admissible. Incomplete/late applications liable to rejection. Academy\nreserves right to reject any application.\n\nBy Order of the Board of Governors\nBihar Judicial Academy, Patna",
+      "extraction_method": "native",
+      "native_characters": 623,
+      "final_characters": 623
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:18.817616+00:00"
+}

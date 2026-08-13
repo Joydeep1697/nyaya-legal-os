@@ -1,0 +1,79 @@
+{
+  "document": {
+    "document_id": "legal:273ab12b31ba6f16ebb35fc1",
+    "sha256": "273ab12b31ba6f16ebb35fc1b8b80648030fdf5b32ab598ac3804376caa83b96",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\pro_for_06.08.2026.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\pro_for_06.08.2026_273ab12b31ba.pdf",
+    "file_size": 665244,
+    "page_count": 6,
+    "document_type": "judgments",
+    "classification_score": 36,
+    "title": "06.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "06.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 6,
+    "extracted_characters": 4973,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 36,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "06.08.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO. 34\nDIVISION BENCH-VII\nHON'BLE MR.JUSTICE NAVIN CHAWLA\nHON'BLE MR.JUSTICE RAVINDER DUDEJA\n\nClick below to join the VC:\nhttps://delhihighcourt.webex.com/join/dhcecourtvc5\n\nAT 10:30 A.M.\n\n1.CRL.REF. 1/2019\nCOURT ON ITS OWN MOTION .....Petitioner\nThrough: Mr.Narender Lodiwal and Mr.Wasim\nAshraf, Advs.\nversus\nSTATE .....Respondent\nThrough: Mr.Aditya Wadhwa and Ms.Shivani\nPegatraju, Advs. for accused no.1\nMr.Anupam S. Sharrma, SPP with\nMs.Harpreet Kalsi, Mr.Prakarsh Airan,\nMr.Vashisht Rao, Ms.Amisha P. Dash,\nMr.Abhiyant Singh and Mr.Mayank\nTyagi, Advs. for CBI\nDr.Sushil Gupta, Ms.Sunita Gupta,\nMs.Anshika Kumari, Ms.Aditi Ranjan\nand Mr.Apoorv Chaudhry, Advs.\nMr.Anuj Chauhan, Ms.Sweety\nChauhan, Ms.Geetika Verma,\nMr.Harsh Kumar and Mr.Sunil Yadav,\nAdvs.\nMr.Harsh K. Sharma, Ms.Vaibhavi\nSharma, Mr.Lakshay Parasher,\nMs.Kashish Jain, Mr.Ujjwal Krishna,\nMr.Ranjeet Singh, Advs.\nMr.Sushil Gupta and Ms.Sunita\nGupta, Advs.\nMs.Sima Gulati, Mr.Manish Vashist\nand Ms.Diksha Narula, Advs.\nMr.Hitendra Nahata, Adv.\nMr.Sudarshan Rajan and Mr.Kashish,\nAdvs.\nMr.Ripudaman Bhardwaj, CGSC with\nMr.Kushagra Kumar and Mr.Amit\nKumar Rana, Advs. for UOI",
+      "extraction_method": "native",
+      "native_characters": 1183,
+      "final_characters": 1183
+    },
+    {
+      "page_number": 2,
+      "text": "Mr.Vedansh Anand, SPC with\nMr.Kush Garg and Mr.Mohit\nBhardwaj, Advs.\n\nCOURT NO. 05\nDIVISION BENCH-VIII\nHON'BLE MR.JUSTICE C.HARI SHANKAR\nHON’BLE MR.JUSTICE VINOD KUMAR_\n\nTo join hearing please click the link given below:https://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt19\n\nAT 10:30 A.M.\n\n1. MAT.APP.(F.C.) 166/2022\n\nDAVINDER KAUR .....Appellant\n\nThrough:Ms. Niharika Ahluwalia and\nMs. Sonakshi Chaturvedi, Advs.\nversus\n\nKULWANT SINGH .....Respondent\n\nThrough:Mr. Narender Mukhi, Adv",
+      "extraction_method": "native",
+      "native_characters": 487,
+      "final_characters": 487
+    },
+    {
+      "page_number": 3,
+      "text": "COURT NO. 13\nHON’BLE MR. JUSTICE AMIT BANSAL\n\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc12\nAT 10:30 A.M.\n\nRFA 128/2019 & CM APPL. 6667/2019, CM APPL. 17536/2020,1.\nCMAPPL.8014/2021, CM APPL. 31022/2023\n\nPADAM CHAND JAIN &ANR .....Appellants\n\nThrough: Ms. Radhika Chandrashekhar and\nMs. Parul Sharma, Advocates\n\nversus\n\nARUN JAIN ....Respondent\n\nThrough:Ms.Nidhi Mohan Parashar,Mr. Vikrant Kumar,\nMr. Aman Bajpayee and Mr. Parthak Awasthi,Advocate\n\nCOURT NO.16\nHON'BLE MR. JUSTICE ANISH DAYAL\n\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc12\n\nAT 02:30 P.M.\n\n1.MAC.APP. 951/2018\n\nM/S TRIVENI ROAD CARRIERS PVT LTD .....Appellant\n\nThrough: Mr. S.N. Parashar, Mr. Ritik Singh, Advocates.\n\nversus\n\nUNITED INDIA INSURANCE CO LTD & ORS .....Respondent\n\nThrough: Mr. Abhinav Jain, Advocate for Respondent no.1.",
+      "extraction_method": "native",
+      "native_characters": 818,
+      "final_characters": 818
+    },
+    {
+      "page_number": 4,
+      "text": "COURT NO.2\nHON’BLE MS.JUSTICE SHAIL JAIN_\n\nCLICK HERE TO JOIN VC\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt7\n\nAT 02:30 P.M.\n\n1. W.P.(C) 2551/1999\n\nA.I.I.M.S. .....Petitioner\n\nThrough: Mr. V.S.R. Krishna and\nMr. V. Shashank Kumar, Advs.\nversus\n\nMOHD. RAFIQ & ORS. .....Respondents\n\nThrough: Ms. L. Gangmei, Adv.\n\n2..W.P.(C) 2447/2000\n\nMOHD. RAFIQ .....Petitioner\n\nThrough: Ms. L. Gangmei, Adv.\n\nversus\n\nP O LABOUR COURT .....Respondents\n\nThrough: Mr. V.S.R. Krishna and Mr. V.\nShashank Kumar, Advs.",
+      "extraction_method": "native",
+      "native_characters": 509,
+      "final_characters": 509
+    },
+    {
+      "page_number": 5,
+      "text": "COURT NO.27\nHON’BLE MS.JUSTICE MADHU JAIN_\n\nCLICK HERE TO JOIN VC\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt\n\nAT 10:30 A.M.\n\n1+ CRL.M.C. 7013/2022 AND CRL.M.A. 27147/2022, CRL.M.A. 26291/2024,\nCRL.M.A. 26292/2024\nDHARMENDRA HANSRAJ KOTAK & ORS. .....Petitioners\nThrough: Mr. Rajesh Batra, Ms. Sonia Kukreja, Mr.\nRohit Chandra & Ms. Sadhika Kochhar,\nAdvs.\nversus\n\nSTATE OF DELHI & ANR. ....Respondents\nThrough: Mr. Digam Singh Dagar, APP\n\n2+ CRL.M.C. 328/2023 AND CRL.M.A. 1303/2023, CRL.M.A. 26293/2024, CRL.M.A.\n26294/2024\nDHARMENDRA HANSRAJ KOTAK & ORS. .....Petitioners\nThrough: Mr. Rajesh Batra, Ms. Sonia Kukreja, Mr.\nRohit Chandra & Ms. Sadhika Kochhar,\nAdvs.\nversus\nSTATE OF DELHI & ANR. .....Respondents\nThrough: Mr. Digam Singh Dagar, APP",
+      "extraction_method": "native",
+      "native_characters": 759,
+      "final_characters": 759
+    },
+    {
+      "page_number": 6,
+      "text": "06.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\nCOURT NO. 46\nHON'BLE MR.JUSTICE SUBRAMONIUM PRASAD\n\nNOTE: IN CASE LEARNED COUNSELS FOR THE PARTIES WISH TO RELY UPON SOME\nPLEADINGS/DOCUMENTS/SUBMISSIONS/JUDGMENTS, THEY ARE DIRECTED TO FILE THE SAME DURING\nTHE COURT WORKING HOURS ATLEAST A DAY PRIOR TO THE DATE OF LISTING OF SUCH MATTERS. ANY\nPLEADINGS/DOCUMENTS/SUBMISSIONS/JUDGEMENTS FILED BEYOND THE AFORESAID PRESCRIBED\nPERIOD SHALL NEITHER BE FORWARDED TO THE COURT NOR BE ENTERTAINED.\n\nNOTE: COUNSEL APPEARING THROUGH VIDEO CONFERENCING ARE REQUESTED TO GIVE THEIR\nAPPERANCES IN THE CHAT BOX ALONGWITH THEIR MOBILE NUMBERS.\n\nTO JOIN VC:\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc13\nNOTE: FOR MOVING ADJOURNMENT SLIP PLEASE MAIL TO\npankaj.shukla@dhc.nic.in\n\nITEM CASE NUMBER PARTY NAME ADVOCATE NAME\nNUMBER\nFOR PRONOUNCEMENT OF JUDGMENT AT 10:30 A.M\n1 O.M.P. (COMM)- UNION OF INDIA BHAGVAN SWARUP SHUKLA,\n375/2022 V/s M/S GOODRICH SARVAN KUMAR, PRADYUMN\nI.A. 14481/2022 FOODTECH LTD SINGH, MUKESH KUMAR\nI.A. 14485/2022 PANDEY, DASHMESH TRIPATHI,\nI.A. 14486/2022 JYOTI YADAV, JAYANT MEHTA,\nPARTHIV GOSWAMI,\nDEEPANSHU JAIN, SHAANTANU\nJAIN, JAHANVI KHANNA\n\n*****\nBY ORDER\nREGISTRAR ORIGINAL",
+      "extraction_method": "native",
+      "native_characters": 1217,
+      "final_characters": 1217
+    }
+  ],
+  "processed_at": "2026-08-06T07:23:50.131218+00:00"
+}

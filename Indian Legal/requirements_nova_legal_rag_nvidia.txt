@@ -1,0 +1,6 @@
+# Python 3.11 recommended
+numpy>=1.26,<3
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+openai>=1.40
+requests>=2.32

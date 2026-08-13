@@ -1,0 +1,79 @@
+{
+  "document": {
+    "document_id": "legal:032c9ca5b63a04a4b8129eee",
+    "sha256": "032c9ca5b63a04a4b8129eeeede0471123a9622ecdf1fde689148cd0598a8ded",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\STATE_EMBLEM_ACT2005.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\STATE_EMBLEM_ACT2005_032c9ca5b63a.pdf",
+    "file_size": 28882,
+    "page_count": 6,
+    "document_type": "acts",
+    "classification_score": 13,
+    "title": "THE STATE EMBLEM OF INDIA (PROHIBITION OF IMPROPER USE) ACT, 2005",
+    "year": 2005,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 1,
+    "native_page_count": 5,
+    "extracted_characters": 8789,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 13,
+    "rules": 11,
+    "judgments": 0,
+    "orders": 2,
+    "notifications": 4,
+    "circulars": 1,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 1
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "THE STATE EMBLEM OF INDIA (PROHIBITION OF IMPROPER USE) ACT, 2005\nNo. 50 of 2005 (20th December, 2005)\n\nAn Act to prohibit the improper use of State Emblem of India for professional\nand commercial purposes and for matters connected therewith or incidental\nthereto.\n\nBe it enacted by Parliament in the Fifty-sixth Year of the Republic of India as\nfollows:-\n\nShort title, 1. (1) This Act may be called the State Emblem of India (Prohibition of\nextent,\nImproper Use) Act, 2005.application and\ncommencement\n(2) It extends to the whole of India, and also applies to citizens of India outside\nIndia.\n\n(3) It shall come into force on such date as the Central Government may, by\nnotification in the Official Gazette, appoint.\n\nDefinitions 2. In this Act, unless the context otherwise requires,-\n\n(a) \"competent authority\" means any authority competent under any law for the\ntime being in force to register any company, firm, other body of persons or any\ntrade mark or design or to grant a patent;\n\n(b) \"emblem\" means the State Emblem of India as described and specified in the\nSchedule to be used as an official seal of the Government.\n\nProhibition of 3. Notwithstanding anything contained in any other law for the time being in\nimproper use of\nforce, no person shall use the emblem or any colourable imitation thereof in anyemblem.\nmanner which tends to create an impression that it relates to the Government or\nthat it is an official document of the Central Government, or as the case may be,\nthe State Government, without the previous permission of the Central\nGovernment or of such officer of that Government as may be authorised by it in\nthis behalf.\n\nExplanation.- For the purposes of this section, \"person\" includes a former\nfunctionary of the Central Government or the State Governments.\n\nProhibition of 4. No person shall use the emblem for the purpose of any trade, business, calling\nuse of emblem or profession or in the title of any patent, or in any trade mark or design, except\nfor wrongful\nin such cases and under such conditions as may be prescribed.gain.\n\nProhibition of 5. (1) Notwithstanding anything contained in any other law for the time being in\nregistration of\nforce, no competent authority shall,-certain\ncompanies, etc.\n(a) register a trade mark or design which bears the emblem, or\n\n(b) grant patent in respect of an invention which bears a title containing the\nemblem.",
+      "extraction_method": "native",
+      "native_characters": 2391,
+      "final_characters": 2388
+    },
+    {
+      "page_number": 2,
+      "text": "(2) If any question arises before a competent authority whether any emblem is an\nemblem specified in the Schedule or a colourable imitation thereof, the\ncompetent authority shall refer the question to the Central Government and the\ndecision of the Central Government thereon shall be final.\n\nGeneral powers 6. (1) The Central Government may make such provision by rules as appears to\nof Central it to be necessary, to regulate the use of the emblem in official seal that is used inGovernment to\nregulate use of offices of the Central Government and State Governments and their\nEmblem. organisations including diplomatic missions abroad, subject to such restrictions\nand conditions as may be prescribed.\n\n(2) Subject to the provisions of this Act, the Central Government shall have\npowers-\n\n(a) to notify the use of emblem on stationery, the method of printing or\nembossing it on demi-official stationery by the constitutional authorities,\nMinisters, Members of Parliament, Members of Legislative Assemblies, officers\nof the Central Government and the State Government;\n\n(b) to specify the design of the official seal consisting of the emblem;\n\n(c) to restrict the display of emblem on vehicles of constitutional authorities,\nforeign dignitaries, Ministers of the Central Government and the State\nGovernment;\n\n(d) to provide for guidelines for display of emblem on public buildings in India,\nthe diplomatic missions and on the buildings occupied by India's consulates\nabroad;\n\n(e) to specify conditions for the use of emblem for various other purposes\nincluding the use for educational purposes and the armed forces personnel;\n\n(f) to do all such things (including the specification of design of the emblem and\nits use in the manner whatsoever) as the Central Government considers\nnecessary or expedient for the exercise of the foregoing powers.\n\nPenalty 7(1) Any person who contravenes the provisions of section 3 shall be punishable\nwith imprisonment for a term which may extend to two years, or with fine which\nmay extend to five thousand rupees, or with both or, if having been previously\nconvicted of an offence under this section, is again convicted of any such\noffence, he shall be punishable for the second and for every subsequent offence\nwith imprisonment for a term which shall not be less than six months, which\nmay extend to two years and with fine which may extend to five thousand\nrupees.\n\n(2) Any person who contravenes the provisions of section 4 for any wrongful\ngain shall be punishable for such offence with imprisonment for a term which\nshall not be less than six months, which may extend to two years and with fine\nwhich may extend to five thousand rupees.",
+      "extraction_method": "native",
+      "native_characters": 2680,
+      "final_characters": 2677
+    },
+    {
+      "page_number": 3,
+      "text": "Previous 8. No prosecution for any offence punishable under this Act shall be instituted,\nsanction for\nexcept with the previous sanction of the Central Government or of any officerprosecution\nauthorized in this behalf by general or special order of the Central Government.\n\nSavings 9. Nothing in this Act shall exempt any person from any suit or other\nproceedings which might be brought against him under any other law for the\ntime being in force.\n\nAct to have 10. The provisions of this Act or any rule made thereunder shall have effect\noverriding effect. notwithstanding anything inconsistent therewith contained in any other\nenactment or instrument having effect by virtue of such enactment.\n\nPower to make 11.(1) The Central Government may, by notification in the Official Gazette,\nrules. make rules to carry out the purposes of this Act.\n\n(2) In particular, and without prejudice to the generality of the foregoing powers,\nsuch rules may provide for all or any of the following matters, namely:-\n\n(a) cases and conditions regulating the use of emblem under section 4;\n\n(b) making rules to regulate the use of the emblem in official seal of the\nGovernment and specifying restrictions and conditions relating thereto under\nsub-section (1) of section 6;\n\n(c) the use of emblem on stationery, design of official seal consisting of\nemblem and other matters under sub-section (2) of section 6;\n\n(d) authorising officer by general or special order for giving previous sanction\nfor instituting prosecution under section 8; and\n\n(e) any other matter which is required to be, or may be, prescribed.\n\n(3) Every rule made under this section shall be laid, as soon as may be after it is\nmade, before each House of Parliament, while it is in session, for a total period\nof thirty days which may be comprised in one session or in two or more\nsuccessive sessions, and if, before the expiry of the session immediately\nfollowing the session or the successive sessions aforesaid, both House agree in\nmaking any modification in the rule or both Houses agree that the rule should not\nbe made, the rule shall thereafter have effect only in such modified form or be of\nno effect, as the case may be; so, however, that any such modification or\nannulment shall be without prejudice to the validity of anything previously done\nunder that rule.",
+      "extraction_method": "native",
+      "native_characters": 2325,
+      "final_characters": 2322
+    },
+    {
+      "page_number": 4,
+      "text": "THE SCHEDULE\n\n[See section 2(b)]\n\nSTATE EMBLEM OF INDIA\n\nDESCRIPTION AND DESIGN\n\nThe State Emblem of India is an adaptation from the Sarnath Lion Capital of Asoka which is\npreserved in the Sarnath Museum. The Lion Capital has four lions mounted back to back on a circular\nabacus. The frieze of the abacus is adorned with sculptures in high relief of an elephant, a galloping\nhorse, a bull and a lion separated by intervening Dharma Chakras. The abacus rests on a bell-shaped\nlotus.\n\nThe profile of the Lion Capital showing three lions mounted on the abacus with a Dharma Chakra\nin the center, a bull on the right and a galloping horse on the left, and outlines of Dharma Chakras on the\nextreme right and left has been adopted as the State Emblem of India. The Bell-shaped lotus has been\nomitted.\n\nThe motto \"Satyameva Jayate\" – Truth alone triumphs – written in Devanagari script below the\nprofile of the Lion Capital is part of the State Emblem of India.\n\nThe State Emblem of India shall conform to the designs as set out in Appendix I or Appendix II.",
+      "extraction_method": "native",
+      "native_characters": 1055,
+      "final_characters": 1052
+    },
+    {
+      "page_number": 5,
+      "text": "Appendix I\n\nNote. - This design is in simplified form and meant for reproduction in small\nsizes such as for use in stationery, seals and die-printing.",
+      "extraction_method": "native",
+      "native_characters": 153,
+      "final_characters": 150
+    },
+    {
+      "page_number": 6,
+      "text": "Appendix II\nfn\n1 ua in|\n[i |\n5 Cie F Ae # ees 1.\nt . Le = a = . r\n{ ' | F\n| re\nee ail\naT ie ea ort on\n1 a es _.\nfrit rH\nNote. - This design is more detailed and meant for reproduction in bigger sizes.",
+      "extraction_method": "ocr",
+      "native_characters": 96,
+      "final_characters": 200
+    }
+  ],
+  "processed_at": "2026-08-06T07:25:34.727815+00:00"
+}

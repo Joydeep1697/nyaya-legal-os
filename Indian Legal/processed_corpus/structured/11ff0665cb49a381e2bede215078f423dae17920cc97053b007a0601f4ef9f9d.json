@@ -1,0 +1,100 @@
+{
+  "document": {
+    "document_id": "legal:11ff0665cb49a381e2bede21",
+    "sha256": "11ff0665cb49a381e2bede215078f423dae17920cc97053b007a0601f4ef9f9d",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\j_03082026.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\j_03082026_11ff0665cb49.pdf",
+    "file_size": 678731,
+    "page_count": 9,
+    "document_type": "judgments",
+    "classification_score": 42,
+    "title": "03.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "03.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 9,
+    "extracted_characters": 7445,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 42,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "03.08.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO. 42\nDIVISION BENCH- V\nHON'BLE MR. JUSTICE VIVEK CHAUDHARY\nHON’BLE MS. JUSTICE RENU BHATNAGAR\n\nCLIK HERE TO JOIN VC:\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc10\n\nAT 10:30 A.M.\n\n1.FAO (COMM) 82/2026\n\nNITIN KUMAR SHARMA ....Appellant\n\nThrough: Mr. Bipin Kumar Prabhat,Mr. Kislaya Prabhat & Ms. Rinku\nKumari, Advs. (through VC)\n\nversus\n\nNETAJI SUBHAS UNIVERSITY OF TECHNOLOGY (NSIT) .....Respondent\n\nThrough: Ms. Jyoti Dutt Sharma & Mr. Manikant, Adv. with Mr.\nMukesh Garg (SSA)",
+      "extraction_method": "native",
+      "native_characters": 534,
+      "final_characters": 534
+    },
+    {
+      "page_number": 2,
+      "text": "COURT NO. 25\nHON'BLE DR.JUSTICE SWARANA KANTA SHARMA\n\nCLICK HERE TO JOIN VC\nhttps://delhihighcourt.webex.com/meet/dhcecourtvc\nAT 05:00 P.M\n\n(1)\n+ CRL.M.C. 5853/2022\nKULDEEP KUMAR .....Petitioner\nThrough: Mr. Rishikesh Kumar, Mr.\nRajneesh Bhaskar, Ms.Binuja Biju and Mr.\nAtul Kumar, Advocates\n\nversus\n\nSTATE NCT OF DELHI .....Respondent\nThrough: Mr. Naresh Kumar Chahar, APP\nfor the State with SI Shubhanshu\nand SI Pradeep\n(2)\n+ CRL.M.C. 6910/2022 & CRL.M.A. 26781/2022\nRAVINDER & ORS. .....Petitioners\nThrough: Counsel (appearance not given)\n\nversus\n\nSTATE NCT OF DELHI .....Respondent\nThrough: Mr. Naresh Kumar Chahar, APP\nfor the State",
+      "extraction_method": "native",
+      "native_characters": 637,
+      "final_characters": 637
+    },
+    {
+      "page_number": 3,
+      "text": "(3)\n+ CRL.M.C. 7326/2023 & CRL.M.A. 27327/2023\nKULDEEP KUMAR .....Petitioner\nThrough: Mr. Rishikesh Kumar, Mr.\nRajneesh Bhaskar, Ms.Binuja\nBiju and Mr. Atul Kumar,\nAdvocates\n\nversus\n\nSTATE NCT OF DELHI & ANR. .....Respondents\nThrough: Mr. Naresh Kumar Chahar, APP\nfor the State\n(4)\n+ W.P.(C) 8508/2026 & CM APPL. 39547/2026\nM/S KAWATRA HOSPITALITY PVT. LTD. THROUGH, ITS\nDIRECTOR/AUTHORIZEREPRESENTATIVE .....Petitioner\nThrough: Mr. Rakesh Tiku, Senior\nAdvocate with Mr. Mankan\nDeep Singh and Ms. Nida\nAkhtar, Advocates\n\nversus\n\nTHE DIRECTOR (R.P.CELL), DELHI URBAN SHELTER\nIMPROVEMENT BOARD & ANR. .....Respondents\nThrough: Mr. Rishikant Singh and Mr.\nManoj Jadly, Advocates for\nDUSIB.\n\n(5)\n+ W.P.(C) 8504/2026\nM/S KAWATRA TENT AND CATERERS PVT. LTD.\nTHROUGH, ITS DIRECTOR/AUTHORIZED\nREPRESENTATIVE .....Petitioner\nThrough: Mr. Rakesh Tiku, Senior\nAdvocate with Mr. Mankan",
+      "extraction_method": "native",
+      "native_characters": 873,
+      "final_characters": 873
+    },
+    {
+      "page_number": 4,
+      "text": "Deep Singh and Ms. Nida\nAkhtar, Advocates\n\nversus\n\nTHE DIRECTOR (R.P.CELL), DELHI URBAN SHELTER\nIMPROVEMENT BOARD & ANR.\n.....Respondents\nThrough: Mr. Rishikant Singh and Mr.\nManoj Jadly, Advocates for\nDUSIB\n(6)\n+ W.P.(C) 8506/2026\nM/S ESWARA KAMADHENU RESTAURANT PVT. LTD.\nTHROUGH, ITS DIRECTOR/AUTHORIZED\nREPRESENTATIVE .....Petitioner\nThrough: Mr. Rakesh Tiku, Senior\nAdvocate with Mr. Mankan\nDeep Singh and Ms. Nida\nAkhtar, Advocates\n\nversus\n\nTHE DIRECTOR (R.P.CELL), DELHI URBAN SHELTER\nIMPROVEMENT BOARD & ANR. .....Respondents\nThrough: Mr. Rishikant Singh and Mr.\nManoj Jadly, Advocates for\nDUSIB.",
+      "extraction_method": "native",
+      "native_characters": 604,
+      "final_characters": 604
+    },
+    {
+      "page_number": 5,
+      "text": "(7)\n+ CRL.M.A. 13379/2026 in BAIL APPLN. 1860/2025\n\nKARAN @ DEEPAK KUMAR @ DEEPU .....Petitioner\nThrough: Mr. Gautam Khazanchi and Ms.\nAditi Kukreja (DHCLSC)\n\nversus\n\nTHE STATE (GOVT. OF NCT) OF DELHI.\n....Respondent\nThrough: Mr. Naresh Kumar Chahar, APP\nfor the State\n\nCOURT NO.30\nHON'BLE MR. JUSTICE MANOJ JAIN\n\nMeeting link\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc015\n\nAT 10:30 A.M.\n\n1. CRL.A. 1676/2025 & CRL.M.(BAIL) 1302/2025\n\nSHRI NARESH BALYAN .....Appellant\n\nversus\n\nSTATE OF NCT OF DELHI .... .....Respondent\n\nMemo of Appearance\n\nFor the Appellant:Ms. Rebecca M. John, Senior Advocate\nwith Mr. Jatan Singh, Mr. Vivek Jain, Mr. Rohit Kumar,\nMr. Sadiq Noor and Mr. Pravir Singh, Advocates Advocate\nin CRLA. 1676/2025\nFor the Respondent:Mr. Amit Prasad, SpL Counsel\nwith Mr. Akhand Pratap Singh, SPP for State with , Mr.\nHritwirk Maurya, Mr. Ayodhya Prasad, ., Mr. Utkarsh\nSingh , Advocates with ACP Bhagwati Prasad, . Krishan\nKumar and SI Narender Kumar",
+      "extraction_method": "native",
+      "native_characters": 975,
+      "final_characters": 975
+    },
+    {
+      "page_number": 6,
+      "text": "COURT NO.27\nHON’BLE MS.JUSTICE MADHU JAIN_\n\nCLICK HERE TO JOIN VC\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt\n\nAT 10:30 A.M.\n\n1.CRL.M.C. 2859/2023 & CRL.M.A. 10703/2023\n\nSHRI SHYAM LALGARG &ANR. .....Petitioners\n\nThrough: Mr. Anil Kumar Bhargav and Mr.\nBhavesh Sharma, Advs.\n\nversus\n\nSTATE OF NCT OF DELHI.....Respondent\n\nThrough:Mr. Manoj Pant, APP",
+      "extraction_method": "native",
+      "native_characters": 360,
+      "final_characters": 360
+    },
+    {
+      "page_number": 7,
+      "text": "03.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\nCOURT NO. 28\nHON'BLE MR.JUSTICE VIKAS MAHAJAN\n\nCLICK HERE TO JOIN VC\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc3\nNOTE: FOR MOVING ADJOURNMENT SLIP PLEASE MAIL TO:\ndhcanilkumar@gmail.com\n\nITEM\nCASE NUMBER PARTY NAME ADVOCATE NAMENUMBER\nFOR PRONOUNCEMENT OF JUDGMENT AT 4:30 P.M.\n1. I.A. 31761/2025 EXCLUSIVE CAPITAL SIDDHARTH YADAV, MANAV GOYAL, DEVIKA\nIn CS(COMM)- LIMITED MOHAN, DHRUV NEGI, ABHISHEK MANU\n1360/2025 V/s CLOVER MEDIA SINGHVI, RAJIV NAYYAR, SIDHANT KUMAR,\nI.A. 31762/2025 PRIVATE LIMITED & AMITA GUPTA, KAMIKSHA PURI, KARAN\nI.A. 12878/2026 ORS. MOTIANI, NIHARIKA CHABRA\nI.A. 12884/2026\nI.A. 12920/2026\nI.A. 13262/2026\nI.A. 13365/2026\nI.A. 13366/2026\n2. I.A. 9591/2026 ASIAN HOTELS ABHISHEK MANU SINGHVI, RAJIV NAYYAR,\nI.A. 9594/2026 NORTH LIMITED SIDHANT KUMAR, AKSHIT MAGO, VINAYAK\nIn V/s EXCLUSIVE THAKUR, MOOMAL JOSHI, SIDDHARTH\nCS(COMM)- CAPITAL LIMITED & YADAV, MANAV GOYAL, DEVIKA MOHAN,\n376/2026 ORS. DHRUV NEGI\nI.A. 9592/2026\nI.A. 9593/2026\nI.A. 12881/2026\n\n*****",
+      "extraction_method": "native",
+      "native_characters": 1064,
+      "final_characters": 1064
+    },
+    {
+      "page_number": 8,
+      "text": "03.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\nCOURT NO.45\nHON'BLE MR.JUSTICE AVNEESH JHINGAN\n\nNOTE: ANY URGENT MENTIONING FOR LISTING THE APPLICATION IN THE MAIN SUIT/PETITION WHICH IS\nPENDING BEFORE THE CONCERNED COURT, THE SAME SHALL BE MENTIONED BEFORE THE BENCH\nCONCERNED. IN CASE THE APPROPRIATE BENCH IS NOT HOLDING THE COURT, THEN IT SHOULD BE\nMENTIONED BEFORE THE JUDGE-IN-CHARGE (ORIGINAL SIDE).\n\nNOTE: COUNSEL APPEARING THROUGH VIDEO CONFERENCING ARE REQUESTED TO GIVE THEIR\nAPPERANCES IN THE CHAT BOX ALONGWITH THEIR MOBILE NUMBERS.\n\nTO JOIN VC:\nhttps://virtualcourtdhc.webex.com/meet/virtualcourtdhc1\n\nMeeting ID 25128221186\n\nNOTE: FOR MOVING ADJOURNMENT SLIP PLEASE MAIL TO\nakhil.saxena@dhc.nic.in\nITEM CASE NUMBER PARTY NAME ADVOCATE NAME\nNUMBER\nFOR PRONOUNCEMENT OF JUDGMENT AT 10:30 A.M.\n1. O.M.P. (COMM)- MCNALLY BHARAT GOPAL JAIN, UDIAN SHARMA, SAHIL\n362/2018 ENGINEERING SARASWAT, PRABAL PRATAP SINGH,\nI.A. 11178/2018 COMPANY LIMITED HARSHA SADHWANI, MANAV MITRA, KRITI\nI.A. 33271/2024 V/s METSO INDIA PVT. SHARMA, SUMANT BATRA, NITIN KHARE,\nI.A. 19620/2025 LTD. ABHISHEK KUMAR, RIYA ARORA, SARTHAK\nBHANDARI, HEMLATA RAWAT, ABHAY\nSINGH, SAURABH\n\n2. OMP (ENF.) METSO INDIA PVT. SUMANT BATRA, NITIN KHARE, ABHISHEK\n(COMM.)- LTD KUMAR, RIYA ARORA, SARTHAK BHANDARI,\n270/2018 V/s MCNALLY BHARAT HEMLATA RAWAT, ABHAY SINGH, SAURABH,\nEX.APPL.(OS) ENGINEERING CO. LTD GOPAL JAIN, UDIAN SHARMA, SAHIL\n216/2021 SARASWAT, PRABAL PRATAP SINGH,\nEX.APPL.(OS) HARSHA SADHWANI, MANAV MITRA, KRITI\n474/2021 SHARMA\nEX.APPL.(OS)\n805/2023",
+      "extraction_method": "native",
+      "native_characters": 1558,
+      "final_characters": 1558
+    },
+    {
+      "page_number": 9,
+      "text": "03.08.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\n3. O.M.P. (COMM)- NATIONAL HIGHWAYS ARUN KUMAR VARMA, C.S. CHAUHAN,\n351/2023 AUTHORITY OF INDIA KUNAL, VADLAMANI SESHAGIRI\nI.A. 17160/2023 V/s THE LOUIS\nBERGER GROUP INC.\nJV WITH M/S. COWI\nA/S\n\n4. O.M.P. (COMM)- B4S SOLUTIONS ANKIT JAIN, VIVEK SHARMA, MAHESH\n521/2023 PRIVATE LIMITED CHANDRA TIWARI, ROHIT KUMAR, GAGAN\nCAV 645/2023 V/s ATC TELECOM KAUSHIK, R.K. SHARMA, SHWETA BHARTI,\nI.A. 25503/2023 INFRASTRUCTRE PVT. SANJANA SACHDEV, NIKITA SHARMA\nI.A. 2144/2025 LTD\nI.A. 19095/2025\nI.A. 21812/2025\n5. O.M.P. (COMM)- UNION OF INDIA RASHMI MALHOTRA, ARNAB CHANDA,\n153/2025 THROUGH DY CHIEF UTSAV GARG, PUSHKAR KHANNA,\nI.A. 8609/2025 ENGINEER SAMVARTIKA PATHAK, TULHA RAMPAL\nCONSTRUCTION\nMORADABAD\nV/s MS PRAGATI\nCONSTRUCTION\nCONSULTANTS\n\n*****\n\nBY ORDER\nREGISTRAR ORIGINAL",
+      "extraction_method": "native",
+      "native_characters": 840,
+      "final_characters": 840
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.606101+00:00"
+}

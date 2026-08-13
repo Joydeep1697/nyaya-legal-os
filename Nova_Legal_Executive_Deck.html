@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Legal OS — Executive Briefing & Investor Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0b0d12; color: #e2e8f0; }
+        .gradient-text { background: linear-gradient(135deg, #36d399 0%, #3b82f6 50%, #9c94ff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card { background: rgba(18, 20, 27, 0.75); border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(16px); border-radius: 16px; }
+        .pill { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 9999px; }
+        
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white !important; color: black !important; font-size: 11pt; }
+            .card { background: white !important; border: 1px solid #ccc !important; color: black !important; box-shadow: none !important; page-break-inside: avoid; }
+            .gradient-text { background: none !important; -webkit-text-fill-color: #0f172a !important; color: #0f172a !important; }
+            .print-page { page-break-after: always; }
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12 max-w-6xl mx-auto space-y-12">
+
+    <!-- Top Action Bar (hidden on print) -->
+    <div class="no-print flex justify-between items-center bg-[#141720] border border-[#2a2e3a] p-4 rounded-2xl">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">N</div>
+            <span class="font-semibold text-sm">Nova Legal OS — Executive Deck</span>
+        </div>
+        <button onclick="window.print()" class="px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-black font-semibold text-xs rounded-xl transition flex items-center gap-2">
+            <i class="fa-solid fa-print"></i> Print or Save as PDF
+        </button>
+    </div>
+
+    <!-- Header / Hero Section -->
+    <div class="card p-8 md:p-12 relative overflow-hidden print-page">
+        <div class="absolute -right-20 -top-20 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="flex items-center gap-3 mb-6">
+            <span class="pill px-3 py-1 text-xs text-emerald-400 border-emerald-500/30">Executive Briefing Document</span>
+            <span class="pill px-3 py-1 text-xs text-slate-400">Version 1.0</span>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+            <span class="gradient-text">Nova Legal OS</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-300 max-w-3xl leading-relaxed">
+            AI-Powered Legal Intelligence Operating System for Indian Law — powered by <strong class="text-white">NoveLaw</strong>, a proprietary fine-tuned Indian Legal LLM with hybrid dense/sparse vector search and proactive compliance automation.
+        </p>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t border-slate-800">
+            <div>
+                <div class="text-2xl md:text-3xl font-extrabold text-emerald-400">252+</div>
+                <div class="text-xs text-slate-400 mt-1">Legal Corpus Acts</div>
+            </div>
+            <div>
+                <div class="text-2xl md:text-3xl font-extrabold text-blue-400">5,720</div>
+                <div class="text-xs text-slate-400 mt-1">Indexed Pages</div>
+            </div>
+            <div>
+                <div class="text-2xl md:text-3xl font-extrabold text-indigo-400">2,150+</div>
+                <div class="text-xs text-slate-400 mt-1">Extracted Entities</div>
+            </div>
+            <div>
+                <div class="text-2xl md:text-3xl font-extrabold text-purple-400">23</div>
+                <div class="text-xs text-slate-400 mt-1">Legal Categories</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Key IP & Value Proposition -->
+    <div class="space-y-6 print-page">
+        <h2 class="text-2xl font-bold flex items-center gap-2">
+            <i class="fa-solid fa-shield-halved text-emerald-400"></i> Core Intellectual Property & Strategic Advantage
+        </h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="card p-6 space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-lg font-bold">1</div>
+                <h3 class="font-bold text-lg">NoveLaw Fine-Tuned Model</h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Fine-tuned specifically on Indian statutory law, High Court & Supreme Court precedents. Eliminates generic LLM hallucinations on section numbers and legal definitions.
+                </p>
+            </div>
+            <div class="card p-6 space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center text-lg font-bold">2</div>
+                <h3 class="font-bold text-lg">Hybrid RAG Engine</h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Combines FAISS dense vector embeddings with SQLite FTS5 BM25 keyword search. Delivers sub-second citations with page-level exact accuracy.
+                </p>
+            </div>
+            <div class="card p-6 space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-lg font-bold">3</div>
+                <h3 class="font-bold text-lg">Knowledge Graph & Contradictions</h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Automatically builds cross-document citation links, detects conflicting contractual clauses, and alerts users to repealed or outdated acts.
+                </p>
+            </div>
+            <div class="card p-6 space-y-3">
+                <div class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center text-lg font-bold">4</div>
+                <h3 class="font-bold text-lg">Enterprise Privacy Architecture</h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Runs 100% on-premise on local GPUs (gtx 1650 / Ollama Q4_K_M compatible) or connects securely to enterprise cloud endpoints with zero data leakage.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Pillars -->
+    <div class="space-y-6 print-page">
+        <h2 class="text-2xl font-bold flex items-center gap-2">
+            <i class="fa-solid fa-layer-group text-blue-400"></i> Platform Capability Pillars
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="card p-6 space-y-3">
+                <h3 class="font-bold text-base text-emerald-400"><i class="fa-solid fa-comments mr-2"></i>Nova Intelligence</h3>
+                <ul class="text-xs text-slate-300 space-y-2">
+                    <li>• Grounded RAG legal Q&A</li>
+                    <li>• Instant source citation pills</li>
+                    <li>• Live reasoning trail display</li>
+                    <li>• One-click copy answer feature</li>
+                </ul>
+            </div>
+            <div class="card p-6 space-y-3">
+                <h3 class="font-bold text-base text-blue-400"><i class="fa-solid fa-vault mr-2"></i>Knowledge Vault</h3>
+                <ul class="text-xs text-slate-300 space-y-2">
+                    <li>• Auto-categorization (36 types)</li>
+                    <li>• Entity extraction (Courts, Judges, Acts)</li>
+                    <li>• Legal clause risk scoring</li>
+                    <li>• Real-time WebSocket upload pipeline</li>
+                </ul>
+            </div>
+            <div class="card p-6 space-y-3">
+                <h3 class="font-bold text-base text-purple-400"><i class="fa-solid fa-radar mr-2"></i>Proactive Intelligence</h3>
+                <ul class="text-xs text-slate-300 space-y-2">
+                    <li>• Domain compliance gap analysis</li>
+                    <li>• Statutory limitation deadline tracker</li>
+                    <li>• Act staleness & amendment alerts</li>
+                    <li>• Executive daily AI briefing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Target Market & Commercial Model -->
+    <div class="card p-8 space-y-6 print-page">
+        <h2 class="text-2xl font-bold flex items-center gap-2">
+            <i class="fa-solid fa-chart-line text-purple-400"></i> Market Opportunity & Business Model
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6 text-sm">
+            <div>
+                <h4 class="font-bold text-white mb-2">Target Market</h4>
+                <p class="text-slate-400 text-xs leading-relaxed">Law firms, In-house Counsel, Enterprise Legal Departments, and Judicial Researchers looking for fast, reliable Indian statutory research.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-2">Monetization</h4>
+                <p class="text-slate-400 text-xs leading-relaxed">Enterprise SaaS subscriptions, customized law firm fine-tuning deployments, and private cloud workspace nodes.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-2">Competitive Moat</h4>
+                <p class="text-slate-400 text-xs leading-relaxed">Pre-indexed 252+ document corpus, 2,150+ structured legal entities, and proprietary NoveLaw instruction datasets.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center text-xs text-slate-500 pt-6 border-t border-slate-800">
+        Nova Legal OS • Built for Indian Legal Intelligence • Confidentially Prepared for Stakeholders & Investors
+    </div>
+
+</body>
+</html>

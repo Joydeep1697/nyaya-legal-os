@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:3cefffe05210626281c9d7ef",
+    "sha256": "3cefffe05210626281c9d7efc439b689b5ad343b65fe0000ed1c49284f5dcda5",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\NotiSikhGurdwarasActAmendment_1205165B15D.PDF",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\NotiSikhGurdwarasActAmendment_1205165B15D_3cefffe05210.pdf",
+    "file_size": 24694,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 13,
+    "title": "TTT TTT ———————————————_———_—__________",
+    "year": 2003,
+    "court": null,
+    "case_number": null,
+    "decision_date": "06-05-2016",
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 2132,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 13,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 1,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "TTT TTT ———————————————_———_—__________\nvist ee Se Wee—(t)04/0007/2003—16 REGISTERED NO. DL—(N)04/0007/2003—16\nE04 10007/2003-— 16 tN 04/0007 /2003—16,\n=a .\nol\nas ahs,\nHAART\nEXTRAORDINARY\nWT I[—- we |\nPART I — Section |\nwife & warkra\nPUBLISHED BY AUTHORITY\n5 ea ed\nWe 24] *e feech, yA, AE 6, 2016/22 16, 1938 (arm)\nNo. 24] NEW DELHI, FRIDAY, MAY 6, 2016/V AISAKHA 16, 1938 (SAKA)\nss : a : .\nwa wees Pt Ts tem ct ord 2 fared fis ae ater dare S BHF cer a aS |\nSeparate paging is given to this Part in order that it may be filed as a separate compilation.\nSSS SS\nMINISTRY OF LAW AND JUSTICE\n(Legislative Department)\nNew Delhi, the 6th May, 2016/Vaisakha 16, 1938 (Saka)\nThe following Act of Parliament received the assent of the President on the\nSth May, 2016, and is hereby published for general information:—\nTHE SIKH GURDWARAS (AMENDMENT) ACT, 2016\nNo. 21 oF 2016\n[Sth May, 2016.]\nAnAct further to amend the Sikh Gurdwaras Act, 1925,\nBE it enacted by Parliament in the Sixty-seventh Year of the Republic of India as follow:—\n1. (7) This Act may be called the Sikh Gurdwaras (Amendment) Act, 2016. Short title and\n(2) Itshall be deemed to have come into force from 8th October, 2003. commencement.\nPunjab Act 2. In the Sikh Gurdwaras Act, 1925 (hereinafter referred to as the principal Act), in| Amendment\nVU of 1925. section 49, for the proviso, the following proviso shall be substituted, namely:— of section 49,\n“Provided that no person shall be registered as an elector who—\n(a) tims or shaves his beard or keshas;,\n(b) smokes; and\n(c) takes alcoholic drinks.”",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1563
+    },
+    {
+      "page_number": 2,
+      "text": "ae\n?\nSEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY 2\nae\nAmendment 3. In section 92 of the principal Act, for the proviso, the following proviso shall be\nof section 92. substituted, namely:— :\n“Provided that no person shall be registered as an elector who— ,\n(a) trims or shaves his beard or keshas,\n(b) smokes; and\n(c) takes alcoholic drinks.”.\nDR. G. NARAYANA RAJU,\nSecretary to the Govt. of India.\n\"PRINTED BY THE GENERAL MANAGER, GOVERNWENT OF INDIA FRESS, MINTO ROAD--NEW DEL\nAND PUBLISHED BY THE CONTROLLER OF PUBLICATIONS, DELHI~2016\nGMGIPMRND—795GI(S3}—-06-05-2016.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 569
+    }
+  ],
+  "processed_at": "2026-08-06T07:22:40.948639+00:00"
+}

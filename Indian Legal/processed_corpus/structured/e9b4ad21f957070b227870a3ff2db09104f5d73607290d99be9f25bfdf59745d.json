@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:e9b4ad21f957070b227870a3",
+    "sha256": "e9b4ad21f957070b227870a3ff2db09104f5d73607290d99be9f25bfdf59745d",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\adv-eng_dhjs-2026.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\examinations\\adv-eng_dhjs-2026_e9b4ad21f957.pdf",
+    "file_size": 270684,
+    "page_count": 3,
+    "document_type": "examinations",
+    "classification_score": 16,
+    "title": "PUBLIC APPOINTMENTS",
+    "year": 2026,
+    "court": "High Court Of Delhi",
+    "case_number": null,
+    "decision_date": "15.07.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 7099,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 2,
+    "judgments": 1,
+    "orders": 0,
+    "notifications": 2,
+    "circulars": 0,
+    "recruitment": 9,
+    "examinations": 16,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "PUBLIC APPOINTMENTS\nHIGH COURT OF DELHI : NEW DELHI\n(website:www.delhihighcourt.nic.in)\n\nDELHI HIGHER JUDICIAL SERVICE EXAMINATION – 2026\n(As Per The Delhi Higher Judicial Service Rules, 1970 As Amended Up To Date)\n\nHIGH COURT OF DELHI invites online applications from eligible candidates for\nfilling up 27 vacancies (24 existing and 03 anticipated) by way of direct recruitment in\nDelhi Higher Judicial Service by holding Delhi Higher Judicial Service Examination in\nthree successive stages:-\n\n(i) Delhi Higher Judicial Service Preliminary Examination (Objective type\nwith 25% negative marking) for selection of candidates for the Mains\nExamination (Written); and\n\n(ii) Delhi Higher Judicial Service Mains Examination (Written) for selection of\ncandidates for calling for viva-voce.\n\n(iii) Viva-voce.\n\nThe qualifications for direct recruits shall be as follows:-\n\n(1) must be a citizen of India.\n\n(2) In case of an Advocate, must have been continuously practising for not less\nthan seven years as on the last date of receipt of applications, i.e.,\n15.07.2026.\n\n(3) In case of Judicial Officers\n\n(i) must have already completed seven years in Bar before he/she was\nrecruited in the subordinate judicial service, or;\n\n(ii) must have seven years combined experience as a Judicial Officer\nand an Advocate as on the last date of receipt of the applications,\ni.e., 15.07.2026.\n\n(4) In case of a person who has been or who is in judicial service, must have a\ncombined experience of seven years or more as an advocate or a Judicial\nOfficer as on the last date of receipt of the application.\n\n(5) Must have attained the age of 35 years and have not attained the age of 45\nyears on the last date of receipt of application.\n\nThe scale of pay of the members of Delhi Higher Judicial Service is (J-5)\nRs.144840-194660.\n\nThe Delhi Higher Judicial Service Preliminary Examination (Objective type)\nreferred to above, will be held on Sunday, the 26th July, 2026 (11.00 AM to 01.00 PM).",
+      "extraction_method": "native",
+      "native_characters": 1982,
+      "final_characters": 1969
+    },
+    {
+      "page_number": 2,
+      "text": "The candidates shall submit their applications ONLINE ONLY in the prescribed\nformat through the official website of High Court of Delhi i.e.\nwww.delhihighcourt.nic.in as per schedule of dates given hereinafter:\n\nDate and Time of commencement for creation of new Log In and 01.07.2026\nfilling Online Application Form at 1000 hours\n\nLast Date and Time for filling Online Application Form and/or 15.07.2026\nmaking payment through Debit Card/Credit Card/Internet at 1730 hours\nBanking/UPI\n\nThe fees (non-refundable) in the sum of Rs.2,000/- for General Category\ncandidates and Rs.500/- for reserved category candidates [Scheduled Caste / Scheduled\nTribe / Persons with Disabilities (identified disabilities) of 40% or more] should be\npaid through Debit Card/ Credit Card/ Internet Banking/UPI.\n\nThe candidates can take printout of application form and keep it for future\nreference. They should not send the printout of the online application form to the\nHigh Court of Delhi.\n\nThe category wise break up of vacancies to be filled is as under:-\n\nCategory Break up of Vacancies Total No. of\nExisting Anticipated vacancies\n(till30.06.2027)\nGeneral 14 03 17\nSC 05# -- 05\nST 05# -- 05\nTOTAL 24 03 27\n# 03 out of 05 vacancies reserved for SC Category and 04 out of 05 vacancies reserved\nfor ST category are backlog vacancies.\n\nNote 1: The number of vacancies is subject to change including but not limited to the\nimplementation of judgment dated 11.03.2026 passed in RP(C) No.621/2021 in CA\nNo.1698/2020 titled Dheeraj Mor v. High Court of Delhi.\nNote 2: Out of the 27 vacancies to be advertised, the reservation for Identified PwD Categories\nCandidates with Benchmark Disability (40% or more) shall be as under:-\n\nNo. of Vacancies Reserved for PwD Category candidates\nPwD (Blindness and Low Vision) 01*\nPwD (one arm, one leg, both legs, leprosy cured, dwarfism and acid attack victim) 01\nPwD (Specific Learning Disability) and PwD (Multiple Disabilities involving 01*\nBlindness and low vision; one arm, one leg, both legs, leprosy cured, dwarfism and\nacid attack victim; and specific learning disability)\nTotal 03\n* Reservation will be carried forward on 02 out of 03 vacancies reserved for PwD category\ncandidates being backlog reserved vacancies\n\nNote 2(i): In view of Gazette notification dated 04.01.2021, the disabilities for which the\npost of Judicial Officer has been identified as suitable are as under:-",
+      "extraction_method": "native",
+      "native_characters": 2415,
+      "final_characters": 2402
+    },
+    {
+      "page_number": 3,
+      "text": "(a) Blindness and low vision;\n(b) One arm, one leg, both legs, leprosy cured, dwarfism and acid attack victim;\n(c) Specific learning disability;\n(d) Multiple disabilities involving aforesaid disabilities.\n\nNote 2(ii) 01 carry forward reservation against vacancy for PwD category (Specific\nlearning disability AND Multiple disabilities involving Blindness and low vision;\none arm, one leg, both legs, leprosy cured, dwarfism & acid attack victim; and\nspecific learning disability) advertised in DHJS Exam-2022, DHJS Exam-2023\nand DHJS Exam-2024 can now be filled by either the same categories[(c) & (d)]\nand in the event of non-availability of such candidate, by interchange among the\nfollowing categories:\n\n(a) Blindness and low vision.\n(b) One arm, one leg, both legs, leprosy cured, dwarfism and acid attack\nvictim.\n\nNote 2(iii) 01 carry forward reservation against vacancy for PwD category (Blindness and\nlow vision) advertised in DHJS Exam-2022, DHJS Exam-2023 & DHJS Exam-\n2024 can now be filled by either the same category and in the event of nonavailability of such candidate by interchange among the following categories:\n\n(b) One arm, one leg, both legs, leprosy cured, dwarfism, and acid attack\nvictim;\n(c) Specific learning disability; & (d) Multiple disabilities involving aforesaid\ndisabilities mentioned in (a) to (c).\n\nThe candidates applying for the examination must ensure that they fulfill all the\neligibility conditions for admission to the examination. Their admission at all the stages\nof examination for which they are admitted by this Court viz. Preliminary Examination\n(Objective type), Mains Examination (Written) and Viva-Voce shall be purely\nprovisional, subject to their satisfying the prescribed eligibility conditions. The question\nof eligibility would be thoroughly examined at the subsequent stages. If on verification at\nany time before or after the Preliminary Examination (Objective Type), Mains\nExamination (Written) and Viva-Voce, it is found that they do not fulfill any of the\neligibility conditions, their candidature for the examination shall stand cancelled without\nany notice or further reference.\n\nDetails regarding Preliminary Examination (Objective type), Mains Examination\n(Written), Viva-Voce, eligibility, relaxation in marks and other general terms and\nconditions applicable to the candidates are given in the Instructions available on the\nonline portal, link for which would be available on the website of High Court of Delhi\ni.e.www.delhihighcourt.nic.in. Candidates are advised to go through the Instructions as\nwell as Delhi Higher Judicial Service Rules, 1970 (as amended up to date) before filling\nup the application form.\nSd/-\n(Arun Bhardwaj)\nRegistrar General\n01.07.2026",
+      "extraction_method": "native",
+      "native_characters": 2743,
+      "final_characters": 2728
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:18.695676+00:00"
+}

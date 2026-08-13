@@ -1,0 +1,72 @@
+{
+  "document": {
+    "document_id": "legal:d582c03c206e051eb26b6319",
+    "sha256": "d582c03c206e051eb26b6319e02ad48ea40ddd01de527405d355dfd5dfeb39a2",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\60804082026BA17122026_174305.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\60804082026BA17122026_174305_d582c03c206e.pdf",
+    "file_size": 866377,
+    "page_count": 5,
+    "document_type": "judgments",
+    "classification_score": 6,
+    "title": "* IN THE HIGH COURT OF DELHI AT NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi At New Delhi",
+    "case_number": null,
+    "decision_date": "04.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 5,
+    "extracted_characters": 8801,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 1,
+    "rules": 7,
+    "judgments": 6,
+    "orders": 5,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "$~1\n\n* IN THE HIGH COURT OF DELHI AT NEW DELHI\n\n% Date of Decision: 04.08.2026\n\n# CNR No. DLHC010191982026\n\n+ BAIL APPLN. 1712/2026\n\nRAVINDER SINGH SIDHU .....Petitioner\n\nThrough: Mr. Mohit Paul and Ms. Rangoli Seth,\nAdvocates.\n\nversus\n\nSTATE (NCT OF DELHI) .....Respondent\n\nThrough: Mr. Amit Ahlawat, APP for State\nwith Inspector Suresh and SI\nRamchandra Singh\n\nCORAM: JUSTICE GIRISH KATHPALIA\n\nJ U D G M E N T (ORAL)\n\n1. The accused/applicant seeks regular bail in case FIR No. 267/2018 of\n\nPS EOW for offence under Section 406/420/120B/467/468/471 IPC.\n\n2. In furtherance of last order, updated status report also was filed by the\n\nState. I have heard learned counsel for accused/applicant and learned APP\n\nfor State assisted by IO/Inspector Suresh and SI Ramchandra Singh.\n\n3. Broadly speaking, allegation against the accused/applicant is as\n\nfollows. The accused/applicant, being Managing Director of a company is\n\nBAIL APPLN. 1712/2026 Page 1 of 5 pages\n\no=HIGHby COURTGIRISH OF KATHPALIADELHI,\nGIRISH COURT OF - 7047638, DELHI,CIDst=Delhi,\nKATHPALIA DigitallyDN:2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca,ou=HIGHpostalCode=110003,serialNumber=d3e86796451ec45c07b5d15570996b40f80cbd2eee60402c487965ff801e26fa,Date:c=IN,cn=GIRISH2026.08.04signed KATHPALIA17:38:32 +05'30'Signature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1394,
+      "final_characters": 1346
+    },
+    {
+      "page_number": 2,
+      "text": "involved in 159 complaints in 56 FIRs of cheating and forgery registered\n\nacross various states of the country, and the allegedly cheated amount is\n\nmore than Rs.30,00,00,000/-. The co-accused persons have already been\n\ndeclared proclaimed offenders but could not be arrested till date. It is alleged\n\nthat the accused persons, led by the present accused/applicant induced the\n\ninvestors/victims to invest their hard-earned money in various investment\n\nschemes on the false assurance of high returns and allotment of plots/flats,\n\nwhich assurances were never met with. The accused/applicant also falsely\n\nrepresented that the companies in which he was the Managing Director were\n\nauthorized and registered with the regulatory authorities for mobilization of\n\npublic funds. But no requisite registration under the SEBI Regulations was\n\ndone. The accused/applicant also falsely represented that his companies\n\nwere registered as NBFC with RBI, which also induced the investors to\n\ninvest money in the schemes. By way of judgment dated 19.05.2025, passed\n\nin W.P.(Crl.) 394/2024, the Hon’ble Supreme Court directed merging of\n\nthose 56 FIRs in the manner that the earliest FIR of each State would be the\n\nlead FIR and the remaining FIRs of that State would be treated as statements\n\nunder Section 161 CrPC.\n\n4. Learned counsel for accused/applicant submits that accused/applicant\n\nis in jail since the year 2020, but trial is yet to commence. It is also\n\nsubmitted that some of the High Courts of the other States have already\n\ngranted regular bail to the accused/applicant. No other argument has been\n\nadvanced.\n\nBAIL APPLN. 1712/2026 Page 2 of 5 pages\n\nby\no=HIGH COURTGIRISH OF KATHPALIADELHI,\nGIRISH COURT OF - 7047638, DELHI,CIDst=Delhi,\nKATHPALIA KATHPALIA DigitallyDN:2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca,ou=HIGHpostalCode=110003,serialNumber=d3e86796451ec45c07b5d15570996b40f80cbd2eee60402c487965ff801e26fa,cn=GIRISHDate:c=IN,2026.08.04signed 17:38:24 +05'30'Signature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 2087,
+      "final_characters": 2039
+    },
+    {
+      "page_number": 3,
+      "text": "5. Learned APP for State strongly opposes the bail application on the\n\nground of magnitude of the offence. It is pointed out by learned APP for\n\nState that the offences with which the accused/applicant has been charged\n\nwith are punishable with even life imprisonment. As regards the status of\n\ntrial, learned APP for State submits that chargesheet has already been filed\n\nand matter is already listed before the trial court for consideration of charge\n\non 11.09.2026, so it is not a fit case to grant bail, especially because the co-\n\naccused are proclaimed offenders and have been successfully evading arrest.\n\n6. As mentioned above, the accused/applicant is involved in a series of\n\noffences of wide magnitude, involving as many as 159 victims and 56 FIRs\n\nacross different States in the country though the FIRs were merged state\n\nwise as explained above. By way of order dated 08.12.2014, SEBI had\n\nspecifically directed the present accused/applicant as well as his company\n\nand other Directors to windup the collective investment scheme and refund\n\nmoney to the investors within three months; and even the appeal against that\n\norder was dismissed in the year 2018, but the accused/applicant opted not to\n\ncomply due to which so many individuals lost their hard earned money.\n\nSuch offences harm not just the individual victim of cheating but also cause\n\nimmense damage to the overall economy of the country, so cannot be treated\n\nat par with other offences. As mentioned above, the offences charged against\n\nthe accused/applicant are punishable upto even life imprisonment.\n\nBAIL APPLN. 1712/2026 Page 3 of 5 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\nGIRISH 2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca, ou=HIGH COURT OF DELHI,CID -\n7047638, postalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5 KATHPALIA d15570996b40f80cbd2eee60402c487965ff801e26fa, cn=GIRISH KATHPALIASignature Not Verified Date: 2026.08.04 17:38:13 +05'30'\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 2070,
+      "final_characters": 2022
+    },
+    {
+      "page_number": 4,
+      "text": "7. To be specific, one of those investment schemes were that the investor\n\nwas issued a Receipt cum Unit Certificate, assuring that upon maturity of the\n\ninvestment, the investor would get either a plot of land/flat or return of\n\nmoney with interest. What the accused persons would do is to offer a low\n\nvalue land/flat and in the alternative offer return of money with interest,\n\nwhile the money received by them would have been invested by them in\n\nhigh return land. This way, upon maturity, the investor would be left with no\n\nchoice but to accept back the money with interest, thereby helplessly\n\nwatching the accused persons pocket unlawful gains. Even that invested\n\nmoney was not returned to the investors.\n\n8. As on date, seven co-accused persons who were Directors of the same\n\ncompanies are proclaimed offenders and evading arrest.\n\n9. Not a whisper has been advanced on behalf of the accused/applicant\n\njustifying or even explaining as to why such fake schemes were floated,\n\nthereby making the innocent investors lose their hard earned money and/or\n\nany scheme offered by the accused/applicant to refund money to the cheated\n\npersons. I am not oblivious that while deciding bail application, the Court\n\ncannot act as a money recovery forum. But I am also of the considered view\n\nthat practically, many a time it is not possible for the individual investor to\n\ntake recourse to individual civil remedy. In such situations, grant of bail,\n\nwhere the offence charged against the accused is punishable with even life\n\nimprisonment, would send wrong signals to the society at large that a person\n\ncan easily get away by spending few years in jail and pocketing crores of\n\nBAIL APPLN. 1712/2026 Page 4 of 5 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec455\nou=HIGH GIRISH 69af3962c6fb4835d435f97626cacca,COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d1557 KATHPALIA 0996b40f80cbd2eee60402c487965ff801e26fa,cn=GIRISH KATHPALIA\nDate: 2026.08.04 17:38:03 +05'30'Signature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 2168,
+      "final_characters": 2120
+    },
+    {
+      "page_number": 5,
+      "text": "rupees of the cheated persons. At this stage of dictation, learned counsel for\n\naccused/applicant submits that all the assets of the company run by the\n\naccused/applicant have been taken over by SEBI. But there is no explanation\n\nas to why prior to that, money was not returned. Had it been honest business\n\ndeal/investment, the accused/applicant would have fairly returned the\n\ninvested money. As mentioned above, chargesheet has already been filed\n\nand trial court proceedings are listed for framing of charge.\n\n10. In view of the above circumstances, I do not find it a fit case to\n\nrelease the accused/applicant on bail. The bail application is dismissed.\n\nCopy of this order be sent to the concerned Jail Superintendent for being\n\nconveyed to the accused/applicant immediately.\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec45\n569af3962c6fb4835d435f97626cacca, GIRISH ou=HIGH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d155\n70996b40f80cbd2eee60402c487965ff801e26 KATHPALIA fa, cn=GIRISH KATHPALIA\nDate: 2026.08.04 17:37:45 +05'30'\nGIRISH KATHPALIA\n(JUDGE)\nAUGUST 04, 2026/as\n\nBAIL APPLN. 1712/2026 Page 5 of 5 pages\n\nSignature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1322,
+      "final_characters": 1274
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:00.154742+00:00"
+}

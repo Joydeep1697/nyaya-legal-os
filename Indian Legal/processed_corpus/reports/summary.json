@@ -1,0 +1,11 @@
+{
+  "input_pdf_count": 214,
+  "unique_seen_this_run": 214,
+  "duplicates": 0,
+  "processed_this_run": 0,
+  "manual_review": 0,
+  "errors": 0,
+  "rag_jsonl": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\rag\\chunks.jsonl",
+  "manifest_jsonl": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\reports\\manifest.jsonl",
+  "completed_at": "2026-08-06T22:10:44.866920+00:00"
+}

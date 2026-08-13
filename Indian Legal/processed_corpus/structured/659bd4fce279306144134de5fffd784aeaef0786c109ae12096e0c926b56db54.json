@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:659bd4fce279306144134de5",
+    "sha256": "659bd4fce279306144134de5fffd784aeaef0786c109ae12096e0c926b56db54",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\60805082026CRLRMAT5112025_174251.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\60805082026CRLRMAT5112025_174251_659bd4fce279.pdf",
+    "file_size": 812236,
+    "page_count": 3,
+    "document_type": "judgments",
+    "classification_score": 11,
+    "title": "* IN THE HIGH COURT OF DELHI AT NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi At New Delhi",
+    "case_number": null,
+    "decision_date": "05.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 4000,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 2,
+    "rules": 0,
+    "judgments": 11,
+    "orders": 7,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "$~12\n\n* IN THE HIGH COURT OF DELHI AT NEW DELHI\n\n% Date of Decision: 05.08.2026\n\n# CNR No. DLHC010932852025\n\n+ CRL.REV.P.(MAT.) 511/2025, CRL.M.A. 34890/2025, CRL.M.A.\n34891/2025 & CRL.M.A. 34889/2025\n\nTUSHAR SHAH .....Petitioner\n\nThrough: Ms. Harsimran Kaur Rai, Mr.\nHarpuneet Singh Rai and Ms. Shipra\nYadav, Advocates.\nversus\n\nANJANA SHAH .....Respondent\n\nThrough: Mr. Akash Nagar and Ms. Rushiba,\nAdvocates with respondent in person.\n\nCORAM: JUSTICE GIRISH KATHPALIA\n\nJ U D G M E N T (ORAL)\n\n1. Revisionist has assailed order dated 09.09.2025 of the learned\n\nPrincipal Judge, Family Courts, New Delhi whereby, the revisionist was\n\ndirected to pay monthly interim maintenance of Rs. 30,000/- to the present\n\nrespondent.\n\n2. Today is the first effective date, since all through the matter could not\n\nreach till even late evening for hearing.\n\nCRL.REV.P.(MAT.) 511/2025 Page 1 of 3 pages\n\nby signedo=HIGH COURTGIRISH OF KATHPALIADELHI,\n\nou=HIGH GIRISH OF DELHI,CID st=Delhi,- 7047638,\n\nKATHPALIA KATHPALIA DigitallyDN:2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca,COURTpostalCode=110003,serialNumber=d3e86796451ec45c07b5d15570996b40f80cbd2eee60402c487965ff801e26fa,cn=GIRISHDate:c=IN,2026.08.05 17:16:55 +05'30'Signature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1326,
+      "final_characters": 1278
+    },
+    {
+      "page_number": 2,
+      "text": "3. Learned counsel for revisionist assails the impugned order mainly on\n\nthe ground that the learned Family Court failed to adjust the maintenance\n\nawarded in the other proceedings. It is contended by learned counsel for\n\nrevisionist that prior to the proceedings that led to the impugned order, the\n\npresent respondent had filed proceedings under The Protection of Women\n\nfrom Domestic Violence Act in which the learned Magistrate awarded\n\nmonthly maintenance at the rate of Rs.13,000/-. According to the revisionist,\n\nwhile passing the impugned order, the learned Family Court ought to have\n\nadjusted that amount of Rs. 13,000/-, which has not been done, so it is a case\n\nof unjust enrichment.\n\n4. Learned counsel for respondent appearing with respondent in person\n\non advance intimation accepts notice and on instructions in all fairness\n\nconcedes to the argument advanced on behalf of the revisionist. Learned\n\ncounsel for respondent submits that in the interest of expeditious disposal,\n\nthis petition may be disposed of with consent and the impugned order be\n\nmodified to the extent that the interim maintenance be awarded at the rate of\n\nRs. 17,000/- per month so far as the proceedings pending before the Family\n\nCourt are concerned.\n\n5. Accordingly, with consent of both sides, the impugned order is\n\nmodified to the extent that the revisionist shall pay monthly interim\n\nmaintenance to the present respondent at the rate of Rs. 17,000/- from the\n\ndate of filing the maintenance petition till its disposal. However, it is made\n\nCRL.REV.P.(MAT.) 511/2025 Page 2 of 3 pages\n\nsigned by\nc=IN, o=HIGH COURTGIRISH OF KATHPALIADELHI,\nGIRISH ou=HIGH COURT OF DELHI,CID\npostalCode=110003, st=Delhi,-\nKATHPALIA cn=GIRISH KATHPALIA DigitallyDN:2.5.4.20=8401dd889b27a77b2f65ffffe4afec45569af3962c6fb4835d435f97626cacca,7047638,serialNumber=d3e86796451ec45c07b5d15570996b40f80cbd2eee60402c487965ff801e26fa,Date: 2026.08.05 17:16:45 +05'30'Signature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 2022,
+      "final_characters": 1974
+    },
+    {
+      "page_number": 3,
+      "text": "clear that the amount of Rs. 13,000/- towards monthly maintenance fixed in\n\nthe proceedings under The Protection of Women from Domestic Violence\n\nAct shall remain applicable as it is.\n\n6. The petition and the accompanying applications stand disposed of.\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec4556\n9af3962c6fb4835d435f97626cacca, ou=HIGH GIRISH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d15570\n996b40f80cbd2eee60402c487965ff801e26fa, KATHPALIA cn=GIRISH KATHPALIA\nDate: 2026.08.05 17:16:29 +05'30'\nGIRISH KATHPALIA\n(JUDGE)\nAUGUST 05, 2026/dr\n\nCRL.REV.P.(MAT.) 511/2025 Page 3 of 3 pages\n\nSignature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 796,
+      "final_characters": 748
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:00.621676+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:40d2588ddd4639fa91791c49",
+    "sha256": "40d2588ddd4639fa91791c49dd081481c27bf1747d2e92893a3e46aa00285fe9",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\bank_account_details_dhc.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\bank_account_details_dhc_40d2588ddd46.pdf",
+    "file_size": 107007,
+    "page_count": 1,
+    "document_type": "judgments",
+    "classification_score": 4,
+    "title": "HEADING: “Bank Account Details of this Court for depositing Amount pursuant to the",
+    "year": null,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 654,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 4,
+    "orders": 3,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "HEADING: “Bank Account Details of this Court for depositing Amount pursuant to the\nHon’ble Court’s order.”\n\no Account Name DELHI HIGH COURT PDC ACCOUNT\no Account Number 15530110030226\no IFSC Code UCBAOO01553\no Swift Code UCBAINBB242\n\n+Pay order/Demand Draft/Cheques may be prepared in the name of 'Registrar\nGeneral Delhi High Court’,\n*+Counsel/Parties post deposit of the amount to submit detaIls of deposit in the\nfollowing format with the Registry:\nDate of Court Order:\nCase No.:\nCause Title:\nUTR No.:\nDate of Deposit:\nAmount Deposited:\nName of the Depositor: Plaintiff/Appellant/Petitioner/Decree Holder (DH)\nDefendant/Respondent/Judgment Debtor (JD)",
+      "extraction_method": "native",
+      "native_characters": 654,
+      "final_characters": 654
+    }
+  ],
+  "processed_at": "2026-08-06T07:10:49.417910+00:00"
+}

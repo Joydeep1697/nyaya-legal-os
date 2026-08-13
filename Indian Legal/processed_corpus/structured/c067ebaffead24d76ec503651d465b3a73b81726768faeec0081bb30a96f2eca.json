@@ -1,0 +1,46 @@
+{
+  "document": {
+    "document_id": "legal:c067ebaffead24d76ec50365",
+    "sha256": "c067ebaffead24d76ec503651d465b3a73b81726768faeec0081bb30a96f2eca",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud-05082026.odttttt_1.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud-05082026.odttttt_1_c067ebaffead.pdf",
+    "file_size": 11210,
+    "page_count": 1,
+    "document_type": "judgments",
+    "classification_score": 3,
+    "title": "05.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "05.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 239,
+    "status": "processed",
+    "warnings": [
+      "Very little text extracted"
+    ]
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 3,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "05.08.2026 PRONOUNCEMENT OF JUDGMENT\nCOURT NO.08\nHON'BLE MR.JUSTICE MANOJ KUMAR OHRI\n\nCLICK TO JOIN VC\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt14\n\nAT 12:30 P.M.\n\n1.FAO 180/2022\n\nMEENA DEVI AND ORS RAJAN SOOD\nVS\nUNION OF INDIA",
+      "extraction_method": "native",
+      "native_characters": 239,
+      "final_characters": 239
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.855507+00:00"
+}

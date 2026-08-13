@@ -1,0 +1,60 @@
+{
+  "document": {
+    "document_id": "legal:eb18f625f4910cadd5271441",
+    "sha256": "eb18f625f4910cadd5271441e2688c88ce169ce2a9ce458a36bdf140626c033a",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\NotificationCivilServicesAmedmentRule_0807165B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\rules\\NotificationCivilServicesAmedmentRule_0807165B15D_eb18f625f491.pdf",
+    "file_size": 145691,
+    "page_count": 3,
+    "document_type": "rules",
+    "classification_score": 11,
+    "title": "oe [To be published inthe Gavette of India, Part-I, Section 3, Sub-section (i)|",
+    "year": 2015,
+    "court": null,
+    "case_number": "Civil Appeal No. 9970/2014",
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 3,
+    "native_page_count": 0,
+    "extracted_characters": 3629,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 11,
+    "judgments": 1,
+    "orders": 2,
+    "notifications": 4,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "oe [To be published inthe Gavette of India, Part-I, Section 3, Sub-section (i)|\nCravernnient of bndin\nr Ministry of Lome Alfairs\nSe\nr ‘ bea 4 =\nMew Delhi, dated the 22 January, 2015\nNotification\n\nGSR (hy In exercise af the powers conlerred by the\nprovisa to Article 309 of the Constitution, the President hereby makes ihe\nfollowing cules Turther te amend the National Capital Territory of Delhi,\nAndaman and Nicobar [slands, lakshabwoep, Daman and Diu and Dadra\nand Magar Haveli (Civil Service) Rules, 2003, namely:\nl. (1) These rules may be called Uhe National Capital Territory of\nDelhi. Andaman and Nicobar Islands, Lakshadweep, Daman and Din ane\nLaden and Nagar Haveli (Civil Service) Amendment Rules, 2015,\n\n(2) ‘These rules shall be deemed to lave come into force with\neffeet from the 1 day of Getober, 2009,\n2. In the National Capital ‘Vernbory of Delhi, Andaman and Nicobar\nislands, Lakshadweep, Daman and Diu and Dadra and Nagar Haveli (Civil\nServices) Rules, 2003 read with the Amendment Rules, 2009 notified vide\nG.S.R. ETO) dated I Getober, 2009 (hercinatier referred to as the said\nrules) under Schedule 1, Pan © relating to posts in Entry Grade and\nSelection Grade, in tem (b) relating to the posts under Andaman and\nMicobar Administration-\n(a) after Sl. No. 1S and ihe entries relating thereto, the following Sh.\nMos. and entries shill be inserieel, namely:\n\n=: | Information Ollieer | 2 |\nL? | Tourist Information Officer eee |\n\n(by fer the entry “E8\" under the column relating to No. of Posts’, the\nentry “22” shall be substituted.\n3. In the said rules, amler Schedule 1, Pari-A relating lo Grades anel\nhanclioned Strength of the Service, in item (b) relating te sanctioned\nstrength, under (2) and “Potab under the column “No. of Posts”,\n(a) for the entry “2d, the entry “28” shall be substituted:",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1814
+    },
+    {
+      "page_number": 2,
+      "text": "ih} for dhe entry “92”, the entry “476” shall be substituted\n; 4. In the said rules. under “Votal’, under the column relating to “ne. of\n; posts” in the Schedule |. fe) Vor the entry “2737, the entry “277” shall be substituted:\nfb) Lor the entry “3637, ihe entry “367° shall be substituted:\nfe) forthe entry “472° the entry \"476\" shall be substituted\nNate: The principal rules were published in the Gavetlee of India, Extra\nordinary vide notificavion number G.8.R. 635(1), dated gi Auaust, 2003\nanil was subsequently anmeruled vide notilication number GoS.R. TTC,\ndated 1° Qetoher, 2009,\naglanatory Wlemercandum\nAs per the direetions of the Honble Supreme Court in is order dated\nSE\" Getober, 2014 passed in Civil Appeal No. 9970/2014 arising out of\nSLP (Civil) Ne. P112Q/2012 Mled by Shei Virendra Krishna Mishra, these\nrules are being given retrospective efleet (rom 1 Day of Getober, 200%,\n[V. No. 4040/2 7/2012-LITS-11 |\nhe a\naie\n(Rakesh Singh)\nJoinl Seeretury lo the Gevernmendt of trilia\nTe\n‘The Manager\nGoverment ol nadia Press. Mayapeiri\nNew Delhi — [10064\nLois requested that 130 printed copies of the Notification im Hindi: ani\nEnglish, each, may be provided to this himistiry.\nCopy for information and necessary action te\n| ‘The Chie! Seerelary, Government of NCP of Delhi, Delhi\nsecretariat, 1.2. Estate, New Delhi — 110 002,",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1337
+    },
+    {
+      "page_number": 3,
+      "text": "‘ 2, The Chief Secretary, A&N Administration, Port Blair,\n\n3, The Administrator, DD&DNE Administration, Moti Daman,\n\n4. The Administrator, Lakshadweep Administration, Kavacattt\n\n5. SOUT), MELA with a request to upload the notification in the\n\nwebsite ofthe Ministry at appropriate place,\nb. The Seeretary, DoPa&el, North Block, New Delhi.\n¥e The Seeretary, UPSC, Shahjahan Road, New Delhi.\nMS. Guard Pile,\nOs I. Ne PEO 6b 1/200 Ee LITS-1\n|\n\nChan?\n(Vyomesh Pant}\nSection Cillicer",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 478
+    }
+  ],
+  "processed_at": "2026-08-06T07:22:38.808401+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:eb0739b9030c8262f798c425",
+    "sha256": "eb0739b9030c8262f798c425de00b40c61ecfbeb9c59b602130cff86228d8332",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud-31072026.odtt.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud-31072026.odtt_eb0739b9030c.pdf",
+    "file_size": 55700,
+    "page_count": 2,
+    "document_type": "judgments",
+    "classification_score": 10,
+    "title": "31.07.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "31.07.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 1237,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 10,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "31.07.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO. 15\nHON'BLE MS.JUSTICE NEENA BANSAL KRISHNA\n\nCLICK TO JOIN VC:\nMEETING LINK: https://delhihighcourt.webex.com/meet/dhcecourtvc1\n\nAT 02:30 P.M.\n\n1.....RSA 134/2017, CM APPL. 17781/2017\nM/S SHAKUN & CO (SERVICE) PVT LTD & ANR .....Appellants\n\nThrough: Appearance not given.\n\nVersus\n\nASHOK DUGGAL .....Respondent\n\nThrough: Ms. Amrit Kaur Oberoi and\nMs. Prashansa Srivastava, Advocates.\n\n2... RSA 135/2017, CM APPL. 17784/2017\nM/S SHAKUN & CO (SERVICE) PVT LTD & ANR .....Appellants\n\nThrough: Appearance not given.\n\nversus\n\nASHOK DUGGAL .....Respondent\n\nThrough: Ms. Amrit Kaur Oberoi and\nMs. Prashansa Srivastava, Advocates\n\n3….RFA 585/2024 & CM APPL. 33974/2026\nDIWAKAR PANDEY & ANR. .....Appellants\n\nThrough: . Mr Rohit Priya Ranjan, Adv\n(DHCLSC), Mr. Gaurav Agrawal, Adv, Ms Aayushi,\nAdvocates.\nversus\n\nSHREE ADYA KATYAYANI SHAKTIPEETH MANDIR TRUST .....Respondent\nThrough: Mr. Mritunjay Kr. Singh, Mr. Saikat\nKhatua, Mr. Mukesh Singh Rawat &\nMr. Ayush Mahajan, Advocates.",
+      "extraction_method": "native",
+      "native_characters": 1019,
+      "final_characters": 1019
+    },
+    {
+      "page_number": 2,
+      "text": "4. RFA 99/2025\nSHRI SUNJAY AGGARWAL .....Appellant\nThrough: Mr. Shiv Charan Garg, Mr. Imran Khan,\nAdvocates.\nVersus\n\nRAVI BHUSHAN HUF & ANR. ....Respondents\nThrough: . Mr. Naresh Gupta and Mr. Rachit\nGumber, Advocates.",
+      "extraction_method": "native",
+      "native_characters": 218,
+      "final_characters": 218
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.880554+00:00"
+}

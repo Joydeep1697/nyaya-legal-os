@@ -1,0 +1,46 @@
+{
+  "document": {
+    "document_id": "legal:f8b416c2caf2fc23e9e17478",
+    "sha256": "f8b416c2caf2fc23e9e17478efb906392d1203242bddc0962e511cd6712fd079",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\NotiAPReOrgAct_1504145B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\notifications\\NotiAPReOrgAct_1504145B15D_f8b416c2caf2.pdf",
+    "file_size": 231413,
+    "page_count": 1,
+    "document_type": "notifications",
+    "classification_score": 3,
+    "title": "Cat Ao So Weto-33004/99 Ga) . REGD.NO.D.L-33004/99",
+    "year": 2014,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 1,
+    "native_page_count": 0,
+    "extracted_characters": 1048,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 1,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Cat Ao So Weto-33004/99 Ga) . REGD.NO.D.L-33004/99\n(oi)\nBarta oa\nSTATIN\nEXTRAORDINARY\naM [1—Gvs 3—3q-WUVE (ii)\nPART II—Section 3—Sub-section (ii)\nwire & veniora\nPUBLISHED BY AUTHORITY\na. 560) ae feeett, Herat, Aref 4, 2014 ATTA 13, 1935\nNo. 560] NEW DELHI, TUESDAY, MARCH 4, 2014/PHALGUNA 13, 1935\nWe Aare MINISTRY OF HOME AFFAIRS\narg NOTIFICATION\nae fees, 4 ar, 2014 New Delhi, the 4th March, 2014\nHLM. 655(31).—_ 374 wae Prior afufray, 2014 S.O. 655(E).—In exercise of the powers conferred\n(2014 #16) HT UI 2 H GS (H) BW yeu wal wT ” clause @ Miu tee fen aoa), te “aces\n* x 4 corganisation ct, re) 4), e entra\nTANT BU EE \" a 134 af * a Government hereby appoints the 2\" day of June, 2014, as\n2 37, 2014 at frad fea & wo A fata at eI the appointed day for the purposes of the said Act.\n[WL F. 12012/1/2014-T. FR. ] [F.No. 12012/1/2014-SR]\na. Gl GAR, Ha Bfaa S. SURESH KUMAR, Jt. Secy.\ni\nDBOGU20I\nPrinted by the Manager, Government of India Press, Ring Road, Mayapuri, New Delhi-110064\nand Published by the Controller of Publications, Delhi-110054.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1048
+    }
+  ],
+  "processed_at": "2026-08-06T07:22:06.453520+00:00"
+}

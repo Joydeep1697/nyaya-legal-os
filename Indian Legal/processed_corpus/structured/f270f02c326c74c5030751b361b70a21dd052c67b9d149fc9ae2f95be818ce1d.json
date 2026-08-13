@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:f270f02c326c74c5030751b3",
+    "sha256": "f270f02c326c74c5030751b361b70a21dd052c67b9d149fc9ae2f95be818ce1d",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\APRegACT2014_015B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\APRegACT2014_015B15D_f270f02c326c.pdf",
+    "file_size": 29192,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 14,
+    "title": "afaregt de Ste Wer—(07)04/0007/2003—14 REGISTERED NO. DL—(N)04/0007/2003—14",
+    "year": 2003,
+    "court": null,
+    "case_number": null,
+    "decision_date": "8-07-2014",
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 2802,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 14,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 1,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "afaregt de Ste Wer—(07)04/0007/2003—14 REGISTERED NO. DL—(N)04/0007/2003—14\nFAA\nEXTRAORDINARY\nwT W— ae 1\nPART Ii — Section 1 .\nwit & weriera\nPUBLISHED BY AUTHORITY ;\noor OOOO em”\nWe 23] ag facet, yor, Weng 18, 2014/ STHTs 27, 1936 (eT)\nNo. 23] NEW DELHI, FRIDAY, JULY 18, 2014/ASADHA 27, 1936 (SAKA)\nOO eee eee eo\nFa aT 4 fist Ys eo tt wet ¢ farsa fee we tert eve SH ST TAM ST TF\nSeparate paging is given to this Part in order that it may be filed as a separate compilation.\neee eee ee\n0 ——\nMINISTRY OF LAW AND JUSTICE\n(Legislative Department)\nNew Delhi, the 18th July, 2014/Asadha 27, 1936 (Saka)\nThe following Act of Parliament received the assent of the President on the\n17th July, 2014, and is hereby published for general information.\nTHE ANDHRA PRADESH REORGANISATION\n(AMENDMENT) ACT, 2014\nNo. 19 oF 2014\n; {17th July, 2014}\nAn Act to amend the Andhra Pradesh Reorganisation Act, 2014.\nBg itenacted by Parliament in the Sixty-fifth Year of the Republic of India as follows:—\n1. (7) This Act may be called the Andhra Pradesh Reorganisation (Amendment) Short title\nAct,2014. and\ncommencement.\n(2) It shall be deemed to have come into force on the 29th day of May, 2014.\n\n6 of 2014. 2. In the Andhra Pradesh Reorganisation Act, 2014, in section 3, for the words, brackets, Amendment\nletters and figures “Khammam (but excluding the revenue villages in the Mandals specified of section 3.\nin G.O.Ms.No. 111 Irrigation & CAD (LAIV R&R-1) Department, dated the 27th June, 2005\nand the revenue villages of Bhurgampadu, Seetharamanagaram and Kondreka in",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1550
+    },
+    {
+      "page_number": 2,
+      "text": "2 THE GAZETTE OF INDIA EXTRAORDINARY (Parr lI—Sec. 1]\na ee I ST\na ae ee oeeenneeeeeeee ee eee\nBhurgumpadu Mandal)”, the words and brackets “Khammam (but excluding the Mandals of\nKukunoor, Velairpadu and Bhurgampadu but not including its revenue villages of Pinapaka,\nMorampalli Banzar, Bhurgampad, Nagineniprolu, Krishnasagar, Tekula, Sarapaka, Iravendi,\nMothepattinagar, Uppusaka, Sompalli and Nakripeta under the Palvancha Revenue Division,\nand the Mandals of Chintoor, Kunavaram, Vararamachandrapuram and Bhadrachalam but\nnot including the revenue village of Bhadrachalam under the Bhadrachalam Revenue\nDivision)” shall be substituted.\nRepeal and 3. (/) The Andhra Pradesh Reorganisation (Amendment) Ordinance, 2014 is hereby rd. 4 of\nsaving. repealed. 2014.\n(2) Notwithstanding such repeal, anything done or any action taken under the Andhra\nPradesh Reorganisation Act, 2014, as amended by the said Ordinance, shall be deemed to —_6 of 2014.\nhave been done or taken under the provisions of that Act, as amended by this Act.\nP.K. MALHOTRA,\nSecy. to the Govt. of India\n~~ “PRINTED BY THE GENERAL MANAGER, GOVERNMENT OF INDIA PRESS, MINTO ROAD, NEW DELHI\nAND PUBLISHED BY THE CONTROLLER OF PUBLICATIONS, DELHI—2014.\nGMGIPMRND—1397GI(S3)—1 8-07-2014. .",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1252
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:40.717755+00:00"
+}

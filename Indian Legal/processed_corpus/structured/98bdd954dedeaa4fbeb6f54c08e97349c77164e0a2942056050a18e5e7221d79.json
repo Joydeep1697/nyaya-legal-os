@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:98bdd954dedeaa4fbeb6f54c",
+    "sha256": "98bdd954dedeaa4fbeb6f54c08e97349c77164e0a2942056050a18e5e7221d79",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\PresidentsActupto2018_090820185B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\PresidentsActupto2018_090820185B15D_98bdd954dede.pdf",
+    "file_size": 24167,
+    "page_count": 3,
+    "document_type": "acts",
+    "classification_score": 40,
+    "title": "THE PRESIDENT’S 1^(EMOLUMENTS AND) PENSION ACT, 1951",
+    "year": 1951,
+    "court": null,
+    "case_number": null,
+    "decision_date": "1-1-2016",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 6597,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 40,
+    "rules": 12,
+    "judgments": 0,
+    "orders": 3,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "THE PRESIDENT’S 1^(EMOLUMENTS AND) PENSION ACT, 1951\n( 30 OF 1951 )\n\nThe Principal Act received the assent of the President on the 13th May, 1951 and\npublished in the Gazette of India on 17th May, 1951\n\nAn act to provide 1^(for the emoluments of the President and for) pension to\nretiring Presidents.\n\nBe it enacted by Parliament as follows:-\n\n1. Short title : This Act may be called the President’s 1^(Emoluments and)\nPension Act, 1951.\n\n1^ [1A. There shall be paid to the President by way of emoluments 2$(five lakh rupees)\nper mensem.]\n\n2. (1) Pension to retiring Presidents – There shall be paid to every person who\nceases to hold office as President either by the expiration of his term of office or by\nresignation of his office, a pension of 2$(at the rate of fifty per cent of the emoluments\nof the President per month) for the remainder of his life.\n\n3*@ Provided that if any person before assuming the office of President, has held\nthe office of the Vice-President, such person shall not be entitled to any pension and other\nbenefits under the provisions of the Vice-President’s Pension Act, 1997.\n\n(2) Subject to any rules that may be made in this behalf, every such person shall,\nfor the remainder of his life, be entitled to –\n\n4{(a) to the use of a furnished residence (including its maintenance),\nwithout payment of rent, two telephones (one for internet and\nbroadband connectivity), one mobile phone with national roaming\nfacility and a motor-car, free of charge or to such car allowance as\nmay be specified in the rules;\n\n(b) to secretarial staff consisting of a Private Secretary, one Additional\nPrivate Secretary, one Personal Assistant, two Peons, and office\nexpenses up to 5[one lakh] rupees per annum;}\n\n1^ ( ) Inserted vide the President’s Pension (Amendment) Act, 1985 (77 of 1985). Made effective from 26-\n12-1985.\n2$ ( ) Substituted vide the Finance Act 2018 (17 of 2018). Made effective from 1-1-2016.\n3* @ Inserted vide President’s Emoluments and Pension (Amendment) Act, 1998 (25 of 1998).\n4 {} Substituted vide the President’s Emoluments and Pension Act, 2008 (28 of 2008). Made effective from\n30.12.2008.\n5 Substituted vide the Finance Act 2018 (17 of 2018) made effective from 1-4-2018.",
+      "extraction_method": "native",
+      "native_characters": 2217,
+      "final_characters": 2217
+    },
+    {
+      "page_number": 2,
+      "text": "6[(c) to medical attendance and treatment free of charge;]\n\n7(d) to travel anywhere in India accompanied by one person by the\nhighest class by air, rail or steamer.\n\nExplanation – For the purpose of this sub-section “residence” shall have the\nmeaning assigned to it in the Salaries and Allowances of Ministers Act, 1952.\n\n8* [(2A) Subject to any rules that may be made in this behalf, the spouse of\nevery such person shall, for the remainder of life be entitled to medical attendance\nand treatment, free of charge.\n\n(3) Where any person is re-elected to the office of President, such\nperson or the spouse of such person shall not be entitled to any benefit\nunder this Section for the period during which such person again holds\nthat office.]\n\n9^[2A. The spouse of a person who dies –\n\n(a) while holding the office of President, or\n\n(b) after ceasing to hold office as president either by the expiration of\nhis term of office or by resignation of his office,\n\nshall be paid a family pension at the rate of fifty per cent of pension as is admissible to a\nretiring President, for the remainder of her life.\n\n3. Subject to any rules that may be made in this behalf, the spouse of a person who\ndies while holding the office of President shall, for the remainder of life be entitled to\nmedical attendance and treatment, free of charge.\n\n3A. Subject to any rules that may be made in this behalf, the spouse of a person who\ndies –\n\n(a) while holding the office of President, or\n\n10{(b) after ceasing to hold office as President, either on the expiration of his\nterm of office or by resignation of his office, shall be entitled, -\n\n6 [ ] Substituted vide the President’s Emoluments and Pension Act, 1990 (16of 1990). Made effective from\n29-6-1990.\n7Added vide the President’s Emoluments and Pension (Amendment) Act, 1993 (71 of 1993). Made\neffective from 27-12-1993.\n8 [ ] Added vide the President’s Pension (Amendment) Act, 1976.\n9^ [ ] Inserted vide President’s Emoluments and Pension (Amendment) Act, 2000 (14 of 2000). Made\neffective from 11-8-2000.\n10 {} Substituted vide the President’s Emoluments and Pension Act, 2008 (28 of 2008). Made effective\nfrom 30.12.2008.",
+      "extraction_method": "native",
+      "native_characters": 2165,
+      "final_characters": 2162
+    },
+    {
+      "page_number": 3,
+      "text": "(i) to the use of furnished residence (including its maintenance) without\npayment of licence fee;\n\n(ii) to secretarial staff consisting of a Private Secretary and a Peon and\noffice expenses as per actuals, the total expenditure on which shall not exceed\n11[twenty thousand rupees] per annum;\n\n(iii) to a telephone and a motor-car, free of charge or such car allowance\nfor the remainder of his life, as may be specified in the rules;\n\n(iv) to travel anywhere in India, in a calendar year to twelve single\njourneys, by the highest class, by air, rail or steamer, accompanied by a\ncompanion or a relative.}]\n\n4. Pensions to be charged on the Consolidated Fund of India:- Any sum payable\nunder this Act shall be charged on the Consolidated Fund of India.\n\n5. (1) The Central government may, by notification in the Official Gazette, make\nrules for carrying out the purposes of this Act.\n\n(2) Every rule made by the Central Government under this Act shall be laid as\nsoon as may be after it is made, before each House of Parliament, while it is in session,\nfor a total period of thirty days which may be comprised in one session or in two or more\nsuccessive sessions, and if, before the expiry of the successive sessions aforesaid, both\nHouses agree in making any modification in the rule or both Houses agree that the rule\nshould not be made, the rule shall thereafter have effect only in such modified form or be\nof no effect, as the case may be; so, however, that any such modification or annulment\nshall be without prejudice to the validity of anything previously done under that rule.\n\n9{6. Power to remove difficulties - (1) If any difficulty arises in giving effect to the\nprovisions of this Act, as amended by the President’s Emoluments and Pension\n(Amendment) Act, 2008, the Central Government may, by order, do anything not\ninconsistent with such provisions for the purpose of removing the difficulty:\n\nProvided that no such order shall be made after the expiration of two years from\nthe date on which this Act comes into force.\n\n(2) Every order made under sub-section (1) shall be laid before each House of\nParliament.}\n-: oOo :-\n\n11 Substituted vide the Finance Act 2018 (17 of 2018) made effective from 1-4-2018",
+      "extraction_method": "native",
+      "native_characters": 2221,
+      "final_characters": 2218
+    }
+  ],
+  "processed_at": "2026-08-06T07:23:49.494716+00:00"
+}

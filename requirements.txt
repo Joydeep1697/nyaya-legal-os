@@ -1,0 +1,22 @@
+# FastAPI & server
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+websockets>=12.0
+sse-starlette>=2.0
+
+# RAG engine
+numpy>=1.26,<3
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+openai>=1.40
+requests>=2.32
+
+# Document processing (classifier & corpus builder)
+PyMuPDF>=1.24
+Pillow>=10
+pytesseract>=0.3.13
+tqdm>=4.66,<5
+
+# Environment
+python-dotenv>=1.0

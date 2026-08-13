@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:ae1a3c9c3bd242c85617c711",
+    "sha256": "ae1a3c9c3bd242c85617c711d70494f7241fc3ad8cafe7f80b3d9ae34642339e",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\MinistersResidenceRules19625B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\rules\\MinistersResidenceRules19625B15D_ae1a3c9c3bd2.pdf",
+    "file_size": 20033,
+    "page_count": 2,
+    "document_type": "rules",
+    "classification_score": 14,
+    "title": "MINISTERS – RESIDENCES RULES, 1962",
+    "year": 1962,
+    "court": null,
+    "case_number": null,
+    "decision_date": "21-2-2003",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 3540,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 8,
+    "rules": 14,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "5\n\nMINISTERS – RESIDENCES RULES, 1962\n(AS AMENDED UPTO 21-2-2003)\n\nIn exercise of the powers conferred by Section 11 of the Salaries and Allowances\nof Ministers Act, 1952 (58 of 1952) the Central Government hereby makes the following\nrules namely:-\n\n1. SHORT TITLE: These rules may be called the Ministers Residences Rules,\n1962.\n\n2. DEFINITION: In these rules, “Act” means the Salaries and Allowances of\nMinisters Act, 1952 (58 of 1952).\n\n3. SIZE OF RESIDENCE: (1) A Minister, other than a Deputy Minister shall be\nallotted a residence of which the standard rent or if the rents have been pooled, the pooled\nstandard rent calculated in accordance with the provisions of Fundamental Rule 45-A\ndoes not, as far as possible exceed Rs.650/- per mensem.\n\n(2) A Deputy Minister shall be allotted a residence of which the standard rent, or,\nif the rents have been pooled, the standard rent calculated in accordance with the\nprovisions of Fundamental Rule 45-A does not, as far as possible, exceed Rs.350 per\nmensem.\n\n4. FURNITURE AND ELECTRICAL APPLIANCES: (1) The value of furniture\nand electrical appliances provided free of rent in a residence allotted under Section 4 of\nthe Act shall not exceed:-\n\n*{(a) In the case of a residence allotted to a Cabinet Minister, Rupees two lakh and fifty\nthousand;\n\n(b) In the case of a residence allotted to a Minister of State, Rupees two lakh; and\n\n(c) In the case of a residence allotted to a Deputy Minister, Rupees one lakh and\ntwenty five thousand.}\n\nEXPLANATION: (1) The value of furniture and electric appliances supplies for the use\nin the positions of the residence set apart for office purpose shall not be taken into\naccount for the purpose of the limits specified in this sub-rule.\n\n(2) For every article of furniture or electrical appliances provided in such residences,\nin excess of the limits specified in sub-rule (1), a Minister shall be liable to pay rent at the\nsame rates as per applicable to Government servants, together with departmental charges.\n\n**5. RENT FOR PERIOD OF OVERSTAY: (1) Where a Minister occupies a\nresidence beyond the period specified in section 4 of the Act, he shall be liable to pay, for\nthe period of overstay rent calculated in accordance with the provisions of Fundamental",
+      "extraction_method": "native",
+      "native_characters": 2253,
+      "final_characters": 2253
+    },
+    {
+      "page_number": 2,
+      "text": "6\n\nRule 45-B together with full departmental charges, or, if the rents have been pooled, the\npooled standard rent under Fundamental Rule 45-A, whichever is higher.\n\n(2) Where the family of a Minister occupies a residence as specified in clause (b) of\nsub-section 4 of the Act, the family shall be charged rent in accordance with the\nprovisions of FR 45-A, or if the rents have been pooled, the pooled standard rent under\nFundamental Rule 45-A.\n\n6. INVENTORY OF FURNITURE AND FITTINGS: An inventory of furniture,\nfittings and electrical appliances provided in a residence allotted to a Minister shall be\nprepared and verified periodically in accordance with the instructions issued by the\nCentral Government from time to time.\n\n7. INTERPRETATION: If any question arises as to the interpretation of these\nrules, it shall be referred to the Central Government whose decisions thereon shall be\nfinal.\n\n8. SAVING: Nothing in these rules shall apply to the residence of the Prime\nMinister and the Deputy Prime Minister.\n\nIssued in File No.14011(2)/67-Pol.III\n* Notified vide notification No.14011/(27)/67-Pol.III dated 15-11-1967.\n** Notified vide notification No.12012(1)/66-Pol.II dated 3-5-1973.\n*{} Amended vide notification No.14012/1/87-Pol.III dated 21-2-2003.[GSR No.117(E)]\n\n-: oOo :-",
+      "extraction_method": "native",
+      "native_characters": 1287,
+      "final_characters": 1287
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:46.465729+00:00"
+}

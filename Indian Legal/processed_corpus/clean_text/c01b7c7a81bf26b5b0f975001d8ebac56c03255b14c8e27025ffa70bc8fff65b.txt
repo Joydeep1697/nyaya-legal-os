@@ -1,0 +1,1492 @@
+[PAGE 1]
+IN THE HIGH COURT OF DELHI AT NEW DELHI
+
+BEFORE
+
+HON'BLE MR. JUSTICE PURUSHAINDRA KUMAR KAURAV
+
++ CRL.M.C. 2900/2021and CRL.M.A. 18263/2021
+
+Between:
+
+DR. POONAM MISHRA
+R/O E-144, GREATER KAILASH-II,
+NEW DELHI-110048 .....PETITIONER
+
+(Through: Mr. Faraz Maqbool, Ms. A Sahitya Veena and Ms.
+Deepshikha, Advocates.)
+
+Versus
+
+1. STATE OF NCT OF DELHI
+(THROUGH ITS STANDING COUNSEL)
+NEW DELHI. .....RESPONDENT NO.1
+
+2. MS. Y ...RESPONDENT NO.2
+
+(Through:Ms. Shubhi Gupta, APP for State with SI Rahul Lamba, PS
+Saket.)
+
+------------------------------------------------------------------------------------
+% Reserved on: 17.07.2026
+Pronounced on: 05.08.2026
+-----------------------------------------------------------------------------------
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 2]
+J U D G M E N T
+
+The Medical Termination of Pregnancy Act, 1971 (“MTP Act”) was
+
+not enacted to create an unqualified license to terminate pregnancy on
+
+demand. It was enacted to carve out the circumstances in which what would
+
+otherwise be an offence under Sections 312 to 316 of the Indian Penal Code,
+
+1860 (“IPC”) ceases to be punishable, provided the termination is performed
+
+strictly in the manner the Act contemplates. Section 3 of the MTP Act, as it
+
+stood at the relevant time in July 2019, before the 2021 amendment,
+
+permitted termination up to twelve weeks on the opinion of a single
+
+registered medical practitioner formed in good faith, and between twelve
+
+and twenty weeks on the concurring opinion of two such practitioners, in
+
+either case only where the specified grounds under Section 3(2) were
+
+satisfied.
+
+2. Section 3(4)(a) of the MTP Act provides that no pregnancy of a
+
+woman who has not attained the age of eighteen years shall be terminated
+
+except with the consent in writing of her guardian. Section 3(4)(b)
+
+separately requires that, save in the case of a lunatic, no pregnancy shall be
+
+terminated without the consent of the pregnant woman herself. The two
+
+requirements are cumulative, where the pregnant person is a minor; her own
+
+assent is necessary but is not sufficient. The guardian’s written consent is an
+
+independent precondition without which the “consent” spoken of by the
+
+MTP Act simply does not exist in the eye of law, regardless of how many
+
+signatures may appear on a hospital’s own consent form.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 3]
+3. The reason this distinction matters is that a minor’s purported consent
+
+to invasive medical treatment is, throughout the general law, treated as no
+
+consent at all. Section 90 of the IPC itself excludes, from the definition of
+
+valid consent, consent given by a person under twelve years of age, and the
+
+jurisprudence surrounding consent of minors more generally treats a minor
+
+as incapable of appreciating the nature and consequences of the act to which
+
+she is asked to agree.
+
+4. The MTP Act’s insistence on guardian consent for a minor is a
+
+legislative recognition of this incapacity. It follows that where a registered
+
+medical practitioner terminates the pregnancy of a person who is, in fact, a
+
+minor, without obtaining the guardian’s written consent because the
+
+practitioner has not ascertained, or has been misled about, the true age of the
+
+patient, the termination is not saved by Section 3 of the MTP Act merely
+
+because a document styled as“consent form” bears a signature.
+
+5. The MTP Act and Regulations therein did not leave the mechanics of
+
+ascertaining age, consent, and the practitioner’s opinion to informal practice.
+
+Section 6 of the MTP Act empowers the Central Government to make rules
+
+to carry out the purposes of the Act, and Section 7 of the MTP Act
+
+empowers the State Government to make regulations, not directory
+
+guidelines, but regulations having the force of subordinate legislation,
+
+prescribing, among other things, the manner in which the opinion under
+
+Section 3 is to be certified and the records that a registered medical
+
+practitioner and the place at which the termination is performed are obliged
+
+to maintain.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 4]
+6. Pursuant to this rulemaking power, the Medical Termination of
+
+Pregnancy Regulations, 2003 (“the MTP Rules 2003”) prescribe Form-I as
+
+the form in which the opinion of the registered medical practitioner(s) under
+
+Section 3 of the MTP Act must be certified before a termination is
+
+undertaken.The registered medical practitioner is not permitted to certify an
+
+opinion under Section 3 in the abstract; the form requires that the opinion be
+
+anchored to one of five specified grounds set out on its face, to be selected
+
+as applicable, including, at item (iv), that “the pregnancy is alleged by
+
+pregnant women to have been caused by rape.” The form thus obliges the
+
+practitioner to identify and commit to writing the specific ground on which
+
+the termination is being carried out. Where that origin is stated to be an
+
+assault, the practitioner is not left free to record the opinion under a more
+
+general head.The structure of the form directs the practitioner’s attention
+
+specifically to that circumstance and requires it to be noted down as the
+
+basis of the certified opinion. Form I, in other words, is not merely a record
+
+of the practitioner’s conclusion that a termination may lawfully proceed. It is
+
+a record of the reason offered for that conclusion, and where rape is that
+
+reason, the form is drafted to require it to appear in writing rather than
+
+remain unstated.
+
+Rule 9 and Form I of the MTP Rules is reproduced as under:
+
+“9. Form of consent.
+The consent referred to in sub-section (4) Of section 3 shall be given in
+Form C.”
+
+RMP OPINION FORM
+
+FORM I
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 5]
+I___________________________________________________________
+
+(Name and qualifications of the Registered Medical practitioner in block
+letters)
+
+(Full address of the Registered Medical practitioner)
+
+I___________________________________________________________
+(Name and qualifications of the Registered Medical practitioner in block
+letters)
+
+(Full address of the Registered Medical practitioner) hereby certify that
+*I/We am/are of opinion, formed in good faith, that it is necessary to
+terminate the pregnancy of
+
+(Full name of pregnant women in block letters) resident of
+
+(Full address of pregnant women in block letters)
+
+for the reasons given below**.
+
+*I/We hereby give intimation that *I/We terminated the pregnancy of the
+woman referred to above who bears the serial no. ________________ in
+the Admission Register of the hospital/approved place.
+
+*Strike out whichever is not applicable,
+** of the reasons specified items (i) to (v) write the one which is
+appropriate.
+
+(i) in order to save the life of the pregnant women,
+
+(v) in order to prevent grave injury to the physical and mental health of
+the pregnant women,
+
+(v) in view of the substantial risk that if the child was born it would
+suffer from such physical or mental abnormalities as to be
+seriously handicapped,
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 6]
+(iv) as the pregnancy is alleged by pregnant women to have been
+caused by rape,
+
+(v) as the pregnancy has occurred as result of failure of any
+contraceptive device or methods used by married woman or her husband
+for the purpose of limiting the number of children
+
+Note :Account may be taken of the pregnant women’s actual or reasonably
+foreseeable environment in determining whether the continuance of her
+pregnancy would involve a grave injury to her physical or mental health.
+
+Signature of the registered Medical Practitioner
+
+Signature of the registered Medical Practitioners
+
+Place :
+Date :
+
+[Emphasis Supplied]
+
+7. Separately, Form C, read with Rule 9 of the MTP Rules, is the form
+
+of consent prescribed where the pregnant person is a minor or a person of
+
+unsound mind.It is the document through which the guardian’s consent
+
+under Section 3(4)(a) of the MTP Act is to be recorded, distinct from and in
+
+addition to the pregnant person’s own consent. Where the treating
+
+practitioner has not established that the patient is an adult capable of giving
+
+her own valid and complete consent, Form C is not an optional formality; it
+
+is the sole statutory mechanism by which the termination of a minor’s
+
+pregnancy can lawfully proceed at all. Form C of MTP Rules 2003 is
+
+reproduced as under:-
+
+FORM C
+(Consent Form)
+
+I ................................................... daughter/wife of..............................aged
+about ..............................................Years of ................................................
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 7]
+(here state the permanent address)
+
+at present residing at .............................................................. do herebygive
+my consent to be termination of my pregnancy at................................
+
+(State the name of place where the pregnancy is to be terminated).
+
+Place :
+
+Date :
+
+Signature
+
+(To be filled in by guardian where the woman is a lunatic or minor).
+
+I ................................................... son/daughter/wife of ..........................
+
+aged about .......................................... Years of ...................................... at
+present residing
+at......................................................................................(permanent
+address)………... do hereby give my consent to the termination of my
+pregnancyof my ward ................................ who is a minor/lunatic at
+..............................
+
+(Place of termination of pregnancy).
+
+Place :
+
+Date :
+
+Signature
+
+8. The unavoidable inference from this scheme is that verification of age
+
+is foundational to the practice of a registered medical practitioner
+
+performing terminations. A practitioner who fails to ascertain age, or who
+
+proceeds to terminate a pregnancy on the strength of an orally declared age
+
+without any document to support it, does not merely commit a procedural
+
+lapse; she disables the very mechanism.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 8]
+9. This scheme also intersects with the Protection of Children from
+
+Sexual Offences Act, 2012 (“POCSO Act”). Every pregnancy in a girl
+
+below eighteen years is, as a matter of law, traceable to a penetrative sexual
+
+act that the POCSO Act treats as an offence irrespective of any question of
+
+consent on the part of the minor. Section 3 read with Section 5 of the
+
+POCSO Act does not recognise the concept of a minor’s consent to sexual
+
+activity as a defence. It follows, ineluctably, that any registered medical
+
+practitioner attending upon a pregnant minor is, by that very fact, in the
+
+position of a person who has or ought reasonably to have “knowledge”,
+
+within the meaning of Section 19(1) of the POCSO Act, that an offence
+
+under that Act is likely to have been committed.
+
+10. Section 19(1) of the POCSO Act operates as a mandatory reporting
+
+obligation imposed on the ordinary practice of obstetric medicine wherever
+
+a minor’s pregnancy is involved, and Section 21 of the POCSO Act visits
+
+penal consequence,i.e., imprisonment extending to six months, or fine, or
+
+both, on a failure to discharge that obligation.Sections 19 and 21 of the
+
+POCSO Act are reproduced as under:-
+
+“Section 19: Reporting of offences
+
+(1) Notwithstanding anything contained in the Code of Criminal
+Procedure, 1973 (2 of 1974) any person (including the child), who has
+apprehension that an offence under this Act is likely to be committed or
+has knowledge that such an offence has been committed, he shall provide
+such information to,--
+
+(a) the Special Juvenile Police Unit; or
+
+(b) the local police.
+
+(2) Every report given under sub-section (1) shall be--
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 9]
+(a) ascribed an entry number and recorded in writing;
+
+(b) be read over to the informant;
+
+(c) shall be entered in a book to be kept by the Police Unit.
+
+(3) Where the report under sub-section (1) is given by a child, the same
+shall be recorded under subsection (2) in a simple language so that the
+child understands contents being recorded.
+
+(4) In case contents are being recorded in the language not understood by
+the child or wherever it is deemed necessary, a translator or an
+interpreter, having such qualifications, experience and on payment of such
+fees as may be prescribed, shall be provided to the child if he fails to
+understand the same.
+
+(5) Where the Special Juvenile Police Unit or local police is satisfied that
+the child against whom an offence has been committed is in need of care
+and protection, then, it shall, after recording the reasons in writing, make
+immediate arrangement to give him such care and protection including
+admitting the child into shelter home or to the nearest hospital within
+twenty-four hours of the report, as may be prescribed.
+
+(6) The Special Juvenile Police Unit or local police shall, without
+unnecessary delay but within a period of twenty-four hours, report the
+matter to the Child Welfare Committee and the Special Court or where no
+Special Court has been designated, to the Court of Session, including need
+of the child for care and protection and steps taken in this regard.
+
+(7) No person shall incur any liability, whether civil or criminal, for giving
+the information in good faith for the purpose of sub-section (1).”
+
+“Section 21: Punishment for failure to report or record a case:
+(1) Any person, who fails to report the commission of an offence under
+sub-section (1) of section 19 or section 20 or who fails to record such
+offence under sub-section (2) of section 19 shall be punished with
+imprisonment of either description which may extend to six months or
+with fine or with both.
+(2) Any person, being in-charge of any company or an institution (by
+whatever name called) who fails to report the commission of an offence
+under sub-section (1) of section 19 in respect of a subordinate under his
+control, shall be punished with imprisonment for a term which may extend
+to one year and with fine.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 10]
+(3) The provisions of sub-section (1) shall not apply to a child under this
+Act.
+[Emphasis Supplied]
+FACTUAL MATRIX
+
+11. FIR No. 400/2019 was registered on 04.10.2019 at PS: Saket, Delhi
+
+under Sections 376/313/506/34 IPC and Section 6 POCSO Act, on the
+
+complaint of the prosecutrix, who alleged that she was administered an
+
+intoxicant and sexually assaulted by the main accused, Rishipal Chaudhary,
+
+and thereby conceived.
+
+12. On 26.07.2019, the prosecutrix, accompanied by co-accused Anita
+
+(who presented herself as the prosecutrix’s aunt), presented at Bhatia
+
+Medical Centre, Ambedkar Nagar (“BMC”), where the petitioner examined
+
+her and, finding her six weeks pregnant, referred her to Talwar Medical
+
+Centre, Greater Kailash-II (“TMC”), where the petitioner held a rented
+
+consulting chamber and performed termination there itself.
+
+13. In her medico-legal examination at AIIMS on 04.10.2019, and in her
+
+statement under Section 164 CrPC on 10.10.2019, the prosecutrix made no
+
+allegation against the petitioner. She stated instead that co-accused Anita
+
+had told the hospital staff that the child belonged to the prosecutrix’s
+
+boyfriend, and had caused her age to be recorded as twenty though it was, in
+
+reality, sixteen. Statements recorded under Section 161 CrPC on 16.10.2019
+
+and 18.10.2019 are, likewise, silent qua the involvement of the petitioner.
+
+14. The main chargesheet, filed on 13.12.2019, arrayed Rishipal
+
+Chaudhary, Anita, and Nitin Aggarwal as accused under Sections
+
+376AB/312/201/506/34 IPC and Sections 6/21 POCSO Act. The petitioner
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 11]
+featured only as a prosecution witness and cognisance post that was taken
+
+vide order dated 17.12.2019.
+
+15. On 22.02.2020, the prosecutrix filed a protest petition alleging, for the
+
+first time, that the doctors at TMC had performed the termination in
+
+conspiracy with the main accused, by forging her signatures on the TMC
+
+papers, and misplacing the form recording her true date of birth from the
+
+documents relied upon in the chargesheet. When the protest petition was
+
+argued, the Investigating Officer informed the Trial Court that no
+
+incriminating evidence had been found against the doctors, and that the
+
+prosecutrix had not, until then, questioned any TMC document.
+
+16. By the impugned order dated 29.09.2020, the Trial Court allowed the
+
+protest petition and directed further investigation into “whether the doctors
+
+at Talwar Medical Center had carried out the abortion of the victim against
+
+the law/rules while knowing the fact that the victim was a minor girl and in
+
+collusion with the main accused persons and they consciously did not report
+
+the matter to the police in terms of Section 19 of the POCSO Act,
+
+2012.Paragraph 9 of the order dated 29.09.2020 is reproduced as under:-
+
+“9. Accordingly, the IO of the case is directed to further investigate the
+matter with respect to the fact that whether the doctors at Talwar Medical
+Centre had carried out the abortion of the victim against the law/rules
+while having knowledge of the fact that the victim was a minor girl and in
+collusion with the main accused persons, namely, Rishipal and Anita and
+they consciously did not report the matter to the police in terms of Section
+19 of the POCSO Act, 2012”.
+
+17. Pursuant to this direction, the Investigating Officer recalled the
+
+petitioner on 03.10.2020 and seized the admission register of BMC. The
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 12]
+investigation stood transferred, at the instance of the prosecutrix, from PS
+
+Saket to PS Malviya Nagar. On 19.11.2020, a further Section 161 statement
+
+of the prosecutrix was recorded, in which she stated, for the first time, that
+
+she had herself filled an admission slip at TMC, recording her date of birth
+
+as 03.09.2003. Prosecutrix in her 161 CrPC statement also affirmed the
+
+incident of hospital staff recording her age, to which the petitioner
+
+responded “marvaogekyaise 20 years karo”.
+
+18. On interrogation, the petitioner stated that no identity, residence, or
+
+age proof of the prosecutrix had been obtained, and that Form I, the form of
+
+certified opinion contemplated for a termination of pregnancy, had not been
+
+completed. The supplementary chargesheet treats this as attracting “Section
+
+7 of the Medical Termination of Pregnancy Act, 1971 read with Rule 3 of
+
+MTP Regulation, 2003,” and records that, the prosecutrix being a minor, she
+
+was incapable in law of consenting to the procedure, rendering the question
+
+of her signature immaterial and attracting Sections 313 and 201 IPC.
+
+19. The supplementary chargesheet dated 19.02.2021 was filed on this
+
+basis, arraigning the petitioner as sole accused under Sections 313 and 201
+
+IPC and Section 7 MTP Act. Vide order dated 31.07.2021, the Trial Court
+
+took cognizance, additionally invoked Section 21 POCSO Act, and
+
+summoned the petitioner. The petitioner joined proceedings on 11.10.2021,
+
+applied for bail the same day, and was enlarged on regular bail on
+
+30.10.2021.
+
+II. SUBMISSIONS ON BEHALF OF THE PARTIES:
+
+(i) On behalf of the Petitioner:
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 13]
+20. Learned counsel for the petitioner submits that the petitioner stood
+
+exonerated across the prosecutrix’s MLC, Section 164 CrPC statement, and
+
+two Section 161 CrPC statements, and that the allegation against the
+
+petitioner surfaces for the first time only in a solitary statement recorded
+
+over a year later.
+
+21. It is submitted that the petitioner had no knowledge of the
+
+prosecutrix’s minority and was expressly told, at both BMC and TMC, that
+
+she was twenty years old. Reliance is placed on Dr. Sr. Tessy Jose v. State
+of Kerala1, where the Supreme Court held that the “knowledge” required to
+
+trigger the reporting obligation under Section 19 POCSO Act “cannot be
+
+that they ought to have deduced from circumstances that an offence has
+
+been committed”and that there is “no obligation on this person to investigate
+
+and gather knowledge” by placing reliance on Dr. Jenbagalakshmi v. State
+of Tamil Nadu2.
+
+22. On Section 313 IPC, the petitioner submits that she had no occasion
+
+to seek a guardian’s consent when the prosecutrix was represented and
+
+recorded as an adult, and that the prosecutrix herself was present, ambulant,
+
+and cooperative throughout. It is submitted that the provisions of the IPC
+
+relating to miscarriage stand subservient to the MTP Act by virtue of the
+
+non-obstante clause in Section 3, and that the petitioner, having acted in
+
+good faith throughout, is entitled to the protection available under Section 8
+
+of the MTP Act to a practitioner so acting.
+
+1(2018) 8 SCC 292.
+22024 SCC OnLine Mad 8254.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 14]
+23. It is further submitted that Section 7 MTP Act creates no offence at
+
+all, being confined to the delegation of regulation-making power, and that
+
+the invocation of Rule 3 of the MTP Regulation, 2003 discloses further
+
+confusion, since no such age-verification requirement is to be found in that
+
+provision. It is urged that the petitioner’s meticulous contemporaneous
+
+documentation is inconsistent with any consciousness of guilt and that she
+
+alone among the three doctors involved has been sent up for trial despite an
+
+identical finding of “no collusion” against all three, and that continuation of
+
+proceedings against her is accordingly an abuse of the process of the Court.
+
+(ii) On behalf of Respondent
+
+24. Learned Counsel for the respondent submits that the consent
+
+contemplated by the MTP Act, for a minor, is that of the guardian alone, and
+
+that the prosecutrix’s physical presence and cooperation cannot substitute
+
+for that statutory consent. A minor’s apparent willingness is precisely the
+
+vulnerability the guardian-consent requirement is designed to guard against,
+
+and cannot be treated as curing its absence. It is further submitted that Form
+
+I was admittedly never completed, that this omission is not a mere labelling
+
+error but the absence of a document the law requires the treating practitioner
+
+personally to prepare, and that its absence, taken with the untraced
+
+admission slip and the misrecorded age, discloses a pattern that can be
+
+evaluated during the trial.
+
+25. It is submitted, further, that Section 482 CrPC does not permit this
+
+Court to conduct a preliminary trial on competing versions and documents,
+
+and that the material gathered pursuant to an order grounded in the power
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 15]
+upheld in VinubhaiHaribhai Malaviya& Ors. v. The State of Gujarat &
+Anr.3 discloses, prima facie, triable allegations that ought not to be short-
+
+circuited at the threshold.
+
+(III) ANALYSIS
+
+26. The question that comes up for consideration is whether a direction
+
+for further investigation can be extended by a Magistrate or a Special Judge
+
+after taking cognizance of the offences at the stage of the framing of charge.
+
+This issue has been dealt with by the Supreme Court in Ram Lal Narang v.
+State (Delhi Administration)4 while referring to the ratio laid down by the
+Supreme Court in its previous judgment H.N. Rishbud v. State of Delhi5, it
+
+was held as under:-
+
+17. In H. N. Rishbud v. The State of Delhi, this Court contemplated the
+possibility of further investigation even after a Court had taken cognizance
+of the case. While noticing that a police report resulting from an
+investigation was provided in Section 190 Criminal Procedure Code as the
+material on which cognizance was taken, it was pointed out that it could
+not be maintained that a valid and legal police report was the foundation
+of the jurisdiction of the Court to take cognizance. It was held that where
+cognizance of the case had, in fact, been taken and the case had proceeded
+to termination, the invalidity of the precedent investigation did not vitiate
+the result unless miscarriage of justice had been caused thereby. It was
+said that a defect or illegality in investigation, however serious, had no
+direct bearing on the competence of the procedure relating to cognizance
+or trial. However, it was observed:
+“It does not follow that the invalidity of the investigation is to be
+completely ignored by a Court during trial. When the breach of
+such a mandatory provision is brought to the knowledge of the
+Court at a sufficiently early stage, the Court, while not declining
+cognizance, will have to take the necessary steps to get the
+illegality cured and the defect rectified, by ordering such reinvestigation as the circumstances of an individual case may call
+
+32019 SCC OnLine SC 1346.
+4 (1979) 2 SCC 322.
+5AIR 1955 (SC) 196.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 16]
+for". This decision is a clear authority for the view that further
+investigation is not altogether ruled out merely because cognizance
+of the case has been taken by the Court; defective investigation
+coming to light during the course of a trial may be cured by a
+further investigation, if circumstances permit it.”
+
+27. The power of a Magistrate to direct further investigation under
+
+Section 156(3), read with Section 173(8), of the CrPC does not extinguish
+
+itself the moment cognizance is taken, or process is issued. The Supreme
+
+Court, in paragraph no. 38 ofVinubhaiHaribhai Malaviya(supra) held that:-
+
+“38.There is no good reason given by the Court in these decisions as to
+why a Magistrate’s powers to order further investigation would suddenly
+cease upon process being issued, and an accused appearing before the
+Magistrate, while concomitantly, the power of the police to further
+investigate the offence continues right till the stage the trial commences...
+What is not given any importance at all in the recent judgments of this
+Court is Article 21 of the Constitution and the fact that the Article
+demands no less than a fair and just investigation. To say that a fair and
+just investigation would lead to the conclusion that the police retain the
+power... to further investigate an offence till charges are framed, but that
+the supervisory jurisdiction of the Magistrate suddenly ceases midway
+through the pre-trial proceedings, would amount to a travesty of justice,
+as certain cases may cry out for further investigation so that an innocent
+person is not wrongly arraigned as an accused or that a prima facie
+guilty person is not so left out... Whether further investigation should or
+should not be ordered is within the discretion of the learned Magistrate
+who will exercise such discretion on the facts of each case and in
+accordance with law. If, for example, fresh facts come to light which
+would lead to inculpating or exculpating certain persons, arriving at the
+truth and doing substantial justice in a criminal case are more important
+than avoiding further delay being caused in concluding the criminal
+proceeding...”
+
+[Emphasis Supplied]
+
+28. The Supreme Court in Vinubhai Haribhai Malaviya (supra) held that,
+
+even textually, the term “investigation” referred to in Section 156(1) of
+
+CrPC would, as per the definition of “investigation” under Section 2(h),
+
+include all proceedings for collection of evidence conducted by police.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 17]
+Accordingly, this would undoubtedly include proceedings by way of further
+
+investigation under Section 173(8) of the CrPC. Therefore, the Magistrate
+
+empowered under Section 156 of CrPC to order investigation, shall also be
+
+empowered to order further investigation under Section 173(8) of CrPC.
+
+29. It is, therefore, well settled that the power to direct further
+
+investigation is not a licence for a Court to dictate the outcome or
+
+micromanage the manner of that investigation. The police retains the
+
+freedom, expressly protected in law, to reach whatever conclusion the
+
+material supports, including a conclusion adverse to the very hypothesis that
+
+prompted the direction.
+
+30. The petitioner’s grievance is that the order dated 29.09.2020 crossed
+
+this line by framing the further investigation in terms that presupposed the
+
+doctor’s guilt. This submission does not survive scrutiny of the order as a
+
+whole. Immediately after framing the scope of further investigation, the
+
+Additional Sessions Judge, ASJ recorded, in terms that directly answer the
+
+petitioner’s grievance:-
+
+“...the IO shall not be influenced by any observations made in this order
+and shall conduct independent investigation in this regard, although the
+points raised by the victim (by way of her protest petition and otherwise)
+shall be taken into account by the IO and all those issues shall be
+investigated independently.”
+
+31. The Supreme Court in Nirmal Singh Kahlon v. State of Punjab &
+Ors.6held as under:-
+
+62009 (1) SCC 441.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 18]
+“An order of further investigation in terms of Section 173(8) of the Code
+by the State in exercise of its jurisdiction Under Section 36 thereof stands
+on a different footing. The power of the investigating officer to make
+further investigation in exercise of its statutory jurisdiction Under Section
+173(8) of the Code and at the instance of the State having regard to
+Section 36 thereof read with Section 3 of the Police Act, 1861 should be
+considered in different contexts. Section 173(8) of the Code is an enabling
+provision. Only when cognizance of an offence is taken, the learned
+Magistrate may have some say. But, the restriction imposed by judicial
+legislation is merely for the purpose of upholding the independence and
+impartiality of the judiciary. It is one thing to say that the court will have
+supervisory jurisdiction to ensure a fair investigation, as has been
+observed by a Bench of this Court in Sakiri Vasu v. State of U.P. [
+MANU/SC/8179/2007 : (2008) 2 SCC 409: (2008) 1 SCC (Cri) 440],
+correctness whereof is open to question, but it is another thing to say that
+the investigating officer will have no jurisdiction whatsoever to make any
+further investigation without the express permission of the Magistrate.”
+
+[Emphasis Supplied]
+
+32. It is imperative to mention that an order that identifies a line of
+
+inquiry which the prior investigation had not pursued, while expressly
+
+disclaiming any binding effect on the investigating officer’s ultimate
+
+findings, is not a direction usurping the investigative function. It is the
+
+ordinary and correct exercise of the supervisory jurisdiction.
+
+33. Caution presented vide impugned order dated 29.09.2020 was not
+
+merely formal as demonstrated by the outcome of the further investigation
+
+itself. Had the 29.09.2020 order truly operated as a predetermined verdict
+
+awaiting only its formal recording, the further investigation would have
+
+returned precisely the collusion finding the order appeared to anticipate.
+
+34. The status report expressly records that no material was found
+
+connecting the petitioner, Dr. Talwar, or Dr. Chhabra to the main accused,
+
+and that “no collusion” was found. This outcome, is itselfan evidence that
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 19]
+the investigation proceeded independently and was not merely dictated to a
+
+foregone conclusion. What the further investigation did establish, on
+
+independent examination of documents and witnesses, was a separate and
+
+distinct set of facts such as:the absence of age verification, the statutorily
+
+mandated Form-I, and the specific allegation of contemporaneous
+
+knowledge reflected in the victim’s supplementary statement.
+
+35. It is also necessary to record that the further investigation was not
+
+sought by the State suo motu to reopen a settled matter, but was directed on
+
+a protest petition moved by the prosecutrix herself, drawing attention to
+
+specific documentary anomalies, the mismatched relationship entries, the
+
+absence of any age document, the missing date-of-birth slip, that were
+
+plainly discoverable only once she was in possession of the chargesheet and
+
+its annexures, a possession she did not have during the four statements
+
+recorded in 2019. The delay in raising these specific documentary objections
+
+is thus explained by the sequence of disclosure of documents to her, and
+
+does not taint the further investigation with the vice of afterthought that the
+
+petitioner attributes to it.
+
+36. For these reasons, this Court finds no illegality in the order dated
+
+29.09.2020. It was passed within jurisdiction, on a correct application of the
+
+principle in VinubhaiHaribhai Malaviya (supra), expressly safeguarded the
+
+independence of the ensuing investigation, and has, on the material this
+
+Court has examined, produced results that confirm rather than undermine
+
+that independence.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 20]
+37. The issue here is not whether doctors, as a class, must be treated with
+
+suspicion whenever a patient’s age later turns out to have been misstated. It
+
+is a narrower and more exacting question, i.e., at what point does a doctor’s
+
+silence about a patient’s age stop being an innocent consequence of having
+
+been misled, and become a punishable failure to report an offence she knew,
+
+or had been told, had occurred.
+
+38. Section 19(1) of the POCSO Act supplies the statutory language, it
+
+obliges “any person who has apprehension that an offence under this Act is
+
+likely to be committed or has knowledge that such an offence has been
+
+committed” to report it to the police, and Section 21penalises the failure to
+
+do so with imprisonment extending to six months, or a fine, or both. But the
+
+statutory language alone does not tell a Court where, on the facts of a given
+
+case, apprehension ends and knowledge begins, or where a doctor’s
+
+professional role ends, and a citizen’s civic duty begins.
+
+39. The statutory text of Section 19(1) of the POCSO Act requires close
+
+attention, because both the petitioner’s defence and the prosecution’s case
+
+turn on its precise formulation. It provides that “notwithstanding anything
+
+contained in the CrPC, 1973... any person who has apprehension that an
+
+offence under this Act is likely to be committed or has knowledge that such
+
+an offence has been committed, he shall provide such information to the
+
+Special Juvenile Police Unit or the local police”. Failure to comply attracts
+
+prosecution under Section 21, which prescribes imprisonment extending to
+
+six months, or fine, or both.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 21]
+40. The Supreme Court in State of Maharashtra v. Dr. Maroti,7a case in
+
+which, as in the present matter, a doctor to whom minor victims of sexual
+
+assault had disclosed the assault directly, failed to report the matter either to
+
+the Special Juvenile Police Unit or the local police. The Supreme Court,
+
+restoring the prosecution the High Court had quashed, held that:-
+
+“15. Prompt and proper reporting of the commission of offence under the
+POCSO Act is of utmost importance and we have no hesitation to state
+that its failure on coming to know about the commission of any offence
+thereunder would defeat the very purpose and object of the Act. We say so
+taking into account the various provisions thereunder. Medical
+examination of the victim as also the accused would give many important
+clues in a case that falls under the POCSO Act. Section 27(1) of the
+POCSO Act provides that medical examination of a child in respect of
+whom any offence has been committed under the said Act, shall,
+notwithstanding that a First Information Report or complaint has not been
+registered for the offence under the Act, be conducted in accordance with
+Section 164A of the Cr.P.C, which provides the procedures for medical
+examination of the victim of rape. In this contextual situation, it is also
+relevant to refer to Section 53A of Cr.P.C that mandates for examination
+of a person accused of rape by a medical practitioner. It is also a fact that
+clothes of the parties would also offer very reliable evidence in cases of
+rape. We refer to the aforesaid provisions only to stress upon the fact that
+a prompt reporting of the commission of an offence under POCSO Act
+would enable immediate examination of the victim concerned and at the
+same time, if it was committed by an unknown person, it would also enable
+the investigating agency to commence investigation without wasting time
+and ultimately to secure the arrest and medical examination of the culprit.
+There can be no two views that in relation to sexual offences medical
+evidence has much corroborative value.”
+
+41. In Dr. Ditto TomP. v. State of Kerala8 the accused doctor had on the
+
+prosecution’s version, been informed by the victim’s mother, that the minor
+
+had become pregnant through sexual assault and had already undergone an
+
+attempted termination through unqualified means. The doctor, despite this
+
+72022 INSC 1152.
+82025:KER:15952.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 22]
+disclosure, did not report the matter to the police, and the registration of the
+
+FIR was consequently delayed. Rejecting the plea for discharge, the Court
+
+held that:-
+
+“Even though the facts were suppressed initially before the revision
+petitioner, the mother informed the Doctor that there was pregnancy to the
+victim and the victim had been taking medicine from a Homoeo doctor.
+Thus as on 25.11.2020, the revision petitioner got knowledge regarding
+the offence under the POCSO Act. Be it so, he is duty bound to report the
+same to the police in view of mandate under Section 19(1) of the POCSO
+Act. Otherwise, the same is an offence punishable under Section 21 of the
+POCSO Act. Even though it is argued by the learned counsel for the
+revision petitioner that no deliberate omission could be noticed in this
+matter and the doctor was not inclined to report the same acceding to the
+humble request of the victim and her mother, the same is not sufficient to
+avoid prosecution of the revision petitioner. It is discernible that, in this
+matter crime was registered only on 12.12.2020 because of the failure of
+the revision petitioner in informing the matter to the police on 25.11.2020.
+As held by the Apex Court in State of Maharashtra v. Dr. Maroti's case
+(supra), prompt and proper reporting of commission of the offence under
+the POCSO Act is of utmost importance and the same would enable
+immediate registration of case and examination of the victim concerned so
+as to trace even an unknown accused when on bail. Therefore, even
+though in cases where deliberate omission is not noticeable, quashment
+is liable to be allowed as held in Radhakrishna S. Naik (Dr.) v. State of
+Kerala's case (supra), when deliberate omission was perceivable, the
+prayer for quashment or discharge must fail. In the instant case, the
+revision petitioner, who got knowledge regarding the crime on
+25.11.2020, failed to inform the same and accordingly registration of
+crime was delayed for a period of three weeks. That must have
+attenuated timely investigation of the case without elements of lacuna. In
+the instant case, the prosecution materials would show that the offence
+alleged against the revision petitioner is made out, prima facie, from
+prosecution records, warranting trial.”
+
+42. In Dr. Ditto Tom (supra), the interval of non-reporting attributable to
+
+the doctor was some three weeks, and the Court held this sufficient to
+
+warrant trial rather than discharge. Here, on the prosecution’s specific case,
+
+the interval during which the petitioner is alleged to have possessed
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 23]
+knowledge without reporting runs from the date of the termination itself, i.e.,
+
+26.07.2019, to the date the FIR eventually came to be registered on
+
+04.10.2019, a period more than four times as long.
+
+43. The Kerala High Court made this explicit in George P.O. v. State of
+Kerala9, holding that “the mandate to report does not relate to his official
+
+character... it is to be performed in his private capacity”, a mandate, that
+
+attaches the moment knowledge is acquired, by whatever means, and does
+
+not wait upon the doctor’s professional role or her diligence in seeking that
+
+knowledge out. The scheme that emerges thus is that Section 21 liability
+
+does not attach to a doctor who was deceived and had no occasion to know
+
+better. It does attach to a doctor who was told, and did not act on what she
+
+was told. The dividing line is not diligence, but disclosure, i.e., whether the
+
+truth was placed before her and she turned away from it. Paragraph no. 18 of
+
+George P.O. (supra) envisaged the intention behind Section 19 POCSO and
+
+held that:-
+
+(a) The mandate to report the apprehension that an offence is likely to be
+committed is a preventive measure intended to stall the possibility of
+commission of the offence.
+(b) The mandate to report is a legislative tool to overcome the tendency of
+witnesses of child abuse to be silent, giving undue weightage to factors like
+social stigma, community pressure, difficulties of navigating the criminal
+justice system, dependency on the perpetrator emotionally and
+economically and so on.
+(c) The legislative mandate is intended to overcome the tendency of even
+the parents and other members of the family not to report such crimes
+believing that non reporting of the same would protect the child from
+social stigma which they believe would do more harm to the victim.
+(d) The legislative mandate subserves the purpose of curbing the growing
+tendency not to report the offences, which in turn encourages the
+perpetrator to remain silent and prowl for the next victim.
+
+92025 (1) KHC 32.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 24]
+(e) The mandate to report the offence is intended to obviate such tendency
+and to weed away any such loophole that would facilitate the perpetrator
+committing/repeating an offence, encouraged by the remote possibility of
+reporting the commission of offence.
+(f) Being a child-centric legislation, prompt reporting facilitates both
+prevention or commission of the offence and ensuring that in such cases
+the tormentor, shall not go scot- free.
+(g) To make the reporting effective and not dependent on the nature of the
+office on whom the statutory mandate to report is cast.
+(h) Section 19 casts such mandate on any person, including a child, who
+has knowledge about the commission of an offence/apprehension that an
+offence is likely to be committed, irrespective of the nature of the office
+held by such person. Hence the Act casts a mandate on every person who
+has knowledge of the commission of offence/apprehension that the
+offence is likely to be committed to report such offence, unlike Section
+21(2) of the POCSO Act, which casts a mandate on any person being in
+charge of a company or institution to report the commission of an
+offence, under Section 19 (1) of the POCSO Act by his/her subordinates.
+
+44. This Court is conscious that the material grounding the “Marwaoge
+
+kya ise 20 saal karo” allegation is a solitary statement, recorded during
+
+further investigation, and that its evidentiary strength is a matter that goes to
+
+the ultimate finding of guilt or innocence at trial. This Court expresses no
+
+opinion on whether the allegation will be proved. What this Court is required
+
+to determine, at the Section 482 CrPC stage, is narrower: whether the
+
+material, taken at face value, discloses a prima facie case.
+
+45. The supplementary chargesheet does not allege that the petitioner
+
+failed to ask; it alleges that she was shown the answer, in the victim’s own
+
+handwriting on the admission slip, and is recorded as having responded,
+
+“Marwaoge kya ise 20 saal karo.” If that allegation is accepted, it is not a
+
+case of inferred or constructive knowledge eat all rather it is a case of
+
+disclosure, of exactly the kind that placed the doctor in Dr. Maroti (supra)
+
+and the doctor in Dr. Ditto Tom P. (supra) outside the protection the law
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 25]
+extends to the deceived and within the liability the law imposes on the
+
+informed. Additionally, specific, first-hand attribution of a verbal instruction
+
+to falsify prosecutrix’s recorded age is qualitatively different from the
+
+generalised suspicion, retrospective inference, or bare failure-to-investigate.
+
+Relevant part of the supplementary chargesheet dated 19.02.2021 is
+
+reproduced as under:-
+
+I also did not say anything to Doctor Poonam because I was very scared.
+After normal check up she referred me to Talwar Medical Center GK-II.
+Rishipal left me and Anita at Pushp Bhawan using his own vehicle, from
+where Anita took me in Auto to Talwar Medical Centre GK-II. Thereafter
+at reception I was made to fill a small form where I myself filled the form
+and wrote my DOB as 3-9-2003& returned the form to Receptionist.
+Thereafter Nurse given me injection and medicine. At that time I called my
+elder brother Nitin there and he remained present during the operation.
+After some time Dr. Poonam Mishra came there and a hospital staff also
+came there who told Dr. Poonam that DOB is written 3-9-2003 in the
+Form. On this, Dr. Poonam said “Marwaogekyaise 20 yrs karo”. And
+thereafter I was taken to OT. My ultrasound was done and some medicine
+was given because of which I became unconscious.
+
+[Emphasis Supplied]
+
+46. The object of Section 19 of the POCSO Act, read alongside the MTP
+
+framework, is not merely punitive. It exists because prompt reporting is the
+
+trigger for an entire protective apparatus around a child victim: medical
+
+examination, forensic evidence collection, referral to the Child Welfare
+
+Committee, and the commencement of an investigation that can identify and
+
+apprehend a perpetrator before evidence degrades or the perpetrator
+
+absconds. Non-reporting by one professional in a position to have set this
+
+apparatus in motion does not merely constitute a technical default; it
+
+withholds from a child victim of rape the protection, the law specifically
+
+intended for her.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 26]
+47. The termination was performed on 26.07.2019 and the FIR was
+
+registered on 04.10.2019. Seventy days lie between these two dates. On the
+
+case set up by the prosecution, this was not merely the ordinary time a
+
+criminal justice system takes to set itself in motion; it was an interval during
+
+which the one person outside the circle of the offence who is alleged to have
+
+known the prosecutrix’s true age said nothing, while the machinery that a
+
+timely report would have triggered remained unset in motion. This Court
+
+notes that, if the prosecution’s version is accepted, the seventy day interval
+
+is not a peripheral detail, but the very consequence Section 19 of the POCSO
+
+Act exists to prevent.
+
+48. The petitioner’s answer to this seventy day interval is that she came to
+
+know of the prosecutrix’s minority status only in October2019, through
+
+concerned officials of the Investigating Agency, i.e., after the FIR already
+
+existed, advancing the submission that no opportunity to report ever arose
+
+before the police had already taken the matter in hand. The supplementary
+
+chargsheet discloses that the specific case is not qua the petitioner getting
+
+aware of the minority status in October, from the police. Conversely, that the
+
+petitioner learned of it on 26.07.2019, from the victim’s own admission slip,
+
+at the very moment of initiating termination procedure.
+
+49. The prosecution’s version places knowledge in the petitioner’s hands
+
+more than nine weeks before the FIR came to exist at all, which means the
+
+premise of her defence, that no opportunity to report ever arose, is not
+
+merely disputed but is chronologically impossible.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 27]
+50. It follows from this that the consequence of the petitioner’s alleged
+
+silence was not a mere technical lapse in paperwork. It was, in its operative
+
+effect, a period during which the ordinary consequences of committing an
+
+offence against a child were held in abeyance. Whether that effect was the
+
+product of a deliberate choice to protect herself, or of something more
+
+innocent that a trial may yet reveal, is not for this Court to decide today.
+
+What this Court can and does decide is that the seventy day gap between the
+
+procedure and the FIR is not a coincidence to be waved off. It is the very
+
+harm Section 19 of the POCSO Act was written to prevent, and the material
+
+on record is sufficient to put the petitioner on trial.
+
+51. Section 3(4)(a) of the MTP Act provides that no pregnancy of a minor
+
+shall be terminated except with the guardian’s consent in writing. Section 7
+
+of the Act, and the Regulations framed under it, prescribe Form-I under Rule
+
+3 as the document through which the practitioner’s statutory opinion, is to be
+
+certified, and Form C as the document through which a guardian’s consent is
+
+to be recorded.
+
+52. It bears emphasis that the default here is not confined to the omission
+
+of Form-I and Form C of the MTP Rules, 2003. The status report
+
+additionally records that no identity proof and no residential proof of any
+
+kind were obtained. A registered medical practitioner performing an
+
+invasive procedure that the MTP Act itself conditions on the patient’s age is
+
+not absolved of the obligation to seek some documentary anchor for that age
+
+merely because an escort volunteers a figure. The entire statutory
+
+architecture examined presupposes that age is a fact to be ascertained and
+
+recorded, not merely accepted on an unverified oral representation from an
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 28]
+adult accompanying the patient, particularly where that adult, as later
+
+investigation revealed, was not in fact in any relation with the prosecutrix at
+
+all.
+
+53. This Court is not, at this stage, called upon to determine finally
+
+whether the petitioner’s failure to obtain Form-I, Form C, or any identity
+
+document was the product of an honest and reasonable belief in the victim’s
+
+adulthood, or the product of the deliberate concealment, the prosecution
+
+alleges.
+
+54. It is also necessary to record that this default cannot be excused
+
+merely on the ground that TMC’s general clinic practices were informal
+
+across the board. The informality of a clinic’s record-keeping culture may
+
+explain why a particular slip could not later be traced. It does not excuse the
+
+practitioner’s personal, statutorily mandated obligation to complete Form-I
+
+and Form C. Obligations that rest on the registered medical practitioner
+
+individually cannot be discharged by, or excused by reference to, the
+
+surrounding administrative laxity of the institution in which she practices.
+
+56. Section 313 IPC punishes the causing of a miscarriage without the
+
+woman’s consent. The petitioner’s defence is that a consent form bearing the
+
+victim’s signature exists on the TMC record, and that whatever else may be
+
+said of her conduct, an offence defined by the absence of consent cannot be
+
+sustained where a signed consent form is produced. The question this Court
+
+must answer is whether that signature, even assumed genuine, is capable in
+
+law of constituting the consent Section 313 of IPC speaks of, where the
+
+signatory was, in fact, a minor.
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 29]
+57. Section 3(4) of the MTP Act does not treat a pregnant woman’s own
+
+signature as sufficient consent in every case. It draws a specific distinction,
+
+requiring the woman’s own consent under Section 3(4)(b) in all cases, and
+
+requiring, additionally and separately, the guardian’s written consent under
+
+Section 3(4)(a) wherever the woman is a minor.
+
+58. The MTP Act does not regard a minor as capable of independently
+
+consenting to termination, but the statute itself declares it insufficient. In the
+
+present case, no guardian consent was ever sought because no one at TMC
+
+turned their mind to whether one was required. The signature of a minor
+
+does not supply the consent the MTP Act mandates.
+
+59. It follows that the Forensic Science Laboratory Report’s
+
+(“FSL”)finding on the disputed signature does not resolve this question even
+
+if read most favourably to the petitioner. Authenticity of the signature and
+
+validity of the consent are two different questions. A genuine signature by a
+
+person legally incapable of giving valid consent on her own does not
+
+become valid consent merely because it is genuine. On the footing that the
+
+victim was, in fact, a minor, her signature on the TMC’s form, however
+
+authentic, did not constitute the consent the law required, in the absence of
+
+any guardian consent that was never sought.
+
+60. It is discernible that, in this matter, the FIR was registered only on
+
+04.10.2019 because of the failure of the petitioner in informing the matter to
+
+the appropriate authorities on 26.07.2019. What is relevant, for the purposes
+
+of the present petition, is the legal significance such a delay would carry if
+
+established. As held in Dr. Maroti (supra), “prompt and proper reporting of
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 30]
+an offence under the POCSO Act is of utmost importance precisely because
+
+it enables the immediate registration of the case and the timely medical
+
+examination of the victim, and may, in a given case, assist in tracing an
+
+accused who might otherwise remain unknown or absconding”.
+
+61. The line drawn is between omissions that appear inadvertent and
+
+omissions that appear deliberate. Where the record discloses no more than
+
+an inadvertent lapse, quashment may be warranted. Whereas, as was held in
+
+Dr. Ditto Tom P (supra), a situation where the record discloses a deliberate
+
+omission to report, the prayer for quashment or discharge cannot succeed.
+
+Whether the omission alleged against the petitioner in the present case falls
+
+on one side of that line or the other is a question this Court is not called upon
+
+to answer at this stage. It suffices, for present purposes, to hold that the
+
+allegation cannot be excluded from consideration as inherently improbable.
+
+62. In the instant case, the petitioner, who got knowledge regarding the
+
+crime on 26.07.2017, failed to inform the same and accordingly registration
+
+of the crime was delayed for a period of almost 70 days. That must have
+
+attenuated timely investigation of the case without elements of lacuna. The
+
+prosecution materials would show that the alleged offence against the
+
+petitioner is made out from the prosecution records, warranting trial.
+
+Therefore, the quashment plea would necessarily fail.
+
+63. For the reasons set out above, this Court holds that the order
+
+dated29.09.2020 directing further investigation does not warrant interference
+
+and that the order dated 31.07.2021 taking cognizance and issuing summons
+
+Signature Not Verified Signature Not Verified
+
+[PAGE 31]
+accordingly does not suffer from any illegality warranting interference under
+
+Section 482 CrPC.
+
+64. In view of the above, this Court finds no merit in the present petition
+
+and CRL.M.C.2900/2021 is accordingly dismissed. The pending application,
+
+if any, stands disposed of.
+
+65. It is clarified that the observations made in this judgment are confined
+
+to the limited purpose of examining whether a prima facie case exists to
+
+sustain the impugned orders and proceedings, and shall not be construed as
+
+an expression of opinion on the ultimate merits of the case. The Trial Court
+
+shall proceed with the trial uninfluenced by any observation made herein,
+
+and shall decide the matter strictly in accordance with law, on the basis of
+
+the evidence led before it.
+
+(PURUSHAINDRA KUMAR KAURAV)
+JUDGE
+AUGUST 05, 2026
+NK
+
+Signature Not Verified Signature Not Verified

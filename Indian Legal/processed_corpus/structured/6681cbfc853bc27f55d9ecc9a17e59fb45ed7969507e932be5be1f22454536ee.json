@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:6681cbfc853bc27f55d9ecc9",
+    "sha256": "6681cbfc853bc27f55d9ecc9a17e59fb45ed7969507e932be5be1f22454536ee",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud_01_for_31.07.2026_1.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud_01_for_31.07.2026_1_6681cbfc853b.pdf",
+    "file_size": 749074,
+    "page_count": 1,
+    "document_type": "judgments",
+    "classification_score": 3,
+    "title": "31.07.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "31.07.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 537,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 3,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "31.07.2026 FOR PRONOUNCEMENT OF JUDGMENT (ORIGINAL JURISDICTION)\n\nCOURT NO. 02\nHON’BLE MR.JUSTICE TEJAS KARIA\n\nNOTE: FOR MOVING ADJOURNMENT SLIP PLEASE MAIL TO\nharikishan.berwa@dhc.nic.in\nCLICK HERE TO JOIN VC:\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt12\n\nITEM CASE NUMBER PARTY NAME ADVOCATE NAME\nNUMBER\nFOR PRONOUNCEMENT OF JUDGMENT AT 4:00 P.M.\n1. O.A. 108/2025 M/S SHRINATH KIRATRAJ SADANA, MANSHA MEHTA\nIn CS(COMM)- TRAVEL AGENCY &\n384/2024 ORS.\nV/s M/S SHREENATH\nCARGO MOVERS &\nORS.\n\n*****\n\nBY ORDER\nREGISTRAR ORIGINAL",
+      "extraction_method": "native",
+      "native_characters": 537,
+      "final_characters": 537
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.974611+00:00"
+}

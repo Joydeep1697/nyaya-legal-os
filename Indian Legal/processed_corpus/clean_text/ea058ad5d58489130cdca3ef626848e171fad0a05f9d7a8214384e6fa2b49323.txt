@@ -1,0 +1,293 @@
+[PAGE 1]
+Search Tips for Searching India Code
+
+India Code has been developed using open source software “DSpace”. It has
+deployed SOLR search engine through which one can browse, perform simple
+search and advance search with filter facility.
+
+1. BROWSE
+
+Allows you to go through a list of items in some specified order. One can browse
+by Community and Collection, Short title, Act number, Act year, Ministry etc.
+
+Fig 1: Browse Menu
+
+For example: following is the screen shot of Browsing through “Ministry”
+
+[PAGE 2]
+Fig 2: Browse by Ministry
+
+2. SIMPLE SEARCH
+
+One can type any single word or group of words or phrases which are searched as
+free text word(s) in metadata as well in full text documents. It may locate those
+documents wherever these words or phrases may occur in the metadata and full text
+documents. As a default, SOLR search engine uses ‘AND’ Boolean operator, that is,
+search results contain all of the terms. For Example:
+
+2.1. Case 1: Search on National Waterways Act as keywords
+
+It shows documents containing National AND Waterways AND Act as search term.
+
+Fig 3: Search on National Waterways Act as keywords
+
+[PAGE 3]
+2.2. Case 2: Search on “National Waterways Act” as a phrase
+
+In this case it will search all the documents containing “National Waterways Act”
+where these words are occurring together.
+
+Fig 4: Search on “National Waterways Act” as a phrase
+
+However, one can further refine the search by using Boolean operators.
+
+3. BROADEN THE SEARCH USING “OR” OPERATOR
+
+3.1. One can broaden the search results using OR operator.
+
+For Example: Railways OR Road
+
+Fig 5: Search on Railways OR Road as search terms
+
+This will search documents that have keywords either Railways OR Road anywhere
+in the documents.
+
+[PAGE 4]
+4. NARROW DOWN SEARCH USING “AND” OPERATOR
+
+4.1. One can narrow down the search by using AND operator.
+
+For Example: Railway AND Maintenance
+
+Fig 6: Search on Railway AND Maintenance
+
+This will Search documents that have both the keywords Railway AND Maintenance
+anywhere in the documents.
+
+5. NEGATION OF SEARCH TERMS USING “NOT” OPERATOR
+
+5.1. In this case, user does not want to have certain terms in the search results. It
+can be achieved by using “NOT” operator.
+
+For Example: To search Export NOT Agriculture
+
+Step 1: Simple search on Export
+
+[PAGE 5]
+Fig 7: Search on Export
+
+Step 2: Search on Export NOT Agriculture
+
+Fig 8: Search on Export NOT Agriculture
+
+This will search those documents that have Export but not containing Agriculture
+in them.
+
+[PAGE 6]
+SEARCH USING COMBINATION OF OPERATORS
+
+6. “AND” and “OR” combination
+
+For Example: (Ministry of Human Resource Department) AND (Information
+Technology) OR 2014
+In this, search is performed by combining AND/OR operators.
+
+Step 1: Simple search on (Ministry of Human Resource Department)
+
+Fig 9: Search on (Ministry of Human Resource Department)
+
+Step 2: Search on (Ministry of Human Resource Department) AND (Information
+Technology)
+
+Fig 10: Search on (Ministry of Human Resource Department) AND (
+Information Technology )
+
+[PAGE 7]
+Step 3: Search on (Ministry of Human Resource Department) AND
+(Information Technology) OR 2014
+
+Fig 11: Search on (Ministry of Human Resource Department) AND (
+Information Technology) OR 2014
+
+This will show those documents that have any of Ministry of Human Resource
+Department AND Information Technology OR 2014 in them.
+
+7. “AND” and “NOT” COMBINATION
+
+For Example: (Ministry of Human Resource Department) AND (Information
+Technology) NOT 2014
+
+In this, search is performed by combination of AND/NOT operators.
+
+Step 1: Simple search on (Ministry of Human Resource Department)
+
+[PAGE 8]
+Fig 12: Search on (Ministry of Human Resource Department)
+
+Step 2: Search on (Ministry of Human Resource Department) AND (Information
+Technology)
+
+Fig 13: Search on (Ministry of Human Resource Department) AND (
+Information Technology)
+
+Step3: Search on (Ministry of Human Resource Department) AND
+(Information Technology) NOT 2014
+
+[PAGE 9]
+Fig 14: Search on ( Ministry of Human Resource Department) AND (
+Information Technology ) NOT 2014
+
+This will show those documents that have (Ministry of Human Resource
+Department) AND (Information Technology) NOT 2014
+
+8. “OR” AND “NOT” COMBINATION
+
+For Example: Research OR Development NOT Agriculture
+
+In this, search is performed by combination of OR/NOT operators.
+
+Step1: Simple search on Research
+
+Fig 15: Search on Research
+
+[PAGE 10]
+Step2: Search on Research OR Development
+
+Fig 16: Search on Research OR Development
+
+Step3: Search on Research OR Development NOT Agriculture
+
+Fig 17: Search on Research OR Development NOT Agriculture
+
+This will show those documents that have any of Research OR Development NOT
+Agriculture in them.
+
+[PAGE 11]
+9. SEARCH WITH FILTERS
+
+SOLR search engine provides facility to apply search filters to limit the search results
+to specific fielded search criteria.
+
+Filter search has three components such as Field Name, Filter Operators and Field
+Value.
+
+Field Name: It is the metadata fields such as Short Title, Act Number, Act year,
+Ministry etc. which can be selected from combo box.
+
+Filter Operators: It provides various search filter operators such as “Contains”
+“Not Contains” “Equals” “Not Equals” which can be selected from combo box.
+
+Field Value: Users has to type value for the field name. It also provides auto
+completion facility.
+
+For Example:
+
+9.1. Search on National has been performed as a free text search.
+
+Fig 18: Filter Simple search on National
+
+Search can be refined using search filters. Here search term “National” will be
+searched with Search field “Ministry” with Search Filter as “contains”. Screen shot
+of search is shown in fig19.
+
+[PAGE 12]
+Fig 19: Filter search on term National with Search field as “Ministry” and with
+Search Filter as “contains”
+
+9.2. Search can further refine using “Act year” as search filter. Screen shot of
+search is shown in fig 20.
+
+Fig 20: Filter search on 1968 in Act year field.
+
+[PAGE 13]
+10. SOME MORE EXAMPLES USING VARIOUS SEARCH FIELD
+OPERATORS
+
+10.1. Contains Search Operator
+
+It searches word or phrase present anywhere in the field.
+
+For Example: If you have to search National having department as Higher Education
+using “CONTAIN” field operator:
+
+Fig 21: Search results using “CONTAIN” as field operator
+
+10.2. Not Contains Search Operator
+
+It searches word or phrase does not exist anywhere in the field.
+
+For Example: If you have to search National documents and doesn’t contain Higher
+Education as department.
+
+[PAGE 14]
+Fig 22: Search results using “NOT CONTAIN” as field operator
+
+10.3. Equals Search Operator
+
+It searches exact match of word or phrase in the field. For Example: If you have to
+search documents of Education of year 2009
+
+Fig 23: Search results using “EQUAL” as field operator.
+
+10.4. Not Equals Search Operator
+
+It searches for documents with other than where there is an exact match of word or
+phrase in the field. For Example: If you have to search documents of Education of all
+year but not 2009
+
+[PAGE 15]
+Fig 24: Search results using “NOT EQUAL” as field operator.
+
+One can filter and customize search results by using the option “Add Filter” on the
+advance search page. Many search filters can be added by clicking “Add” button.
+
+NOTE:
+For specific search use simple search and then use filters to further refine search
+results and get specific information.
+
+11. WILD CARD SEARCHES
+
+One can also search multiple character as wildcard search by using asterisk “*”
+symbol.
+
+For Example: to search for “Nation”, “National”, “Nationals” One can use the search
+as Nation*
+
+[PAGE 16]
+Fig 25: Search results of Nation*
+
+One can also use the wildcard in the middle of a term.
+Example: Nati*n.
+
+12. FUZZY SEARCHES
+
+Fuzzy search is the technique of finding string that match a pattern approximately,
+rather than exactly. One can do a fuzzy search using the tilde “~” symbol at the end
+of the Single word term.
+
+For Example: To search for word similar in spellings to “Role” one can do the fuzzy
+search: role~
+This search will find terms like rome, rola, rale, pole, gole etc.
+
+Here in this example Nation~ searches words like “National”.
+
+[PAGE 17]
+SEARCH RESULTS DISCOVER
+Ministry of Finance QoQ
+Results/Page| 10 ¥| | Sort items by | Relevance ¥ |In order| Descending ¥ Show Advanced Filters
+Ministry of Home Affairs o
+Ministry of Human Resource Develo. QoQ
+Results 1-10 of 241 (Search time: 0.025 seconds). 7 previous 2 3 4 . 25 next
+Ministry of Housing and Urban Aff. [15 J
+Ministry of External Affairs C11)
+Enactment Date Act Short Title View
+Number next >
+20-Dec-1947 ‘The United Nations (Security Council) Act, 1947
+DEPARTMENT
+Department of Higher Education [25
+31-Dec-2008 | 34 The National Investigation Agency Act, 2008 View...
+18-Dec-1981 ls | ‘The Anti-Apartheid (United Nations Convention) Act, 1981 Department of Financial Services @
+10-Jul-1887 The Joint-stock Companies Act, 1857 Department of Commerce oe
+30-Aua-2012 | 35 The Raiiv Gandhi National Institute of Youth Development Act. 2012 View...
+: . .
+Fig 26: Search results of Nation~

@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:9646b088c68296bde84ba7fc",
+    "sha256": "9646b088c68296bde84ba7fca541ee2da23cc19fe1e287393c97c7f8f0fee678",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\PDPPA2C19845B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\PDPPA2C19845B15D_9646b088c682.pdf",
+    "file_size": 42958,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 16,
+    "title": "An Act to provide for prevention of damage to public property and for matters connected",
+    "year": 1984,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 4099,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 16,
+    "rules": 0,
+    "judgments": 2,
+    "orders": 0,
+    "notifications": 2,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "An Act to provide for prevention of damage to public property and for matters connected\ntherewith.\n\nBe it enacted by Parliment in the Thirty-fifth Year of the Republic of India as follows :-\n\n1. Short title, extent and commencement. –\n1. This Act may be called the Prevention of Damage to Public Property Act, 1984.\n2. It extends to the whole of India except the State of Jammu and Kashmir .\n3. It shall be deemed to nave come into force on the 28th day of January, 1984.\n2. Definitions.-\n\nIn this Act. unless the context otherwise requires,-\n\na. \"mischief' shall have the same meaning as in section 425 of the Indian Penal Code\n(45 of 1.860);\nb. \"public property\" means any property, whether immovable or movable (including\nput any machinery) which is owned by, or in the possession of, or under the\ncontrol of –\ni. the Central Government; or\nii. any State Government; or\niii. any local authority; or\niv. any corporation established by, or under, a Central, Provincial or State\nAct or\nv. any company as defined in section 617 of the Companies Act, 1956 (1 of\n1956); or\nvi. any institution, concern or undertaking which the Central Government\nmay, by notification in the Official Gazette, specify in this behalf:\nProvided that the Central Government shall not specify, any institution,\nconcern or undertaking under this sub-clause unless such institution,\nconcern or undertaking is financed wholly or substantially by funds\nprovided directly or indirectly by the Central Government or by one or\nmore State Governments, or partly by the Central Government and\npartly by one or more State Governments.\n3. Mischief causing damage to public property. –(1)Whoever commits mischief by doing\nany act in respect of any public property, other than public property of the nature referred\nto in sub-section (2), shall be punished with imprisonment for a term which may extend\nto five years and with fine.\n\n(2) Whoever commits mischief by doing any act in respect of any public\nproperty being -\n2 The Prevention of Damage to Pubic Property Act, 1984\na. any building, installation or other property used in connection with the\nproduction, distribution or supply of water, light, power or energy ;\nb. any oil installation;\nc. any sewage work;\nd. any mine or factory;\ne. any means of public transportation or of tele-communications, or any\nbuilding, installation or other property used in connection therewith.\nshall be punished with rigorous imprisonment for a term which shall not\nbe less than six months, but which may extend to five years and with\nfine:\nProvided that the court may, for reasons to be recorded in its judgment, award a\nsentence of imprisonment for a term of less than six months.\n4. Mischief causing damage to public property by fire or explosive substance.-\nWhoever commits an offence under sub-section (1) or sub-section (2) of section 3 by fire\nor explosive substance shall be punished with rigorous imprisonment for a term which\nshall not be less than one year, but which may extend to ten years and with fine:\nProvided that the court may, for special reasons to be recorded in its judgment, award a\nsentence of imprisonment for a term of less than one year.",
+      "extraction_method": "native",
+      "native_characters": 3167,
+      "final_characters": 3167
+    },
+    {
+      "page_number": 2,
+      "text": "5. Special provisions regarding bail.-\nNo person accused or convicted of an offence punishable under section 3 or section 4\nshall, if in custody, be released on bail or on his own bond unless the prosecution has\nbeen given an opportunity to oppose the application for such release.\n6. Saving.-\nThe provisions of this Act shall be in addition to, and not in derogation of, the provisions\nof any other law for the time being in force, and nothing contained in this Act shall\nexempt any person from any proceeding (whether by way of investigation or otherwise)\nwhich might apart from this Act, be instituted or taken against him.\n7. Repeal and saving.-\n1. The Prevention of Damage to Public Property Ordinance, 1984 (Ord. 3 of 1984),\nis hereby repealed.\n2. Notwithstanding such repeal, anything done or any action taken under the said\nOrdinance shall be deemed to have been done or taken under the corresponding\nprovisions of this Act.",
+      "extraction_method": "native",
+      "native_characters": 932,
+      "final_characters": 932
+    }
+  ],
+  "processed_at": "2026-08-06T07:23:20.886102+00:00"
+}

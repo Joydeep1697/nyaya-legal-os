@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f7f5" />
+  <link rel="icon" href="1.png" type="image/png" />
+  <title>Nova Legal OS | Mission Control</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    :root{
+      --ink:#171717; --muted:#737373; --line:#e7e5e4; --panel:rgba(255,255,255,.82);
+      --accent:#5b5bd6; --accent-soft:#eeeeff; --success:#16835f; --warning:#b7791f;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#f7f7f5}
+    h1,h2,h3,.display{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.035em;font-weight:720}
+    .app-bg{background:
+      radial-gradient(circle at 8% 0%,rgba(91,91,214,.12),transparent 28%),
+      radial-gradient(circle at 94% 10%,rgba(16,185,129,.09),transparent 24%),
+      linear-gradient(180deg,#fbfbfa 0%,#f4f4f1 100%)}
+    .glass{background:var(--panel);backdrop-filter:blur(18px);border:1px solid rgba(231,229,228,.9);box-shadow:0 12px 40px rgba(28,25,23,.06)}
+    .card{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 30px rgba(28,25,23,.045);transition:.25s ease}
+    .card:hover{transform:translateY(-2px);box-shadow:0 18px 46px rgba(28,25,23,.08)}
+    .nav-item{display:flex;align-items:center;gap:.75rem;padding:.68rem .82rem;border-radius:14px;color:#525252;cursor:pointer;transition:.2s ease}
+    .nav-item:hover{background:#f5f5f4;color:#171717}
+    .nav-item.active{background:#171717;color:white;box-shadow:0 8px 18px rgba(23,23,23,.14)}
+    .nav-item .badge{margin-left:auto;font-size:10px;border-radius:999px;padding:2px 7px;background:#ecebea;color:#57534e}
+    .nav-item.active .badge{background:rgba(255,255,255,.16);color:white}
+    .pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:.42rem .72rem;font-size:.74rem;color:#57534e}
+    .metric{font-size:2rem;line-height:1;font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-weight:760;letter-spacing:-.04em}
+    .soft-icon{width:40px;height:40px;border-radius:14px;display:grid;place-items:center;background:#f5f5f4;color:#44403c}
+    .quick-card{border:1px solid var(--line);border-radius:16px;padding:14px;background:linear-gradient(180deg,#fff,#fafaf9);cursor:pointer;transition:.2s ease}
+    .quick-card:hover{border-color:#c7c7f6;background:#f7f7ff;transform:translateY(-1px)}
+    .progress{height:8px;border-radius:999px;background:#eee;overflow:hidden}.progress>span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#5b5bd6,#8b5cf6)}
+    .dot-grid{background-image:radial-gradient(#d6d3d1 1px,transparent 1px);background-size:18px 18px}
+    .timeline-line:before{content:"";position:absolute;left:13px;top:18px;bottom:-18px;width:1px;background:#e7e5e4}
+    .modal{animation:pop .18s ease-out}.drawer{animation:slide .22s ease-out}
+    @keyframes pop{from{opacity:0;transform:translateY(8px) scale(.985)}to{opacity:1;transform:none}}
+    @keyframes slide{from{transform:translateX(100%)}to{transform:none}}
+    ::-webkit-scrollbar{width:7px;height:7px}::-webkit-scrollbar-thumb{background:#d6d3d1;border-radius:99px}::-webkit-scrollbar-track{background:transparent}
+    button,input,select,textarea{font:inherit}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:2px solid #6366f1;outline-offset:2px}
+    .collapsed{width:78px!important}.collapsed .nav-label,.collapsed .section-label,.collapsed .collapse-label,.collapsed .workspace-card{display:none}.collapsed .nav-item{justify-content:center}.collapsed .nav-item .badge{display:none}
+    .toast{animation:toastIn .2s ease-out}@keyframes toastIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    .nova-pulse{position:relative}.nova-pulse:after{content:"";position:absolute;inset:-6px;border:1px solid rgba(91,91,214,.26);border-radius:20px;animation:novaPulse 2.4s ease-out infinite}@keyframes novaPulse{0%{opacity:.9;transform:scale(.86)}75%,100%{opacity:0;transform:scale(1.25)}}
+    .thinking-dot{width:6px;height:6px;border-radius:999px;background:#5b5bd6;animation:think 1.3s infinite ease-in-out}.thinking-dot:nth-child(2){animation-delay:.16s}.thinking-dot:nth-child(3){animation-delay:.32s}@keyframes think{0%,80%,100%{transform:scale(.6);opacity:.35}40%{transform:scale(1);opacity:1}}
+    #drop-zone{pointer-events:none;opacity:0;transition:.18s ease}body.dragging #drop-zone{opacity:1;pointer-events:auto}
+    .context-menu{animation:pop .12s ease-out}
+  </style>
+</head>
+<body class="app-bg overflow-hidden">
+  <div id="splash-screen" class="fixed inset-0 z-[2000] bg-[#f7f7f5] flex items-center justify-center transition-opacity duration-500">
+    <div class="text-center">
+      <div class="nova-pulse w-24 h-24 rounded-[28px] bg-neutral-950 grid place-items-center mx-auto shadow-2xl"><img src="1.png" alt="Nova" class="w-16 h-16 object-contain"></div>
+      <div class="text-2xl font-semibold tracking-tight mt-6">Nova Legal OS</div>
+      <div class="text-xs uppercase tracking-[.22em] text-stone-400 mt-2">Initializing legal intelligence</div>
+      <div class="flex justify-center gap-1.5 mt-5"><span class="thinking-dot"></span><span class="thinking-dot"></span><span class="thinking-dot"></span></div>
+    </div>
+  </div>
+  <div class="h-screen flex flex-col">
+    <header class="h-16 px-4 lg:px-6 border-b border-stone-200/80 bg-white/75 backdrop-blur-xl flex items-center justify-between z-20">
+      <div class="flex items-center gap-4 min-w-0">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-neutral-950 text-white grid place-items-center shadow-lg shadow-black/10 overflow-hidden">
+            <img src="1.png" alt="Nova" class="w-8 h-8 object-contain" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\'display text-xl\'>N</span>'">
+          </div>
+          <div class="hidden sm:block">
+            <div class="display text-[21px] leading-tight">Nova Legal</div>
+            <div class="text-[10px] uppercase tracking-[.18em] text-stone-500">Legal intelligence operating system</div>
+          </div>
+        </div>
+        <div class="hidden md:block w-[min(38vw,520px)] ml-4">
+          <div class="relative">
+            <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-stone-400 text-sm"></i>
+            <input id="global-search" class="w-full rounded-2xl border border-stone-200 bg-white/90 pl-11 pr-20 py-2.5 text-sm shadow-sm focus:border-indigo-400" placeholder="Search matters, files, clauses, jurisdictions..." />
+            <kbd class="absolute right-3 top-1/2 -translate-y-1/2 pill py-1 px-2">Ctrl K</kbd>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <button onclick="showCommandCenter()" class="hidden lg:flex items-center gap-2 pill hover:bg-stone-50"><i class="fa-solid fa-wand-magic-sparkles"></i> Nova Command</button>
+        <button onclick="showNotifications()" aria-label="Notifications" class="w-10 h-10 rounded-2xl border border-stone-200 bg-white hover:bg-stone-50 relative"><i class="fa-regular fa-bell"></i><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-red-500"></span></button>
+        <button onclick="showProfileMenu()" class="flex items-center gap-2 rounded-2xl border border-stone-200 bg-white px-2.5 py-1.5 hover:bg-stone-50">
+          <div class="w-7 h-7 rounded-xl bg-gradient-to-br from-indigo-500 to-violet-500 text-white grid place-items-center text-xs font-semibold">JD</div>
+          <span class="hidden sm:block text-sm">Joydeep</span><i class="fa-solid fa-chevron-down text-[10px] text-stone-400"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="flex flex-1 min-h-0">
+      <aside id="left-sidebar" class="w-64 shrink-0 border-r border-stone-200/80 bg-white/70 backdrop-blur-xl flex flex-col transition-all duration-300">
+        <div class="p-3 overflow-auto flex-1">
+          <div class="workspace-card mb-3 p-3 rounded-2xl border border-stone-200 bg-white shadow-sm">
+            <div class="text-[10px] uppercase tracking-[.15em] text-stone-500 mb-1">Workspace</div>
+            <div class="flex items-center justify-between"><div><div class="text-sm font-semibold">Personal Legal Desk</div><div class="text-xs text-stone-500">12 active matters</div></div><button onclick="showWorkspaceDropdown()" class="w-8 h-8 rounded-xl hover:bg-stone-100"><i class="fa-solid fa-ellipsis"></i></button></div>
+          </div>
+          <div class="section-label px-3 pt-2 pb-1 text-[10px] uppercase tracking-[.16em] text-stone-400">Workspace</div>
+          <nav class="space-y-1 text-sm">
+            <div data-page="dashboard" onclick="navigateTo('dashboard')" class="nav-item active"><i class="fa-solid fa-grid-2 w-4"></i><span class="nav-label">Mission Control</span></div>
+            <div data-page="projects" onclick="navigateTo('projects')" class="nav-item"><i class="fa-regular fa-folder-open w-4"></i><span class="nav-label">Legal Matters</span><span class="badge">12</span></div>
+            <div data-page="files" onclick="navigateTo('files')" class="nav-item"><i class="fa-regular fa-file-lines w-4"></i><span class="nav-label">Knowledge Vault</span><span class="badge">84</span></div>
+            <div data-page="chat" onclick="navigateTo('chat')" class="nav-item"><i class="fa-regular fa-message w-4"></i><span class="nav-label">Ask Nova</span></div>
+            <div data-page="research" onclick="navigateTo('research')" class="nav-item"><i class="fa-solid fa-scale-balanced w-4"></i><span class="nav-label">Research Engine</span></div>
+            <div data-page="compliance" onclick="navigateTo('compliance')" class="nav-item"><i class="fa-solid fa-shield-halved w-4"></i><span class="nav-label">Regulatory Radar</span><span class="badge">3</span></div>
+            <div data-page="litigation" onclick="navigateTo('litigation')" class="nav-item"><i class="fa-solid fa-gavel w-4"></i><span class="nav-label">Litigation</span></div>
+            <div data-page="ip" onclick="navigateTo('ip')" class="nav-item"><i class="fa-regular fa-lightbulb w-4"></i><span class="nav-label">IP Portfolio</span></div>
+          </nav>
+          <div class="section-label px-3 pt-5 pb-1 text-[10px] uppercase tracking-[.16em] text-stone-400">Intelligence</div>
+          <nav class="space-y-1 text-sm">
+            <div data-page="calendar" onclick="navigateTo('calendar')" class="nav-item"><i class="fa-regular fa-calendar w-4"></i><span class="nav-label">Deadline Matrix</span></div>
+            <div data-page="analytics" onclick="navigateTo('analytics')" class="nav-item"><i class="fa-solid fa-chart-line w-4"></i><span class="nav-label">Intelligence Map</span></div>
+            <div data-page="settings" onclick="navigateTo('settings')" class="nav-item"><i class="fa-solid fa-sliders w-4"></i><span class="nav-label">Settings</span></div>
+          </nav>
+        </div>
+        <div class="p-3 border-t border-stone-200">
+          <button onclick="toggleSidebar()" class="w-full rounded-xl py-2 text-xs text-stone-500 hover:bg-stone-100 flex items-center justify-center gap-2"><i id="collapse-icon" class="fa-solid fa-chevron-left"></i><span class="collapse-label">Collapse sidebar</span></button>
+        </div>
+      </aside>
+
+      <main class="flex-1 min-w-0 flex flex-col">
+        <div class="px-5 lg:px-7 py-4 border-b border-stone-200/80 bg-white/45 backdrop-blur-sm flex items-center justify-between gap-4">
+          <div><div id="page-eyebrow" class="text-[10px] uppercase tracking-[.16em] text-stone-400">Workspace overview</div><h1 id="page-title" class="text-2xl lg:text-3xl mt-1">Good afternoon, Joydeep</h1><p id="page-subtitle" class="text-sm text-stone-500 mt-1">Your legal operations are healthy. Three items need attention today.</p></div>
+          <div id="page-actions" class="hidden md:flex items-center gap-2"></div>
+        </div>
+        <div id="main-content" class="flex-1 overflow-auto p-5 lg:p-7"></div>
+      </main>
+
+      <aside id="nova-panel" class="hidden xl:flex w-[350px] shrink-0 border-l border-stone-200/80 bg-white/72 backdrop-blur-xl flex-col">
+        <div class="p-4 border-b border-stone-200">
+          <div class="flex items-center gap-3">
+            <div class="nova-pulse w-11 h-11 rounded-2xl bg-neutral-950 grid place-items-center shadow-lg"><img src="1.png" alt="Nova" class="w-8 h-8 object-contain"></div>
+            <div class="flex-1"><div class="font-semibold">Nova Intelligence Core</div><div class="text-xs text-emerald-600 flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Active across workspace</div></div>
+            <button onclick="toggleNovaPanel()" class="w-8 h-8 rounded-xl hover:bg-stone-100"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+        <div class="p-4 flex-1 overflow-auto space-y-5">
+          <div class="rounded-3xl bg-neutral-950 text-white p-5 relative overflow-hidden">
+            <div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-indigo-500/20 blur-2xl"></div>
+            <div class="text-[10px] uppercase tracking-[.18em] text-white/45">Nova Memory</div>
+            <div class="mt-3 flex items-center gap-2"><span class="text-sm">Analyzing workspace context</span><div class="flex gap-1 ml-auto"><span class="thinking-dot"></span><span class="thinking-dot"></span><span class="thinking-dot"></span></div></div>
+            <div class="grid grid-cols-2 gap-2 mt-4 text-xs">
+              <div class="rounded-2xl bg-white/8 p-3"><div class="text-xl font-semibold">4</div><div class="text-white/55 mt-1">matters watched</div></div>
+              <div class="rounded-2xl bg-white/8 p-3"><div class="text-xl font-semibold">12</div><div class="text-white/55 mt-1">rules tracked</div></div>
+              <div class="rounded-2xl bg-white/8 p-3"><div class="text-xl font-semibold">3</div><div class="text-white/55 mt-1">deadlines monitored</div></div>
+              <div class="rounded-2xl bg-white/8 p-3"><div class="text-xl font-semibold">84</div><div class="text-white/55 mt-1">vault items indexed</div></div>
+            </div>
+          </div>
+          <div><div class="text-[10px] uppercase tracking-[.16em] text-stone-400 mb-2">Live signals</div>
+            <div class="space-y-2 text-sm"><div class="quick-card"><div class="font-medium">Indemnity risk detected</div><div class="text-xs text-stone-500 mt-1">Axis Cloud MSA · 2 minutes ago</div></div><div class="quick-card"><div class="font-medium">Filing window approaching</div><div class="text-xs text-stone-500 mt-1">Singapore Expansion · due Friday</div></div><div class="quick-card"><div class="font-medium">Regulation changed</div><div class="text-xs text-stone-500 mt-1">DPDP implementation guidance</div></div></div>
+          </div>
+          <button onclick="navigateTo('chat')" class="w-full rounded-2xl bg-neutral-950 text-white py-3 text-sm flex items-center justify-center gap-2"><img src="1.png" class="w-5 h-5 object-contain" alt="">Ask Nova</button>
+          <div class="text-[10px] text-center text-stone-400">Right-click anywhere or press Ctrl + Space</div>
+        </div>
+      </aside>
+    </div>
+    <footer class="h-7 px-4 border-t border-stone-200 bg-white/90 text-[10px] text-stone-500 flex items-center justify-between"><div class="flex gap-4"><span><i class="fa-solid fa-circle text-emerald-500 text-[6px] mr-1"></i>Systems operational</span><span>Encrypted workspace</span><span id="system-time"></span></div><div>Nova Legal OS v6.0 Preview</div></footer>
+  </div>
+
+  <div id="drop-zone" class="fixed inset-0 z-[1500] bg-neutral-950/75 backdrop-blur-md flex items-center justify-center"><div class="text-center text-white"><div class="w-24 h-24 rounded-[30px] bg-white/10 border border-white/20 grid place-items-center mx-auto"><img src="1.png" class="w-16 h-16 object-contain" alt="Nova"></div><div class="text-3xl font-semibold mt-6">Drop into Nova</div><div class="text-white/60 mt-2">Nova will index, classify and analyse these documents.</div></div></div><div id="context-root"></div><div id="overlay-root"></div><div id="toast-root" class="fixed bottom-5 right-5 z-[1000] space-y-2"></div>
+
+  <script>
+    const state={currentPage:'dashboard',sidebarCollapsed:false};
+    const pageMeta={
+      dashboard:['Workspace overview','Good afternoon, Joydeep','Your legal operations are healthy. Three items need attention today.'],
+      projects:['Matter management','Legal matters','Track every matter, owner, jurisdiction and next action.'],
+      files:['Knowledge vault','Documents','Upload, organize and analyze your legal documents.'],
+      chat:['AI workspace','Ask Nova','Research, draft and reason with your legal copilot.'],
+      research:['Research desk','Legal research','Search authorities and compare legal positions across jurisdictions.'],
+      compliance:['Risk intelligence','Compliance command center','Prioritize obligations, deadlines and regulatory exposure.'],
+      litigation:['Case workspace','Litigation','Manage pleadings, hearings, evidence and strategy.'],
+      ip:['Portfolio intelligence','Intellectual property','Track trademarks, patents, copyrights and renewals.'],
+      calendar:['Legal timeline','Calendar','A unified view of deadlines, hearings and filing windows.'],
+      analytics:['Operational intelligence','Insights','Understand workload, risk, performance and legal spend.'],
+      settings:['Workspace controls','Settings','Configure Nova Legal for your team and workflow.']
+    };
+    function setHeader(page){const m=pageMeta[page];document.getElementById('page-eyebrow').textContent=m[0];document.getElementById('page-title').textContent=m[1];document.getElementById('page-subtitle').textContent=m[2];document.getElementById('page-actions').innerHTML=pageActions(page)}
+    function pageActions(page){if(page==='projects')return `<button onclick="createProject()" class="pill"><i class="fa-solid fa-plus mr-2"></i>New matter</button>`;if(page==='files')return `<button onclick="uploadFile()" class="pill"><i class="fa-solid fa-arrow-up-from-bracket mr-2"></i>Upload</button>`;if(page==='dashboard')return `<button onclick="showCommandCenter()" class="pill"><i class="fa-solid fa-bolt mr-2"></i>Quick action</button>`;return ''}
+    function navigateTo(page){state.currentPage=page;localStorage.setItem('novaPage',page);document.querySelectorAll('.nav-item').forEach(x=>x.classList.toggle('active',x.dataset.page===page));setHeader(page);renderPage(page)}
+    function renderPage(page){const c=document.getElementById('main-content');const views={dashboard:dashboardView,projects:projectsView,files:filesView,chat:chatView,research:researchView,compliance:complianceView,litigation:litigationView,ip:ipView,calendar:calendarView,analytics:analyticsView,settings:settingsView};c.innerHTML=(views[page]||dashboardView)()}
+    function dashboardView(){return `<div class="max-w-[1500px] mx-auto space-y-6">
+      <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+        ${metricCard('Active matters','12','+2 this month','fa-folder-open')}${metricCard('Upcoming deadlines','5','Next in 2 days','fa-calendar-day')}${metricCard('Compliance health','94%','Strong posture','fa-shield-check')}${metricCard('Documents analyzed','128','18 this week','fa-file-waveform')}
+      </section>
+      <section class="grid grid-cols-1 xl:grid-cols-[1.5fr_.9fr] gap-6">
+        <div class="card p-5 lg:p-6"><div class="flex items-center justify-between mb-5"><div><div class="text-xs text-stone-500">Priority queue</div><h2 class="text-2xl mt-1">What needs your attention</h2></div><span class="pill">3 items</span></div>
+          <div class="space-y-3">
+            ${taskRow('MGT-7 annual filing','Singapore Expansion','Due in 2 days','High','fa-file-signature')}
+            ${taskRow('Indemnity clause review','Vendor MSA — Axis Cloud','Flagged by Nova','Medium','fa-triangle-exclamation')}
+            ${taskRow('Trademark renewal','Nova word mark — Class 42','Window opens soon','Medium','fa-certificate')}
+          </div>
+        </div>
+        <div class="card p-5 lg:p-6"><div class="flex items-center justify-between"><div><div class="text-xs text-stone-500">Portfolio health</div><h2 class="text-2xl mt-1">Risk distribution</h2></div><span class="text-xs text-emerald-600">Improved 8%</span></div><div class="mt-6 space-y-5">
+          ${riskBar('Low risk',68,'68%')}${riskBar('Medium risk',24,'24%')}${riskBar('High risk',8,'8%')}
+        </div><div class="mt-6 p-4 rounded-2xl bg-stone-50 border border-stone-200 text-sm"><i class="fa-solid fa-lightbulb text-amber-500 mr-2"></i>Nova recommends reviewing vendor contracts before Friday.</div></div>
+      </section>
+      <section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="card p-5 lg:col-span-2"><div class="flex items-center justify-between mb-4"><h2 class="text-2xl">Matter momentum</h2><button onclick="navigateTo('projects')" class="text-xs text-indigo-600">View all</button></div><div class="grid md:grid-cols-3 gap-3">${matterMini('Singapore Expansion','Corporate','72%','Next: board resolution')}${matterMini('Nova Trademark','IP','46%','Next: renewal search')}${matterMini('Axis Cloud MSA','Commercial','84%','Next: clause negotiation')}</div></div>
+        <div class="card p-5"><div class="text-xs text-stone-500">Today</div><h2 class="text-2xl mt-1 mb-4">Legal timeline</h2><div class="space-y-4">${timeline('11:30','Contract review','Axis Cloud MSA')}${timeline('15:00','Compliance check-in','DPDP readiness')}${timeline('17:30','Draft review','Board resolution')}</div></div>
+      </section>
+    </div>`}
+    const metricCard=(label,value,sub,icon)=>`<div class="card p-5"><div class="flex items-start justify-between"><div><div class="text-xs text-stone-500">${label}</div><div class="metric mt-3">${value}</div><div class="text-xs text-stone-500 mt-2">${sub}</div></div><div class="soft-icon"><i class="fa-solid ${icon}"></i></div></div></div>`;
+    const taskRow=(title,sub,status,level,icon)=>`<div class="flex items-center gap-4 p-3 rounded-2xl border border-stone-200 hover:bg-stone-50 cursor-pointer"><div class="soft-icon"><i class="fa-solid ${icon}"></i></div><div class="min-w-0 flex-1"><div class="text-sm font-semibold truncate">${title}</div><div class="text-xs text-stone-500 truncate">${sub}</div></div><div class="hidden sm:block text-right"><div class="text-xs">${status}</div><div class="text-[10px] text-stone-400">${level} priority</div></div><i class="fa-solid fa-chevron-right text-stone-300"></i></div>`;
+    const riskBar=(label,val,text)=>`<div><div class="flex justify-between text-xs mb-2"><span>${label}</span><span class="text-stone-500">${text}</span></div><div class="progress"><span style="width:${val}%"></span></div></div>`;
+    const matterMini=(title,type,progress,next)=>`<div class="rounded-2xl border border-stone-200 p-4"><div class="flex justify-between"><span class="text-xs text-stone-500">${type}</span><span class="text-xs">${progress}</span></div><div class="font-semibold mt-2">${title}</div><div class="progress mt-4"><span style="width:${progress}"></span></div><div class="text-[11px] text-stone-500 mt-3">${next}</div></div>`;
+    const timeline=(time,title,sub)=>`<div class="relative pl-9 timeline-line"><div class="absolute left-0 top-0 w-7 h-7 rounded-xl bg-stone-100 grid place-items-center text-[10px]">${time.split(':')[0]}</div><div class="text-sm font-semibold">${title}</div><div class="text-xs text-stone-500">${time} · ${sub}</div></div>`;
+    function projectsView(){return `<div class="max-w-[1400px] mx-auto"><div class="flex flex-wrap gap-2 mb-5"><span class="pill bg-neutral-950 text-white border-neutral-950">All matters</span><span class="pill">Corporate</span><span class="pill">Commercial</span><span class="pill">IP</span><span class="pill">Litigation</span></div><div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">${projectCard('Singapore Expansion','Corporate · Singapore','72','Active','Board resolution · Friday')}${projectCard('Nova Trademark Portfolio','IP · India / UK','46','Planning','Renewal search · 21 days')}${projectCard('Axis Cloud MSA','Commercial · India','84','Review','Indemnity redline · Today')}${projectCard('DPDP Readiness','Compliance · India','61','Active','Gap assessment · Monday')}</div></div>`}
+    const projectCard=(title,meta,pct,status,next)=>`<div class="card p-5 cursor-pointer" onclick="openMatter('${title}')"><div class="flex justify-between"><span class="pill py-1">${status}</span><button class="w-8 h-8 rounded-xl hover:bg-stone-100"><i class="fa-solid fa-ellipsis"></i></button></div><h2 class="text-2xl mt-5">${title}</h2><div class="text-xs text-stone-500 mt-1">${meta}</div><div class="mt-6"><div class="flex justify-between text-xs mb-2"><span>Progress</span><span>${pct}%</span></div><div class="progress"><span style="width:${pct}%"></span></div></div><div class="mt-5 pt-4 border-t border-stone-200 text-xs text-stone-500"><i class="fa-regular fa-clock mr-2"></i>${next}</div></div>`;
+    function filesView(){return `<div class="max-w-[1400px] mx-auto"><div class="card p-4 mb-5 flex flex-col md:flex-row gap-3 items-center"><div class="flex-1 relative"><i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-stone-400"></i><input class="w-full border border-stone-200 rounded-2xl pl-11 pr-4 py-2.5" placeholder="Search document name, clause or matter..."></div><button onclick="uploadFile()" class="rounded-2xl bg-neutral-950 text-white px-5 py-2.5 text-sm"><i class="fa-solid fa-cloud-arrow-up mr-2"></i>Upload documents</button></div><div class="card overflow-hidden"><div class="grid grid-cols-[1.6fr_.8fr_.7fr_.5fr] gap-3 px-5 py-3 text-[10px] uppercase tracking-[.14em] text-stone-400 border-b border-stone-200"><span>Document</span><span>Matter</span><span>Updated</span><span>Risk</span></div>${fileRow('Axis Cloud Master Services Agreement.pdf','Axis Cloud MSA','Today','High')}${fileRow('Board Resolution — Singapore.docx','Singapore Expansion','Yesterday','Low')}${fileRow('Nova Trademark Search Report.pdf','Nova Trademark','2 days ago','Medium')}${fileRow('DPDP Gap Assessment.xlsx','DPDP Readiness','4 days ago','Medium')}</div></div>`}
+    const fileRow=(name,matter,updated,risk)=>`<div class="grid grid-cols-[1.6fr_.8fr_.7fr_.5fr] gap-3 px-5 py-4 items-center border-b border-stone-100 hover:bg-stone-50 text-sm"><div class="min-w-0 flex items-center gap-3"><div class="soft-icon"><i class="fa-regular fa-file-lines"></i></div><span class="truncate font-medium">${name}</span></div><span class="text-stone-500 truncate">${matter}</span><span class="text-stone-500">${updated}</span><span class="text-xs">${risk}</span></div>`;
+    function chatView(){return `<div class="max-w-[1100px] mx-auto h-full min-h-[620px] card flex flex-col overflow-hidden"><div class="p-4 border-b border-stone-200 flex items-center justify-between"><div class="flex gap-3 items-center"><div class="nova-pulse w-9 h-9 rounded-2xl bg-neutral-950 text-white grid place-items-center"><img src="1.png" class="w-6 h-6 object-contain" alt="Nova"></div><div><div class="font-semibold">Nova Intelligence Core</div><div class="text-xs text-stone-500">Grounded in your workspace</div></div></div><span class="pill">Private mode</span></div><div id="chat-messages" class="flex-1 overflow-auto p-5 lg:p-8 space-y-5 bg-stone-50/60"><div class="max-w-2xl"><div class="text-xs text-stone-400 mb-2">Nova</div><div class="bg-white border border-stone-200 rounded-2xl rounded-tl-sm p-4 text-sm leading-relaxed">I reviewed today’s workspace activity. The Axis Cloud agreement contains a broad indemnity obligation and the Singapore matter has a filing deadline in two days. What would you like to work on?</div></div><div class="grid sm:grid-cols-3 gap-3 max-w-3xl">${suggestion('Summarize the MSA risks')}${suggestion('Draft the board resolution')}${suggestion('Compare India and Singapore')}</div></div><div class="p-4 border-t border-stone-200 bg-white"><div class="flex items-end gap-3"><textarea id="chat-input" rows="1" class="flex-1 resize-none border border-stone-200 rounded-2xl px-4 py-3 text-sm" placeholder="Ask Nova about a matter, document, clause or jurisdiction..."></textarea><button onclick="sendChatMessage()" class="w-12 h-12 rounded-2xl bg-neutral-950 text-white"><i class="fa-solid fa-arrow-up"></i></button></div><div class="text-[10px] text-stone-400 mt-2">Nova can make mistakes. Verify important legal conclusions.</div></div></div>`}
+    const suggestion=t=>`<button onclick="setPrompt('${t}')" class="text-left rounded-2xl border border-stone-200 bg-white p-3 text-xs hover:border-indigo-300">${t}</button>`;
+    function researchView(){return emptyStudio('fa-scale-balanced','Multi-jurisdiction research','Search cases, statutes, regulations and legal positions across supported jurisdictions.','Start new research')}
+    function complianceView(){return `<div class="max-w-[1400px] mx-auto grid lg:grid-cols-[1fr_.8fr] gap-6"><div class="card p-6"><div class="flex justify-between"><div><div class="text-xs text-stone-500">Overall readiness</div><h2 class="text-3xl mt-1">94% compliant</h2></div><div class="w-16 h-16 rounded-full border-[7px] border-emerald-500 grid place-items-center text-sm font-semibold">94</div></div><div class="mt-6 space-y-3">${taskRow('MGT-7 filing','Annual compliance','Due in 2 days','High','fa-file-signature')}${taskRow('DPDP processor register','Privacy compliance','Due in 8 days','Medium','fa-user-shield')}${taskRow('Trademark renewal evidence','IP compliance','Due in 21 days','Medium','fa-certificate')}</div></div><div class="card p-6"><div class="text-xs text-stone-500">Nova insight</div><h2 class="text-2xl mt-1">Risk concentration</h2><p class="text-sm text-stone-500 mt-3 leading-relaxed">Most current exposure is deadline-driven rather than substantive. Completing the MGT-7 filing would reduce high-risk items by 50%.</p><button onclick="showToast('Compliance report generated','success')" class="mt-5 rounded-2xl bg-neutral-950 text-white px-4 py-2.5 text-sm">Generate report</button></div></div>`}
+    function litigationView(){return emptyStudio('fa-gavel','Litigation workspace','Organize pleadings, evidence, hearing dates and case strategy in one secure workspace.','Create case')}
+    function ipView(){return emptyStudio('fa-lightbulb','IP portfolio intelligence','Track registrations, classes, renewals, oppositions and geographic coverage.','Add IP asset')}
+    function calendarView(){return emptyStudio('fa-calendar-days','Unified legal calendar','See every filing deadline, hearing, renewal and internal review milestone.','Add event')}
+    function analyticsView(){return `<div class="max-w-[1400px] mx-auto grid md:grid-cols-2 xl:grid-cols-4 gap-4">${metricCard('Legal spend','₹2.4L','-12% vs last month','fa-indian-rupee-sign')}${metricCard('Cycle time','8.4 days','1.6 days faster','fa-stopwatch')}${metricCard('AI hours saved','46.5','This month','fa-bolt')}${metricCard('Risk closed','17','82% resolution rate','fa-circle-check')}</div>`}
+    function settingsView(){return `<div class="max-w-3xl mx-auto card p-6 space-y-6"><div><h2 class="text-2xl">Workspace preferences</h2><p class="text-sm text-stone-500 mt-1">Control appearance, alerts and AI assistance.</p></div>${settingRow('AI drafting assistance','Use Nova to suggest clauses and edits',true)}${settingRow('Deadline alerts','Notify before compliance and court deadlines',true)}${settingRow('Sensitive document mode','Disable context retention for selected files',false)}</div>`}
+    const settingRow=(title,sub,on)=>`<div class="flex items-center justify-between py-4 border-t border-stone-200"><div><div class="font-medium">${title}</div><div class="text-xs text-stone-500">${sub}</div></div><button onclick="this.classList.toggle('bg-neutral-950');this.classList.toggle('bg-stone-300')" class="w-11 h-6 rounded-full ${on?'bg-neutral-950':'bg-stone-300'} p-1"><span class="block w-4 h-4 rounded-full bg-white"></span></button></div>`;
+    function emptyStudio(icon,title,desc,cta){return `<div class="max-w-4xl mx-auto card p-10 lg:p-16 text-center dot-grid"><div class="nova-pulse w-20 h-20 rounded-[26px] bg-neutral-950 shadow-xl grid place-items-center mx-auto"><img src="1.png" class="w-12 h-12 object-contain" alt="Nova"></div><h2 class="text-3xl mt-6">${title}</h2><p class="text-sm text-stone-500 max-w-xl mx-auto mt-3">${desc}</p><button onclick="showToast('${cta} started','success')" class="mt-6 rounded-2xl bg-neutral-950 text-white px-5 py-3 text-sm">${cta}</button></div>`}
+    function createProject(){showModal('Create a legal matter',`<div class="space-y-4"><input id="matter-name" class="w-full border border-stone-200 rounded-2xl px-4 py-3" placeholder="Matter name"><select class="w-full border border-stone-200 rounded-2xl px-4 py-3"><option>Corporate</option><option>Commercial</option><option>Compliance</option><option>Intellectual Property</option><option>Litigation</option></select><input class="w-full border border-stone-200 rounded-2xl px-4 py-3" placeholder="Jurisdiction"></div>`,()=>{showToast('Matter created successfully','success');navigateTo('projects')})}
+    function uploadFile(){showModal('Upload documents',`<label class="block border-2 border-dashed border-stone-300 rounded-3xl p-10 text-center cursor-pointer hover:bg-stone-50"><i class="fa-solid fa-cloud-arrow-up text-3xl text-stone-400"></i><div class="font-medium mt-3">Drop files here or browse</div><div class="text-xs text-stone-500 mt-1">PDF, DOCX, XLSX up to 25 MB</div><input id="file-input" type="file" multiple class="hidden"></label>`,()=>showToast('Documents added to analysis queue','success'))}
+    function sendChatMessage(){const input=document.getElementById('chat-input'),messages=document.getElementById('chat-messages');if(!input||!input.value.trim())return;const q=input.value.trim();messages.insertAdjacentHTML('beforeend',`<div class="ml-auto max-w-2xl"><div class="text-xs text-stone-400 mb-2 text-right">You</div><div class="bg-neutral-950 text-white rounded-2xl rounded-tr-sm p-4 text-sm">${escapeHtml(q)}</div></div>`);input.value='';messages.scrollTop=messages.scrollHeight;setTimeout(()=>{messages.insertAdjacentHTML('beforeend',`<div class="max-w-2xl"><div class="text-xs text-stone-400 mb-2">Nova</div><div class="bg-white border border-stone-200 rounded-2xl rounded-tl-sm p-4 text-sm leading-relaxed">I’ve reviewed the request in the context of your workspace. This prototype response is simulated; connect your preferred AI and document-retrieval APIs to generate live legal analysis.</div></div>`);messages.scrollTop=messages.scrollHeight},650)}
+    function setPrompt(t){const i=document.getElementById('chat-input');if(i){i.value=t;i.focus()}}
+    function openMatter(name){showModal(name,`<div class="rounded-2xl bg-stone-50 border border-stone-200 p-4 text-sm">Matter overview, documents, tasks, risks and activity would open here in the production application.</div>`,null,'Open workspace')}
+    function quickAction(a){if(a==='analyze'){navigateTo('chat');setTimeout(()=>setPrompt('Analyze a contract for key risks and obligations'),50)}else if(a==='compare'){navigateTo('research')}else{navigateTo('chat');setTimeout(()=>setPrompt('Draft a legal document from a template'),50)}}
+    function toggleSidebar(){const s=document.getElementById('left-sidebar');s.classList.toggle('collapsed');document.getElementById('collapse-icon').classList.toggle('fa-chevron-left');document.getElementById('collapse-icon').classList.toggle('fa-chevron-right')}
+    function toggleNovaPanel(){document.getElementById('nova-panel').classList.toggle('xl:flex')}
+    function showCommandCenter(){showModal('Nova Nova Command',`<div class="grid grid-cols-2 gap-3">${cmd('fa-file-circle-check','Analyze contract','chat')}${cmd('fa-scale-balanced','Research law','research')}${cmd('fa-folder-plus','Create matter','projects')}${cmd('fa-calendar-plus','Add deadline','calendar')}</div>`,null,'Close')}
+    const paletteAction=(title,sub,page)=>`<button onclick="document.getElementById('overlay-root').innerHTML='';navigateTo('${page}')" class="w-full flex items-center gap-3 p-3 rounded-2xl hover:bg-stone-100 text-left"><div class="w-10 h-10 rounded-2xl bg-neutral-950 grid place-items-center"><img src="1.png" class="w-6 h-6 object-contain"></div><div><div class="text-sm font-medium">${title}</div><div class="text-xs text-stone-500 mt-0.5">${sub}</div></div><i class="fa-solid fa-arrow-right ml-auto text-stone-300"></i></button>`;
+    const cmd=(icon,title,page)=>`<button onclick="document.getElementById('overlay-root').innerHTML='';navigateTo('${page}')" class="quick-card text-left"><div class="soft-icon mb-3"><i class="fa-solid ${icon}"></i></div><div class="text-sm font-semibold">${title}</div></button>`;
+    function showWorkspaceDropdown(){showMenu(event.currentTarget,['Personal Legal Desk','Client Workspace','Enterprise Workspace','Create new workspace'])}
+    function showProfileMenu(){showMenu(event.currentTarget,['Profile','Workspace settings','Keyboard shortcuts','Sign out'])}
+    function showMenu(anchor,items){const r=anchor.getBoundingClientRect();const menu=document.createElement('div');menu.className='fixed z-[999] w-52 bg-white border border-stone-200 rounded-2xl shadow-xl p-2';menu.style.top=(r.bottom+8)+'px';menu.style.right='16px';menu.innerHTML=items.map(x=>`<button class="w-full text-left px-3 py-2 rounded-xl text-sm hover:bg-stone-100">${x}</button>`).join('');document.body.appendChild(menu);setTimeout(()=>document.addEventListener('click',()=>menu.remove(),{once:true}),20)}
+    function showNotifications(){document.getElementById('overlay-root').innerHTML=`<div class="fixed inset-0 z-[990] bg-black/20" onclick="this.parentElement.innerHTML=''"><div class="drawer absolute right-0 top-0 h-full w-full max-w-sm bg-white border-l border-stone-200 shadow-2xl p-5" onclick="event.stopPropagation()"><div class="flex justify-between items-center"><h2 class="text-2xl">Notifications</h2><button onclick="document.getElementById('overlay-root').innerHTML=''" class="w-9 h-9 rounded-xl hover:bg-stone-100">×</button></div><div class="mt-6 space-y-3">${notice('Filing deadline','MGT-7 is due in 2 days','High')}${notice('Nova insight','Broad indemnity clause detected','Review')}${notice('Portfolio update','Trademark renewal window opens soon','21 days')}</div></div></div>`}
+    const notice=(a,b,c)=>`<div class="rounded-2xl border border-stone-200 p-4"><div class="flex justify-between"><span class="font-medium text-sm">${a}</span><span class="text-[10px] text-stone-400">${c}</span></div><div class="text-xs text-stone-500 mt-1">${b}</div></div>`;
+    function showModal(title,body,onConfirm,confirmText='Confirm'){document.getElementById('overlay-root').innerHTML=`<div class="fixed inset-0 z-[990] bg-black/35 backdrop-blur-sm flex items-center justify-center p-4" onclick="this.parentElement.innerHTML=''"><div class="modal w-full max-w-lg rounded-3xl bg-white border border-stone-200 shadow-2xl p-6" onclick="event.stopPropagation()"><div class="flex justify-between items-center mb-5"><h2 class="text-2xl">${title}</h2><button onclick="document.getElementById('overlay-root').innerHTML=''" class="w-9 h-9 rounded-xl hover:bg-stone-100">×</button></div>${body}<div class="flex gap-3 mt-6"><button onclick="document.getElementById('overlay-root').innerHTML=''" class="flex-1 rounded-2xl border border-stone-200 py-3 text-sm">Cancel</button><button id="modal-confirm" class="flex-1 rounded-2xl bg-neutral-950 text-white py-3 text-sm">${confirmText}</button></div></div></div>`;document.getElementById('modal-confirm').onclick=()=>{document.getElementById('overlay-root').innerHTML='';if(onConfirm)onConfirm()}}
+    function showToast(message,type='info'){const t=document.createElement('div');t.className='toast rounded-2xl border border-stone-200 bg-white shadow-xl px-4 py-3 text-sm';t.innerHTML=`<i class="fa-solid ${type==='success'?'fa-circle-check text-emerald-600':'fa-circle-info text-indigo-600'} mr-2"></i>${message}`;document.getElementById('toast-root').appendChild(t);setTimeout(()=>t.remove(),3200)}
+    function escapeHtml(s){return s.replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+    document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();document.getElementById('global-search').focus()}if(e.ctrlKey&&e.code==='Space'){e.preventDefault();showCommandCenter()}if(e.key==='Escape'){document.getElementById('overlay-root').innerHTML='';document.getElementById('context-root').innerHTML=''}})
+    document.addEventListener('contextmenu',e=>{e.preventDefault();const root=document.getElementById('context-root');root.innerHTML=`<div class="context-menu fixed z-[1200] w-56 rounded-2xl bg-white border border-stone-200 shadow-2xl p-2" style="left:${Math.min(e.clientX,innerWidth-240)}px;top:${Math.min(e.clientY,innerHeight-180)}px"><button onclick="document.getElementById('context-root').innerHTML='';navigateTo('chat');setTimeout(()=>setPrompt('Help me understand the selected item'),50)" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-stone-100 text-sm text-left"><img src="1.png" class="w-6 h-6 object-contain bg-neutral-950 rounded-lg p-0.5">Ask Nova</button><button onclick="showCommandCenter();document.getElementById('context-root').innerHTML=''" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-stone-100 text-sm text-left"><i class="fa-solid fa-bolt w-6 text-center"></i>Run command</button></div>`})
+    document.addEventListener('click',()=>document.getElementById('context-root').innerHTML='')
+    ;['dragenter','dragover'].forEach(t=>document.addEventListener(t,e=>{e.preventDefault();document.body.classList.add('dragging')}));['dragleave','drop'].forEach(t=>document.addEventListener(t,e=>{e.preventDefault();if(t==='drop'){document.body.classList.remove('dragging');showToast('Documents handed to Nova for indexing','success')}else if(!e.relatedTarget)document.body.classList.remove('dragging')}))
+    document.getElementById('global-search').addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.value.trim()){navigateTo('research');showToast(`Searching for “${e.target.value.trim()}”`,'info')}})
+    function init(){const p=localStorage.getItem('novaPage')||'dashboard';navigateTo(p);setTimeout(()=>{const splash=document.getElementById('splash-screen');splash.style.opacity='0';setTimeout(()=>splash.remove(),500)},900);const tick=()=>document.getElementById('system-time').textContent=new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});tick();setInterval(tick,1000)}
+    init();
+  </script>
+</body>
+</html>

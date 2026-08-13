@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:863726e6c1d556277d55eefe",
+    "sha256": "863726e6c1d556277d55eefef1144ce6d954db8cc8c6d6914ec0e1247cc483e2",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\60805082026BA31232026_174505.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\60805082026BA31232026_174505_863726e6c1d5.pdf",
+    "file_size": 823707,
+    "page_count": 3,
+    "document_type": "judgments",
+    "classification_score": 4,
+    "title": "* IN THE HIGH COURT OF DELHI AT NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi At New Delhi",
+    "case_number": null,
+    "decision_date": "05.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 4653,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 4,
+    "orders": 2,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "$~64\n\n* IN THE HIGH COURT OF DELHI AT NEW DELHI\n\n% Date of Decision: 05.08.2026\n\n# CNR No. DLHC010354592026\n\n+ BAIL APPLN. 3123/2026 & CRL.M.A. 23547/2026\n\nMANOJ RANA .....Petitioner\n\nThrough: Mr. Shannu Baghel, Advocate\n(through video conferencing)\n\nversus\n\nSTATE (NCT OF DELHI) .....Respondent\nThrough: Mr. Sanjeev Sabharwal, APP for State\n(through video conferencing) with SI\nVishwas, SI Bajrang and ASI\nVirender Kumar.\n\nCORAM: JUSTICE GIRISH KATHPALIA\n\nJ U D G M E N T (ORAL)\n\n1. The accused/applicant seeks regular bail in case FIR No. 165/2024 of\n\nPS DBG Road for offence under Section 392/395/307/411/34 IPC.\n\n2. It is appalling to note that three police officials, namely SI Vishwas,\n\nSI Bajrang and ASI Virender Kumar, have appeared claiming themselves to\n\nbe the investigating officers but none of them is prepared with the matter.\n\nEven learned APP expresses anguish that none of these IOs briefed him\n\nabout the matter. Despite repeated directions in numerous judicial orders,\n\nthe investigating officers either do not brief the prosecutor or do not bring\n\nBAIL APPLN. 3123/2026 Page 1 of 3 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec45 GIRISH 569af3962c6fb4835d435f97626cacca,ou=HIGH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d1557\n0996b40f80cbd2eee60402c487965ff801e26fa, KATHPALIA cn=GIRISH KATHPALIASignature Not Verified Date: 2026.08.05 17:20:04 +05'30'\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1559,
+      "final_characters": 1511
+    },
+    {
+      "page_number": 2,
+      "text": "investigation files or, worse, do not appear with preparation. Copies of those\n\norders were also repeatedly sent to the concerned DCPs and the\n\nCommissioner of Police, but to no avail. This is not how issue of liberty of\n\nan individual should be dealt with by the State.\n\n3. It appears from the aforesaid that the investigating agency has no\n\nserious objection to this bail application.\n\n4. Broadly speaking, the prosecution case is that on 09.04.2024, the\n\ncomplainant de facto was shifting cash amount of Rs.25,00,000/- on his\n\nscooty on directions of son of his employer and at about 07:00pm, he was\n\nintercepted by four unknown individuals riding two motorcycles, after\n\nwhich one of them pointed a gun while the other one sprayed something due\n\nto which the complainant de facto was unable to see anything and the said\n\nassailants snatched the money bag and fled away. The role ascribed to the\n\naccused/applicant is that he was one of those four assailants. The TIP of the\n\naccused/applicant was successful.\n\n5. Learned counsel for accused/applicant submits that all public\n\nwitnesses have already been examined in trial and there is no purpose to\n\nkeep the accused/applicant in jail. As regards the TIP, learned counsel for\n\naccused/applicant contends that the same was not carried out in accordance\n\nwith law and in any case, it is not possible to believe that the complainant de\n\nfacto would have been able to clearly see the assailants when according to\n\nBAIL APPLN. 3123/2026 Page 2 of 3 pages\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec\n45569af3962c6fb4835d435f97626cacca, GIRISH ou=HIGH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nSignature Not Verified KATHPALIA serialNumber=d3e86796451ec45c07b5d15570996b40f80cbd2eee60402c487965ff801e26fa, cn=GIRISH KATHPALIA\nDigitally Signed Date: 2026.08.05 17:19:55 +05'30'",
+      "extraction_method": "native",
+      "native_characters": 1955,
+      "final_characters": 1907
+    },
+    {
+      "page_number": 3,
+      "text": "his own complaint, the assailants sprayed some material due to which he\n\ncould not see clearly.\n\n6. Considering the above circumstances, I do not find any reason to\n\ndeprive further liberty to the accused/applicant.\n\n7. Therefore, the bail application is allowed and accused/applicant is\n\ndirected to be released on bail subject to his furnishing a personal bond in\n\nthe sum of Rs.10,000/- with one surety in the like amount to the satisfaction\n\nof the Trial Court.\n\n8. Accompanying application stands disposed of.\n\n9. A copy of this order be immediately transmitted to the concerned Jail\n\nSuperintendent for informing the accused/applicant.\n\n10. Copy of this order be also sent to the Commissioner of Police\n\nthrough Senior Standing Counsel.\n\nDigitally signed by GIRISH KATHPALIA\nDN: c=IN, o=HIGH COURT OF DELHI,\n2.5.4.20=8401dd889b27a77b2f65ffffe4afec45\n569af3962c6fb4835d435f97626cacca, GIRISH ou=HIGH COURT OF DELHI,CID - 7047638,\npostalCode=110003, st=Delhi,\nserialNumber=d3e86796451ec45c07b5d155\n70996b40f80cbd2eee60402c487965ff801e26 KATHPALIA fa, cn=GIRISH KATHPALIA\nDate: 2026.08.05 17:19:44 +05'30'\n\nGIRISH KATHPALIA\n(JUDGE)\nAUGUST 05, 2026/ry\n\nBAIL APPLN. 3123/2026 Page 3 of 3 pages\n\nSignature Not Verified\nDigitally Signed",
+      "extraction_method": "native",
+      "native_characters": 1283,
+      "final_characters": 1235
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:00.345064+00:00"
+}

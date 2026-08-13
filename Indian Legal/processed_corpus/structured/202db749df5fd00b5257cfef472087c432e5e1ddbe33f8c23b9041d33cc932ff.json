@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:202db749df5fd00b5257cfef",
+    "sha256": "202db749df5fd00b5257cfef472087c432e5e1ddbe33f8c23b9041d33cc932ff",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\Transfer_prisoners_act19505B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\Transfer_prisoners_act19505B15D_202db749df5f.pdf",
+    "file_size": 13958,
+    "page_count": 3,
+    "document_type": "acts",
+    "classification_score": 27,
+    "title": "[THE] TRANSFER OF PRISONERS ACT, 1950",
+    "year": 1950,
+    "court": null,
+    "case_number": null,
+    "decision_date": "30-11-1998",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 3604,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 27,
+    "rules": 1,
+    "judgments": 0,
+    "orders": 3,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "[THE] TRANSFER OF PRISONERS ACT, 1950\n( ACT 29 OF 1950)\n[The text of the Act printed here is as on 30-11-1998]\n\nSTATEMENT OF OBJECTS AND REASONS\n\n“Section 29 of the Prisoners Act, 1900, inter alia provides for the inter-State\ntransfer of prisoners between the States in Parts A, C and D of the First\nSchedule to the constitution. There is no provision, however, either in the\nPrisoners Act, 1900, or any other law for the transfer of prisoners from\nprisons in those States to prisons in part B States and vice versa. Cases may\narise where the removal or transfer of prisoners from Parts A, C and D States\nto Part B States and vice versa may be considered administratively desirable\nor necessary. This Bill is intended to provide, legal sanction to such\ntransfers or removals.” Gazette of India., 1950, Pt. V, page 180.\n\n[THE] TRANSFER OF PRISONERS ACT, 1950\n(ACT 29 OF 1950)\n[12th April, 1950]\n\nAn Act to provide for the removal from one State to another of persons\nconfined in a prison.\n\nBe it enacted by Parliament as follows: -\n\n[The] Transfer of Prisoners Act, 1950\n[Ss 1-3] 875\n\nThis Act as in force in the territories to which it generally extends, is\nextended to and shall be in force in, the Kohim district and the Mokochung\ndistruct – See the kohim and Mokokchung districts (Transfer of Prisoners)\nRegulation, 1961 (7 of 1961), s. 3 (16-8-1961).\n\nThe Act now extends to the State of Jammu and Kashmir by virtue of Act 25\n\nof 1968, w.e.f. 15-8-1968.",
+      "extraction_method": "native",
+      "native_characters": 1457,
+      "final_characters": 1457
+    },
+    {
+      "page_number": 2,
+      "text": "It has been extended to the Union territory of Pondicherry by Act 26 of\n\n1968, S. 2 (1-3-1969).\n\nIt has been extended to the Union territory of Goa, Daman and Diu by\nG.S.R. 430, published in Gazette of India, 20-3-1965, Pt. II, S. 3(i), p. 461;\nand to the Union territory of Dadra and Nagar Haveli by Regn. 6 of 1913.\n\nIt has been extended to Sikkim – See S.O. 208(E)/1975-Gaz. Of Ind., 16-5-\n1975, Pt. II, S. 3(ii), Ext., p. 1213.\n\n1. Short title and extent. – (1) This Act may be called the Transfer\nof prisoners Act, 1950.\n2. It extends to the whole of India a[* * * * ]\n[a] Words except the State of Jammu and Kashmir omitted by the Central\nLaws (Extension to Jammu and Kashmir) Act, 1968 (25 of 1968), S. 2\n(15-8-1968).\n\n2. Definitions. – In this Act, -\n(a) “court” includes any officer lawfully exercising civil, criminal or\nrevenue jurisdiction;\n[(b) “Government” or “State Government”, in relation to a Union\nterritory, means the administrator thereof;]\n[a] Substituted for former clause by 3 A.L.O., 1956 (1-11-1956).\n(c) “prison” includes any place which has been declared by a State\nGovernment, by general or special order, to be a subsidiary jail.\n\n3. Removal of prisoners from one State to another. - (1) where any\nperson is confined in a prison in a State, -\n(a) under sentence of death, or\n(b) under or in lieu of a sentence of imprisonment or transportation, or\n(c) in default of payment of a fine, or\n\n(d) in default of giving security for keeping the peace or for maintaining\ngood behaviour;\nthe Government of that State may, with the consent of the Government of\nany other State, by order, provide for the removal of the prisoner from\nthat prison to any prison in the other State.",
+      "extraction_method": "native",
+      "native_characters": 1699,
+      "final_characters": 1699
+    },
+    {
+      "page_number": 3,
+      "text": "(2) The officer in charge of the prison to which any person is removed\nunder sub-section (1) shall receive and detain him, so far as may be,\naccording to the exigency of any writ, warrant or order of the court by\nwhich such person has been committed, or until such person is\ndischarged or removed in due course of law.\n\n4. Amendment of section 29 of Act III of 1900.-[ Repealed by the\nRepealing and Amending Act, 1957), S.2 and Sch. I ( 17-9-1957)]",
+      "extraction_method": "native",
+      "native_characters": 448,
+      "final_characters": 448
+    }
+  ],
+  "processed_at": "2026-08-06T07:35:19.037389+00:00"
+}

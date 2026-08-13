@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:31c4c877651a7a646ec354f0",
+    "sha256": "31c4c877651a7a646ec354f0993a9ba7c3bad686e01d6242dc30447817f304d8",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\RRU_201120205B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\RRU_201120205B15D_31c4c877651a.pdf",
+    "file_size": 721786,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 8,
+    "title": "File No, 23011/93/2020-BPR&D",
+    "year": 2020,
+    "court": null,
+    "case_number": null,
+    "decision_date": "17.11.2020",
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 2846,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 8,
+    "rules": 6,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "File No, 23011/93/2020-BPR&D\nGovernment of India\nMinistry of Home Afffairs\nIS-I Divn. BPR&D\nKKKAKK\n\nHall No. 23, MDCNS, New Delhi\nDated: 17.11.2020\n\n; FFICE ME M\nSubject: Uploading of Appointment of Vice Chancellor in Rashtriya Raksha University in the\n\nwebsite of MHA — reg.\n\nThe undersigned is directed to forward herewith a copy of the Gazette Notification for\nappointment of Vice Chancellor, Rashtriya Raksha University for publication of the same in the\nwebsite of the Ministry of Home Affairs under the content “Internal Security Division Acts”\nunder “Acts and Rules”.\n\n2 The soft copy of the same has also been mailed to email ID ‘soit@nic.in’\nUae\n(N.K. Sahoo)\nUnder Secretary (BPR&D)\n011-23070285\nTo\nDirector NIC, 5)\nMHA, North Block O} s\nNew Delhi-110001",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 763
+    },
+    {
+      "page_number": 2,
+      "text": "682 THE GAZETTE OF INDIA, OCTOBER 10, 2020 (ASVINA 18, 1942) [PART I—SEC. 2\nName of the Officers (S/Shri) Date of Confirmation\nva Yashwant Singh 03.08.2018\n3, Ajay Singh 21.06.2019\nA. K. SARAN, Director (Police)\nNew Delhi, the Ist October 2020\nNo. 2301 1/20/2020-WS-II—In exercise of the powers conferred by sub-section (a) of section 55 of the National\nForensic Sciences University Act, 2020 (32 of 2020), the Central Government appoints Dr. Jayantkumar Maganlal Vyas as\nthe Vice-Chancellor of the National Forensic Sciences University from the date of commencement of the said Act.\nPUNYA SALILA SRIVASTAVA, Joint Secretary\nNo. 23011/93/2020-BPR&D—In exercise of the powers conferred by sub-section (2) of section 52 of the Rashtriya\nRaksha University Act, 2020 (31 of 2020) the Central Government appoints Dr. Bimal Patel, as the Vice Chancellor of the\nRashtriya Raksha University from the date of commencement of the said Act, until further orders.\nPUNYA SALILA SRIVASTAVA, Joint Secretary\nNew Delhi-01, the 23th September 2020\nNo. 1-1801 1/09/2020-IPS.IV—In exercise of powers conferred by Rule-3A of Indian Police Service (Probation) Rules, 1954,\nthe President of India is pleased to confirm Shri A Koan, IPS (AGMUT:2009) in the Indian Police Service with effect from\n2112201\nANJAN SARKAR, Under Secretary\nNew Delhi, the 28th September 2020\nNo. 1-14011/05/2020-IPS.1 (1)—In exercise of the provisions contained in sub-regulation (3) of Regulation 7 of the\nIndian Police Service (Appointment by Promotion) Regulations, 1955, the Union Public Service Commission, on 28.09.2020\nhas approved the Select List of the year 2019 prepared by the Selection Committee in its meeting held on 10.09.2020,\ncontaining the name of the following State Police Service Officers of Madhya Pradesh towards filling up of 08 substantive\nvacancies in the Madhya Pradesh Cadre of Indian Police Service :—\nSelect List 2019\nS.No. Name(S/Shri) Date of Birth\nA. Yashpal Singh Rajput 01.06.1969\nDharmvir Singh 01.01.1970\nArvind Tiwari 28.06.1970\n8. Rajeev Kumar Mishra 21.07.1970\nRAVI NIRMAL, Under Secretary",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 2083
+    }
+  ],
+  "processed_at": "2026-08-06T07:24:08.674222+00:00"
+}

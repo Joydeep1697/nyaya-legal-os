@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Legal OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap');
+        
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .nova-card { background: #11161f; border: 1px solid #334155; }
+        .sidebar-item { transition: all 0.1s ease; }
+        .sidebar-item:hover { background-color: #1e2937; }
+        .sidebar-item.active { background-color: #1e40af; color: white; }
+        .workspace-tab { transition: all 0.1s ease; }
+        .workspace-tab.active { background: #1e2937; border-bottom: 2px solid #3b82f6; }
+        .status-bar { background: #0f172a; border-top: 1px solid #334155; }
+        .section-header { font-size: 10px; font-weight: 600; letter-spacing: 0.5px; color: #64748b; }
+
+        .left-sidebar {
+            width:256px;
+            transition:width .22s cubic-bezier(.4,0,.2,1);
+            overflow:hidden;
+            flex-shrink:0;
+        }
+        .left-sidebar.sidebar-collapsed{
+            width:72px;
+        }
+        .left-sidebar .sidebar-item{
+            display:flex;
+            align-items:center;
+            gap:12px;
+            transition:padding .22s ease, gap .22s ease, background .15s ease;
+        }
+        .left-sidebar.sidebar-collapsed .sidebar-item{
+            justify-content:center;
+            gap:0;
+            padding-left:0;
+            padding-right:0;
+        }
+        .left-sidebar .sidebar-label{
+            opacity:1;
+            transition:opacity .15s ease;
+            white-space:nowrap;
+        }
+        .left-sidebar.sidebar-collapsed .sidebar-label{
+            opacity:0;
+            width:0;
+            overflow:hidden;
+            pointer-events:none;
+        }
+        .left-sidebar .section-header{
+            opacity:1;
+            transition:opacity .15s ease;
+        }
+        .left-sidebar.sidebar-collapsed .section-header{
+            opacity:0;
+            height:0;
+            margin:0;
+            overflow:hidden;
+        }
+        .left-sidebar.sidebar-collapsed button{
+            justify-content:center;
+        }
+
+        .sidebar-item{
+            position:relative;
+        }
+        .sidebar-item::after{
+            content:attr(data-tooltip);
+            position:absolute;
+            left:78px;
+            background:#11161f;
+            color:white;
+            border:1px solid #334155;
+            padding:6px 10px;
+            border-radius:8px;
+            white-space:nowrap;
+            font-size:12px;
+            opacity:0;
+            pointer-events:none;
+            transition:.15s;
+            z-index:999;
+        }
+        .left-sidebar.sidebar-collapsed .sidebar-item:hover::after{
+            opacity:1;
+        }
+    </style>
+</head>
+<body class="bg-[#0a0f1a] text-white overflow-hidden">
+    <div class="flex flex-col h-screen">
+        
+        <!-- TOP NAV -->
+        <div class="h-14 border-b border-slate-700 bg-[#0f172a] flex items-center px-4 justify-between">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-3">
+                    <img src="uploads/1.png" alt="NOVA" class="h-9 w-auto">
+                    <div>
+                        <div class="font-semibold text-xl tracking-tight">Legal</div>
+                        <div class="text-[10px] text-slate-400 -mt-1">Enterprise Legal Intelligence Platform</div>
+                    </div>
+                </div>
+                
+                <div class="ml-8 w-96">
+                    <div class="relative">
+                        <input type="text" placeholder="Search everything..." 
+                               class="w-full bg-[#11161f] border border-slate-700 rounded-xl px-4 py-2 text-sm focus:outline-none focus:border-blue-600">
+                        <div class="absolute right-3 top-2 text-[10px] px-1.5 py-0.5 bg-slate-700 rounded text-slate-400">Ctrl K</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-3">
+                <div onclick="showWorkspaceDropdown()" class="px-3 py-1.5 text-xs bg-[#11161f] border border-slate-700 rounded-lg flex items-center gap-2 cursor-pointer">
+                    <span>Workspace</span>
+                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                </div>
+                
+                <button onclick="showNotifications()" class="p-2 hover:bg-[#11161f] rounded-lg relative">
+                    <i class="fa-solid fa-bell"></i>
+                    <div class="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></div>
+                </button>
+                
+                <div onclick="showProfileMenu()" class="flex items-center gap-2 px-2 py-1 hover:bg-[#11161f] rounded-lg cursor-pointer">
+                    <div class="w-7 h-7 bg-blue-600 rounded-full flex items-center justify-center text-xs font-medium">U</div>
+                    <div class="text-sm">User</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex flex-1 overflow-hidden">
+            
+            <!-- LEFT SIDEBAR -->
+            <div id="left-sidebar" class="left-sidebar border-r border-slate-700 bg-[#0f172a] flex flex-col panel">
+                <div class="p-4 flex-1 overflow-auto">
+                    <div class="mb-4">
+                        <div class="section-header px-3 mb-2">WORKSPACE</div>
+                        <div class="space-y-1 text-sm">
+                            <div class="sidebar-item active flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="Dashboard">
+                                <i class="fa-solid fa-home w-4"></i><span class="sidebar-label">Dashboard</span>
+                            </div>
+                            <div onclick="showProjectsView()" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="Projects">
+                                <i class="fa-solid fa-folder w-4"></i><span class="sidebar-label">Projects</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="Files">
+                                <i class="fa-solid fa-file w-4"></i><span class="sidebar-label">Files</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="AI Chat">
+                                <i class="fa-solid fa-comments w-4"></i><span class="sidebar-label">AI Chat</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="Legal Research">
+                                <i class="fa-solid fa-search w-4"></i><span class="sidebar-label">Legal Research</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="Contracts">
+                                <i class="fa-solid fa-file-contract w-4"></i><span class="sidebar-label">Contracts</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="Compliance">
+                                <i class="fa-solid fa-shield-alt w-4"></i><span class="sidebar-label">Compliance</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer" data-tooltip="Business Navigator">
+                                <i class="fa-solid fa-road w-4"></i><span class="sidebar-label">Business Navigator</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="section-header px-3 mb-2">TOOLS</div>
+                        <div class="space-y-1 text-sm">
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-project-diagram w-4"></i><span class="sidebar-label">Knowledge Graph</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-chart-bar w-4"></i><span class="sidebar-label">Reports</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-file-alt w-4"></i><span class="sidebar-label">Templates</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-download w-4"></i><span class="sidebar-label">Downloads</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="section-header px-3 mb-2">SYSTEM</div>
+                        <div class="space-y-1 text-sm">
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-calendar w-4"></i><span class="sidebar-label">Calendar</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-bell w-4"></i><span class="sidebar-label">Notifications</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-cog w-4"></i><span class="sidebar-label">Settings</span>
+                            </div>
+                            <div class="sidebar-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer">
+                                <i class="fa-solid fa-question-circle w-4"></i><span class="sidebar-label">Help</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="p-3 border-t border-slate-700">
+                    <button onclick="toggleSidebar()" class="w-full text-xs py-2 hover:bg-[#1e2937] rounded-lg flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-chevron-left" id="collapse-icon"></i>
+                        <span id="collapse-text">Collapse</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- MAIN CONTENT -->
+            <div class="flex-1 flex flex-col overflow-hidden">
+                
+                <!-- Header -->
+                <div class="px-6 pt-5 pb-3 border-b border-slate-700">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-2xl font-semibold tracking-tight">Dashboard</div>
+                            <div class="text-xs text-slate-400">Workspace Overview • January 28, 2026</div>
+                        </div>
+                        <div class="px-3 py-1 text-xs bg-emerald-900/30 text-emerald-400 rounded">Workspace Active</div>
+                    </div>
+                </div>
+                
+                <!-- Toolbar -->
+                <div class="px-6 py-3 border-b border-slate-700 flex items-center justify-between text-sm">
+                    <div class="flex items-center gap-2">
+                        <button class="px-4 py-1.5 text-xs bg-[#11161f] hover:bg-[#1e2937] border border-slate-700 rounded-lg">Search</button>
+                        <button class="px-4 py-1.5 text-xs bg-[#11161f] hover:bg-[#1e2937] border border-slate-700 rounded-lg">Filter</button>
+                        <button class="px-4 py-1.5 text-xs bg-[#11161f] hover:bg-[#1e2937] border border-slate-700 rounded-lg">Sort</button>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <button class="px-4 py-1.5 text-xs bg-[#11161f] hover:bg-[#1e2937] border border-slate-700 rounded-lg">Refresh</button>
+                        <button class="px-4 py-1.5 text-xs bg-[#11161f] hover:bg-[#1e2937] border border-slate-700 rounded-lg">Export</button>
+                    </div>
+                </div>
+                
+                <!-- Dashboard -->
+                <div class="flex-1 p-6 overflow-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        
+                        <div class="nova-card p-5 rounded-2xl">
+                            <div class="font-semibold mb-4 flex justify-between">
+                                <span>Recent Projects</span>
+                                <span class="text-xs text-blue-400 cursor-pointer">View All</span>
+                            </div>
+                            <div class="space-y-3 text-sm">
+                                <div>Singapore Expansion</div>
+                                <div>Trademark Registration</div>
+                                <div>AI Startup Compliance</div>
+                            </div>
+                        </div>
+                        
+                        <div class="nova-card p-5 rounded-2xl">
+                            <div class="font-semibold mb-4">Recent Files</div>
+                            <div class="space-y-3 text-sm">
+                                <div>Master Services Agreement.pdf</div>
+                                <div>Employment Agreement.docx</div>
+                            </div>
+                        </div>
+                        
+                        <div class="nova-card p-5 rounded-2xl">
+                            <div class="font-semibold mb-4">Compliance Alerts</div>
+                            <div class="text-amber-400 text-sm">2 high priority items</div>
+                            <div class="mt-3 text-xs">• MGT-7 due in 11 days</div>
+                        </div>
+                        
+                        <div class="nova-card p-5 rounded-2xl">
+                            <div class="font-semibold mb-4">Upcoming Deadlines</div>
+                            <div class="space-y-2 text-xs">
+                                <div>Feb 12 • MGT-7 Filing</div>
+                                <div>Mar 31 • DPDP Report</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- Bottom Tabs -->
+                <div class="h-12 border-t border-slate-700 bg-[#0f172a] px-4 flex items-center gap-1 text-sm">
+                    <div class="workspace-tab active px-4 py-1.5 bg-[#1e2937] rounded-t-lg flex items-center gap-2 cursor-pointer">
+                        <span>Dashboard</span>
+                    </div>
+                    <div class="workspace-tab px-4 py-1.5 hover:bg-[#1e2937] rounded-t-lg flex items-center gap-2 cursor-pointer">
+                        <span>Contract Analysis</span>
+                        <i class="fa-solid fa-times text-xs ml-1"></i>
+                    </div>
+                    <div class="workspace-tab px-4 py-1.5 hover:bg-[#1e2937] rounded-t-lg flex items-center gap-2 cursor-pointer">
+                        <span>India Research</span>
+                        <i class="fa-solid fa-times text-xs ml-1"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- RIGHT AI SIDEBAR -->
+            <div class="w-80 border-l border-slate-700 bg-[#0f172a] flex flex-col">
+                <div class="p-4 border-b border-slate-700">
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                            <span class="font-bold text-sm">N</span>
+                        </div>
+                        <div>
+                            <div class="font-semibold">Nova</div>
+                            <div class="text-xs text-emerald-400">Online</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="p-4 flex-1 overflow-auto text-sm space-y-6">
+                    <div>
+                        <div class="text-xs font-medium text-slate-400 mb-2">TODAY</div>
+                        <div class="text-xs">3 AI conversations • 2 reports generated</div>
+                    </div>
+                    
+                    <div>
+                        <div class="text-xs font-medium text-slate-400 mb-2">SUGGESTED ACTIONS</div>
+                        <div class="space-y-2 text-xs">
+                            <div class="p-2 bg-[#11161f] rounded cursor-pointer">Analyze Contract</div>
+                            <div class="p-2 bg-[#11161f] rounded cursor-pointer">Compare Jurisdictions</div>
+                            <div class="p-2 bg-[#11161f] rounded cursor-pointer">Generate Compliance Report</div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="text-xs font-medium text-slate-400 mb-2">PINNED</div>
+                        <div class="text-xs text-slate-400">No pinned items yet</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- STATUS BAR -->
+        <div class="status-bar h-7 px-4 flex items-center text-xs text-slate-400 justify-between">
+            <div class="flex items-center gap-5">
+                <div onclick="showStatusPanel('connection')" class="flex items-center gap-2 cursor-pointer"><div class="w-2 h-2 bg-emerald-400 rounded-full"></div> Connected</div>
+                <div onclick="showStatusPanel('ai')" class="cursor-pointer">AI Ready</div>
+                <div onclick="showStatusPanel('jobs')" class="cursor-pointer">Background Jobs: 3</div>
+                <div onclick="showStatusPanel('index')" class="cursor-pointer">Search Index: Up to date</div>
+            </div>
+            <div onclick="showStatusPanel('version')" class="cursor-pointer">Nova Legal OS v1.0.0</div>
+        </div>
+    </div>
+
+    <script>
+        let sidebarCollapsed = false;
+        
+        function toggleSidebar(){
+            const sidebar=document.getElementById("left-sidebar");
+            const icon=document.getElementById("collapse-icon");
+            const text=document.getElementById("collapse-text");
+            sidebarCollapsed=!sidebarCollapsed;
+            sidebar.classList.toggle("sidebar-collapsed", sidebarCollapsed);
+            if(sidebarCollapsed){
+                icon.classList.replace("fa-chevron-left","fa-chevron-right");
+                text.style.display="none";
+            }else{
+                icon.classList.replace("fa-chevron-right","fa-chevron-left");
+                text.style.display="inline";
+            }
+        }
+        
+        function showWorkspaceDropdown() {
+            const menu = document.createElement('div');
+            menu.className = 'fixed bg-[#11161f] border border-slate-700 rounded-xl shadow-xl p-2 text-sm z-50';
+            menu.style.top = '56px';
+            menu.style.right = '180px';
+            menu.innerHTML = `
+                <div class="px-4 py-2 hover:bg-[#1e2937] rounded-lg cursor-pointer">Personal Workspace</div>
+                <div class="px-4 py-2 hover:bg-[#1e2937] rounded-lg cursor-pointer">Client Workspace</div>
+                <div class="border-t border-slate-700 my-1"></div>
+                <div class="px-4 py-2 hover:bg-[#1e2937] rounded-lg cursor-pointer text-blue-400">Create New Workspace</div>
+            `;
+            document.body.appendChild(menu);
+            setTimeout(() => document.addEventListener('click', () => menu.remove(), {once:true}), 100);
+        }
+        
+        function showNotifications() {
+            const panel = document.createElement('div');
+            panel.className = 'fixed right-0 top-0 h-full w-80 bg-[#0f172a] border-l border-slate-700 shadow-2xl z-50 p-4';
+            panel.innerHTML = `
+                <div class="font-semibold mb-4">Notifications</div>
+                <div class="space-y-3 text-sm">
+                    <div class="p-3 bg-[#11161f] rounded">Research completed</div>
+                    <div class="p-3 bg-[#11161f] rounded">Contract analysis finished</div>
+                    <div class="p-3 bg-[#11161f] rounded">New compliance update</div>
+                </div>
+            `;
+            document.body.appendChild(panel);
+            panel.onclick = (e) => { if (e.target === panel) panel.remove(); };
+        }
+        
+        function showProfileMenu() {
+            const menu = document.createElement('div');
+            menu.className = 'fixed bg-[#11161f] border border-slate-700 rounded-xl shadow-xl p-2 text-sm z-50';
+            menu.style.top = '56px';
+            menu.style.right = '20px';
+            menu.innerHTML = `
+                <div class="px-4 py-2 hover:bg-[#1e2937] rounded-lg cursor-pointer">Profile</div>
+                <div class="px-4 py-2 hover:bg-[#1e2937] rounded-lg cursor-pointer">Workspace</div>
+                <div class="px-4 py-2 hover:bg-[#1e2937] rounded-lg cursor-pointer">Preferences</div>
+                <div class="border-t border-slate-700 my-1"></div>
+                <div class="px-4 py-2 hover:bg-[#1e2937] rounded-lg cursor-pointer text-red-400">Sign Out</div>
+            `;
+            document.body.appendChild(menu);
+            setTimeout(() => document.addEventListener('click', () => menu.remove(), {once:true}), 100);
+        }
+        
+        function showStatusPanel(type) {
+            alert(type.charAt(0).toUpperCase() + type.slice(1) + " Status Panel");
+        }
+
+        // ==================== PROJECT MANAGEMENT SYSTEM ====================
+
+        let projects = JSON.parse(localStorage.getItem('nova_projects') || '[]');
+
+        function saveProjects() {
+            localStorage.setItem('nova_projects', JSON.stringify(projects));
+        }
+
+        function showProjectsView() {
+            const mainContent = document.querySelector('.flex-1.flex-col.overflow-hidden');
+            if (!mainContent) return;
+
+            mainContent.innerHTML = `
+                <div class="px-6 pt-5 pb-3 border-b border-slate-700">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-2xl font-semibold tracking-tight">Projects</div>
+                            <div class="text-xs text-slate-400">Manage all your legal work</div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <button onclick="showCreateProjectModal()" class="px-5 py-2 text-sm bg-blue-600 hover:bg-blue-700 rounded-xl flex items-center gap-2">
+                                <i class="fa-solid fa-plus"></i>
+                                <span>New Project</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-6">
+                        <input type="text" id="project-search" placeholder="Search projects..." 
+                               class="flex-1 bg-[#11161f] border border-slate-700 rounded-xl px-4 py-2 text-sm"
+                               oninput="filterProjects()">
+                        
+                        <select id="project-filter-status" class="bg-[#11161f] border border-slate-700 rounded-xl px-4 py-2 text-sm" onchange="filterProjects()">
+                            <option value="">All Status</option>
+                            <option value="Planning">Planning</option>
+                            <option value="Active">Active</option>
+                            <option value="Waiting">Waiting</option>
+                            <option value="Completed">Completed</option>
+                        </select>
+                        
+                        <select id="project-filter-type" class="bg-[#11161f] border border-slate-700 rounded-xl px-4 py-2 text-sm" onchange="filterProjects()">
+                            <option value="">All Types</option>
+                            <option>Business Formation</option>
+                            <option>Corporate</option>
+                            <option>Employment</option>
+                            <option>Compliance</option>
+                            <option>Trademark</option>
+                        </select>
+                    </div>
+
+                    <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>
+                </div>
+            `;
+
+            renderProjects();
+        }
+
+        function renderProjects(filteredProjects = null) {
+            const container = document.getElementById('projects-grid');
+            if (!container) return;
+
+            let toShow = filteredProjects || projects;
+
+            if (toShow.length === 0) {
+                container.innerHTML = `
+                    <div class="col-span-full nova-card p-12 text-center rounded-2xl">
+                        <div class="text-6xl mb-4 opacity-30">📁</div>
+                        <div class="font-semibold text-xl mb-2">No Projects Yet</div>
+                        <div class="text-slate-400 mb-6">Create your first project to organize legal work</div>
+                        <button onclick="showCreateProjectModal()" class="px-6 py-2.5 bg-blue-600 rounded-xl">Create Project</button>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = toShow.map(project => `
+                <div onclick="openProjectDetail('${project.id}')" class="nova-card p-5 rounded-2xl cursor-pointer hover:border-blue-600/40">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <div class="font-semibold">${project.name}</div>
+                            <div class="text-xs text-slate-400">${project.type}</div>
+                        </div>
+                        <div class="px-3 py-0.5 text-xs rounded-full ${getStatusColor(project.status)}">${project.status}</div>
+                    </div>
+                    
+                    <div class="text-sm text-slate-300 mb-4 line-clamp-2">${project.description || 'No description'}</div>
+                    
+                    <div class="flex justify-between items-center text-xs">
+                        <div class="text-slate-400">${project.jurisdiction || 'Global'}</div>
+                        <div class="text-emerald-400">${project.progress || 0}%</div>
+                    </div>
+                    
+                    <div class="mt-3 h-1.5 bg-white/10 rounded-full">
+                        <div class="h-1.5 bg-emerald-500 rounded-full" style="width: ${project.progress || 0}%"></div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function getStatusColor(status) {
+            if (status === 'Active') return 'bg-emerald-900/30 text-emerald-400';
+            if (status === 'Planning') return 'bg-blue-900/30 text-blue-400';
+            if (status === 'Waiting') return 'bg-amber-900/30 text-amber-400';
+            if (status === 'Completed') return 'bg-gray-700 text-gray-300';
+            return 'bg-slate-700 text-slate-300';
+        }
+
+        function filterProjects() {
+            const search = document.getElementById('project-search').value.toLowerCase();
+            const status = document.getElementById('project-filter-status').value;
+            const type = document.getElementById('project-filter-type').value;
+
+            const filtered = projects.filter(p => {
+                const matchesSearch = p.name.toLowerCase().includes(search) || 
+                                     (p.description && p.description.toLowerCase().includes(search));
+                const matchesStatus = !status || p.status === status;
+                const matchesType = !type || p.type === type;
+                return matchesSearch && matchesStatus && matchesType;
+            });
+
+            renderProjects(filtered);
+        }
+
+        function showCreateProjectModal() {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black/60 flex items-center justify-center z-[999]';
+            modal.innerHTML = `
+                <div class="nova-card w-full max-w-lg mx-4 p-7 rounded-3xl">
+                    <div class="font-semibold text-xl mb-6">Create New Project</div>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <label class="text-xs text-slate-400">Project Name</label>
+                            <input id="proj-name" class="w-full mt-1 bg-[#0f172a] border border-slate-700 rounded-xl px-4 py-3 text-sm" placeholder="Singapore Expansion">
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="text-xs text-slate-400">Type</label>
+                                <select id="proj-type" class="w-full mt-1 bg-[#0f172a] border border-slate-700 rounded-xl px-4 py-3 text-sm">
+                                    <option>Business Formation</option>
+                                    <option>Corporate</option>
+                                    <option>Employment</option>
+                                    <option>Compliance</option>
+                                    <option>Trademark</option>
+                                    <option>Patent</option>
+                                    <option>Privacy</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="text-xs text-slate-400">Jurisdiction</label>
+                                <input id="proj-jurisdiction" class="w-full mt-1 bg-[#0f172a] border border-slate-700 rounded-xl px-4 py-3 text-sm" placeholder="Singapore">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="text-xs text-slate-400">Description</label>
+                            <textarea id="proj-desc" class="w-full mt-1 bg-[#0f172a] border border-slate-700 rounded-xl px-4 py-3 text-sm" rows="3" placeholder="Brief description..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-3 mt-8">
+                        <button onclick="createProject(this)" class="flex-1 py-3 bg-blue-600 rounded-2xl font-medium">Create Project</button>
+                        <button onclick="this.closest('.fixed').remove()" class="flex-1 py-3 bg-white/5 rounded-2xl">Cancel</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        function createProject(btn) {
+            const modal = btn.closest('.fixed');
+            
+            const project = {
+                id: Date.now().toString(36),
+                name: document.getElementById('proj-name').value || 'Untitled Project',
+                type: document.getElementById('proj-type').value,
+                jurisdiction: document.getElementById('proj-jurisdiction').value,
+                description: document.getElementById('proj-desc').value,
+                status: 'Planning',
+                progress: 0,
+                created: new Date().toISOString(),
+                lastActivity: new Date().toISOString()
+            };
+            
+            projects.unshift(project);
+            saveProjects();
+            modal.remove();
+            showProjectsView();
+        }
+
+        function openProjectDetail(projectId) {
+            const project = projects.find(p => p.id === projectId);
+            if (!project) return;
+
+            const mainContent = document.querySelector('.flex-1.flex-col.overflow-hidden');
+            if (!mainContent) return;
+
+            mainContent.innerHTML = `
+                <div class="px-6 pt-5 pb-3 border-b border-slate-700 flex items-center justify-between">
+                    <div>
+                        <div class="flex items-center gap-3">
+                            <button onclick="showProjectsView()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-arrow-left"></i></button>
+                            <div>
+                                <div class="font-semibold text-xl">${project.name}</div>
+                                <div class="text-xs text-slate-400">${project.type} • ${project.jurisdiction}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4 py-1 text-xs rounded-full ${getStatusColor(project.status)}">${project.status}</div>
+                </div>
+                
+                <div class="p-6">
+                    <div class="font-semibold mb-4">Project Overview</div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="nova-card p-5 rounded-2xl">
+                            <div class="text-xs text-slate-400">Progress</div>
+                            <div class="text-4xl font-semibold mt-1">${project.progress || 0}<span class="text-lg">%</span></div>
+                        </div>
+                        <div class="nova-card p-5 rounded-2xl">
+                            <div class="text-xs text-slate-400">Last Activity</div>
+                            <div class="mt-1">${new Date(project.lastActivity).toLocaleDateString()}</div>
+                        </div>
+                        <div class="nova-card p-5 rounded-2xl">
+                            <div class="text-xs text-slate-400">Created</div>
+                            <div class="mt-1">${new Date(project.created).toLocaleDateString()}</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 nova-card p-5 rounded-2xl">
+                        <div class="font-medium mb-2">Description</div>
+                        <div class="text-sm text-slate-300">${project.description || 'No description provided.'}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Load projects on startup
+        window.addEventListener('load', () => {
+            if (projects.length === 0) {
+                // Add sample projects for demo
+                projects = [
+                    { id: 'p1', name: 'Singapore Expansion', type: 'Business Formation', jurisdiction: 'Singapore', status: 'Active', progress: 65, created: '2026-01-10', lastActivity: '2026-01-28' },
+                    { id: 'p2', name: 'Trademark Registration', type: 'Trademark', jurisdiction: 'India', status: 'Planning', progress: 20, created: '2026-01-15', lastActivity: '2026-01-25' }
+                ];
+                saveProjects();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:bd5927f4ccf9e6e37ad259de",
+    "sha256": "bd5927f4ccf9e6e37ad259de4bd1adde41dbb8c25b13f2510a5d44f7cc6be0fa",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\62exam.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\examinations\\62exam_bd5927f4ccf9.pdf",
+    "file_size": 1069446,
+    "page_count": 1,
+    "document_type": "examinations",
+    "classification_score": 4,
+    "title": "HIGH COURT OF DELHI : NEW DELHI",
+    "year": 2025,
+    "court": "High Court Of Delhi",
+    "case_number": null,
+    "decision_date": "08.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 794,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 4,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "HIGH COURT OF DELHI : NEW DELHI\n(Examination Branch-Non Judicial) ·\n\nNo.&VExams-NJ/EC-3/DHC\nDate: ll> --0':f- ·2.Pl.b\nNOTICE\n\nIt is notified for information of all concerned that Skill Tests in respect of Chauffeur\n(Open) Examination-2025 will be held as per the following schedule:\n\nStage Date(s) of Skill Tests City\nStage-II : Skill Tests (Driving Test 08.08.2026 and 09.08.2026 New Delhi\non Simulator and on Road in Real\nTraffic Conditions)\n\nIt is further notified that the details of reporting time, time & place of Test and\ninstructions to candidates, etc. will be as per the Admit Card and the link for downloading the\nAdmit Cards for the aforementioned exams will be available on the website of this Court from\n· 05.08.2026 onwards.\n.\n~,~~\n(Dalip Kumar Bajaj)\nDeputy Registrar (Exams-NJ)",
+      "extraction_method": "native",
+      "native_characters": 794,
+      "final_characters": 794
+    }
+  ],
+  "processed_at": "2026-08-06T07:08:00.700726+00:00"
+}

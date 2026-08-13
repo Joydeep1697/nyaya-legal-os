@@ -1,0 +1,65 @@
+{
+  "document": {
+    "document_id": "legal:86c5cb7960f30fcc35260cd6",
+    "sha256": "86c5cb7960f30fcc35260cd609765c740b5172c41eeb8adb25c518abb0cb5565",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\ReligiousInstitutionsAct19885B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\ReligiousInstitutionsAct19885B15D_86c5cb7960f3.pdf",
+    "file_size": 36836,
+    "page_count": 4,
+    "document_type": "acts",
+    "classification_score": 22,
+    "title": "jftLVªh la‚ Mh ¼Mh,u½ 127@88 REGISTERED NO. D(DN) 127/88",
+    "year": 1988,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 4,
+    "extracted_characters": 8524,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 22,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 5,
+    "notifications": 5,
+    "circulars": 0,
+    "recruitment": 1,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "jftLVªh la‚ Mh ¼Mh,u½ 127@88 REGISTERED NO. D(DN) 127/88\n\nlR;esolR;esolR;esolR;esolR;eso t;rst;rst;rst;rst;rs Hkkjr dk jkti=k\nThe Gazette of India\nvlk/kkj.k\nEXTRAORDINARY\nHkkx II&&&[k.M I\nPART II --Section 1\nizkf/kdkj ls izdkf’kr\nPUBLISHED BY AUTHORITY\n\nla‚ 57] ubZ fnYyh] 'kqÛokj] flrEcj] 2] 1988@Hkknz 11] 1910\nNo. 57] NEW DELHI, FRIDAY, SEPTEMBER 2, 1988/BHADRA 11, 1910\n\nbl Hkkx esa fHkUUk i`\"V la[;k nh tkrh gS ftlls fd ;g vyx ladyu ds :i esa j[kk tk ldsA\nSeparate paging is given to this Part in order that it may be filed\nas a separate compilation.\n\nMINISTRY OF LAW AND JUSTICE\n(Legislative Department)\nNew Delhi, the 2nd September, 1988/Bhadra 11, 1910 (Saka)\n\nThe following Act of Parliament received the assent of the President\non the 1st September, 1988, and is hereby published for general information :-\nTHE RELIGIOUS INSTITUTIONS (PREVENTION OF\nMISUSE) ACT, 1988\nNo. 41 OF 1988\n[1st September, 1988.]\nAn Act to prevent the misuse of religious institutions for political and\nother purposes.\nBE it enacted by Parliament in the Thirty-ninth Year of the Republic of India as follows:- Short\n1. (1) This Act may be called the Religious Institutions (Prevention title,\nof Misuse) Act, 1988. extent\nand com- (2) It extends to the whole of India except the State of Jammu and mence- Kashmir. ment.\n(3) It shall be deemed to have come into force on the 26th day of\nMay, 1988.\nDefini- 2. In this Act, unless the context otherwise requires,tions.\n54 of 1959. (a) “ammunition” shall have the same meaning as in clause (b)\nof sub-section (1) of section 2 of the Arms Act, 1959.",
+      "extraction_method": "native",
+      "native_characters": 1584,
+      "final_characters": 1578
+    },
+    {
+      "page_number": 2,
+      "text": "2. THE CAZETTE OF INDIA EXTRAORDINARY [PART II-\n\n(b) “arms “ shall have the same meaning as in clause (c)\nof sub-section (1) of section 2 of the Arms Act, 1959. 54 of 1959\n(c) “manager”, in relation to a religoius institution, means every\nperson, including any religious functionary (by whatever name\ncalled), Who, for the time being, either alone or in association with\nother persons, administers, managers or otherwise controls the affairs\nof that institution, its functions or properties.\n(d) “political activity” includes any activity promoting or propagating the aims or objects of a political party or any cause, issue or\nquestion of a political nature by organising meetings, demonstrations,\nprocessions, collection or disbursement of funds, or by the issue of\ndisretions or decrees, or by any other means, and includes also such\nactivity by or on behalf of a person seeking election as a candidate\nfor any election to Parliament, any State Legislature or any local\nauthority.\n(e) “political party” means an association or body of persons-\n(i) which is, or is deemed to be, registered, with the Election\nCommission of India as a political party under the Election\nSymbols (Reservation and Allotment) Order, 1968, as in force\nfor the time being. or\n(ii) which has set up candidates for election to any legislature, but is not registered, or deemed to be registered, as a\npolitical party, under the Election Symbols (Reservation and\nAllotment) Order, 1968. or\n(iii) organised to carry on any political activity or to acquire or exercise political power through election or otherwise.\n(f) “religious institution” means an institution for the promotion of any religion or persuasion, and includes any place or premises used as a place of public religious worship, by whatever\nProhibition name or designation known.\nof use of 3. No religious institution or manager thereof shall use or allow the\nreligious use of any premises belonging to, or under the control of, the institution-institutions\nfor certain (a) for the promotion or propagation of any political activity. or\npurposes, (b) for the harbouring of any person accused or convicted of an\noffence under any law for the time being in force; or\n(c) for the storing of any arms or ammunition. or\n(d) for keeping any goods or articles in contravention of any\nlaw for the time being in force. or\n(e) for erecting or putting up of any construction or fortification, including basements, bunkers, towers or walls without a valid\nlicence or permission under any law for the time being in force; or\n(f) for the carrying on of any unlawful or subversive act prohibited under any law for the time being in force or in contravention\nof any order made by any court. or\n(g) for the doing of any act which promotes or attempts to\npromote disharmony or feelings of enmity, hatred or ill-will between\ndefferent religious, racial, language or regional groups or castes or\ncommunities. or",
+      "extraction_method": "native",
+      "native_characters": 2943,
+      "final_characters": 2929
+    },
+    {
+      "page_number": 3,
+      "text": "SEC. 1] THE CAZETTE OF INDIA EXTRAORDINARY 3\n\n(h) for the carrying on of any activity prejudicial to the\nsovereighty, unity and integrity of India. or\n(i) for the doing of any act in contravention of the provisions\n69 of 1971. of the Prevention of Insults to National Honour Act, 1971.\n4. No religious institution or manager thereof shall allow the entry Restricof any arms or ammunition or of any peson carrying any arms or tions on\ncarrying ammunition into the religious institution : arms and\nProvided that nothing in this section shall apply to- ammuni-\n(a) the wearing and carrying of a kirpan by any person profes- tion into\nsing the Sikh religion. or a rell-\n(b) any arms which are used as part of any religious ceremoney gious\ninstitu- or ritual of the institution as established by custom or usage. tion.\n5. No religious institution or manager thereof shall use or allow the Prohibition of use of any funds or other properties belonging to, or under the control of, use of\nthe institution for the benefit of any political party or for the purpose funds of\nof any political activity or for the commission of any act which is religious\npunishable as an offence under any law. institutions for\ncertain\nactivities.\n6. No religious institution or manager thereof shall allow any cere- Prohibimony, festivel, congregation, procession or assembly organised or held tion of\nunder its auspices to be used for any political activity. religious\nfora for\npropagating political ideas.\n7. Where any religious institution or manager thereof contravenes Penalthe provisions of section3, section 4, section 5 or section 6, the manager ties.\nand every person connocted with such contravention shall be punishable\nwith imprisonment for a term which may extend to five years and with\nfine which may extend to ten thousand rupees.\n8. (1) Any manager or other employee of a religious institution shall, Disqualiupon conviction for an offence under this Act, stand removed from his fication of\npersons office or post and shall, notwithstanding anything to the contrary con- convicted\ntained in any other law, be disqualified for appointment in any religious or chargeinstitution as manager or in any other capacity for a period of six years sheeted\nfrom the date of his conviction. under\n(2) Where any manager or other employee of a religious institution this Act.\nis accused of an offence under this Act and a charge-sheet for the prosecution of such person is filed in any court and the court is of the opinion,\nafter considering the charge-sheet and after hearing the prosecution and\nthe accused, that a prima facie case exists, it shall pass an order or direction restraining the person from exercising the powers or discharging\nthe duties of his office or post pending trial.\n(3) Where any manager or other employee has been removed under\nsub-section (1), or restrained under sub-section (2), the vacancy arising\nout of such removal or restraint may be filled in the manner provided in\nthe law applicable to the said religious institution.",
+      "extraction_method": "native",
+      "native_characters": 3054,
+      "final_characters": 3030
+    },
+    {
+      "page_number": 4,
+      "text": "4 THE CAZETTE OF INDIA EXTRAORDINARY [PART II-SEC. 1]\n\nCertain 9. Every manager or other employee of a religious institution shall be\npersons bound to give information to the officer incharge of the police station withbound to in whose local jurisdiction the religious institution is situated of anygive incontra vention or any impending contravention of the provisions of this Actformation\nto police. and any failure to do so shall be punishable under section 176 of the\nIndian Penal Code. 45 of 1860\n\nOrd.Repeal 10. (1) The Religious Institution (Prevention of Misuse) Ordinance,\n3 of 1988and 1988 is hereby repealed.\nsaving.\n(2) Notwithstanding such repeal, anything done or any action taken\nunder the said Ordinance shall be deemed to have been done or taken\nunder the corresponding provisions of this Act.\n\nS. RAMAIAH,\nSecy. to the Govt. of India.\n\nPRINTED BY THE MANAGER, GOVERNMENT OF INDIA PRESS. MINTO ROAD, NEW DELHI\nAND PUBLISHED BY THE CONTROLLER OF PUBLICATIONS, DELHI, 1988",
+      "extraction_method": "native",
+      "native_characters": 989,
+      "final_characters": 987
+    }
+  ],
+  "processed_at": "2026-08-06T07:24:00.911535+00:00"
+}

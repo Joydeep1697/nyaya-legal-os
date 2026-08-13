@@ -1,0 +1,51 @@
+{
+  "document": {
+    "document_id": "legal:f4709fc70a665ddd77c579e3",
+    "sha256": "f4709fc70a665ddd77c579e3ec0a5133de9e7da6a90ebcece25da65e0ccbbe39",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\34.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\orders\\34_f4709fc70a66.pdf",
+    "file_size": 6514843,
+    "page_count": 2,
+    "document_type": "orders",
+    "classification_score": 4,
+    "title": "HIGH COURT OF DELHI: NEW DELHI",
+    "year": 2026,
+    "court": "High Court Of Delhi",
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 2,
+    "extracted_characters": 4291,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 2,
+    "rules": 0,
+    "judgments": 2,
+    "orders": 4,
+    "notifications": 1,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "HIGH COURT OF DELHI: NEW DELHI\n\nNo. 34 /D-3/Gaz.IA/DHC/2026\nDated, 04th August, 2026\n\nORDER\n\nThe footnote nos. (ii), (iii) and (vii), of this Court's Order No. 32//D-3/Gaz.IA/DHC/2026\ndated O1.08.2026, be read as:\n\n(ii) The Court of ASJ-03, New Delhi (Presided over by Sh. Prashant Sharma),\nCourt of ASJ-02, New Delhi (Presided over by Sh. Amit Bansal) and the court of\nSpecial Judge, NDPS, New Delhi (Presided over by Sh. Jitender Pratap Singh)\nshall stand abolished. The Courts of ASJ-04 to ASJ-07, New Delhi, shall stand\nre-numbered as ASJ-02 to ASJ-05, respectively.\n\n(iii) POCSO courts of New Delhi Districts which are currently working from\nRACC shall be shifted back to PHC, New Delhi and shall henceforth start\nfunctioning from Patiala House Courts. The Courts of ASJ (POCSO)-02 and ASJ\n(POCSO)-03, New Delhi, shall stand re-numbered as ASJ (POCSO)-06 and ASJ\n(POCSO)-07, New Delhi, respectively.\n\n(vii) All the cases under MCOCA Act as well as other connected cases presently\nbeing tried by different Sessions Courts of all districts of Delhi shall stand\ntransferred and assigned by the Ld. PDJ, RACC to the newly created courts of\nSEC-11 to SEC-13 at RACC while ensuring equal distribution. However, the\nMCOCA Cases being investigated by the Special Cell, Delhi Police shall be\nassigned to the SEC- I I only.\n\nBY ORDER OF THE COURT\n\nSd/-\n(ARUN BHARDWAJ)\nREGISTRAR GENERAL\n\nEndst. No. /D-3/Gaz. IA/DHC/2026 Dated, 04th August, 2026 ------\nCopy forwarded for information and necessary action to: -\n\n1. All the Principal District & Sessions Judges, Delhi.\n2. The Principal District & Sessions Judge cum Special Judge (PC Act) (CBI), Rouse Avenue\nCourts Complex, New Delhi.\n3. The Principal Judge, Family Courts (HQ), Dwarka Courts Complex, Dwarka, New Delhi.\n4. The Secretary, Ministry of Finance, Government of India, North Block, New Delhi.\n5. The Member Secretary, Delhi State Legal Services Authority, RACC, New Delhi.\n6. The Director (Administration), Delhi Judicial Academy, Dwarka, New Delhi.",
+      "extraction_method": "native",
+      "native_characters": 2006,
+      "final_characters": 2006
+    },
+    {
+      "page_number": 2,
+      "text": "•\n\n7. The Principal Secretary (Law, Justice & Legislative Affairs), Govt. of NCT of Delhi, New\nDelhi-110002.\n8. The Principal Secretary (Home), Govt. ofNCT of Delhi, New Delhi-110002.\n9. The Principal Secretary (Power), Govt. ofNCT of Delhi, New Delhi-110002.\n10. The Secretary (Labour), Govt. ofNCT of Delhi, Shamnath Marg, Delhi-110054.\n11. The Director of Prosecution, CBI, Block No.3, II Floor, CGO Complex, Lodhi Road, N.Delhi-3.\n12. The Director, Directorate of Prosecution, Tis Hazari, Delhi.\n13. The Director General, Narcotics Control Bureau, West Block, 1 Wing-5, Sector-07, R.K.Puram,\nN. Delhi-110066.\n14. The Commissioner of Police, Police Headquarters, New Delhi.\n15. The Commissioner, Delhi Municipal Corporation, Civic Centre, Minto Road, New Delhi.\n16. The Chairperson, New Delhi Municipal Committee, Palika Kendra, New Delhi.\n17. The Registrar-cum-Secretary to Hon' ble the Chief Justice, Delhi High Court, New Delhi.\n18. PS to all Hon'ble Judges, Delhi High Court, for information ofHon'ble Judges.\n19. The JR-cum-P.A. to Registrar General, Delhi High Court, New Delhi.\n20. All Registrars, Delhi High Court, New Delhi.\n21. The Joint Registrar (Vigilance-I), Delhi High Court, New Delhi.\n22. The Joint Registrar (Vigilance-II), Delhi High Court, New Delhi.\n23. The Joint Registrar (Gazette-IB), Delhi High Court, New Delhi.\n24. The Pay & Accounts Officer, Tis Hazari, Delhi.\n25. The Director (IT), DHC, with request to display this order on website of Delhi High Court in\n'\\..,/ accessibility format.\n26. The Hony. Secretary, Delhi High Court Bar Association, Delhi High Court, New Delhi.\n27. The Hony. Secretary, Delhi Bar Association, Tis Hazari Courts, Delhi.\n28. The Hony. Secretary, New Delhi Bar Association, Patiala House, New Delhi.\n29. The Hony. Secretary, Shahdara Bar Association, Karkardooma Courts, Delhi.\n30. The Hony. Secretary, Rohini Courts Bar Association, Rohini, New Delhi.\n31. The Hony. Secretary, Dwarka Courts Bar Association, Dwarka, New Delhi.\n32. The Hony. Secretary, Saket Courts Bar Association, Saket, New Delhi.\n33. The Hony. Secretary, Central Delhi Courts Bar Association, Rouse A venue District Courts, New\nDelhi\n34. Personal file of the officer concerned.\n35. Guard File.\n~~/\n(KA VERT BA WEJA)\nRegistrar (Vigilance) '\n/,{(:it;\n~t=irih",
+      "extraction_method": "native",
+      "native_characters": 2285,
+      "final_characters": 2285
+    }
+  ],
+  "processed_at": "2026-08-06T07:07:58.902603+00:00"
+}

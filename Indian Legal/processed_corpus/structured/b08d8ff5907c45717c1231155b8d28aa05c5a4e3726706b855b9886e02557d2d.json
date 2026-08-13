@@ -1,0 +1,93 @@
+{
+  "document": {
+    "document_id": "legal:b08d8ff5907c45717c123115",
+    "sha256": "b08d8ff5907c45717c1231155b8d28aa05c5a4e3726706b855b9886e02557d2d",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\UpdatedPresidentPensionRules1962_110520185B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\rules\\UpdatedPresidentPensionRules1962_110520185B15D_b08d8ff5907c.pdf",
+    "file_size": 42437,
+    "page_count": 8,
+    "document_type": "rules",
+    "classification_score": 34,
+    "title": "MINISTRY OF HOME AFFAIRS",
+    "year": 1962,
+    "court": null,
+    "case_number": null,
+    "decision_date": "9-4-1986",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 8,
+    "extracted_characters": 15353,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 5,
+    "rules": 34,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 11,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 1,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "MINISTRY OF HOME AFFAIRS\n\nNOTIFICATION\n\nNew Delhi, the 1st October, 1962.\n\nG.S.R.No.1328 – In exercise of the powers conferred by Section 5 of the President’s\n1*(Emoluments) and Pension Act, 1951 (30 of 1951) the Central Government hereby\nmakes the following rules namely :-\n\n1. Short title and commencement : (1) These rules may be called the President’s\nPension Rules, 1962.\n\n2 Definitions : In these rules, unless the context otherwise requires –\n\n(a) ‘retired President’ means a person who has ceased to hold office as\nthe President of India either by the expiration of his term of office\nor by resignation of his office;\n\n(b) ‘secretarial staff’ means any person or persons who may be\nemployed by the retired President in connection with secretariat\nwork;\n\n(c) ‘medical attendance and treatment’ include medical consultation,\ncost of medicines, clinical and pathological tests, other methods of\nexamination and surgical operations, which the retired President\nmay require;\n\n(d) ‘medical attendant’ means any registered medical practitioner\npracticing any system of medicine;\n\n(e) ‘regular medical attendant’ means a medical attendant who may be\nnominated by the retired President for regular medical attendance\nand treatment;\n\n(f) ‘travelling expenses’ mean –\n\n(i) in the case of Government medical officers, such travelling\nand other allowances as may be admissible to them under\nthe rules of their service; and\n\n(ii) in the case of persons other than Government medical\nofficers, expenditure incurred on travel not exceeding the\n\n1* ( ) Added vide MHA Notification No. 1/2/86-M&G dated 9-4-1986 [GSR No.613(E)]",
+      "extraction_method": "native",
+      "native_characters": 1620,
+      "final_characters": 1617
+    },
+    {
+      "page_number": 2,
+      "text": "amount admissible to a Class I Government servant of the\nhighest grade.\n\n2@ 3. (1) 3${(a) A retired President shall be entitled to secretarial staff\nconsisting of a Private Secretary, an Additional Private Secretary, a Personal\nAssistant and two Peons and shall be paid actual charges incurred by him for\nthe maintenance of such secretarial staff;\n\n(b) during each financial year, an amount not exceeding 4[Rs.1,00,000/-\n(Rupees one lakh only)] shall be paid to every retired President towards the actual\ncharges incurred by him on account of office expenses;}\n\n(c) all expenses referred to in clauses (a) and (b) of this sub-rule shall be borne by\nthe Central Government;\n\n(d) a retired President shall be entitled without payment of rent to the use of a\nfurnished residence anywhere in India at the choice of the retired President, without\npayment of water and electricity charges for the remainder of his life;\n\n(e) at places where Government owned accommodation is allotted to a retired\nPresident, the size of the residence shall be comparable to a residence allotted to a\nMinister in the Union Council of Ministers and if the highest type of Government\nresidence available at a particular place is less in size than a residence allotted to a\nMinister in the Union Council of Ministers, the highest type of accommodation available\nat that place shall be allotted to the ex-President. At places where suitable Government\nresidence is not available for allotment to a retired President, the size of residence to be\ntaken on lease to be provided to a retired President, shall have a living area not exceeding\n2000 square feet;\n\n(f) the value of the furniture and electrical appliances provided free of rent in a\nresidence allotted to the retired President shall not exceed the monetary limit prescribed\nfor supply of furniture and electrical appliances provided free of rent in a residence\nallotted to a Minister in the Union Council of Ministers;\n\n3${(g) a retired President shall be entitled to the use of two telephones (one for\ninternet and broadband connectivity) at his residence, one mobile phone with national\nroaming facility and a motor car, free of charge and shall be paid actual charges incurred\nby him on the maintenance thereof;}\n\nProvided that he may use his own motor car in lieu of which he shall be paid, every\nmonth, car allowance equal to the cost of 250 litres of petrol plus salary admissible to a\nperson, from time to time, holding the post of a Driver in the Government of India.\n\n2 @ Substituted vide Notification No.1/5/90-M&G dated 30-7-1990 [GSR No.676(E)]\n3 ${} Substituted vide Notification No.10/19/96-M&G dated 10-2.2009 [GSR No. 88(E)]\n4 [ ] Substituted vide Notification No.1/1/2016-M&G dated 24.05.2018 [GSR No. 488(E)]",
+      "extraction_method": "native",
+      "native_characters": 2759,
+      "final_characters": 2756
+    },
+    {
+      "page_number": 3,
+      "text": "5${(h) in the event of the death of a President in harness or after demitting office,\nthe surviving spouse shall be entitled, without payment of licence fee, to the use of\nfurnished residence anywhere in India at the choice of the spouse, without payment of\nwater and electricity charges for the remainder life;\n\n(i) at places where Government owned accommodation is allotted to the spouse,\nthe class of accommodation shall be Type VIII and if the highest type of Government\nowned accommodation available at a particular place is smaller in size, the highest type\nof accommodation available at the place shall be allotted to the spouse;}\n\n6^ [ (j) at places where suitable Government accommodation is not available for\nallotment to the surviving spouse, the size of the accommodation to be taken on lease to\nbe provided for the surviving spouse shall have a living area not exceeding 2000 square\nfeet;\n\n(k) residential accommodation shall be allotted to the surviving spouse at a place\nindicated by him or her, if he or she does not own any accommodation in that particular\nplace;\n\n(l) the accommodation allotted to the surviving spouse shall be for the exclusive\nuse of the spouse and the same shall not be transferred to any other person after the death\nof the surviving spouse;\n\n(m) the Directorate of Estates shall be responsible for arranging accommodation\nfor the surviving spouse;]\n\n7*[(n) the surviving spouse of a deceased President shall be entitled to secretarial\nstaff consisting of a Private Secretary and a Peon and shall be paid in each financial year\nan amount not exceeding 8[Rs. 20,000 (Rupees twenty thousand only)] towards the actual\ncharges incurred by him on account of office expenses;\n\n(o) the surviving spouse of a deceased President shall be entitled to the use of a\ntelephone at his residence and a motor car, free of charge and shall be paid actual charges\nincurred by the spouse on the maintenance thereof:\n\nProvided that the spouse may use his own motor car in lieu of which he shall be paid,\nevery month, car allowance equal to the cost of 250 litres of petrol plus amount of salary\nadmissible to a person, from time to time, holding the post of a Driver in the Government\nof India;\n\n5 ${} Substituted vide Notification No.10/19/96-M&G dated 10-2-2009 [GSR No. 88(E)]\n6 ^ [ ] Added by MHA Notification No.1/1/97-M&G dated 11-8-2000. [GSR No.661(E)]\n7 * [ ] Inserted vide Notification No.10/19/96-M&G dated 10-2.2009 [GSR No. 88(E)]\n8 [ ] Substituted vide Notification No.1/1/2016-M&G dated 24.05.2018 [GSR No. 488(E)]",
+      "extraction_method": "native",
+      "native_characters": 2551,
+      "final_characters": 2548
+    },
+    {
+      "page_number": 4,
+      "text": "(p) the surviving spouse of a deceased President shall be entitled to travel\nanywhere in India, in a calendar year to twelve single journeys, by the highest class, by\nair, rail or steamer, accompanied by a companion or a relative.]\n\n(2) At the initial appointment of the staff, information regarding the number of\npersons employed, their emoluments and the periods of their employment shall be\nfurnished to the Central Government. All subsequent changes shall also be intimated as\nand when they occur.\n\n9#[(3) The amount required by the retired President or the surviving spouse of a\ndeceased President, as the case may be, for the maintenance of secretarial staff and the\noffice expenses shall be drawn in the form of simple receipt as and when required.\n\n(4) At the end of each year, a certificate to the effect that the amount drawn has been\nexpended for the purpose for which it had been drawn, shall be given –\n\n(i) by the retired President or the surviving spouse of a deceased President,\nas the case may be, in Form-I; or\n(ii) by any person authorised by the retired President or the surviving spouse\nof a deceased President, as the case may be, in this behalf in Form-IA,\nappended to these rules.]\n\n4. Medical Attendance and Treatment – (1) The retired President shall be entitled\nto medical attendance and treatment at his residence, or at the clinic, nursing home or\ninstitution of similar nature of consulting room of the medical attendant, specialist or\npractitioner concerned –\n\n7#[(a) by a medical attendant or the regular medical attendant;\n\n(b) by a round the clock personal physician attached to him based on need and\nrequest received from the dignitary; and\n\n(c) by a specialist or medical practitioner not falling under clause (a) or (b):]\n\nProvided that a specialist or medical practitioner or medical attendant other than the\nregular medical attendant shall be called from outside the State in which the retired\nPresident is residing; only on the advice of the Director of Medical Services or other\ncorresponding officer in the State concerned or the officer-in-charge of the principal\nGovernment hospital in the district.\n\n(2) The retired President shall also be entitled to any other expenditure that\nmay be incurred by him in connection with his treatment by the medical attendant, the\nregular medical attendant or the specialist or practitioner referred to in sub-rule (1), as the\ncase may be.\n\n9 #[ ] Substituted vide Notification No.10/19/96-M&G dated 10-2-2009 [GSR No. 88(E)]",
+      "extraction_method": "native",
+      "native_characters": 2507,
+      "final_characters": 2504
+    },
+    {
+      "page_number": 5,
+      "text": "(3) All expenses referred to in sub-rule (1) and (2) in rule 4 shall be borne by\nthe Central Government on production of a certificate by the retired President in Form-II,\nor by any person authorised by him in this behalf in Form-IIA appended to these rules.\n\n5. Hospitals, Nursing Homes and Medical Institutions at which treatment\nmay be received – A retired President shall also be entitled to medical treatment and\nattendance in any hospital, nursing home or medical institution in India. All expenses\nincurred in this connection shall be borne by the Central Government.\n\n6. Travelling Expenses – Any travelling expenses incurred by the retired\nPresident or the medical attendant or regular medical attendant or specialist or medical\npractitioner in connection with the medical attendance and treatment of the retired\nPresident shall be borne by the Central Government on production of a certificate by the\nretired President in Form-III, or any person authorised by him in this behalf in Form-IV,\nappended to these rules. In the case of a Government medical officer who may perform\njourneys to attend on the retired President, the travelling expenses may be drawn by him\nthrough the usual Government channels. If the officer belongs to a State Government,\nthe latter may claim reimbursement of the cost from the Central Government.\n\n6A. Power of Attorney - All amounts payable to the retired President under the\nprovisions of the Presidents Emoluments and Pension Act, 1951 (30 of 1951), and under\nthe foregoing provisions of these rules may be drawn by or paid to the retired President\nhimself, or, if he so chooses, drawn by or paid to any person who holds a legally valid\npower of attorney to act in his behalf.\n\n10$ [6B. Application of rules 4 to 6A to the spouse of a retired President, etc. –\n\n(1) The provisions of rules 4 to 6A shall, so far as may be, apply to the spouse\nof a retired President and the spouse of a person who dies while holding\noffice of President.\n\n(2) All expenses under this rule, shall be borne by the Central Government on\nproduction of a certificate by the spouse in Form-II or Form-III, as the\ncase may be, or by any person authorised by such spouse in this behalf in\nForm-IIB or Form-IVA, as the case may be, appended to these rules.]\n\n7. Interpretation and removal of difficulty – If any question arises relating to the\ninterpretation of these rules or any difficulty arises in complying with the provisions of\nthese rules, it shall be referred to the Central Government in the Ministry of Home\nAffairs whose decision thereon shall be final.\n\n8. Saving – Nothing in these rules shall be deemed to prevent the Central\nGovernment from providing to a retired President, his spouse or the spouse of a person\nwho dies while holding the office of President any facility relating to the medical\n\n10$ [ ] Amended vide MHA Notification No.13/1/76-States dated 28-2-1977.",
+      "extraction_method": "native",
+      "native_characters": 2903,
+      "final_characters": 2900
+    },
+    {
+      "page_number": 6,
+      "text": "treatment or attendance or travelling expenses for any journey performed by him or the\nspouse which is not authorised by rules 4 to 6B.\n\nFORM – I\n[Form of certificate referred to in sub-rule (4) of rule 3]\n\nCertified that the amount of Rs…………………. (Rupees ………………) drawn\nby me during the year ending 31st March, ……. Has been expended on the maintenance\nof my secretarial staff and the office expenses thereof.\n\nSignature :………………………….\nDate :………………………………\nPlace :………………………………\n\nFORM - II\n(Form of certificate referred to in rule 4 and rule 6B)\n\nCertified that the amount of Rs………. (Rupees …………….) drawn by me has\nbeen expended in connection with my medical treatment/attendance/consultation.\n\nSignature : ………………………..\nDate : …………………………….\nPlace : ……………………………\n\nFORM – IIA\n(Form of certificate referred to in rule 4)\n\nCertified that the amount of Rs. ……. (Rupees ……………) drawn has been\nexpended in connection with retired President medical treatment/attendance/consultation.\nSignature :………………………..\nDate : ……………………………\nPlace :……………………………\n\nFORM – IIB\n[Form of certificate referred to in sub-rule (2) of rule 6B]\n\nCertified that the amount of Rs. ………. (Rupees ……….) drawn has been\nexpended in connection with the medical treatment/attendance/consultation of Shri/\nShrimati ……………………………….. spouse of …………………………………..\n\nSignature :………………………\nDesignation :……………………\nDate :……………………………",
+      "extraction_method": "native",
+      "native_characters": 1363,
+      "final_characters": 1360
+    },
+    {
+      "page_number": 7,
+      "text": "Place :……………………………\n\nFORM – IA\n[Form of certificate referred to in sub-rule (4) of rule 3]\n\nCertified that the amount of Rs. ………. (Rupees ………….. ) drawn during the\nyear ending 31st March, ……. Has been expended on the maintenance of retired\nPresident’s secretarial staff and the office expenses thereof.\nSignature : ……………………….\nDesignation : …………………….\nDate : ……………………………\nPlace : ……………………………\n\nFORM – III\n(Form of certificate referred to in rule 6)\n\nCertified that the amount of Rs. ………… (Rupees ……… ) drawn by me on\naccount of travelling expenses has been incurred by me/my medical attendant/specialist/\nmedical practitioner in connection with medical consultation/attendance/treatment.\nSignature : ……………………….\nDate : ……………………………\nPlace : ……………………………\n\nFORM – IV\n(Form of certificate referred to in rule 6)\n\nCertified that the amount of Rs. …….. (Rupees …….. ) drawn on account of\ntravelling expenses has been incurred by the retired President/the retired President’s\nmedical attendant/specialist/medical practitioner in connection with medical consultation/\nattendance/treatment.\nSignature : ……………………….\nDesignation : …………………….\nDate : ……………………………\nPlace : ……………………………\n\nFORM – IVA\n[Form of certificate referred to in sub-rule (2) of rule 6B]\n\nCertified that the amount of Rs. ……. (Rupees ……… ) drawn on account of\ntravelling expenses has been incurred by :-\n\n(i) Shri/Shrimati …………………. Spouse of ………………………………",
+      "extraction_method": "native",
+      "native_characters": 1403,
+      "final_characters": 1399
+    },
+    {
+      "page_number": 8,
+      "text": "OR\n\n(ii)Medical attendant/specialist/medical practitioner of Shri/Shrimati …………\nspouse of …………………. In connection with medical consultation/attendance/\ntreatment.\nSignature : ……………………………..\nDesignation : …………………………..\nDate : ………………………………….\nPlace : …………………………………\n\n-: oOo :-",
+      "extraction_method": "native",
+      "native_characters": 273,
+      "final_characters": 269
+    }
+  ],
+  "processed_at": "2026-08-06T07:35:19.498458+00:00"
+}

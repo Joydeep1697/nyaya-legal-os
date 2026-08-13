@@ -1,0 +1,53 @@
+{
+  "document": {
+    "document_id": "legal:f5b974946402cb5092657999",
+    "sha256": "f5b974946402cb5092657999e8904d5fc8fe5d288ea60bdb2249fb724ab26d0e",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\Section236oftheFinanceAct_2016_091020205B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\Section236oftheFinanceAct_2016_091020205B15D_f5b974946402.pdf",
+    "file_size": 6887345,
+    "page_count": 2,
+    "document_type": "acts",
+    "classification_score": 19,
+    "title": "xfsrest de Ste wer—(wH)04/0007/2003—16 REGISTERED NO. DL—(N)04/0007/2003—16",
+    "year": 2003,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 2,
+    "native_page_count": 0,
+    "extracted_characters": 3674,
+    "status": "processed",
+    "warnings": [
+      "OCR used on a high proportion of pages"
+    ]
+  },
+  "classification_scores": {
+    "acts": 19,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 1,
+    "notifications": 3,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "xfsrest de Ste wer—(wH)04/0007/2003—16 REGISTERED NO. DL—(N)04/0007/2003—16\nEEE SP REG) 04/0007/2003—16 ESA TERED NO. DL—(N)04/0007/2003—16\nJR = sda\nSATA\nEXTRAORDINARY\nwt Il— ae 1\nPART II — Section 1\nwife @ weenie\nPUBLISHED BY AUTHORITY\nSee”\nFe 32] we feet, wPrar, ag 14, 2016//aere 24, 1938 (ae)\nNo. 32] NEW DELHI, SATURDAY, MAY 14, 2016/VAISAKHA 24, 1938 (SAKA)\n— EE ee eee\nBam 4 ft os ten ct unit & fired fe ae tem dae S wT we aS\nSeparate paging is given to this Part in order that it may be filed as a separate compilation.\nee ae eee\nSs eeeeSyx:m:k«caedreem\nMINISTRY OF LAW AND JUSTICE\n(Legislative Department)\nNew Delhi, the 14th May, 2016/Vaisakha 24, 1938 (Saka)\nThe following Act of Parliament received the assent of the President on the\n14th May, 2016, and is hereby published for general information:—\n(14th May, 2016.] |\nAn Act to give effect to the financial proposals of the Central Government\nfor the financial year 2016-2017.\nBE it enacted by Parliament in the Sixty-seventh Year of the Republic of India as follows:—\nCHAPTER I\nPRELIMINARY\n1. (/) This Act may be called the Finance Act, 2016. Short title and\ncommencement.\n(2) Save as otherwise provided in this Act, sections 2 to 115 shall be deemed to have\ncome into force on the Ist day of April, 2016.\nCHAPTER II\nRates OF INCOME-TAx\n2. (1) Subject to the provisions of sub-sections (2) and (3), for the assessment year —_Income-tax.\ncommencing on the Ist day of April, 2016, income-tax shall be charged at the rates specified\nin Part I of the First Schedule and such tax shall be increased by a surcharge, for purposes of\nthe Union, calculated in each case in the manner provided therein.",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 1657
+    },
+    {
+      "page_number": 2,
+      "text": "| Sec. 1] THE GAZETTE OF INDIA EXTRAORDINARY 91\n:\n| (ii) in the Tenth Schedule, for the entry in column (4) occurring against all the\nheadings, the entry “Rs.400 per tonne” shall be substituted. |\nean eo\n|\nPART XIV\nAMENDMENT TO THE FINANCE Act, 2013 |\n237. In the Finance Act, 2013, after section 132, the following section shall be inserted, | Amendment of |\nwith effect from the Ist day of June, 2016, namely:— Act 17 of 2013. |\n“132A. Notwithstanding anything contained in this Chapter, the provisions of — Chapter VII\nthis Chapter shall not apply to taxable commodities transactions entered into by any not to apply in |\nPerson on a recognised association located in an International Financial Services certain cases. |\nCentre, where the consideration for such transaction is paid or payable in foreign |\ncurrency.\nExplanation.—For the purposes of this section, “International Financial Services |\nCentre” shall have the same meaning as assigned to it in clause (q) of section 2 of the |\n28 of 2005. Special Economic Zones, Act, 2005.’ |\nPART XV |\n|\nAMENDMENT TO THE FINANCE Act, 2015\n238. In the Finance Act, 2015,— Amendment of\nAct 20 of\n(a) in section 4, clause (ii) shall be omitted with effect from the Ist day of 2015.\nApril, 2016;\n(b) with effect from the Ist day of June, 2016,—\n(i) in section 122, in sub-section (2), for the words “Any credit balance”,\nthe words “Notwithstanding anything contrary contained in any other law for |\nthe time being in force, any credit balance” shall be substituted; ]\n(ii) in section 124, sub-section (5) shall be omitted; |\n(ii) in section 128, in sub-section (2), clause (c) shall be omitted.\nPART XVI\nREPEAL AND AMENDMENT OF CERTAIN ENACTMENTS\n239. The enactments specified in the Fifteenth Schedule are hereby repealed or amended Repeal and\nto the extent mentioned in the fourth column thereof. peice of |\ncertain |\nenactments. |\n|\n240. (1) The repeal by this Act of the enactments specified in the Fifteenth Schedule — Savings. |\nor amendments therein shall not— |\n|",
+      "extraction_method": "ocr",
+      "native_characters": 0,
+      "final_characters": 2017
+    }
+  ],
+  "processed_at": "2026-08-06T07:24:27.365461+00:00"
+}

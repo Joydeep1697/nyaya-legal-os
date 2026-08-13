@@ -1,0 +1,79 @@
+{
+  "document": {
+    "document_id": "legal:0f05722efe23cc220d451913",
+    "sha256": "0f05722efe23cc220d4519130503d806d93b2706bb89b842b8321e24397fb8e7",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\RepatriationRules20045B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\RepatriationRules20045B15D_0f05722efe23.pdf",
+    "file_size": 35617,
+    "page_count": 6,
+    "document_type": "acts",
+    "classification_score": 18,
+    "title": "THE GAZETTE OF INDIA",
+    "year": 2004,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 6,
+    "extracted_characters": 8274,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 18,
+    "rules": 11,
+    "judgments": 2,
+    "orders": 0,
+    "notifications": 4,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "THE GAZETTE OF INDIA\n\nEXTRAORDINARY\n\nPART II-Section 3-sub-section (i)\n\nPUBLISHED BY AUTHORITY\nNo.333) NEW DELHI, MONDAY, AUGUST 9, 2004/SRAVANA 18, 1926\n\nMINISTRY OF HOME AFFAIRS\nNOTIFICATION\n\nNew Delhi, the 9th August, 2004\n\nG.S.R505 (E)- In exercise of the powers conferred by section 14 of the Repatriation of\nPrisoners Act, 2003 (49 of 2003), the Central Government hereby makes the following\nrules, namely:-\n\n1. Short title and commencement: (1) These rules may be called the Repatriation of\nPrisoners Rule, 2004.\n(2) They shall come into force on the date of their publication in the Official Gazette.\n\n2. Definitions- In these rules, unless the context otherwise required:-\n\n(a) “Act” means the Repatriation of Prisoners Act, 2003 (49 of\n\n2003);\n\n(b) “Application” means an application made under section 4 of the\n\nAct;\n\n(c) “diplomatic channel” means through the missions of the\n\nrespective countries;\n\n(d) “section” means a section of the Act;\n\n(e) All other words and expressions used in these rules and not\ndefined but defined in the Act shall have the meanings\nrespectively assigned to them in that Act.\n\n3. Form of application:- An application under section 4 of the Act shall be made by\na prisoner for his transfer on a plain paper and in Form 1 appended to these rules and in\naccordance with the procedure and instructions set out in that form.\n\n4. Means of forwarding the application:- The application of the prisoner along\nwith other informations as required under sub-section (1) of section 6, shall be forwarded",
+      "extraction_method": "native",
+      "native_characters": 1531,
+      "final_characters": 1531
+    },
+    {
+      "page_number": 2,
+      "text": "by the Central Government to the Government of the contracting State either directly or\nthrough the diplomatic channel.\n\n5. Form of warrants:- (1) A warrant under sub-section (1) of section 7 of the Act\nshall be issued in Form 2 appended to these rules and in accordance with the procedure\nand instructions set out in that form.\n\n(2) A warrant under sub-section (2) of section 12 of the Act shall be issued in Form 3\nappended to these rules and in accordance with the procedure and instructions set out in\nthat form.\nForm 1\n\nAPPLICATION FOR TRANSFER OF SENTENCED PERSON\n(under rule 3)\n\n(Particulars are to be furnished in respect of the sentenced person)\n\nTo\n\nJoint Secretary (CS)\nGovernment of India\nMinistry of Home Affairs\nNorth Block\nNew Delhi\n\nSir,\n\nI request that I may be transferred to serve remaining period of my sentence in a\nprison situated in _______________________, the country of my nationality (name of\nthe contracting State). I hereby furnish the following information for consideration of my\napplication:-\n\n1. Name in BLOCK LETTERS and nationality\n\n2. Name of father/husband\n\n3. Full address in the contracting State\n\n4. Date of birth/age\n\n5. Offence(s) under which convicted\n\n6. Name of the Court which convicted\n\n7. Date of judgment\n\n8. The nature, duration and date of commencement\nof the sentence\n\n9. Name of the prison, where undergoing sentence :",
+      "extraction_method": "native",
+      "native_characters": 1371,
+      "final_characters": 1371
+    },
+    {
+      "page_number": 3,
+      "text": "I, _____________________________, (name in full alongwith nationality and in\nblock letters), son/daughter of Mr./Ms. ___________________________ declare that\nthe information furnished by me as above is correct, complete and true to the best of\nmy knowledge and belief. I may be held liable for any action, if any information\nfurnished by me is found incorrect.\n\nAddress (in case signatory is other (signature of the applicant or of the\nthan the prisoner): person entitled to act on behalf of the\nprisoner in case of his ill health,\nmental condition, old age or being\nminor)\n(Please see instructions overleaf).\n\nInstructions\n\n1. The application in original should be sent to Joint Secretary (CS), Government\nof India, Ministry of Home Affairs, North Block, New Delhi by;\nordinary/registered post.\n\n2. A copy of the application may be delivered to the officer-in-charge of the jail\nwhere the prisoner is undergoing the sentence.\n\n3. Following documents may be attached with the application:-\n\n(a) A copy of the judgment passed against the prisoner;\n(b) Document indicating that the prisoner is a citizen of the contracting\nState.\n\n4. In case the application is being made by the person entitled to act on behalf of\nthe prisoner, he/she should write his/her full name alongwith nationality &\naddress below his/her signature.\n\nForm 2\n[See rule 5(1)]\n\nForm of Warrant\n\n(under sub-section (1) of section 7 of the Repatriation of Prisoners Act, 2003)\n\nMr/Ms……………………………………. the Jail Superintendent/Jailor (or the officer’s\n\ndesignation who is in charge of the prison where the prisoner is imprisoned) …………….\n\n(Name of the Jail with full address) is hereby directed to deliver the custody of",
+      "extraction_method": "native",
+      "native_characters": 1682,
+      "final_characters": 1682
+    },
+    {
+      "page_number": 4,
+      "text": "Mr/Ms…………………………………(Name and nationality of the Prisoner)\n\nson/wife/daughter of ……..…… age ……….. address\n\n…………………………………… (as it appears in the prison record) who was convicted\n\nof offences under section (s) ……. of ……………………… (Name of the legislation\n\nunder which sentenced) to Mr./Ms……………….. (Name and designation of the\n\nauthorized person (official) of the contracting State) …………. at ………… (place of\n\ndelivery of prisoner in India i.e. Embassy, Airport etc.) on …………. (Date of delivery)\n\nas requested by the Government of ……………….. in terms of Agreement/Arrangement\n\nbetween the Government of the Republic of India and the Government of ……………..\n\nOn transfer of convicted offenders entered into by India with (Name of the contracting\n\nState) which came into force on ………………………\n\n2. Mr./Ms ……………………. (Name of the prisoner) as mentioned herein above,\n\nwould undergo the remaining part of the sentence in the contracting State, which he/she\n\nwould have undergone in India, had he/she not been transferred out of India.\n\n3. In case the prisoner escapes from the custody within India, the prisoner may be\n\narrested without warrant by any person who shall without undue delay deliver such\n\nprisoner to the nearest police state and the prisoner so arrested shall be liable for\n\ncommitting an offence under section 224 of the Indian Penal Code and shall also be liable\n\nfor such sentence of imprisonment in India which he would have to undergo if the\n\ndelivery of custody of such prisoner had not been made under section 8.\n\nAuthorised Officer of the State Government\n\n(Not below the rank of a Joint Secretary).\n\nTo\n\nSh/Smt. ……………………………\n\n…………………………………..(Designation)",
+      "extraction_method": "native",
+      "native_characters": 1654,
+      "final_characters": 1654
+    },
+    {
+      "page_number": 5,
+      "text": "Address…………………………………\n………………………………………….\n\nCopy to: (i) Joint Secretary (CS), Ministry of Home Affairs, Government of India\n\n(ii) Joint Secretary (CPV), Ministry of External Affairs, Government of India\n\n(iii) Secretary, Department of Prison, Government of ……….(State in which\nimprisoned)\n\n(iv) Charge-de-Affairs, Embassy ……….. (Name of the contracting State)\nAddress (official)………………………….\n\n(v) Mr./Ms……………….(Name and address of the Authorized person (official)\nof the contracting State).\n\nForm 3\n[See rule 5(2)]\n\nForm of Warrant\n\n(under sub-section (2) of section 12 of the Repatriation of Prisoners Act, 2003\n\nMr./Ms…………………………………….. Designation…………………….. Address\n\n(official)…………………….is hereby directed to receive the custody of\n\nMr./Ms………………(Name and nationality of the prisoner)\n\nAddress…………………..(as it appears in the letter of the contracting State) at\n\n…………………(Place of receiving of the prisoner outside India by the authorized\n\nofficial) and to hold the prisoner for bringing him to India from the place of receiving.\n\nThe custody of the said prisoner shall be handed over by the receiving officer to the\n\nofficer-in-charge of ……………………………. (Name and Address of the prison) where\n\nthe prisoner has to serve his/her remaining part of the sentence in India as per the existing\n\nlaw for the offence committed by him/her in the contracting State.\n\n(Authorized Officer of the State Government)\nNot below the rank of a Joint Secretary",
+      "extraction_method": "native",
+      "native_characters": 1430,
+      "final_characters": 1430
+    },
+    {
+      "page_number": 6,
+      "text": "To\n\nSh./Smt…………………\n………………………….(Designation)\n\nAddress…………………………\n…………………………………..\n\nCopy to :\n(i) Joint Secretary (CS), Ministry of Home Affairs, Government of India\n(ii) Joint Secretary (CPV), Ministry of External Affairs, Government of India\n(iii) Secretary, Department of Prison, (Government of ……………..(State in\nwhich the prisoner is to be imprisoned).\n(iv) Charge-de-Affairs, Embassy…………(Name of the State)\nAddress (official) ………………………………..\n(v) Mr./Ms………………….(Name and address of the Authorised person\n(official) of the contracting State).\n\n[F.N.VII-11017/23/2002-PR]\n\nA.K. SRIVASTAVA,\nJOINT SECRETARY (CS)",
+      "extraction_method": "native",
+      "native_characters": 606,
+      "final_characters": 606
+    }
+  ],
+  "processed_at": "2026-08-06T07:24:01.184437+00:00"
+}

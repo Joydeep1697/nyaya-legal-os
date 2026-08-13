@@ -1,0 +1,58 @@
+{
+  "document": {
+    "document_id": "legal:034dd60ba257d79005937b48",
+    "sha256": "034dd60ba257d79005937b484dc28534dcbded922905da1cd71dad1bf7c9d5e8",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud-03082026_odtt_1.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud-03082026_odtt_1_034dd60ba257.pdf",
+    "file_size": 55711,
+    "page_count": 3,
+    "document_type": "judgments",
+    "classification_score": 5,
+    "title": "03.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "03.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 3,
+    "extracted_characters": 2048,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 5,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "03.08.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO. 15\nHON'BLE MS.JUSTICE NEENA BANSAL KRISHNA\n\nCLICK TO JOIN VC:\nMEETING LINK: https://delhihighcourt.webex.com/meet/dhcecourtvc1\nAT 02:30 P.M.\n\n1.RFA 95/2025 DINESH\n\nThrough: Mr. Mukesh Birla, Advocate\n\nSUSHILA DEVI & ORS.\n\nThrough: Ms. Anita Sahani, Mr. Shivom Garg and Mr. Vinay Goel,\nAdvocates for R-1 & 2. Mr. Anand Prakash, Standing Counsel MCD\nwith Ms. Varsha Arya, Mr. Satbeer and Ms. Geet Batra, Advocates\nfor-3/ MCD. Mr. Sharique Hussain, Ms. Kirti Garg, Mr. Rishab Raj\nJain, Standing Counsel for R-4/BSES\n\n2. RFA 100/2025\n\nANIL KUMAR .....Appellant\n\nThrough: Mr. Mukesh Birla, Advocate\n\nSUSHILA DEVI & ORS. .....Respondents\n\nThrough: Ms. Anita Sahani, Mr. Shivom Garg and Mr. Vinay Goel,\nAdvocates for R-1 & 2. Mr. Anand Prakash, Standing Counsel MCD\nwith Ms. Varsha Arya, Mr. Satbeer and Ms. Geet Batra, Advocates\nfor MCD. Mr. Sharique Hussain, Ms. Kirti Garg, Mr. Rishab Raj Jain,\nStanding Counsel for R-4/BSES",
+      "extraction_method": "native",
+      "native_characters": 984,
+      "final_characters": 968
+    },
+    {
+      "page_number": 2,
+      "text": "3. RFA 285/2023, CM APPL. 16953/2023\n\nSUDHIR KAWATRA .....Appellant\n\nThrough: Mr. Rajnish Kumar Jha and Ms. Dolli Rani, Advocates\n\nSHAMLI KAWATRA .....Respondent\n\nThrough: Mr. Shubham Gupta, Advocate\n\n4. RFA 955/2023, CM APPL. 62465/2023, CM APPL. 61648/2025 and CM APPL. 28812/2026\n\nMOHAN LAL SEHGAL THROUGH LRS ....Appellant\n\nThrough: Mr. Rakesh Kumar, Mr. Gaurav Pachauri, Ms. Advocates. Tamanna Jangra\n\nKASTURI LAL SEHGAL .....Respondent\n\nThrough: Mr. Rahul Rai, Mr. Shekhar Mehla, Advocates. Mr. G.K. Chahuan, Mr.\nSandeep Lamba and Mr. Amitabh Pandey, Advocates for R-2.\n\n5. Review Pet.324/2026 .CM APPL. 46934/2026 , CM APPL.46936/2026 in RFA 11/2024,\n\nSANJAY DUBEY .....Appellant\n\nThrough: Mr. Tushar Bhushan , Mr. Yojit Mehra ,Mr Amartya\nBhushan Advocate.\n\nThrough:Mr. Deepesh Aneja, Ms. Shruti Sharma Advocate.",
+      "extraction_method": "native",
+      "native_characters": 868,
+      "final_characters": 819
+    },
+    {
+      "page_number": 3,
+      "text": "6. Review Pet.329/2026, CM APPL. 47207/2026 , CM APPL.47210/2026 in RFA 482/2023\n\nRAMESH CHANDRA DUBEY AND ANR . ....Appellants\n\nThrough: Mr. Tushar Bhushan , Mr. Yojit Mehra ,Mr Amartya\nBhushan Advocate.\n\nThrough: Mr. Deepesh Aneja, Ms. Shruti Sharma Advocate.",
+      "extraction_method": "native",
+      "native_characters": 294,
+      "final_characters": 261
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.723631+00:00"
+}

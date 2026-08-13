@@ -1,0 +1,156 @@
+{
+  "document": {
+    "document_id": "legal:ea058ad5d58489130cdca3ef",
+    "sha256": "ea058ad5d58489130cdca3ef626848e171fad0a05f9d7a8214384e6fa2b49323",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\userGuide.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\userGuide_ea058ad5d584.pdf",
+    "file_size": 1431997,
+    "page_count": 17,
+    "document_type": "acts",
+    "classification_score": 8,
+    "title": "Search Tips for Searching India Code",
+    "year": null,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": true,
+    "ocr_page_count": 1,
+    "native_page_count": 16,
+    "extracted_characters": 8865,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 8,
+    "rules": 0,
+    "judgments": 0,
+    "orders": 1,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 1
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Search Tips for Searching India Code\n\nIndia Code has been developed using open source software “DSpace”. It has\ndeployed SOLR search engine through which one can browse, perform simple\nsearch and advance search with filter facility.\n\n1. BROWSE\n\nAllows you to go through a list of items in some specified order. One can browse\nby Community and Collection, Short title, Act number, Act year, Ministry etc.\n\nFig 1: Browse Menu\n\nFor example: following is the screen shot of Browsing through “Ministry”",
+      "extraction_method": "native",
+      "native_characters": 497,
+      "final_characters": 497
+    },
+    {
+      "page_number": 2,
+      "text": "Fig 2: Browse by Ministry\n\n2. SIMPLE SEARCH\n\nOne can type any single word or group of words or phrases which are searched as\nfree text word(s) in metadata as well in full text documents. It may locate those\ndocuments wherever these words or phrases may occur in the metadata and full text\ndocuments. As a default, SOLR search engine uses ‘AND’ Boolean operator, that is,\nsearch results contain all of the terms. For Example:\n\n2.1. Case 1: Search on National Waterways Act as keywords\n\nIt shows documents containing National AND Waterways AND Act as search term.\n\nFig 3: Search on National Waterways Act as keywords",
+      "extraction_method": "native",
+      "native_characters": 614,
+      "final_characters": 614
+    },
+    {
+      "page_number": 3,
+      "text": "2.2. Case 2: Search on “National Waterways Act” as a phrase\n\nIn this case it will search all the documents containing “National Waterways Act”\nwhere these words are occurring together.\n\nFig 4: Search on “National Waterways Act” as a phrase\n\nHowever, one can further refine the search by using Boolean operators.\n\n3. BROADEN THE SEARCH USING “OR” OPERATOR\n\n3.1. One can broaden the search results using OR operator.\n\nFor Example: Railways OR Road\n\nFig 5: Search on Railways OR Road as search terms\n\nThis will search documents that have keywords either Railways OR Road anywhere\nin the documents.",
+      "extraction_method": "native",
+      "native_characters": 594,
+      "final_characters": 594
+    },
+    {
+      "page_number": 4,
+      "text": "4. NARROW DOWN SEARCH USING “AND” OPERATOR\n\n4.1. One can narrow down the search by using AND operator.\n\nFor Example: Railway AND Maintenance\n\nFig 6: Search on Railway AND Maintenance\n\nThis will Search documents that have both the keywords Railway AND Maintenance\nanywhere in the documents.\n\n5. NEGATION OF SEARCH TERMS USING “NOT” OPERATOR\n\n5.1. In this case, user does not want to have certain terms in the search results. It\ncan be achieved by using “NOT” operator.\n\nFor Example: To search Export NOT Agriculture\n\nStep 1: Simple search on Export",
+      "extraction_method": "native",
+      "native_characters": 547,
+      "final_characters": 547
+    },
+    {
+      "page_number": 5,
+      "text": "Fig 7: Search on Export\n\nStep 2: Search on Export NOT Agriculture\n\nFig 8: Search on Export NOT Agriculture\n\nThis will search those documents that have Export but not containing Agriculture\nin them.",
+      "extraction_method": "native",
+      "native_characters": 197,
+      "final_characters": 197
+    },
+    {
+      "page_number": 6,
+      "text": "SEARCH USING COMBINATION OF OPERATORS\n\n6. “AND” and “OR” combination\n\nFor Example: (Ministry of Human Resource Department) AND (Information\nTechnology) OR 2014\nIn this, search is performed by combining AND/OR operators.\n\nStep 1: Simple search on (Ministry of Human Resource Department)\n\nFig 9: Search on (Ministry of Human Resource Department)\n\nStep 2: Search on (Ministry of Human Resource Department) AND (Information\nTechnology)\n\nFig 10: Search on (Ministry of Human Resource Department) AND (\nInformation Technology )",
+      "extraction_method": "native",
+      "native_characters": 521,
+      "final_characters": 521
+    },
+    {
+      "page_number": 7,
+      "text": "Step 3: Search on (Ministry of Human Resource Department) AND\n(Information Technology) OR 2014\n\nFig 11: Search on (Ministry of Human Resource Department) AND (\nInformation Technology) OR 2014\n\nThis will show those documents that have any of Ministry of Human Resource\nDepartment AND Information Technology OR 2014 in them.\n\n7. “AND” and “NOT” COMBINATION\n\nFor Example: (Ministry of Human Resource Department) AND (Information\nTechnology) NOT 2014\n\nIn this, search is performed by combination of AND/NOT operators.\n\nStep 1: Simple search on (Ministry of Human Resource Department)",
+      "extraction_method": "native",
+      "native_characters": 579,
+      "final_characters": 579
+    },
+    {
+      "page_number": 8,
+      "text": "Fig 12: Search on (Ministry of Human Resource Department)\n\nStep 2: Search on (Ministry of Human Resource Department) AND (Information\nTechnology)\n\nFig 13: Search on (Ministry of Human Resource Department) AND (\nInformation Technology)\n\nStep3: Search on (Ministry of Human Resource Department) AND\n(Information Technology) NOT 2014",
+      "extraction_method": "native",
+      "native_characters": 330,
+      "final_characters": 330
+    },
+    {
+      "page_number": 9,
+      "text": "Fig 14: Search on ( Ministry of Human Resource Department) AND (\nInformation Technology ) NOT 2014\n\nThis will show those documents that have (Ministry of Human Resource\nDepartment) AND (Information Technology) NOT 2014\n\n8. “OR” AND “NOT” COMBINATION\n\nFor Example: Research OR Development NOT Agriculture\n\nIn this, search is performed by combination of OR/NOT operators.\n\nStep1: Simple search on Research\n\nFig 15: Search on Research",
+      "extraction_method": "native",
+      "native_characters": 431,
+      "final_characters": 431
+    },
+    {
+      "page_number": 10,
+      "text": "Step2: Search on Research OR Development\n\nFig 16: Search on Research OR Development\n\nStep3: Search on Research OR Development NOT Agriculture\n\nFig 17: Search on Research OR Development NOT Agriculture\n\nThis will show those documents that have any of Research OR Development NOT\nAgriculture in them.",
+      "extraction_method": "native",
+      "native_characters": 298,
+      "final_characters": 298
+    },
+    {
+      "page_number": 11,
+      "text": "9. SEARCH WITH FILTERS\n\nSOLR search engine provides facility to apply search filters to limit the search results\nto specific fielded search criteria.\n\nFilter search has three components such as Field Name, Filter Operators and Field\nValue.\n\nField Name: It is the metadata fields such as Short Title, Act Number, Act year,\nMinistry etc. which can be selected from combo box.\n\nFilter Operators: It provides various search filter operators such as “Contains”\n“Not Contains” “Equals” “Not Equals” which can be selected from combo box.\n\nField Value: Users has to type value for the field name. It also provides auto\ncompletion facility.\n\nFor Example:\n\n9.1. Search on National has been performed as a free text search.\n\nFig 18: Filter Simple search on National\n\nSearch can be refined using search filters. Here search term “National” will be\nsearched with Search field “Ministry” with Search Filter as “contains”. Screen shot\nof search is shown in fig19.",
+      "extraction_method": "native",
+      "native_characters": 948,
+      "final_characters": 948
+    },
+    {
+      "page_number": 12,
+      "text": "Fig 19: Filter search on term National with Search field as “Ministry” and with\nSearch Filter as “contains”\n\n9.2. Search can further refine using “Act year” as search filter. Screen shot of\nsearch is shown in fig 20.\n\nFig 20: Filter search on 1968 in Act year field.",
+      "extraction_method": "native",
+      "native_characters": 266,
+      "final_characters": 266
+    },
+    {
+      "page_number": 13,
+      "text": "10. SOME MORE EXAMPLES USING VARIOUS SEARCH FIELD\nOPERATORS\n\n10.1. Contains Search Operator\n\nIt searches word or phrase present anywhere in the field.\n\nFor Example: If you have to search National having department as Higher Education\nusing “CONTAIN” field operator:\n\nFig 21: Search results using “CONTAIN” as field operator\n\n10.2. Not Contains Search Operator\n\nIt searches word or phrase does not exist anywhere in the field.\n\nFor Example: If you have to search National documents and doesn’t contain Higher\nEducation as department.",
+      "extraction_method": "native",
+      "native_characters": 532,
+      "final_characters": 532
+    },
+    {
+      "page_number": 14,
+      "text": "Fig 22: Search results using “NOT CONTAIN” as field operator\n\n10.3. Equals Search Operator\n\nIt searches exact match of word or phrase in the field. For Example: If you have to\nsearch documents of Education of year 2009\n\nFig 23: Search results using “EQUAL” as field operator.\n\n10.4. Not Equals Search Operator\n\nIt searches for documents with other than where there is an exact match of word or\nphrase in the field. For Example: If you have to search documents of Education of all\nyear but not 2009",
+      "extraction_method": "native",
+      "native_characters": 497,
+      "final_characters": 497
+    },
+    {
+      "page_number": 15,
+      "text": "Fig 24: Search results using “NOT EQUAL” as field operator.\n\nOne can filter and customize search results by using the option “Add Filter” on the\nadvance search page. Many search filters can be added by clicking “Add” button.\n\nNOTE:\nFor specific search use simple search and then use filters to further refine search\nresults and get specific information.\n\n11. WILD CARD SEARCHES\n\nOne can also search multiple character as wildcard search by using asterisk “*”\nsymbol.\n\nFor Example: to search for “Nation”, “National”, “Nationals” One can use the search\nas Nation*",
+      "extraction_method": "native",
+      "native_characters": 562,
+      "final_characters": 562
+    },
+    {
+      "page_number": 16,
+      "text": "Fig 25: Search results of Nation*\n\nOne can also use the wildcard in the middle of a term.\nExample: Nati*n.\n\n12. FUZZY SEARCHES\n\nFuzzy search is the technique of finding string that match a pattern approximately,\nrather than exactly. One can do a fuzzy search using the tilde “~” symbol at the end\nof the Single word term.\n\nFor Example: To search for word similar in spellings to “Role” one can do the fuzzy\nsearch: role~\nThis search will find terms like rome, rola, rale, pole, gole etc.\n\nHere in this example Nation~ searches words like “National”.",
+      "extraction_method": "native",
+      "native_characters": 549,
+      "final_characters": 549
+    },
+    {
+      "page_number": 17,
+      "text": "SEARCH RESULTS DISCOVER\nMinistry of Finance QoQ\nResults/Page| 10 ¥| | Sort items by | Relevance ¥ |In order| Descending ¥ Show Advanced Filters\nMinistry of Home Affairs o\nMinistry of Human Resource Develo. QoQ\nResults 1-10 of 241 (Search time: 0.025 seconds). 7 previous 2 3 4 . 25 next\nMinistry of Housing and Urban Aff. [15 J\nMinistry of External Affairs C11)\nEnactment Date Act Short Title View\nNumber next >\n20-Dec-1947 ‘The United Nations (Security Council) Act, 1947\nDEPARTMENT\nDepartment of Higher Education [25\n31-Dec-2008 | 34 The National Investigation Agency Act, 2008 View...\n18-Dec-1981 ls | ‘The Anti-Apartheid (United Nations Convention) Act, 1981 Department of Financial Services @\n10-Jul-1887 The Joint-stock Companies Act, 1857 Department of Commerce oe\n30-Aua-2012 | 35 The Raiiv Gandhi National Institute of Youth Development Act. 2012 View...\n: . .\nFig 26: Search results of Nation~",
+      "extraction_method": "ocr",
+      "native_characters": 33,
+      "final_characters": 903
+    }
+  ],
+  "processed_at": "2026-08-06T07:36:24.741799+00:00"
+}

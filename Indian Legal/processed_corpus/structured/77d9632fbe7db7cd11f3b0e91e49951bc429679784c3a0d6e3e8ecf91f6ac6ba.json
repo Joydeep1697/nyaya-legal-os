@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:77d9632fbe7db7cd11f3b0e9",
+    "sha256": "77d9632fbe7db7cd11f3b0e91e49951bc429679784c3a0d6e3e8ecf91f6ac6ba",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\FCRAAMENDMENT2020_MHANotification_091020205B15D.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\acts\\FCRAAMENDMENT2020_MHANotification_091020205B15D_77d9632fbe7d.pdf",
+    "file_size": 876688,
+    "page_count": 1,
+    "document_type": "acts",
+    "classification_score": 4,
+    "title": "रजिस्ट्री सं. डी.एल.- 33004/99 REGD. NO. D. L.-33004/99",
+    "year": 2020,
+    "court": null,
+    "case_number": null,
+    "decision_date": null,
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 1469,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 4,
+    "rules": 1,
+    "judgments": 0,
+    "orders": 0,
+    "notifications": 4,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "रजिस्ट्री सं. डी.एल.- 33004/99 REGD. NO. D. L.-33004/99\n\nसी.जी.-डी.एल.-अ.-29092020-222107xxxGIDHxxxxxxGIDExxx\nCG-DL-E-29092020-222107\nअसाधारण\nEXTRAORDINARY\nभाग II—खण्ड 3—उप-खण्ड (ii)\nPART II—Section 3—Sub-section (ii)\nप्राजधकार से प्रकाजित\nPUBLISHED BY AUTHORITY\n\nसं. 3025] नई दिल्ली, मंगलिार, जसतम्बर 29, 2020/आज‍िन 7, 1942\nNo. 3025] NEW DELHI, TUESDAY, SEPTEMBER 29, 2020/ASVINA 7, 1942\n\nगृह मंत्रालय\nअजधसूचना\nनई दिल् ली, 29 जसतम्बर, 2 20\nका.आ. 3395(अ).—केंद्रीय सरकार, जििेिी अजभिाय (जिजनयमन) संिोधन अजधजनयम, 2020 (202 का 33)\nकी धारा 1 की उपधारा (2) द्वारा प्रित्त िजतियय का प्रयोग करते ुए, 29 जसतम्बर, 2 2 को, उस तारीख के रूप में\nजनयत करती है, जिसको उक्त अजधजनयम के उपबंध प्रिृत्त ह गे\n[फा. सं. II/21022/23(35)/2019-एफसीआरए-III]\nआिुतोष अजिहोत्री, संयुक्त सजचि\n\nMINISTRY OF HOME AFFAIRS\nNOTIFICATION\nNew Delhi, the 29th September, 2020\nS.O. 3395(E).—In exercise of the powers conferred by sub-section (2) of section 1 of the Foreign\nContribution (Regulation) Amendment Act, 2020 (33 of 2020), the Central Government hereby appoints the\n29th day of September, 2020, as the date on which the provisions of the said Act, shall come into force.\n[F. No. II/21022/23(35)/2019-FCRA-III]\nASHUTOSH AGNIHOTRI, Jt. Secy.\n\n4621 GI/2020\nUploaded by Dte. of Printing at Government of India Press, Ring Road, Mayapuri, New Delhi-110064\nVERMADate: 2020.09.29signed by20:45:19MANOJ+05'30'KUMAR and Published by the Controller of Publications, Delhi-110054. MANOJVERMA KUMAR Digitally",
+      "extraction_method": "native",
+      "native_characters": 1469,
+      "final_characters": 1469
+    }
+  ],
+  "processed_at": "2026-08-06T07:17:47.497613+00:00"
+}

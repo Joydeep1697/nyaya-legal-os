@@ -1,0 +1,44 @@
+{
+  "document": {
+    "document_id": "legal:72cb6d273117a6738152271a",
+    "sha256": "72cb6d273117a6738152271a916393edd10335ea6a7fbbda9c9bcb8f4c3cf65a",
+    "source_file": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\_work\\extracted_input\\raw\\jud-05082026.odttttt.pdf",
+    "stored_pdf": "D:\\Nova Legal\\Indian Legal\\processed_corpus\\unique_pdfs\\judgments\\jud-05082026.odttttt_72cb6d273117.pdf",
+    "file_size": 77251,
+    "page_count": 1,
+    "document_type": "judgments",
+    "classification_score": 5,
+    "title": "05.08.2026 PRONOUNCEMENT OF JUDGMENT",
+    "year": 2026,
+    "court": null,
+    "case_number": null,
+    "decision_date": "05.08.2026",
+    "used_ocr": false,
+    "ocr_page_count": 0,
+    "native_page_count": 1,
+    "extracted_characters": 468,
+    "status": "processed",
+    "warnings": []
+  },
+  "classification_scores": {
+    "acts": 0,
+    "rules": 0,
+    "judgments": 5,
+    "orders": 0,
+    "notifications": 0,
+    "circulars": 0,
+    "recruitment": 0,
+    "examinations": 0,
+    "guides": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "05.08.2026 PRONOUNCEMENT OF JUDGMENT\n\nCOURT NO.03\nHON’BLE MR. JUSTICE AJAY DIGPAUL\n\nCLICK HERE TO JOIN VC:\nhttps://dhcvirtualcourt.webex.com/meet/dhcvirtualcourt5\n\nAT 02:30 P.M.\n\n1. CM(M) 1845/2023 & CM APPL. 58639/2023\n\nPRAJNA INSURETECH PVT LTD & ORS. .....Petitioners\n\n: Through: Mr. Rohan Khatana and Mr. Arjav Sethi and Mr.\nMayank, Advs.\n\nversus\n\nPAYVORITE INDIA OPC PVT LTD .....Respondent\n\nThrough:Mr. Surender Gupta, Mr. Deepak\nRana and Mr. Rahul Ranjan, Advs.",
+      "extraction_method": "native",
+      "native_characters": 468,
+      "final_characters": 468
+    }
+  ],
+  "processed_at": "2026-08-06T07:19:15.792113+00:00"
+}
