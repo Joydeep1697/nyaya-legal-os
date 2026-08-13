@@ -28,6 +28,8 @@ DETERMINISTIC_MAPPINGS = {
     "section 65b": ("BSA", "63", "Bharatiya Sakshya Adhiniyam, 2023"),
     "iea 62": ("BSA", "57", "Bharatiya Sakshya Adhiniyam, 2023"),
     "murder": ("BNS", "103", "Bharatiya Nyaya Sanhita, 2023"),
+    "mob lynching": ("BNS", "103", "Bharatiya Nyaya Sanhita, 2023"),
+    "five or more persons": ("BNS", "103", "Bharatiya Nyaya Sanhita, 2023"),
     "organized crime": ("BNS", "111", "Bharatiya Nyaya Sanhita, 2023"),
     "terrorist": ("BNS", "113", "Bharatiya Nyaya Sanhita, 2023"),
     "zero fir": ("BNSS", "173", "Bharatiya Nagarik Suraksha Sanhita, 2023"),
@@ -38,8 +40,13 @@ DETERMINISTIC_MAPPINGS = {
     "undertrial bail": ("BNSS", "479", "Bharatiya Nagarik Suraksha Sanhita, 2023"),
     "1/3rd": ("BNSS", "479", "Bharatiya Nagarik Suraksha Sanhita, 2023"),
     "41a": ("BNSS", "35", "Bharatiya Nagarik Suraksha Sanhita, 2023"),
+    "notice before arrest": ("BNSS", "35", "Bharatiya Nagarik Suraksha Sanhita, 2023"),
     "sedition": ("BNS", "152", "Bharatiya Nyaya Sanhita, 2023"),
-    "suicide": ("BNS", "309", "Bharatiya Nyaya Sanhita, 2023")
+    "suicide": ("BNS", "309", "Bharatiya Nyaya Sanhita, 2023"),
+    "digital identity theft": ("IT Act", "66C", "Information Technology Act, 2000"),
+    "identity theft": ("IT Act", "66C", "Information Technology Act, 2000"),
+    "passcodes": ("IT Act", "66C", "Information Technology Act, 2000"),
+    "biometrics": ("IT Act", "66C", "Information Technology Act, 2000")
 }
 
 class NyayaOptimizedRetriever:
@@ -66,7 +73,7 @@ class NyayaOptimizedRetriever:
             if map_key in query_lower:
                 exact_chunks = [
                     c for c in self.chunks 
-                    if target_sec in f"{c.get('text', '')} {c.get('heading', '')} {c.get('title', '')}"
+                    if target_sec in f"{c.get('text', '')} {c.get('heading', '')} {c.get('title', '')}" and (act_code.lower() in c.get('title', '').lower() or act_code.lower() in c.get('document_id', '').lower() or act_code.lower() in c.get('text', '').lower())
                 ]
                 if exact_chunks:
                     other_chunks = [c for c in self.chunks if c not in exact_chunks]

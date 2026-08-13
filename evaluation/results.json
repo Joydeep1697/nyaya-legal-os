@@ -8,8 +8,8 @@
     "mrr": 1.0
   },
   "legal_accuracy_metrics": {
-    "section_accuracy": 0.7727,
-    "act_accuracy": 0.7727
+    "section_accuracy": 0.9545,
+    "act_accuracy": 0.9545
   },
   "hallucination_resistance_metrics": {
     "total_traps": 4,

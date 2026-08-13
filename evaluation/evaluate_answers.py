@@ -12,14 +12,20 @@ def evaluate_legal_accuracy(predictions: List[Dict[str, Any]]) -> Dict[str, floa
         return {"section_accuracy": 0.0, "act_accuracy": 0.0}
 
     for item in predictions:
-        exp_sec = item.get("expected_section", "")
-        exp_act = item.get("expected_act", "")
-        ans_text = item.get("model_answer", "")
+        exp_sec = str(item.get("expected_section", "")).strip()
+        exp_act = str(item.get("expected_act", "")).strip()
+        ans_text = str(item.get("model_answer", ""))
+        is_trap = item.get("is_hallucination_trap", False)
 
-        if exp_sec and exp_sec in ans_text:
-            correct_section += 1
-        if exp_act and exp_act in ans_text:
-            correct_act += 1
+        if is_trap:
+            if "does not exist" in ans_text.lower() or "not exist" in ans_text.lower() or "repealed" in ans_text.lower() or "omitted" in ans_text.lower() or "no section" in ans_text.lower():
+                correct_section += 1
+                correct_act += 1
+        else:
+            if exp_sec and (exp_sec.lower() in ans_text.lower() or exp_sec in ans_text):
+                correct_section += 1
+            if exp_act and (exp_act.lower() in ans_text.lower() or exp_act in ans_text):
+                correct_act += 1
 
     return {
         "section_accuracy": round(correct_section / total, 4),

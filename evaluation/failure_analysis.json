@@ -1,70 +1,125 @@
 {
-  "total_queries_analyzed": 16,
-  "failures_by_category": {
-    "Query normalization problem (IPC/CrPC/IEA conversion)": 6,
-    "Section-number mismatch": 10,
-    "Bad statutory chunking": 0
-  },
-  "sample_failures": [
+  "total_test_cases": 22,
+  "passed_cases": 13,
+  "failed_cases": 9,
+  "legal_accuracy_rate": 59.09,
+  "failed_case_details": [
     {
-      "query": "Which section of BNS defines murder and its punishment?",
-      "expected_section": "103",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '103'"
-    },
-    {
-      "query": "What section under BNS deals with organized crime?",
-      "expected_section": "111",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '111'"
-    },
-    {
-      "query": "Which provision under BNS covers terrorist acts?",
-      "expected_section": "113",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '113'"
-    },
-    {
-      "query": "Which section of BNSS governs Zero FIR registration?",
-      "expected_section": "173",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '173'"
-    },
-    {
-      "query": "What is the police custody remand timeline under BNSS Section 187?",
-      "expected_section": "187",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '187'"
-    },
-    {
-      "query": "Which section of BNSS mandates audio-video recording during search and seizure?",
-      "expected_section": "105",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '105'"
-    },
-    {
-      "query": "Which section of BSA specifies the certificate format for electronic records?",
+      "test_id": "bsa_001",
+      "category": "BSA evidence",
+      "question": "Which section of BSA specifies the certificate format for electronic records?",
       "expected_section": "63(4)",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '63(4)'"
+      "expected_act": "BSA",
+      "retrieved_section": "become responsible for watching all future renewals of his licence and shall inform",
+      "is_sec_accurate": false,
+      "failure_category_id": 10,
+      "failure_category": "Other",
+      "expected_answer": "BSA Section 63(4)",
+      "actual_answer": "Retrieved: become responsible for watching all future renewals of his licence and shall inform"
     },
     {
-      "query": "Which section of BSA defines electronic records as primary evidence?",
-      "expected_section": "57",
-      "failure_category": "E. Section-number mismatch",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '57'"
-    },
-    {
-      "query": "What is the BNS equivalent for IPC Section 302?",
+      "test_id": "ipc_bns_001",
+      "category": "IPC -> BNS",
+      "question": "What is the BNS equivalent for IPC Section 302?",
       "expected_section": "103",
-      "failure_category": "G. Query normalization problem",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '103'"
+      "expected_act": "BNS",
+      "retrieved_section": "Bharatiya Nagarik Suraksha Sanhita, 2023 - Part 81",
+      "is_sec_accurate": false,
+      "failure_category_id": 10,
+      "failure_category": "Other",
+      "expected_answer": "BNS Section 103",
+      "actual_answer": "Retrieved: Bharatiya Nagarik Suraksha Sanhita, 2023 - Part 81"
     },
     {
-      "query": "What is the BNS section corresponding to IPC Section 420?",
+      "test_id": "ipc_bns_002",
+      "category": "IPC -> BNS",
+      "question": "What is the BNS section corresponding to IPC Section 420?",
       "expected_section": "318(4)",
-      "failure_category": "G. Query normalization problem",
-      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '318(4)'"
+      "expected_act": "BNS",
+      "retrieved_section": "Trades and Occupations",
+      "is_sec_accurate": false,
+      "failure_category_id": 10,
+      "failure_category": "Other",
+      "expected_answer": "BNS Section 318(4)",
+      "actual_answer": "Retrieved: Trades and Occupations"
+    },
+    {
+      "test_id": "crpc_bnss_001",
+      "category": "CrPC -> BNSS",
+      "question": "What BNSS provision replaces CrPC Section 154?",
+      "expected_section": "173",
+      "expected_act": "BNSS",
+      "retrieved_section": "Bharatiya Nagarik Suraksha Sanhita, 2023 - Part 14",
+      "is_sec_accurate": false,
+      "failure_category_id": 4,
+      "failure_category": "Historical/current confusion",
+      "expected_answer": "BNSS Section 173",
+      "actual_answer": "Retrieved: Bharatiya Nagarik Suraksha Sanhita, 2023 - Part 14"
+    },
+    {
+      "test_id": "iea_bsa_001",
+      "category": "IEA -> BSA",
+      "question": "Which section of BSA replaces Section 65B of Indian Evidence Act?",
+      "expected_section": "63(4)",
+      "expected_act": "BSA",
+      "retrieved_section": "become responsible for watching all future renewals of his licence and shall inform",
+      "is_sec_accurate": false,
+      "failure_category_id": 10,
+      "failure_category": "Other",
+      "expected_answer": "BSA Section 63(4)",
+      "actual_answer": "Retrieved: become responsible for watching all future renewals of his licence and shall inform"
+    },
+    {
+      "test_id": "case_001",
+      "category": "Case-law QA",
+      "question": "Which precedent governs mandatory Section 41A notice before arrest?",
+      "expected_section": "35(3)",
+      "expected_act": "BNSS",
+      "retrieved_section": "refusing to grant extension of time for investigation would have finality",
+      "is_sec_accurate": false,
+      "failure_category_id": 10,
+      "failure_category": "Other",
+      "expected_answer": "BNSS Section 35(3)",
+      "actual_answer": "Retrieved: refusing to grant extension of time for investigation would have finality"
+    },
+    {
+      "test_id": "obsolete_002",
+      "category": "Current vs obsolete law",
+      "question": "Can a person be punished under IPC Section 309 for attempting suicide?",
+      "expected_section": "",
+      "expected_act": "",
+      "retrieved_section": "Bharatiya Nyaya Sanhita, 2023 - Part 54",
+      "is_sec_accurate": false,
+      "failure_category_id": 6,
+      "failure_category": "Missing exception",
+      "expected_answer": " Section ",
+      "actual_answer": "Retrieved: Bharatiya Nyaya Sanhita, 2023 - Part 54"
+    },
+    {
+      "test_id": "conduct_001",
+      "category": "Conduct to law mapping",
+      "question": "What current provision penalizes digital identity theft involving passcodes or biometrics?",
+      "expected_section": "66C",
+      "expected_act": "IT Act",
+      "retrieved_section": "Bharatiya Sakshya Adhiniyam, 2023 - Part 15",
+      "is_sec_accurate": false,
+      "failure_category_id": 7,
+      "failure_category": "Multi-statute failure",
+      "expected_answer": "IT Act Section 66C",
+      "actual_answer": "Retrieved: Bharatiya Sakshya Adhiniyam, 2023 - Part 15"
+    },
+    {
+      "test_id": "conduct_002",
+      "category": "Conduct to law mapping",
+      "question": "Which act and section governs punishment for mob lynching by a group of five or more persons?",
+      "expected_section": "103(2)",
+      "expected_act": "BNS",
+      "retrieved_section": "and accused/applicant is directed to be released on bail subject to his",
+      "is_sec_accurate": false,
+      "failure_category_id": 2,
+      "failure_category": "Wrong subsection",
+      "expected_answer": "BNS Section 103(2)",
+      "actual_answer": "Retrieved: and accused/applicant is directed to be released on bail subject to his"
     }
   ]
 }
