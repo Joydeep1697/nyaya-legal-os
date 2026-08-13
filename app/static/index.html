@@ -27,13 +27,21 @@ button,input,textarea{font:inherit}.shell{background:radial-gradient(circle at 5
   height: 100vh;
   z-index: 20;
   overflow: hidden;
+  background: #040609;
   animation: pptPhase1Seq 2.0s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+.ppt-phase1-anim img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 98%);
+  mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 98%);
 }
 @keyframes pptPhase1Seq {
   0% { opacity: 1; transform: scale(1); filter: brightness(0.2); }
-  35% { opacity: 1; transform: scale(1.04); filter: brightness(1.15); }
+  35% { opacity: 1; transform: scale(1.03); filter: brightness(1.15); }
   70% { opacity: 1; transform: scale(1.01); filter: brightness(1); }
-  100% { opacity: 0; transform: scale(1.08); filter: blur(20px); visibility: hidden; pointer-events: none; }
+  100% { opacity: 0; transform: scale(1.06); filter: blur(20px); visibility: hidden; pointer-events: none; }
 }
 
 .ppt-phase2-anim {
@@ -299,7 +307,7 @@ async function renderMission() {
 let userMatters = [];
 
 function renderMatters() {
-    let html = header(pages.matters.title, pages.matters.sub, btn('New Matter Workspace', "openCreateMatterModal()", 'fa-plus'));
+    let html = header(pages.matters.title, pages.matters.sub);
     if (userMatters.length === 0) {
         html += empty('Legal Matter Workspaces', 'Organize active litigation, commercial contract reviews, and statutory compliance matters.', 'Create New Matter Workspace', 'fa-folder-open', 'openCreateMatterModal()');
     } else {
