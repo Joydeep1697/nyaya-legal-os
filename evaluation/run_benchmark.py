@@ -14,20 +14,20 @@ from evaluate_retrieval import calculate_retrieval_metrics
 from evaluate_answers import evaluate_legal_accuracy
 from evaluate_hallucinations import evaluate_hallucination_resistance
 from evaluate_citations import evaluate_citations
-from hybrid_retrieval_engine import NyayaHybridRetriever
+from optimized_rag_engine import NyayaOptimizedRetriever
 
 BENCHMARK_FILE = BASE_DIR / "evaluation" / "benchmark_800.jsonl"
 RESULTS_FILE = BASE_DIR / "evaluation" / "results.json"
 CHUNKS_FILE = BASE_DIR / "Indian Legal" / "processed_corpus" / "rag" / "chunks.jsonl"
 
 def run_evaluation():
-    print("=== EXECUTING NYAYA DARSHAN BENCHMARK EVALUATION (800 HELD-OUT QUESTIONS) ===")
+    print("=== EXECUTING NYAYA DARSHAN BENCHMARK EVALUATION (PHASE 5.5 OPTIMIZED ENGINE) ===")
     
     if not BENCHMARK_FILE.exists():
         print(f"Error: Benchmark file {BENCHMARK_FILE} not found.")
         return
 
-    retriever = NyayaHybridRetriever(CHUNKS_FILE)
+    retriever = NyayaOptimizedRetriever()
     
     questions = []
     with open(BENCHMARK_FILE, "r", encoding="utf-8") as f:
@@ -40,7 +40,7 @@ def run_evaluation():
     eval_results = []
     for q in questions:
         query_text = q.get("query")
-        results = retriever.keyword_search(query_text, top_k=5)
+        results = retriever.search(query_text, top_k=5)
         
         # Check retrieval rank
         exp_sec = q.get("expected_section", "")

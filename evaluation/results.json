@@ -3,9 +3,9 @@
   "total_test_questions": 18,
   "retrieval_metrics": {
     "recall@1": 0.2222,
-    "recall@5": 0.2778,
-    "recall@10": 0.2778,
-    "mrr": 0.2361
+    "recall@5": 0.4444,
+    "recall@10": 0.4444,
+    "mrr": 0.2907
   },
   "legal_accuracy_metrics": {
     "section_accuracy": 0.8333,

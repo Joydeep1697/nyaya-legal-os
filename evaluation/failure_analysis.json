@@ -1,0 +1,70 @@
+{
+  "total_queries_analyzed": 16,
+  "failures_by_category": {
+    "Query normalization problem (IPC/CrPC/IEA conversion)": 6,
+    "Section-number mismatch": 10,
+    "Bad statutory chunking": 0
+  },
+  "sample_failures": [
+    {
+      "query": "Which section of BNS defines murder and its punishment?",
+      "expected_section": "103",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '103'"
+    },
+    {
+      "query": "What section under BNS deals with organized crime?",
+      "expected_section": "111",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '111'"
+    },
+    {
+      "query": "Which provision under BNS covers terrorist acts?",
+      "expected_section": "113",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '113'"
+    },
+    {
+      "query": "Which section of BNSS governs Zero FIR registration?",
+      "expected_section": "173",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '173'"
+    },
+    {
+      "query": "What is the police custody remand timeline under BNSS Section 187?",
+      "expected_section": "187",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '187'"
+    },
+    {
+      "query": "Which section of BNSS mandates audio-video recording during search and seizure?",
+      "expected_section": "105",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '105'"
+    },
+    {
+      "query": "Which section of BSA specifies the certificate format for electronic records?",
+      "expected_section": "63(4)",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '63(4)'"
+    },
+    {
+      "query": "Which section of BSA defines electronic records as primary evidence?",
+      "expected_section": "57",
+      "failure_category": "E. Section-number mismatch",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '57'"
+    },
+    {
+      "query": "What is the BNS equivalent for IPC Section 302?",
+      "expected_section": "103",
+      "failure_category": "G. Query normalization problem",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '103'"
+    },
+    {
+      "query": "What is the BNS section corresponding to IPC Section 420?",
+      "expected_section": "318(4)",
+      "failure_category": "G. Query normalization problem",
+      "action_required": "Apply Phase 5.5 deterministic mapping & statutory chunking for '318(4)'"
+    }
+  ]
+}
