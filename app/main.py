@@ -126,11 +126,18 @@ if STATIC_DIR.exists():
 
 @app.get("/", include_in_schema=False)
 async def serve_frontend():
-    """Serve the Nova Legal OS v6 frontend."""
+    """Serve the Nyaya Legal OS frontend without browser caching."""
     index = STATIC_DIR / "index.html"
     if index.exists():
-        return FileResponse(str(index))
-    return {"message": "Nova Legal OS API is running. Frontend not found at app/static/index.html"}
+        return FileResponse(
+            str(index),
+            headers={
+                "Cache-Control": "no-cache, no-store, must-revalidate",
+                "Pragma": "no-cache",
+                "Expires": "0",
+            },
+        )
+    return {"message": "Nyaya Legal OS API is running. Frontend not found at app/static/index.html"}
 
 
 @app.get("/health")
