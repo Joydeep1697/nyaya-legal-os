@@ -1,0 +1,82 @@
+"""build_instruction_dataset.py — Phase 4 Instruction Fine-Tuning Dataset Generator (10 Categories).
+"""
+
+import json
+from pathlib import Path
+
+TRAINING_DIR = Path(r"d:\Nova Legal\training")
+OUTPUT_FILE = TRAINING_DIR / "nyaya_darshan_instruction_dataset_v1.jsonl"
+
+INSTRUCTION_CATEGORIES = [
+    # 1. Section Identification
+    {
+        "category": "Section Identification",
+        "instruction": "Which section of the Bharatiya Nyaya Sanhita, 2023 deals with punishment for murder?",
+        "response": "Under Section 103(1) of the Bharatiya Nyaya Sanhita, 2023 (BNS), whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine. Additionally, Section 103(2) specifies that when a group of five or more persons acting in concert commits murder on grounds of race, caste, community, sex, place of birth, language, personal belief or any other ground, each member shall be punished with death or life imprisonment."
+    },
+    # 2. IPC -> BNS Conversion
+    {
+        "category": "IPC -> BNS Conversion",
+        "instruction": "Convert IPC Section 420 (Cheating) to the corresponding provision under Bharatiya Nyaya Sanhita, 2023.",
+        "response": "IPC Section 420 (Cheating and dishonestly inducing delivery of property) has been replaced by Section 318(4) of the Bharatiya Nyaya Sanhita, 2023 (BNS). Under BNS 318(4), whoever cheats and thereby dishonestly induces the person deceived to deliver any property shall be punished with imprisonment for a term which may extend to seven years, and shall also be liable to fine."
+    },
+    # 3. CrPC -> BNSS Conversion
+    {
+        "category": "CrPC -> BNSS Conversion",
+        "instruction": "What is the new provision for registering a Zero FIR or e-FIR under the Bharatiya Nagarik Suraksha Sanhita, 2023?",
+        "response": "Under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (replacing CrPC Section 154), information relating to the commission of a cognizable offence may be given irrespective of the area where the offence was committed (Zero FIR). Furthermore, Section 173(1) explicitly permits the registration of an FIR via electronic communication (e-FIR), provided it is taken on record and signed by the informant within three days."
+    },
+    # 4. Evidence Act -> BSA Conversion
+    {
+        "category": "Evidence Act -> BSA Conversion",
+        "instruction": "What is the certificate requirement for electronic evidence under Section 63(4) of Bharatiya Sakshya Adhiniyam, 2023 (BSA)?",
+        "response": "Under Section 63(4) of the Bharatiya Sakshya Adhiniyam, 2023 (BSA) (replacing Section 65B of the Indian Evidence Act), any electronic record produced as evidence requires a certificate identifying the electronic record, describing the manner of production, and certifying that the computer or device was operating properly. The certificate must be signed by the person in charge of the management of the relevant activity or computer system."
+    },
+    # 5. Legal QA & Statutory Reasoning
+    {
+        "category": "Legal QA & Statutory Reasoning",
+        "instruction": "What are the rules regarding undertrial bail for first-time offenders under BNSS Section 479?",
+        "response": "Section 479 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) provides significant relief to undertrial prisoners. Under Section 479(1), a first-time offender (a person who has never been previously convicted of any offence) who has undergone detention for a period extending up to one-third of the maximum period of imprisonment specified for that offence shall be released on bail by the Court."
+    },
+    # 6. Digital Evidence
+    {
+        "category": "Digital Evidence",
+        "instruction": "Are smartphone messages and cloud storage records considered primary evidence under the Bharatiya Sakshya Adhiniyam, 2023?",
+        "response": "Yes. Under Section 57 of the Bharatiya Sakshya Adhiniyam, 2023 (BSA), electronic or digital records created or stored in semiconductor memory, smartphones, computer systems, or cloud storage are categorized directly as primary evidence. Explanation 1 to Section 57 specifies that where an electronic record is produced from proper custody, such record is primary evidence."
+    },
+    # 7. Procedural Timelines
+    {
+        "category": "Procedural Timelines",
+        "instruction": "What is the statutory timeline for police remand under BNSS Section 187?",
+        "response": "Under Section 187 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (replacing CrPC Section 167), the 15-day police custody is no longer restricted to the first 15 days of arrest. Instead, the 15-day police custody can be authorized in whole or in discrete parts across the first 40 days (for offences punishable up to 10 years) or the first 60 days (for offences punishable with death, life, or 10+ years)."
+    },
+    # 8. Contradiction & Hallucination Guardrails
+    {
+        "category": "Contradiction & Hallucination Guardrails",
+        "instruction": "Is attempted suicide still punishable as a crime under Indian law?",
+        "response": "No. Under the Mental Healthcare Act, 2017 (Section 115), there is a statutory presumption that any person who attempts to commit suicide is under severe stress, and shall not be tried or punished. Furthermore, Section 309 of the former IPC (Attempt to commit suicide) has been omitted in the Bharatiya Nyaya Sanhita, 2023 (BNS)."
+    },
+    # 9. Outdated-Law Guardrails
+    {
+        "category": "Outdated-Law Guardrails",
+        "instruction": "Can a person be prosecuted for Sedition under Section 124A of the IPC in 2026?",
+        "response": "No. Section 124A of the IPC (Sedition) has been repealed and omitted from current Indian criminal law. Under the Bharatiya Nyaya Sanhita, 2023 (BNS), Section 152 covers 'Acts endangering sovereignty, unity and integrity of India', requiring deliberate, treasonous acts involving armed rebellion or subversive activities, distinct from the historic offence of Sedition."
+    },
+    # 10. Case-Law QA
+    {
+        "category": "Case-Law QA",
+        "instruction": "What is the Supreme Court guideline on mandatory preliminary inquiry before arrest in matrimonial disputes?",
+        "response": "In Social Action Forum for Manav Adhikar v. Union of India (2018) and Arnesh Kumar v. State of Bihar (2014), the Supreme Court mandated strict compliance with Section 41A CrPC (now Section 35(3) BNSS). Police officers cannot automatically arrest accused persons for offences punishable up to 7 years without issuing a written Notice of Appearance and recording specific reasons for necessity of arrest."
+    }
+]
+
+def main():
+    print("=== BUILDING PHASE 4 INSTRUCTION FINE-TUNING DATASET ===")
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        for item in INSTRUCTION_CATEGORIES:
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
+    print(f"  [+] Created {len(INSTRUCTION_CATEGORIES)} high-precision instruction examples across 10 categories.")
+    print(f"  [+] Output location: {OUTPUT_FILE.relative_to(TRAINING_DIR.parent)}")
+
+if __name__ == "__main__":
+    main()
